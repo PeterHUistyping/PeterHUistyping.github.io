@@ -28,7 +28,6 @@
 .top li a_ {
     display: block;
     color: Black;
-
     text-align: center;
     padding: 3px;
     overflow: hidden;
@@ -87,8 +86,8 @@ h3 {
     color: Black
 }
 
-.container_profile_detail {
-    width: 80%;
+.container {
+    width: 70%;
     margin: auto;
 }
 
