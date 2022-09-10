@@ -21,17 +21,12 @@ h3 {
     margin: auto;
 }
 
-.container_Footer {
-    width: 90%;
-    margin: auto;
-}
-
 .table_profile {
-    width: 400px;
+    width: 560px;
     height: 350px;
     margin-left: auto;
     margin-right: auto;
-
+    text-align: center;
     /*border: 1px solid black;*/
 }
 
