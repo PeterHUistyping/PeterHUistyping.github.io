@@ -128,3 +128,28 @@ h3 {
     margin-right: auto;
     text-align: center;
 }
+
+.blog {
+    background-color: bisque;
+}
+
+
+.blog li {
+    float: none;
+    text-align: center;
+    overflow: hidden;
+    padding: 5;
+}
+
+.blog li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.blog li a:hover {
+    background-color: white;
+}
