@@ -15,12 +15,14 @@
     white-space: nowrap;
     overflow: hidden;
     margin-left: 5%;
+    /*the first word*/
     padding: 0;
 }
 
 .top li {
     float: left;
-    margin-right: 2%;
+    margin-right: 5%;
+    /*gap*/
     position: relative;
     overflow: hidden;
 }
@@ -29,7 +31,7 @@
     display: block;
     color: Black;
     text-align: center;
-    padding: 3px;
+    padding: 0;
     overflow: hidden;
     text-decoration: none;
 }
@@ -38,7 +40,7 @@
     display: block;
     color: gray;
     text-align: center;
-    padding: 3px;
+    padding: 0;
     overflow: hidden;
     text-decoration: none;
 }
