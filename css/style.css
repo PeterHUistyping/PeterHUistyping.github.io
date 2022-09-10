@@ -16,12 +16,48 @@ h3 {
     color: Black
 }
 
-.container1 {
-    width: 35%;
+.container_profile_detail {
+    width: 80%;
     margin: auto;
 }
 
-.container2 {
-    width: 50%;
+.container_Footer {
+    width: 90%;
     margin: auto;
+}
+
+.table_profile {
+    width: 400px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /*border: 1px solid black;*/
+}
+
+.img_profile {
+    width: 200px;
+    height: 280 px;
+}
+
+.table_pastproject {
+    width: 1200px;
+    height: 150px;
+}
+
+.table_pastproject_photo {
+    width: 230px;
+    height: 125px;
+}
+
+.img_pastproject {
+    width: 200px;
+    height: 115px;
+}
+
+.table_footer {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
