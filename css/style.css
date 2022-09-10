@@ -1,0 +1,23 @@
+h1 {
+    color: Black
+}
+
+h2 {
+    font-size: 125%;
+    color: Black
+}
+
+h3 {
+    font-size: 100%;
+    color: Black
+}
+
+.container1 {
+    width: 50%;
+    margin: auto;
+}
+
+.container2 {
+    width: 50%;
+    margin: auto;
+}
