@@ -107,6 +107,11 @@ h3 {
     height: 280 px;
 }
 
+.img_normal {
+    width: 600px;
+    height: 800 px;
+}
+
 .table_pastproject {
     width: 1200px;
     height: 150px;
