@@ -83,6 +83,15 @@ h2 {
     color: Black
 }
 
+.h2_center {
+    font-size: 125%;
+    color: Black;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
 h3 {
     font-size: 100%;
     color: Black
@@ -91,11 +100,12 @@ h3 {
 .container {
     width: 70%;
     margin: auto;
+    margin-bottom: 60px;
 }
 
 .table_profile {
     width: 560px;
-    height: 350px;
+    height: 330px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
