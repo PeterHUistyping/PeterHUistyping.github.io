@@ -11,64 +11,124 @@
     <script src="./blog_top.js"></script>
     <br><br><br>
     <!--  Beginning of the blog  -->
+
     <h1 id="project_database">Database Design Project (C++)</h1>
+    <h1 id="cmu15445_database_project">CMU15-445 <em>Database</em> Project</h1>
+    <p>Database Design Project (C++)<br />
+        Course Link: </p>
+    <p>https://15445.courses.cs.cmu.edu/fall2021/assignments.html </p>
+    <p>Project Link: </p>
+    <p>https://github.com/cmu-db/bustub </p>
+    <h2 id="environment">Environment</h2>
+    <p>Mac &amp; Linux_Ubuntu (VMware)</p>
+    <h2 id="tools">Tools</h2>
+    <p>CMake, Google C++ Style Guide, Unit Testing, etc </p>
+    <h2 id="gradescopetestfile">Gradescope Test File</h2>
+    <p>Print out the test file to get the whole Gradescope test file!<br />
+        FILE *out;<br />
+        out = fopen("/autograder/bustub/test/buffer/ grading<em>buffer</em>pool<em>manager</em>instance<em>test.cpp",
+            "r");
+            // out = fopen("../test/buffer/buffer</em>pool<em>manager</em>instance_test.cpp", "r");<br />
+        char ch;<br />
+        while ((ch = getc(out)) != EOF) {<br />
+        putchar(ch);<br />
+        }<br />
+        fclose(out); </p>
+    <p>Get the path for testing on Gradescope using getcwd().<br />
+        #include < direct.h>; (Windows)<br />
+            #include < unistd.h>; (Linux/Mac)<br />
+                int MAX<em>PATH = 10000;
+                    char buffer[ MAX</em>PATH ];<br />
+                std::cout &lt;&lt; getcwd(buffer, MAX_PATH); </p>
+    <h2 id="debug">Debug</h2>
+    <p>"common/logger.h" </p>
+
     <h2 id="project0">Project 0</h2>
-    <p>Linux_Ubuntu (VMWARE)<br />
-        C++ Template template <typename T><br />
-            CMake<br />
+    <p><img src="bustub/submission/Photo/Project0_GS.png" alt="Pr0" /> </p>
+    <p>Keypoint used in C++:<br />
+        Template -- template < typename T><br />
             Exception </p>
     <p>How to create m*n arrays [the 2nd way-inherit] </p>
     <p>Google C++ Style Guide<br />
         Naming_Class Data Members need a trailing underscore. </p>
-    <p>** no viable conversion from<br />
-        std::unique_ptr<bustub::RowMatrix<int> : temp<br />
-            const RowMatrix<T> * : temp.get() </p>
-    <p>Convert one int -&gt;int64<em>t
-            const uint64</em>t size = (static<em>cast<uint64_t>(rows</em>) * cols_) </p>
-    <p>Consider replacing 'unsigned long' with 'uint64' uint64_t </p>
-    <p>//#ifndef _<em>int8</em>t_defined<br />
-        //# define _<em>int8</em>t<em>defined
-            typedef signed char int8</em>t;<br />
-        typedef short int int16<em>t;
-            typedef int int32</em>t;<br />
-        //# if _<em>WORDSIZE == 64
-            typedef long int int64</em>t;<br />
-        //# else<br />
-        _<em>extension</em>_<br />
-        typedef long long int int64_t;<br />
-        //# endif
-        //#endif </p>
-    <p>/* Unsigned. */<br />
-        typedef unsigned char uint8<em>t;
-            typedef unsigned short int uint16</em>t;<br />
-        //#ifndef _<em>uint32</em>t<em>defined
-            typedef unsigned int uint32</em>t;<br />
-        //# define _<em>uint32</em>t_defined<br />
-        //#endif<br />
-        //#if _<em>WORDSIZE == 64
-            typedef unsigned long int uint64</em>t;<br />
-        //#else<br />
-        _<em>extension</em>_
-        typedef unsigned long long int uint64_t;<br />
-        //#endif </p>
-    <p>C-style casts are discouraged; use static<em>cast/const</em>cast/reinterpret_cast </p>
-    <p>Use brace initialization to convert arithmetic types (e.g., int64_t{x}). This is the safest approach because code
-        will not compile if conversion can result in information loss. The syntax is also concise. </p>
-    <p>Use absl::implicit_cast to safely cast up a type hierarchy, e.g., casting a Foo* to a SuperclassOfFoo* or casting
-        a Foo* to a const Foo*. C++ usually does this automatically but some situations need an explicit up-cast, such
-        as use of the ?: operator. </p>
-    <p>Use static_cast as the equivalent of a C-style cast that does value conversion, when you need to explicitly
-        up-cast a pointer from a class to its superclass, or when you need to explicitly cast a pointer from a
-        superclass to a subclass. In this last case, you must be sure your object is actually an instance of the
-        subclass. </p>
-    <p>Use const_cast to remove the const qualifier (see const). </p>
-    <p>Use reinterpret<em>cast to do unsafe conversions of pointer types to and from integer and other pointer types,
-            including void*. Use this only if you know what you are doing and you understand the aliasing issues. Also,
-            consider the alternative absl::bit</em>cast. </p>
-    <p>Use absl::bit<em>cast to interpret the raw bits of a value using a different type of the same size (a type pun),
-            such as interpreting the bits of a double as int64</em>t. </p>
+    <pre><code>
+    ** no viable conversion from   
+    std::unique_ptr&lt;bustub::RowMatrix&lt;int&gt; : temp   
+    const RowMatrix&lt;T&gt; * : temp.get()  
+    
+    Consider replacing 'unsigned long' with 'uint64' uint64_t  
+    C-style casts are discouraged; use static_cast/const_cast/reinterpret_cast  
+    Convert one int -&gt;int64_t  
+    const uint64_t size = (static_cast&lt;uint64_t&gt;(rows_) * cols_)  
+    </code></pre>
+    <p><img src="bustub/submission/Photo/check-clang-tidy.png" alt="Check-clang-tidy" /><br />
+        <img src="bustub/submission/Photo/Project0_1.png" alt="Pr0" />
+    </p>
 
-
+    <h2 id="project1">Project 1</h2>
+    <p><img src="bustub/submission/Photo/Project1_GS.png" alt="Pr1_Gradescope" /> </p>
+    <p>Reference: Database-System-Concepts-7th-Edition Ch13.5 Database Buffer </p>
+    <p>LRU Replacer<br />
+        Need to search in o(1), delete; Perform like a stack<br />
+        Data Structure: Hash map + Linked list </p>
+    <p>Buffer Pool Manager (BPM) Instance<br />
+        Data Structure:<br />
+        std::unordered<em>map< page</em>id<em>t, frame</em>id<em>t > page</em>table<em>;
+                    std::list< frame</em>id<em>t > free</em>list_; </p>
+    <p>Class Pages (including content;page<em>id</em> ;pin<em>count</em> = 0; is<em>dirty</em>)<br />
+        Class BPM is friend class of Pages<br />
+        Class DiskManager(Responsible for writing page from BPM to Disk) </p>
+    <p>-&gt; Parallel BPM, which has its own latch / Inheritance </p>
+    <p>Print out the test file to get the whole Gradescope test file!<br />
+        /<em>Gradescope Test output</em>/ </p>
+    <pre><code>
+            FILE *out;
+            out = fopen("/autograder/bustub/test/buffer/grading_..._test.cpp", "r");  
+            // out = fopen("../test/buffer/..._test.cpp", "r");  
+            char ch;  
+            while ((ch = getc(out)) != EOF) {  
+                putchar(ch);  
+            }  
+            fclose(out);  
+            </code></pre>
+    <p>Get the path for testing on Gradescope using getcwd().<br />
+        #include < direct.h>; (Windows)<br />
+            #include < unistd.h>; (Linux/Mac)<br />
+                int MAX<em>PATH = 10000;
+                    char buffer[MAX</em>PATH];<br />
+                std::cout &lt;&lt; getcwd(buffer, MAX_PATH); </p>
+    <p>latch<em>.lock();
+            std::lock</em>guard< std::mutex> lock(latch_); //better as unlock automatically in Deconstructor </p>
+    <p>Avoid calling another function with latch (interlock) </p>
+    <p>ConcurrencyTest<br />
+        std::vector< std::thread> threads;<br />
+            std::shared<em>ptr< BufferPoolManagerInstance> bpm( )
+                    threads.push</em>back(std::thread([ &amp;bpm ]( ){ </p>
+    <p>Test Failed: False is not true : Test Timed out<br />
+        Some part of the code is wrong.(infinite loop , etc) </p>
+    <p>==5570==ERROR: AddressSanitizer: heap-use-after-free on address 0x000107101a90 at pc 0x000102bca6d0 bp
+        0x00016d8325b0 sp 0x00016d8325a8 </p>
+    <pre><code>
+            // frame_id = &amp;(victimize_list_.front());  
+            *frame_id = victimize_list_.front();  
+            </code></pre>
+    <p>Google C++ Style Guide<br />
+        Clang-tidy: don't use else after return; </p>
+    <p>redundant boolean literal supplied to boolean operator x<br />
+        if (replacer<em>->Victim(&frame</em>id) == false) {<br />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~<br />
+        !replacer<em>->Victim(&frame</em>id)<br />
+        error: use range-based for loop instead </p>
+    <pre><code>
+            for (auto iter = page_table_.begin(); iter != page_table_.end(); ++iter) {  
+            ^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+                (auto &amp; iter : page_table_)  
+            </code></pre>
+    <p>error: missing username/bug in TODO<br />
+        // TODO:reset its metadata<br />
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~<br />
+        // TODO(unknown): reset its metadata </p>
+    <p><img src="bustub/submission/Photo/Project1.png" alt="Pr1" /> </p>
 
 
     <a href="https://github.com/PeterHUistyping/CMU15-445_Database_Project">See More on GitHub</a>
