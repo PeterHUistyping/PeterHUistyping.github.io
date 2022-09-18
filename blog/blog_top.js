@@ -14,9 +14,12 @@ document.write('                    <li> <a href="../index.html#previous_project
 document.write('                </ul>');
 document.write('            </li>');
 document.write('            <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li>');
-document.write('            <li><a href="../blog/blog.html">📝Blog</a></li>');
+document.write('            <li><a href="../blog/blog_directory.html">📝Blog</a></li>');
 document.write('            <li><a href="../index.html#contact">📬Contact</a></li>');
 document.write('            <li><a href="#">⬆️Top</a></li>');
+document.write('            <li><a href="./blog.html">🎶Music</a></li>');
 document.write('        </ul>');
 document.write('    </div>');
 document.write('</body_>');
+document.write('<br /><br /><br />');
+
