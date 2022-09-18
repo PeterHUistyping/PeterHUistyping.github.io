@@ -7,17 +7,25 @@ document.write('            </li>');
 document.write('            <li>');
 document.write('                <a href="../index.html">🏠HOME</a>');
 document.write('            </li>');
+
 document.write('            <li> <a href="../index.html#project">📊Project</a>');
 document.write('                <ul>');
 document.write('                    <li> <a href="../index.html#ongoing_project">🆕Ongoing Project</a></li>');
 document.write('                    <li> <a href="../index.html#previous_project">📖Previous Project</a></li>');
 document.write('                </ul>');
 document.write('            </li>');
+
 document.write('            <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li>');
 document.write('            <li><a href="../blog/blog_directory.html">📝Blog</a></li>');
 document.write('            <li><a href="../index.html#contact">📬Contact</a></li>');
 document.write('            <li><a href="#">⬆️Top</a></li>');
-document.write('            <li><a href="./blog.html">🎶Music</a></li>');
+
+document.write('            <li><a href="./blog.html">🎶Music</a>');
+document.write('                <ul>');
+document.write('                <li><a href="#">🚫 on 👉</a></li>');
+document.write('                </ul>');
+document.write('            </li>');
+
 document.write('        </ul>');
 document.write('    </div>');
 document.write('</body_>');
