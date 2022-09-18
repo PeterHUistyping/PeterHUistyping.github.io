@@ -24,6 +24,9 @@ document.write('            <li><a href="./blog.html">🎶Music</a>');
 document.write('                <ul>');
 document.write('                <li><a href="#">🚫 on 👉</a></li>');
 document.write('                </ul>');
+document.write('                <ul>');
+document.write('                <li><a href="#">Frame</a></li>');
+document.write('                </ul>');
 document.write('            </li>');
 
 document.write('        </ul>');
