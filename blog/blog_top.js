@@ -16,7 +16,11 @@ document.write('                </ul>');
 document.write('            </li>');
 
 document.write('            <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li>');
-document.write('            <li><a href="../blog/blog_directory.html">📝Blog</a></li>');
+document.write('            <li><a href="../blog/blog_directory_Storting.html">📝Blog</a> ');
+document.write('                <ul>');
+document.write('                    <li> <a href="./blog5.html">⛵Update</a></li>');
+document.write('                </ul>');
+document.write('            </li>');
 document.write('            <li><a href="../index.html#contact">📬Contact</a></li>');
 document.write('            <li><a href="#">⬆️Top</a></li>');
 
