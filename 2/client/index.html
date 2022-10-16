@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag&Drop File Uploader</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="dnd-file-uploader">
+    <div class="drop-area">
+      <ion-icon class="upload-icon" name="cloud-upload"></ion-icon>
+      <p class="tip">Drag&Drop files here</p>
+    </div>
+    <div class="task-list"></div>
+  </div>
+
+  <template id="template-task">
+    <div class="task">
+      <a class="task-name" target="_blank">some file name</a>
+      <span class="task-progress">50%</span>
+    </div>
+  </template>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./FileUploader.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
