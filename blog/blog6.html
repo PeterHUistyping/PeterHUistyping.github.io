@@ -12,7 +12,8 @@
     <!--  Beginning of the blog  -->
 
     <h1 id="lzssunderstandingandimproving">Gold Medal in Huawei Tech Arena 2022</h1>
-    <a href="photo/Assignment/6/3.JPG">Team Members</a> 
+
+ 
     <h2 id="lzssunderstandingandimproving">LZSS Understanding and Improving</h1>
     <p>Original Rules: https://github.com/UKTechArena</p>
     <p>Original Team Project: https://github.com/UKTechArena/crazy-thursday</p>
@@ -30,7 +31,9 @@
     
     Total score (80%): 73.7339
     </code></pre>
-    <a href="photo/Assignment/6/2.JPG">Gold Medal in Huawei Tech Arena 2022</a> 
+    <img class="img_normal" src="../photo/Assignment/6/2.JPG" alt="Gold Medal in Huawei Tech Arena 2022">  
+      <img class="img_normal" src="../photo/Assignment/6/3.JPG" alt="Team Members"><br>
+  
     <h2 id="lzsscompressionalgorithmexplainedbyademo">LZSS Compression Algorithm (Explained by a Demo)</h2>
     <pre><code>First byte of the Literal run: flag L4-L0, which flag indicates which level is used now.
         000                           // level 1
@@ -218,7 +221,7 @@
     <h3 id="whathavebeendone">WHAT Have Been Done</h3>
     <p>Implemented from LZSS, using Object Oriented Programming.</p>
     <p>Branch prediction [[likely]]</p>
-    <h1 id="definelevel1_max65536">define LEVEL1_MAX 65536</h1>
+    # define LEVEL1_MAX 65536 
     <pre><code>IN
     int Compress_LZ(const void* INPUT, int length, void* OUTPUT) {
     if (length &lt; LEVEL1_MAX) return Compress_level1(INPUT, length, OUTPUT);
