@@ -131,7 +131,15 @@ h3 {
     width: 200px;
     height: 125px;
 }
+.table_newproject {
+    width: 1140px;
+    height: 50px;
+}
 
+.table_newproject_photo {
+    width: 200px;
+    height: 125px;
+}
 .img_pastproject {
     width: 180px;
     height: 115px;
