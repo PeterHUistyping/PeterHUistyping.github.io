@@ -99,8 +99,7 @@ function All_table(){
 }
 
 ReactDOM.render(
-//    <All_table />,   
-    <a href="#">d</a>, 
+    <All_table />,     
     document.getElementById("test")
     
 )
