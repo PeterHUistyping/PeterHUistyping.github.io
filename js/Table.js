@@ -1,5 +1,4 @@
-import * as r from './Hr_Award.json';
-console.log(r);
+ 
 function Pic(props){
     return( 
         <td class="table_pastproject_photo" rowspan="2">
@@ -100,7 +99,8 @@ function All_table(){
 }
 
 ReactDOM.render(
-   <All_table />,   
-    document.getElementById("root")
+//    <All_table />,   
+    <a href="#">d</a>, 
+    document.getElementById("test")
     
 )
