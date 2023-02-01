@@ -10,7 +10,7 @@ document.write('    <tbody>');
 document.write('        <td>');
 document.write('            Originally written in Markdown(.md). Convert Markdown to HTML via <a');
 document.write('                href="https://showdownjs.com/">Showdown</a><br>');
-document.write('            © Copyright 2022 PeterHU. Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.');
+document.write('            © Copyright 2022-2023 PeterHU. Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.');
 document.write('            Last updated:');
 document.write('            <script>');
 document.write('                document.write(document.lastModified);');
