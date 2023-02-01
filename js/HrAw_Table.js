@@ -1,4 +1,5 @@
 function Pic(props){
+    if(props.src)
     return( 
         <td class="table_pastproject_photo" rowspan="2">
             <div>
@@ -8,17 +9,61 @@ function Pic(props){
             </div> 
         </td>
     )
+    else
+    return(
+        <td class="table_pastproject_photo" rowspan="2">
+        <div>
+            <div>
+          
+            </div>
+        </div> 
+    </td>
+    )
 }
-
+function Intro_Des(props){
+    if(props.line==4)
+    return(
+        <div>{props.Des1} <br/>
+        {props.Des2} <br/>
+        {props.Des3} <br/>
+        {props.Des4} <br/></div>
+    )
+    if(props.line==3)
+    return(
+        <div>{props.Des1} <br/>
+        {props.Des2} <br/>
+        {props.Des3} <br/>
+        </div>
+    )
+    if(props.line==2)
+    return(
+        <div>{props.Des1} <br/>
+        {props.Des2} <br/>
+        </div>
+    )
+    if(props.line==1)
+    return(
+        <div>{props.Des1} <br/>
+       </div>
+    )
+}
+function Italic_Intro(props){
+    if(props.Italic)
+        return(
+            <div><i>{props.Italic}</i><br/></div>
+        )
+}
 function Intro(props){
     return(
         <td class="width: 600px;" rowspan="2">
             <strong>{props.Title}  [<i>{props.Category}</i>]<br/></strong>
-            {props.Des1} <br/>
-            {props.Des2} <br/>
-            {props.Des3} <br/>
-            {props.Des4} <br/>
-            <i>{props.Italic}</i><br/>
+            <Intro_Des 
+            line={props.line}
+            Des1={props.Des1}
+            Des2={props.Des2}
+            Des3={props.Des3}
+            Des4={props.Des4}/>
+            <Italic_Intro Italic={props.Italic}/>
             {props.Time}<br/>
             <a href={props.Github}>Project (Github) </a>
             | <a href={props.Blog}>📝Blog</a> | <a href={props.PDF}>PDF</a> | <a href={props.Video}>Video</a>  | <a href={props.More}>More</a> <br/> 
@@ -54,7 +99,7 @@ function PicIntro_table(proxy){
         </tr>
     )
 }
-var resource1={
+var resource0={
     pic1_src:"../photo/Assignment/6/cf.png",
     pic1_alt:"Comparing different Levels",
     pic2_src:"../photo/Assignment/6/1.JPG",
@@ -74,7 +119,7 @@ var resource1={
     Video:"https://www.linkedin.com/company/huawei/videos/native/urn:li:ugcPost:7021747028581904384/",
     More:"https://github.com/PeterHUistyping/LZSS_with_Concurrent_Demo"
 }
-var resource2={
+var resource1={
     pic1_src:"../photo/Assignment/7/Map.png",
     pic1_alt:"Route_Planning",
     pic2_src:"../photo/Assignment/7/Team_Member.png",
@@ -87,26 +132,41 @@ var resource2={
     Des3:`Great Team Work, Collaboration.`, 
     Des4: `Networking with senior engineers, excellent undergraduate, Master and PhD students from all around the Europe.`,
     Italic:"Issued by Mercuria Energy Trading, Switzerland",
-    Time:"TEST",
+    Time:"2022.12.16-2022.12.18",
     Github:"https://github.com/PeterHUistyping/Mercuria_Hackathon2022",
     Blog:"../blog/blog7.html"
 }
- 
-const resource=[resource1,resource2]
+var resource2={
+     
+    Title:"Jardine Scholarship",
+    Category:"Python, Data Analysis, Route-Planning",
+    line:1,
+    Des1: `Fully-funded Scholarship during my study at University of Cambridge`,
+    Italic:"Issued by Jardine Foundation",
+    Time:"2022.02",
+    PDF:"../doc/Jardine_Certificate.jpg"
+    
+}
+const resource=[resource0,resource1,resource2]
+function Tbody(props){
+    return(
+    <tbody>
+        <PicIntro_table id={props.id}/>     
+    </tbody>
+    )
+}
+
 function All_table(){
     return(
     <table class="table_pastproject">
-        <tbody>
-            <PicIntro_table id={0}/>     
-        </tbody>
-        <tbody>
-            <PicIntro_table id={1}/>     
-        </tbody>
+        <Tbody id="0"/>
+        <Tbody id="1"/>
+        <Tbody id="2"/>
     </table> 
     )
 }
 
 ReactDOM.render(
     <All_table />,     
-    document.getElementById("test")
+    document.getElementById("HrAw")
 )
