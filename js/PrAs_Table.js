@@ -99,6 +99,26 @@ function PicIntro_table(proxy){
         </tr>
     )
 }
+var resource10={
+    pic1_src:"../photo/Assignment/9/Frozen.png",
+    pic1_alt:"Frozen",
+    pic2_src:"../photo/Assignment/9/Web.png",
+    pic2_alt:"Web Game",
+    Title:"Priest Beneath",
+    Category:"Unity, C#, Game-Dev",
+    line:1,
+    Des1: `Great team work on an amazing Game Project`,
+    //Des2:`Python, Numpy, kNN, Softmax, SVM classifier, Cross Validation`,
+    // Des3:`Communicate between team members to collaborate.`, 
+    // Des4: `Demonstrate my presentation skills.`,
+    // Italic:"Issued by Huawei UK R&D",
+    Time:"10 Feb - 12 Feb 2023",
+    Github:"https://github.com/PeterHUistyping/Priest-Beneath",
+    Blog:"../blog/blog9.html",
+    // PDF:"../doc/Crazy_Thursday.pdf",
+    // Video:"https://www.linkedin.com/company/huawei/videos/native/urn:li:ugcPost:7021747028581904384/",
+    More:"https://peterhuistyping.github.io/Priest-Beneath/"
+}
 var resource9={
     // pic1_src:"../photo/Assignment/6/cf.png",
     // pic1_alt:"Comparing different Levels",
@@ -308,6 +328,7 @@ function Ongoing_table(){
 function Past_table(){
     return(
     <table class="table_pastproject">
+        <Tbody id="10"/>
         <Tbody id="2"/>
         <Tbody id="1"/>
         <Tbody id="0"/>
