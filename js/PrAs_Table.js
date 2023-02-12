@@ -100,10 +100,10 @@ function PicIntro_table(proxy){
     )
 }
 var resource10={
-    pic1_src:"../photo/Assignment/9/Frozen.png",
-    pic1_alt:"Frozen",
-    pic2_src:"../photo/Assignment/9/Web.png",
-    pic2_alt:"Web Game",
+    pic1_src:"../photo/Assignment/9/Web.png",
+    pic1_alt:"Web Game",
+    pic2_src:"../photo/Assignment/9/Frozen.png",
+    pic2_alt:"Frozen",
     Title:"Priest Beneath",
     Category:"Unity, C#, Game-Dev",
     line:1,
