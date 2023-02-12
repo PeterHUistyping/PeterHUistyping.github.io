@@ -293,7 +293,7 @@ var resource0={
 }
 
 const resource=[resource0,resource1,resource2,resource3,resource4,
-    resource5,resource6,resource7,resource8,resource9,]
+    resource5,resource6,resource7,resource8,resource9,resource10]
 
 function Tbody(props){
     return(
