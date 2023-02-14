@@ -104,7 +104,7 @@ var resource0={
     pic1_alt:"Comparing different Levels",
     pic2_src:"../photo/Assignment/6/1.JPG",
     pic2_alt:"Presentation",
-    Title:"Gold Medal in Huawei Tech Arena 2022",
+    Title:"Gold Medal in UK Tech Arena 2022",
     Category:"Programming in C and C++, Compression, Concurrent",
     line:4,
     Des1: `In a team of 4, winning £7000 prize.`,
