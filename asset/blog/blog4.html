@@ -1,0 +1,139 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <style type="text/css">
+    </style>
+</head>
+
+<body>
+    <script src="./blog_top.js"></script>
+
+    <!--  Beginning of the blog  -->
+
+    <h1 id="project_database">Database Design Project (C++)</h1>
+    <h1 id="cmu15445_database_project">CMU15-445 <em>Database</em> Project</h1>
+    <p>Database Design Project (C++)<br />
+        Course Link: </p>
+    <p>https://15445.courses.cs.cmu.edu/fall2021/assignments.html </p>
+    <p>Project Link: </p>
+    <p>https://github.com/cmu-db/bustub </p>
+    <h2 id="environment">Environment</h2>
+    <p>Mac &amp; Linux_Ubuntu (VMware)</p>
+    <h2 id="tools">Tools</h2>
+    <p>CMake, Google C++ Style Guide, Unit Testing, etc </p>
+    <h2 id="gradescopetestfile">Gradescope Test File</h2>
+    <p>Print out the test file to get the whole Gradescope test file!<br />
+        FILE *out;<br />
+        out = fopen("/autograder/bustub/test/buffer/ grading<em>buffer</em>pool<em>manager</em>instance<em>test.cpp",
+            "r");
+            // out = fopen("../test/buffer/buffer</em>pool<em>manager</em>instance_test.cpp", "r");<br />
+        char ch;<br />
+        while ((ch = getc(out)) != EOF) {<br />
+        putchar(ch);<br />
+        }<br />
+        fclose(out); </p>
+    <p>Get the path for testing on Gradescope using getcwd().<br />
+        #include < direct.h>; (Windows)<br />
+            #include < unistd.h>; (Linux/Mac)<br />
+                int MAX<em>PATH = 10000;
+                    char buffer[ MAX</em>PATH ];<br />
+                std::cout &lt;&lt; getcwd(buffer, MAX_PATH); </p>
+    <h2 id="debug">Debug</h2>
+    <p>"common/logger.h" </p>
+
+    <h2 id="project0">Project 0</h2>
+    <p><img src="bustub/submission/Photo/Project0_GS.png" alt="Pr0" /> </p>
+    <p>Keypoint used in C++:<br />
+        Template -- template < typename T><br />
+            Exception </p>
+    <p>How to create m*n arrays [the 2nd way-inherit] </p>
+    <p>Google C++ Style Guide<br />
+        Naming_Class Data Members need a trailing underscore. </p>
+    <pre><code>
+    ** no viable conversion from   
+    std::unique_ptr&lt;bustub::RowMatrix&lt;int&gt; : temp   
+    const RowMatrix&lt;T&gt; * : temp.get()  
+    
+    Consider replacing 'unsigned long' with 'uint64' uint64_t  
+    C-style casts are discouraged; use static_cast/const_cast/reinterpret_cast  
+    Convert one int -&gt;int64_t  
+    const uint64_t size = (static_cast&lt;uint64_t&gt;(rows_) * cols_)  
+    </code></pre>
+    <p><img src="bustub/submission/Photo/check-clang-tidy.png" alt="Check-clang-tidy" /><br />
+        <img src="bustub/submission/Photo/Project0_1.png" alt="Pr0" />
+    </p>
+
+    <h2 id="project1">Project 1</h2>
+    <p><img src="bustub/submission/Photo/Project1_GS.png" alt="Pr1_Gradescope" /> </p>
+    <p>Reference: Database-System-Concepts-7th-Edition Ch13.5 Database Buffer </p>
+    <p>LRU Replacer<br />
+        Need to search in o(1), delete; Perform like a stack<br />
+        Data Structure: Hash map + Linked list </p>
+    <p>Buffer Pool Manager (BPM) Instance<br />
+        Data Structure:<br />
+        std::unordered<em>map< page</em>id<em>t, frame</em>id<em>t > page</em>table<em>;
+                    std::list< frame</em>id<em>t > free</em>list_; </p>
+    <p>Class Pages (including content;page<em>id</em> ;pin<em>count</em> = 0; is<em>dirty</em>)<br />
+        Class BPM is friend class of Pages<br />
+        Class DiskManager(Responsible for writing page from BPM to Disk) </p>
+    <p>-&gt; Parallel BPM, which has its own latch / Inheritance </p>
+    <p>Print out the test file to get the whole Gradescope test file!<br />
+        /<em>Gradescope Test output</em>/ </p>
+    <pre><code>
+            FILE *out;
+            out = fopen("/autograder/bustub/test/buffer/grading_..._test.cpp", "r");  
+            // out = fopen("../test/buffer/..._test.cpp", "r");  
+            char ch;  
+            while ((ch = getc(out)) != EOF) {  
+                putchar(ch);  
+            }  
+            fclose(out);  
+            </code></pre>
+    <p>Get the path for testing on Gradescope using getcwd().<br />
+        #include < direct.h>; (Windows)<br />
+            #include < unistd.h>; (Linux/Mac)<br />
+                int MAX<em>PATH = 10000;
+                    char buffer[MAX</em>PATH];<br />
+                std::cout &lt;&lt; getcwd(buffer, MAX_PATH); </p>
+    <p>latch<em>.lock();
+            std::lock</em>guard< std::mutex> lock(latch_); //better as unlock automatically in Deconstructor </p>
+    <p>Avoid calling another function with latch (interlock) </p>
+    <p>ConcurrencyTest<br />
+        std::vector< std::thread> threads;<br />
+            std::shared<em>ptr< BufferPoolManagerInstance> bpm( )
+                    threads.push</em>back(std::thread([ &amp;bpm ]( ){ </p>
+    <p>Test Failed: False is not true : Test Timed out<br />
+        Some part of the code is wrong.(infinite loop , etc) </p>
+    <p>==5570==ERROR: AddressSanitizer: heap-use-after-free on address 0x000107101a90 at pc 0x000102bca6d0 bp
+        0x00016d8325b0 sp 0x00016d8325a8 </p>
+    <pre><code>
+            // frame_id = &amp;(victimize_list_.front());  
+            *frame_id = victimize_list_.front();  
+            </code></pre>
+    <p>Google C++ Style Guide<br />
+        Clang-tidy: don't use else after return; </p>
+    <p>redundant boolean literal supplied to boolean operator x<br />
+        if (replacer<em>->Victim(&frame</em>id) == false) {<br />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~<br />
+        !replacer<em>->Victim(&frame</em>id)<br />
+        error: use range-based for loop instead </p>
+    <pre><code>
+            for (auto iter = page_table_.begin(); iter != page_table_.end(); ++iter) {  
+            ^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+                (auto &amp; iter : page_table_)  
+            </code></pre>
+    <p>error: missing username/bug in TODO<br />
+        // TODO:reset its metadata<br />
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~<br />
+        // TODO(unknown): reset its metadata </p>
+    <p><img src="bustub/submission/Photo/Project1.png" alt="Pr1" /> </p>
+
+
+    <a href="https://github.com/PeterHUistyping/CMU15-445_Database_Project">See More on GitHub</a>
+    <!--  End of the blog  -->
+    <script src="./blog_footer.js"></script>
+</body>
+
+</html>
