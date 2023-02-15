@@ -2,6 +2,7 @@
 // import {resource} from '../data/Hr_Award.json'
 // console.log(data);
 // alert("Hi!")
+import React from "react";
 
 function readTextFile(file, callback) {
     var rawFile = new XMLHttpRequest();
@@ -143,7 +144,7 @@ var resource0={
     Time:"2022.10.20-2022.11.26",
     Github:"https://github.com/PeterHUistyping/UKTechArena-3DGraphics_Compression_Algorithm-Metaverse",
     Blog:"../asset/blog/blog6.html",
-    PDF:"../doc/Crazy_Thursday.pdf",
+    PDF:"../asset/doc/Crazy_Thursday.pdf",
     Video:"https://www.linkedin.com/company/huawei/videos/native/urn:li:ugcPost:7021747028581904384/",
     More:"https://github.com/PeterHUistyping/LZSS_with_Concurrent_Demo"
 } 
@@ -163,7 +164,7 @@ var resource1={
     Time:"2022.10.20-2022.11.26",
     Github:"https://github.com/PeterHUistyping/UKTechArena-3DGraphics_Compression_Algorithm-Metaverse",
     Blog:"../asset/blog/blog6.html",
-    PDF:"../doc/Crazy_Thursday.pdf",
+    PDF:"../asset/doc/Crazy_Thursday.pdf",
     Video:"https://www.linkedin.com/company/huawei/videos/native/urn:li:ugcPost:7021747028581904384/",
     More:"https://github.com/PeterHUistyping/LZSS_with_Concurrent_Demo"
 } 
@@ -192,7 +193,8 @@ function All_table(){
     )
 }
 
-ReactDOM.render(
-    <All_table />,     
+React.render(
+    // <All_table />,     
+    <div>Testing...</div>,
     document.getElementById("HrAw2")
-)
+);
