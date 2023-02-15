@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from 'react-dom/client';
+import '../css/style.css'
 function Pic(props){
     if(props.src)
     return( 

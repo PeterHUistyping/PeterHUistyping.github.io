@@ -3,7 +3,8 @@
 // console.log(data);
 // alert("Hi!")
 import React from "react";
-
+import ReactDOM from 'react-dom/client';
+import '../css/style.css';
 function readTextFile(file, callback) {
     var rawFile = new XMLHttpRequest();
     rawFile.overrideMimeType("application/json");
@@ -193,8 +194,13 @@ function All_table(){
     )
 }
 
-React.render(
-    // <All_table />,     
-    <div>Testing...</div>,
-    document.getElementById("HrAw2")
-);
+// React.render(
+//     // <All_table />,     
+//     <div>Testing...</div>,
+//     document.getElementById("HrAw2")
+// );
+ReactDOM.render(
+    // <All_table />,
+    <div>Testing...</div>,     
+    document.getElementById("HrAw")
+)
