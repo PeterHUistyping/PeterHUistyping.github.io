@@ -128,9 +128,9 @@ function PicIntro_table(proxy){
     )
 }
 var resource0={
-    pic1_src:"../photo/Assignment/6/cf.png",
+    pic1_src:"../asset/photo/Assignment/6/cf.png",
     pic1_alt:"Comparing different Levels",
-    pic2_src:"../photo/Assignment/6/1.JPG",
+    pic2_src:"../asset/photo/Assignment/6/1.JPG",
     pic2_alt:"Presentation",
     Title:"Gold Medal in UK Tech Arena 2022",
     Category:"Programming in C and C++, Compression, Concurrent",
@@ -142,15 +142,15 @@ var resource0={
     Italic:"Issued by Huawei UK R&D",
     Time:"2022.10.20-2022.11.26",
     Github:"https://github.com/PeterHUistyping/UKTechArena-3DGraphics_Compression_Algorithm-Metaverse",
-    Blog:"../blog/blog6.html",
+    Blog:"../asset/blog/blog6.html",
     PDF:"../doc/Crazy_Thursday.pdf",
     Video:"https://www.linkedin.com/company/huawei/videos/native/urn:li:ugcPost:7021747028581904384/",
     More:"https://github.com/PeterHUistyping/LZSS_with_Concurrent_Demo"
 } 
 var resource1={
-    pic1_src:"../photo/Assignment/6/cf.png",
+    pic1_src:"../asset/photo/Assignment/6/cf.png",
     pic1_alt:"Comparing different Levels",
-    pic2_src:"../photo/Assignment/6/1.JPG",
+    pic2_src:"../asset/photo/Assignment/6/1.JPG",
     pic2_alt:"Presentation",
     Title:"Gold Medal in UK Tech Arena 2022",
     Category:"Programming in C and C++, Compression, Concurrent",
@@ -162,7 +162,7 @@ var resource1={
     Italic:"Issued by Huawei UK R&D",
     Time:"2022.10.20-2022.11.26",
     Github:"https://github.com/PeterHUistyping/UKTechArena-3DGraphics_Compression_Algorithm-Metaverse",
-    Blog:"../blog/blog6.html",
+    Blog:"../asset/blog/blog6.html",
     PDF:"../doc/Crazy_Thursday.pdf",
     Video:"https://www.linkedin.com/company/huawei/videos/native/urn:li:ugcPost:7021747028581904384/",
     More:"https://github.com/PeterHUistyping/LZSS_with_Concurrent_Demo"
