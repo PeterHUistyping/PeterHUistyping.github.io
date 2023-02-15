@@ -1,5 +1,5 @@
 //import {readTextFile} from './helper/readJson.js'
-
+import {resource} from '../data/Hr_Award.json'
 // console.log(data);
 // alert("Hi!")
 

@@ -6,4 +6,7 @@ With Blogs, Projects, Files,etc updated from time to time.
 ```
 npx create-react-app .
 npm install gh-pages --save-dev
+npm run eject
+npm run deploy
 ```   
+ 
