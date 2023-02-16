@@ -1,3 +1,4 @@
+import { HashLink } from 'react-router-hash-link';
 export default function Index_Top(){
     return (
         <>
@@ -10,10 +11,10 @@ export default function Index_Top(){
                 <li>
                     <a href="http://PeterHUistyping.github.io">🏠HOME</a>
                 </li>
-                <li> <a href="#project">📊Project</a>
+                <li><HashLink to="/#project">📊Project</HashLink>
                     <ul>
-                        <li> <a href="#ongoing_project">🆕Ongoing Project</a></li>
-                        <li> <a href="#previous_project">📖Previous Project</a></li>
+                        <li> <HashLink to="/#ongoing_project">🆕Ongoing</HashLink> </li>
+                        <li><HashLink to="/#previous_project">📖Previous</HashLink> </li>
                     </ul>
                 </li>
                 <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li>
@@ -22,7 +23,7 @@ export default function Index_Top(){
                         <li> <a href="./asset/blog/blog5.html">⛵Update</a></li>
                     </ul>
                 </li>
-                <li><a href="#contact">📬Contact</a></li>
+                 <li><HashLink to="/#contact">📬Contact </HashLink> </li>
                 <li><a href="#">⬆️Top</a></li>
             </ul>
         </div>

@@ -1,7 +1,8 @@
-import {Route,Routes } from "react-router-dom"
-import {Home} from "./js/Home"
-import {Blog_Sorting} from "./js/Blog_Sorting"
-import {NotFound} from "./js/404"
+import {Route,Routes } from "react-router-dom";
+import {Home} from "./js/Home";
+import {Blog_Sorting} from "./js/Blog_Sorting";
+import {NotFound} from "./js/404";
+import { HashLink } from 'react-router-hash-link';
 function App() {
   return (
   <> 
@@ -9,7 +10,9 @@ function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/Blog_Sorting" element={<Blog_Sorting />}/>
         <Route element={<NotFound />}/>
-      </Routes>
+      
+      </Routes> 
+      
       </>
   );
 }

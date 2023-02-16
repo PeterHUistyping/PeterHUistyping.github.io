@@ -50,4 +50,9 @@ plugins: [
  include: [paths.appSrc,"./public/asset"],
  ```
 Get the React app with Routing to work on GitHub pages.<br/>
-Solution: Using HashRouter.
+Solution: Using HashRouter. <br/>
+This is a solution to React Router's issue of not scrolling to #hash-fragments when using the < Link> component to navigate. <br/>
+```
+npm i react-router-hash-link
+<HashLink to="/#about">About</HashLink> 
+```
