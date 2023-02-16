@@ -13,7 +13,7 @@ export function Blog_Sorting(){
     <div>
      <Blog_Top/>
     <center>
-   <p><strong><font size="+3"> Welcome to My Personal Blog📝</font></strong></p>
+   <p id="welcome"><strong><font size="+3"> Welcome to My Personal Blog📝</font></strong></p>
    </center>
    <br />  
    

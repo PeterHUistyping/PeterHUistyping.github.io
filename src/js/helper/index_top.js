@@ -18,7 +18,7 @@ export default function Index_Top(){
                     </ul>
                 </li>
                 <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li>
-                <li><a href="/#/Blog_Sorting">📝Blog</a>
+                <li><a href="/#/Blog_Sorting/#welcome">📝Blog</a>
                     <ul>
                         <li> <a href="./asset/blog/blog5.html">⛵Update</a></li>
                     </ul>
