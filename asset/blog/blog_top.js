@@ -10,8 +10,8 @@ document.write('            </li>');
 
 document.write('            <li> <a href="/#project">📊Project</a>');
 document.write('                <ul>');
-document.write('                    <li> <a href="/#ongoing_project">🆕Ongoing Project</a></li>');
-document.write('                    <li> <a href="/#previous_project">📖Previous Project</a></li>');
+document.write('                    <li> <a href="/#ongoing_project">🆕Ongoing</a></li>');
+document.write('                    <li> <a href="/#previous_project">📖Previous</a></li>');
 document.write('                </ul>');
 document.write('            </li>');
 
