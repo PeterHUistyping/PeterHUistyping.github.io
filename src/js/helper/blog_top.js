@@ -27,7 +27,7 @@ export default function Blog_Top(){
             <li><a href="../#contact">📬Contact</a></li>
             <li><a href="#">⬆️Top</a></li>
 
-            <li><a href="./blog.html">🎶Music</a>
+            <li><a href="/asset/blog/blog.html">🎶Music</a>
                 <ul>
                 <li><a href="#">🚫 on 👉</a></li>
                 </ul>
