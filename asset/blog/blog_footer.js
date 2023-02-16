@@ -1,7 +1,7 @@
 document.write('<br><br><br><br><br>');
 document.write('<div class=" blog">');
 document.write('    <ul>');
-document.write('        <li><a href="../../index.html">⬅️Back to HOME🏠</a></li>');
+document.write('        <li><a href="/">⬅️Back to HOME🏠</a></li>');
 document.write('    </ul>');
 document.write('</div>');
 document.write('<HR style="border:1 dashed #987cb9" width="50%" color=#987cb9 SIZE=1>');

@@ -10,13 +10,14 @@
     },
     {
         "Title":"Machine Learning and Real-world Data",
-        "Category":"Cambridge Part IA",
+        "Category":"Python, Numpy, kNN, Softmax, SVM classifier ...",
         "line":2,
         "Des1": "⛵Update: Start from 17/Jan/2023",
         "Des2":"Text Classification using ML with improvements, including Naive Bayes classifier, Cross-Validation, NLP",
         "Time":"2023.1.17-Present",
+        "Italic":"Cambridge Part IA",
         "Github":"https://github.com/PeterHUistyping/Machine_Learning-Real_World_Data",
-        "Blog":"./asset/blog/blog8.html"
+        "Blog":"blog8.html"
         
     },
     {
@@ -38,8 +39,8 @@
         "Github":"https://github.com/PeterHUistyping/Operating_System"
     },
     {
-        "Title":"Database Design Project (C++)",
-        "Category":"CMU15-445 Project",
+        "Title":"Database Design Project",
+        "Category":"C++",
         "line":4,
         "Des1": "Buffer Pool Management System, Latch, LRU Replacement policy, Buffer Pool Manager Instance. In order to solve the concurrent problem, implement the PARALLEL Buffer Pool Manager.",
         "Des2":"C++ STL; Useful Coding Skills: Google C++ Style Guide",
@@ -47,20 +48,22 @@
         "Des4": "@brief @param @return @author @date @version",
         "Time":"2022.9.9-Present",
         "Github":"https://github.com/PeterHUistyping/CMU15-445_Database_Project",
-        "Blog":"./asset/blog/blog4.html",
+        "Italic":"CMU15-445 Project",
+        "Blog":"blog4.html",
         "More":"https://google.github.io/styleguide/cppguide.html"
     },
     {
         "Title":"Introduction to Computer Graphics",
-        "Category":"CMU15-445 Project",
+        "Category":"C++, OpenGL",
         "line":4,
         "Des1": " With the help of the Open Course, I have implemented a ray tracer using C++, with two kinds of cameras, orthonormal and perspective camera respectively.",
         "Des2": "In addition, several types of primitives are built, e.g. sphere, triangle, plane, triangle mesh, just to name a few. ",
         "Des3": "Command-line usage; .vscode configuration.",
         "Des4": "Useful Coding Skills: Command line Argument; Using Assert(); On each .h, #progma once",
         "Time":"2022.8-Present",
+        "Italic":"MIT6.387",
         "Github":"https://github.com/PeterHUistyping/MIT6.837-CG-Fall2004-Assignment",
-        "Blog":"./asset/blog/blog3.html" 
+        "Blog":"blog3.html" 
     },
     {
         "Title":"Algorithm and Data Structure",
@@ -71,5 +74,17 @@
         "Time":"2022.9.9-Present",
         "Github":"https://github.com/PeterHUistyping/Algorithm-Data_Structure"
        
+    },
+    {
+        "pic1_src":"./asset/photo/Assignment/5/page.png",
+        "pic1_alt":"Webpage",
+        "pic2_src":"./asset/photo/Assignment/5/blog2.0.png",
+        "pic2_alt":"Blog",
+        "Title":"Starting my Personal Page and Blog",
+        "Category":"HTML, CCS, js, React",
+        "line":1,
+        "Des1": "Update Details attached.",
+        "Time":"2022.08-Present"
+        
     }
 ]
