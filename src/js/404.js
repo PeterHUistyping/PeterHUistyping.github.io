@@ -1,3 +1,5 @@
+import Index_Footer from "./helper/index_footer";
+import Index_Top from "./helper/index_top";
 export function NotFound()
 {
     return(

@@ -28,34 +28,46 @@ export default function Index_Top(){
         </div>
         <br /><br /><br /><br />
     </body_>
-   
+    <Profile/>
     </>
     )
 }
-function profile(){
+function Profile(){
     return(
         <table class="table_profile">
         <tbody>
             <tr>
-                <td style="width:280px" rowspan="1" height="300">
-                    <div>
-                        <div><img class="img_profile" src="./asset/photo/Peter_Hu.jpg" alt="Profile Photo"/>
-                        </div>
-                    </div>
-                </td>
-                <td style="width: 280px;" text-align="center">
-                    <h1 id="contact"><i>Peter</i> HU </h1>
-                     
-                    <p> University of Cambridge <br/>Computer Science <br/>Part IA</p> <br/><strong>Contact
-                        Details</strong><br/>
-                    Email: zh369@cam.ac.uk <br/> Phone: (+44) 07990 719841
-                    <br/><a href="./asset/doc/CV_PeterHU.pdf">CV</a> | <a
-                        href="https://www.linkedin.com/in/peterhu2022/">LinkedIn</a> | <a
-                        href="https://github.com/PeterHUistyping">Github</a>
-                    | More <br/>
-                </td>
+            <Profile1/>
+            <Profile2/>
             </tr>
         </tbody>
     </table>
     )
+}
+function Profile1(){
+    return(
+        <td width="280" rowspan="1" height="300">
+            <div> 
+                    <img class="img_profile" src="./asset/photo/Peter_Hu.jpg" alt="Profile Photo"/>
+            </div>
+        </td>
+      
+    )
+}
+function Profile2(){
+    return(
+        <td width="280" text-align="center">
+    <h1 id="contact"><i>Peter</i> HU </h1>
+     
+    <p> University of Cambridge <br/>Computer Science <br/>Part IA</p> <br/><strong>Contact
+        Details</strong><br/>
+    Email: zh369@cam.ac.uk <br/> Phone: (+44) 07990 719841
+    <br/><a href="./asset/doc/CV_PeterHU.pdf">CV</a> | <a
+        href="https://www.linkedin.com/in/peterhu2022/">LinkedIn</a> | <a
+        href="https://github.com/PeterHUistyping">Github</a>
+    | More <br/>
+</td>
+      
+    )
+   
 }
