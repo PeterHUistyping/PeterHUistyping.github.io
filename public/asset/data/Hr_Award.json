@@ -4,7 +4,7 @@
     "pic2_src":"./asset/photo/Assignment/6/1.JPG",
     "pic2_alt":"Presentation",
     "Title":"Gold Medal in UK Tech Arena 2022",
-    "Category":"Programming in C and C++, Compression, Concurrent",
+    "Category":"C and C++, Compression, Concurrent",
     "line":4,
     "Des1": "In a team of 4, winning £7000 prize.",
     "Des2":"Responsible for LZSS algorithm and improvements.",
@@ -38,7 +38,7 @@
 {
      
     "Title":"Jardine Scholarship",
-    "Category":"Python, Data Analysis, Route-Planning",
+    "Category":"Award",
     "line":1,
     "Des1": "Fully-funded Scholarship during my study at University of Cambridge",
     "Italic":"Issued by Jardine Foundation",

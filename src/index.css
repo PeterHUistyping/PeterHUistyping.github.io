@@ -1,1 +1,49 @@
+.blog_sorting p {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.blog_sorting table {
+    border: solid 1px white;
+    background-color: bisque;
+    border-collapse: collapse;
+    width: 100%;
+    cursor: default;
+}
+
+.blog_sorting tr {
+    border: solid 1px #666;
+    height: 30px;
+}
+
+.blog_sorting table thead tr {
+    background-color: rgb(240, 157, 4);
+}
+
+.blog_sorting td {
+    border: solid 1px #666;
+
+}
+
+.blog_sorting th {
+    border: solid 1px #666;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sequence {
+    text-align: center;
+}
  
+.blog_sorting table td a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.blog_sorting table td :hover {
+    background-color: rgb(255, 203, 107);
+}

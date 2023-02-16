@@ -1,9 +1,18 @@
- import Home from "./Home";
-import HrAw_table from "./js/HrAw_Table";
- import PrAs_table from "./js/PrAs_Table";
+import {Route,Routes} from "react-router-dom"
+import {Home} from "./js/Home"
+import {Blog_Sorting} from "./js/Blog_Sorting"
+
 function App() {
   return (
-        <Home/> 
+  <>
+    <nav>
+    <a href="/Blog_Sorting">blog</a>
+    </nav>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/Blog_Sorting" element={<Blog_Sorting />}/>
+      </Routes>
+      </>
   );
 }
 

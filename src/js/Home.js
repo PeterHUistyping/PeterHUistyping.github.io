@@ -1,6 +1,6 @@
- import HrAw_table from "./js/HrAw_Table";
- import PrAs_table from "./js/PrAs_Table";
-function Home() {
+ import HrAw_table from "./HrAw_Table";
+ import PrAs_table from "./PrAs_Table";
+export function Home() {
   return (
     <div className="App">
           
@@ -72,7 +72,4 @@ function Home() {
 
   );
 }
-function Person(){
-  
-}
-export default Home;
+

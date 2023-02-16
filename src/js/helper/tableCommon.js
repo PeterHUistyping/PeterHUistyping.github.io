@@ -11,7 +11,7 @@ function Pic(props){
     )
     else
     return(
-        <td class="table_pastproject_photo" rowspan="2">
+        <td class="table_without_photo" rowspan="2">
         <div>
             <div>
           
