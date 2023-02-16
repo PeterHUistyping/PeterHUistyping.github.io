@@ -49,3 +49,5 @@ plugins: [
  ->
  include: [paths.appSrc,"./public/asset"],
  ```
+Get the React app with Routing to work on GitHub pages.<br/>
+Solution: Using HashRouter.
