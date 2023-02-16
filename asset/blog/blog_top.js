@@ -8,7 +8,7 @@ document.write('            <li>');
 document.write('                <a href="../../index.html">🏠HOME</a>');
 document.write('            </li>');
 
-document.write('            <li> <a href="../../index.html.html#project">📊Project</a>');
+document.write('            <li> <a href="../../index.html#project">📊Project</a>');
 document.write('                <ul>');
 document.write('                    <li> <a href="../../index.html.html#ongoing_project">🆕Ongoing Project</a></li>');
 document.write('                    <li> <a href="../../index.html.html#previous_project">📖Previous Project</a></li>');
