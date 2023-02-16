@@ -5,7 +5,7 @@ document.write('            <li>');
 document.write('                <a_ href="#"><I>Peter </I>HU\'s Website</a_>');
 document.write('            </li>');
 document.write('            <li>');
-document.write('                <a href="../../index.html.html">🏠HOME</a>');
+document.write('                <a href="../../index.html">🏠HOME</a>');
 document.write('            </li>');
 
 document.write('            <li> <a href="../../index.html.html#project">📊Project</a>');
