@@ -1,4 +1,4 @@
-export function Pic(props){
+function Pic(props){
     if(props.src)
     return( 
         <td class="table_pastproject_photo" rowspan="2">
@@ -53,7 +53,7 @@ function Italic_Intro(props){
             <div><i>{props.Italic}</i><br/></div>
         )
 }
-export function Intro(props){
+function Intro(props){
     
     return(
         <td class="width: 600px;" rowspan="2">
@@ -72,3 +72,38 @@ export function Intro(props){
     )
 }
  
+function PicIntro_table(proxy){
+    return(
+        <tr>
+            <Pic 
+                src={proxy.resource[proxy.id].pic1_src}
+                alt={proxy.resource[proxy.id].pic1_alt}/>
+            <Pic 
+                src={proxy.resource[proxy.id].pic2_src}
+                alt={proxy.resource[proxy.id].pic2_alt}/>
+            <Intro 
+            Title={proxy.resource[proxy.id].Title}
+            Category={proxy.resource[proxy.id].Category}
+            line={proxy.resource[proxy.id].line}
+            Des1={proxy.resource[proxy.id].Des1}
+            Des2={proxy.resource[proxy.id].Des2}
+            Des3={proxy.resource[proxy.id].Des3}
+            Des4={proxy.resource[proxy.id].Des4}
+            Italic={proxy.resource[proxy.id].Italic}
+            Time={proxy.resource[proxy.id].Time}
+            Github={proxy.resource[proxy.id].Github}
+            Blog={proxy.resource[proxy.id].Blog}
+            PDF={proxy.resource[proxy.id].PDF}
+            Video={proxy.resource[proxy.id].Video}
+            More={proxy.resource[proxy.id].More}
+            />      
+        </tr>
+    )
+}
+export function Tbody(props){
+    return(
+    <tbody>
+        <PicIntro_table id={props.id} resource={props.resource}/> 
+    </tbody>
+    )
+}
