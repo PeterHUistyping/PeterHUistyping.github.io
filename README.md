@@ -7,6 +7,7 @@ With Blogs, Projects, Files,etc updated from time to time.
 npx create-react-app .
 npm install gh-pages --save-dev
 npm install react-router-dom
+npm install jquery
 ```
 ## React Usage
 ```

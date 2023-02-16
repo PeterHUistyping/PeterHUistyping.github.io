@@ -1,9 +1,12 @@
  import HrAw_table from "./HrAw_Table";
  import PrAs_table from "./PrAs_Table";
+ import Index_Footer from "./helper/index_footer";
+ import Index_Top from "./helper/index_top";
 export function Home() {
   return (
-    <div className="App">
-          
+
+    <div>
+    <Index_Top/>       
     <div class="h2_center">About Me</div>
     <div class="container">
         I am a Computer Science student studying at University of Cambridge. What I really enjoy is the beauty of
@@ -68,7 +71,10 @@ export function Home() {
     Ethics in Mathematics<br />
     <strong>Economics Related Topics: </strong>
     Macro & Micro, Money Banking 
+
+    <Index_Footer />
     </div>
+
 
   );
 }
