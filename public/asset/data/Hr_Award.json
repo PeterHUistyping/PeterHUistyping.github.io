@@ -1,7 +1,7 @@
 [ {
-    "pic1_src":"../photo/Assignment/6/cf.png",
+    "pic1_src":"./asset/photo/Assignment/6/cf.png",
     "pic1_alt":"Comparing different Levels",
-    "pic2_src":"../photo/Assignment/6/1.JPG",
+    "pic2_src":"./asset/photo/Assignment/6/1.JPG",
     "pic2_alt":"Presentation",
     "Title":"Gold Medal in UK Tech Arena 2022",
     "Category":"Programming in C and C++, Compression, Concurrent",
@@ -13,15 +13,15 @@
     "Italic":"Issued by Huawei UK R&D",
     "Time":"2022.10.20-2022.11.26",
     "Github":"https://github.com/PeterHUistyping/UKTechArena-3DGraphics_Compression_Algorithm-Metaverse",
-    "Blog":"../blog/blog6.html",
-    "PDF":"../doc/Crazy_Thursday.pdf",
+    "Blog":"./asset/blog/blog6.html",
+    "PDF":"./asset/doc/Crazy_Thursday.pdf",
     "Video":"https://www.linkedin.com/company/huawei/videos/native/urn:li:ugcPost:7021747028581904384/",
     "More":"https://github.com/PeterHUistyping/LZSS_with_Concurrent_Demo"
 },
 {
-    "pic1_src":"../photo/Assignment/7/Map.png",
+    "pic1_src":"./asset/photo/Assignment/7/Map.png",
     "pic1_alt":"Route_Planning",
-    "pic2_src":"../photo/Assignment/7/Team_Member.png",
+    "pic2_src":"./asset/photo/Assignment/7/Team_Member.png",
     "pic2_alt":"Team_Member",
     "Title":"Top 2 Team in Mercuria Hackathon 2022",
     "Category":"Python, Data Analysis, Route-Planning",
@@ -33,7 +33,7 @@
     "Italic":"Issued by Mercuria Energy Trading, Switzerland",
     "Time":"2022.12.16-2022.12.18",
     "Github":"https://github.com/PeterHUistyping/Mercuria_Hackathon2022",
-    "Blog":"../blog/blog7.html"
+    "Blog":"./asset/blog/blog7.html"
 },
 {
      
@@ -43,6 +43,6 @@
     "Des1": "Fully-funded Scholarship during my study at University of Cambridge",
     "Italic":"Issued by Jardine Foundation",
     "Time":"2022.02",
-    "PDF":"../doc/Jardine_Certificate.jpg"
+    "PDF":"./asset/doc/Jardine_Certificate.jpg"
     
 }]

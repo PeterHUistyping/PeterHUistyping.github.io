@@ -100,10 +100,21 @@ function PicIntro_table(proxy){
         </tr>
     )
 }
-export function Tbody(props){
+function Tbody(props){
     return(
     <tbody>
         <PicIntro_table id={props.id} resource={props.resource}/> 
     </tbody>
+    )
+}
+export function All_table(props){
+    //const keys = [...Array(resource.length).keys()];
+    const keys = [...Array(props.resource.length).keys()];
+    return(
+    <table class="table_pastproject">
+        {keys.map((item)=>(
+            <Tbody id={item} resource={props.resource}/>
+        ))}  
+    </table> 
     )
 }

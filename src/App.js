@@ -1,6 +1,5 @@
- 
-import HrAw_table from "./js/HrAw_Resource"
-
+ import HrAw_table from "./js/HrAw_Resource";
+ import PrAs_table from "./js/PrAs_Table";
 function App() {
   return (
     <div className="App">
@@ -12,8 +11,7 @@ function App() {
         enjoy exploring unknown features. The joy of improving myself step by step is what I enjoy.
     </div>
     
-    <div id="HrAw2"></div>
-    <script type="module text/jsx" src="./js/HrAw_Resource.js"></script> 
+ 
     <h2><b>WORK EXPERIENCE</b></h2>
     
     <b>GPU Software Engineer Intern </b><i> 2022.12- Present</i> <br />
@@ -56,11 +54,10 @@ function App() {
     <HrAw_table />
  
      
-    
-    <h2 id="project_sub"><b>PROJECT and ASSIGNMENT</b></h2>
    
-    <script src="./js/PrAs_Table.js" type="module" ></script>
-    <div id="PrAs"></div> 
+    <h2 id="project_sub"><b>PROJECT and ASSIGNMENT</b></h2>
+    <PrAs_table />
+    
     
 
    

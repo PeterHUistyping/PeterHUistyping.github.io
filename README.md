@@ -19,17 +19,31 @@ Relative imports outside of src/ are not supported.
 You can either move it inside src/, or add a symlink to it from project's node_modules/.
 ```
 Solution:
-Go to dictionary with your package, in your case your xxx file
+node_modules/react-scripts/config/webpack.config.js
 ```
-cd ../xxx
-npm link
-```
-Next go to some other location and:
-```
-npm link <your_package>
+plugins: [
+// Prevents users from importing files from outside of src/ (or node_modules/).
+// This often causes confusion because we only process files within src/ with babel.
+// To fix this, we prevent you from importing files out of src/ -- if you'd like to,
+// please link the files into your node_modules/ and let module-resolution kick in.
+// Make sure your source files are compiled, as they will not be processed in any way.
+// new ModuleScopePlugin(paths.appSrc, [
+//   paths.appPackageJson,
+//   reactRefreshRuntimeEntry,
+//   reactRefreshWebpackPluginRuntimeEntry,
+//   babelRuntimeEntry,
+//   babelRuntimeEntryHelpers,
+//   babelRuntimeRegenerator,
+// ]),
+ ```
 
-ls -al $(npm root -g)
-
-sudo npm rm --global asset 
-In your parent project terminal, go ahead and run npm unlink fancy-button to unlink the dependency.
-```
+ ```
+ Can't resolve '../.png' in '/src/js'
+ ```
+ Solution:
+ Same file
+ ```
+ include: paths.appSrc,
+ ->
+ include: [paths.appSrc,"./public/asset"],
+ ```
