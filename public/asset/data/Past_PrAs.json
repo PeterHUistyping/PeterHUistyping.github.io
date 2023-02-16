@@ -1,0 +1,61 @@
+[
+    {
+        "pic1_src":"./asset/photo/Assignment/9/Web.png",
+        "pic1_alt":"Web Game",
+        "pic2_src":"./asset/photo/Assignment/9/Frozen.png",
+        "pic2_alt":"Frozen",
+        "Title":"Priest Beneath",
+        "Category":"Unity, C#, Game-Dev",
+        "line":2,
+        "Des1":"2023 Cambridge GAME JAM",
+        "Des2": "Great team work on an amazing Game Project",
+        "Time":"10 Feb - 12 Feb 2023",
+        "Github":"https://github.com/PeterHUistyping/Priest-Beneath",
+        "Blog":"./asset/blog/blog9.html",
+        "More":"https://peterhuistyping.github.io/Priest-Beneath/"
+    },
+    {
+        "pic1_src":"./asset/photo/Assignment/3/DB1.png",
+        "pic1_alt":"DB",
+        "pic2_src":"./asset/photo/Assignment/3/DB2.png",
+        "pic2_alt":"Database",
+        "Title":" Database SQL",
+        "Category":"HW for CMU15-445",
+        "line":1,
+        "Des1": "Operate on schema of 6 tables. Use of CTEs (With .. AS)",
+        "Italic":"IMDB data, SQLite DBMS",
+        "Time":"2022.8",
+        "Github":"https://github.com/PeterHUistyping/CMU15-445_SQL_HW1_Fall2019"
+        
+    },
+    {
+        "pic1_src":"./asset/photo/Assignment/2/Order_txt.png",
+        "pic1_alt":"Order_txt",
+        "pic2_src":"./asset/photo/Assignment/2/Order.png",
+        "pic2_alt":"Order",
+        "Title":"Multifunctional Supermarket Management System",
+        "Category":"Cpp & OOP Project",
+        "line":2,
+        "Des1": "Using Inheritance(Parent-Child), Polymorphism(Operator Overloading)",
+        "Des2":"Read/Write Files, just to name a few",
+        "Time":"2022.4",
+        "Github":"https://github.com/PeterHUistyping/Supermarket-Management-System",
+        "Blog":"./asset/blog/blog2.html"
+      
+    },
+    {
+        "pic1_src":"./asset/photo/Assignment/1/Interface.png",
+        "pic1_alt":"Interface",
+        "pic2_src":"./asset/photo/Assignment/1/KEYBOARD-RAINBOW.png",
+        "pic2_alt":"KEYBOARD-RAINBOW",
+        "Title":"Typing Game",
+        "Category":"C Programming Project",
+        "line":1,
+        "Des1": "Graphically Beautiful Interactive Game",
+        "Italic":"C & EasyX",
+        "Time":"2021.12",
+        "Github":"https://github.com/PeterHUistyping/Typing-Game",
+        "Blog":"./asset/blog/blog1.html"
+        
+    }
+]
