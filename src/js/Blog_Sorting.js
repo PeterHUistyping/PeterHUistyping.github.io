@@ -26,7 +26,7 @@ function Table_content(props){
         <>
         <tr class="hover">
           <td class="sequence">{props.id}</td>
-          <td><a href={"./asset/blog/"+props.resource.Blog}/><center>{props.resource.Title}</center></td>  
+          <td><a href={"/asset/blog/"+props.resource.Blog}><center>{props.resource.Title}</center></a></td>  
           <td>{props.resource.Time}</td>
           <td>{props.resource.Category}</td>  
         </tr>

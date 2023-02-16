@@ -7,6 +7,7 @@ function App() {
   <>
     <nav>
     <a href="/Blog_Sorting">blog</a>
+    <a href="/asset/blog/blog8.html"><center>Blog8</center></a>
     </nav>
       <Routes>
         <Route path="/" element={<Home />}/>
