@@ -21,7 +21,7 @@ export default function Blog_Top(){
             <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li>
             <li><a href="/Blog_Sorting">📝Blog</a> 
                 <ul>
-                    <li> <a href="./blog5.html">⛵Update</a></li>
+                    <li> <a href="/asset/blog/blog5.html">⛵Update</a></li>
                 </ul>
             </li>
             <li><a href="../#contact">📬Contact</a></li>
