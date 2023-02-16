@@ -11,7 +11,7 @@
         "Des2": "Great team work on an amazing Game Project",
         "Time":"10 Feb - 12 Feb 2023",
         "Github":"https://github.com/PeterHUistyping/Priest-Beneath",
-        "Blog":"./asset/blog/blog9.html",
+        "Blog":"blog9.html",
         "More":"https://peterhuistyping.github.io/Priest-Beneath/"
     },
     {
@@ -26,7 +26,6 @@
         "Italic":"IMDB data, SQLite DBMS",
         "Time":"2022.8",
         "Github":"https://github.com/PeterHUistyping/CMU15-445_SQL_HW1_Fall2019"
-        
     },
     {
         "pic1_src":"./asset/photo/Assignment/2/Order_txt.png",
@@ -40,7 +39,7 @@
         "Des2":"Read/Write Files, just to name a few",
         "Time":"2022.4",
         "Github":"https://github.com/PeterHUistyping/Supermarket-Management-System",
-        "Blog":"./asset/blog/blog2.html"
+        "Blog":"blog2.html"
       
     },
     {
@@ -55,7 +54,7 @@
         "Italic":"C & EasyX",
         "Time":"2021.12",
         "Github":"https://github.com/PeterHUistyping/Typing-Game",
-        "Blog":"./asset/blog/blog1.html"
+        "Blog":"blog1.html"
         
     }
 ]

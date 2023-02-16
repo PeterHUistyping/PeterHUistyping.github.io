@@ -53,6 +53,14 @@ function Italic_Intro(props){
             <div><i>{props.Italic}</i><br/></div>
         )
 }
+function Blog_link(props){
+    if(props.link){
+        return (<a href={"./asset/blog/"+props.link}>📝Blog</a>)
+    }
+    else{
+        return (<a href={props.link}>📝Blog</a>)
+    }
+}
 function Intro(props){
     
     return(
@@ -67,7 +75,7 @@ function Intro(props){
             <Italic_Intro Italic={props.Italic}/>
             {props.Time}<br/>
             <a href={props.Github}>Project (Github) </a>
-            | <a href={props.Blog}>📝Blog</a> | <a href={props.PDF}>PDF</a> | <a href={props.Video}>Video</a>  | <a href={props.More}>More</a> <br/> 
+            | <Blog_link link={props.Blog}/> | <a href={props.PDF}>PDF</a> | <a href={props.Video}>Video</a>  | <a href={props.More}>More</a> <br/> 
         </td>
     )
 }

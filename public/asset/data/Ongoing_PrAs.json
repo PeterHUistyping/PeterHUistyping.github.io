@@ -16,7 +16,7 @@
         "Des2":"Text Classification using ML with improvements, including Naive Bayes classifier, Cross-Validation, NLP",
         "Time":"2023.1.17-Present",
         "Github":"https://github.com/PeterHUistyping/Machine_Learning-Real_World_Data",
-        "Blog":"./asset/blog/blog8.html"
+        "Blog":"blog8.html"
         
     },
     {
@@ -47,7 +47,7 @@
         "Des4": "@brief @param @return @author @date @version",
         "Time":"2022.9.9-Present",
         "Github":"https://github.com/PeterHUistyping/CMU15-445_Database_Project",
-        "Blog":"./asset/blog/blog4.html",
+        "Blog":"blog4.html",
         "More":"https://google.github.io/styleguide/cppguide.html"
     },
     {
@@ -60,7 +60,7 @@
         "Des4": "Useful Coding Skills: Command line Argument; Using Assert(); On each .h, #progma once",
         "Time":"2022.8-Present",
         "Github":"https://github.com/PeterHUistyping/MIT6.837-CG-Fall2004-Assignment",
-        "Blog":"./asset/blog/blog3.html" 
+        "Blog":"blog3.html" 
     },
     {
         "Title":"Algorithm and Data Structure",
