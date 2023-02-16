@@ -1,4 +1,5 @@
-.blog_sorting p {
+/* For blog */
+.blog_sorting p { 
     width: 1024px;
     margin: 0 auto;
 }

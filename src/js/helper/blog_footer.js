@@ -1,3 +1,4 @@
+import FooterCommon from "./footerCommom"
 export default function Blog_Footer(){
     return(
     <>
@@ -14,11 +15,7 @@ export default function Blog_Footer(){
                 <td>
                     Originally written in Markdown(.md). Convert Markdown to HTML via <a
                         href="https://showdownjs.com/">Showdown</a><br/>
-                    © Copyright 2022-2023 PeterHU. Hosted by <a href="https://pages.github.com/">GitHub Pages</a> and <a href="https://reactjs.org">React App</a>.<br/>
-                    Last updated:
-                    <script>
-                        document.write(document.lastModified);
-                    </script>
+                   <FooterCommon />
                 </td>
             </tbody>
         </table>
