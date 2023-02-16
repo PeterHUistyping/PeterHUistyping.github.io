@@ -10,8 +10,8 @@ document.write('            </li>');
 
 document.write('            <li> <a href="../../index.html#project">📊Project</a>');
 document.write('                <ul>');
-document.write('                    <li> <a href="../../index.html.html#ongoing_project">🆕Ongoing Project</a></li>');
-document.write('                    <li> <a href="../../index.html.html#previous_project">📖Previous Project</a></li>');
+document.write('                    <li> <a href="../../index.html#ongoing_project">🆕Ongoing Project</a></li>');
+document.write('                    <li> <a href="../../index.html#previous_project">📖Previous Project</a></li>');
 document.write('                </ul>');
 document.write('            </li>');
 
@@ -21,7 +21,7 @@ document.write('                <ul>');
 document.write('                    <li> <a href="./blog5.html">⛵Update</a></li>');
 document.write('                </ul>');
 document.write('            </li>');
-document.write('            <li><a href="../../index.html.html#contact">📬Contact</a></li>');
+document.write('            <li><a href="../../index.html#contact">📬Contact</a></li>');
 document.write('            <li><a href="#">⬆️Top</a></li>');
 
 document.write('            <li><a href="./blog.html">🎶Music</a>');
