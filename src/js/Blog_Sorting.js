@@ -6,10 +6,12 @@ import Past from '../../public/asset/data/Past_PrAs.json';
 import Blog_Footer from "./helper/blog_footer";
 import Blog_Top from "./helper/blog_top";
 import $ from "jquery";
+import ScrollToTop from "./helper/ScrollToTop";
 var resource=Ongoing.concat(Hr_Award);
 resource=resource.concat(Past); 
 export function Blog_Sorting(){
-    return(
+    return(   
+    <ScrollToTop> 
     <div>
      <Blog_Top/>
     <center>
@@ -22,7 +24,9 @@ export function Blog_Sorting(){
     <Table resource={resource}/>
  
    <Blog_Footer />
-    </div> )
+    </div> 
+    </ScrollToTop>
+    )
 }
 $(document).ready(function () {
     var tableObject = $('#tableSort');// get 
