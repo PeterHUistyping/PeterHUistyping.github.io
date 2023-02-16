@@ -107,7 +107,7 @@ function Tbody(props){
     </tbody>
     )
 }
-export function All_table(props){
+export default function All_table(props){
     //const keys = [...Array(resource.length).keys()];
     const keys = [...Array(props.resource.length).keys()];
     return(

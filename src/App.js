@@ -1,4 +1,4 @@
- import HrAw_table from "./js/HrAw_Resource";
+ import HrAw_table from "./js/HrAw_Table";
  import PrAs_table from "./js/PrAs_Table";
 function App() {
   return (
