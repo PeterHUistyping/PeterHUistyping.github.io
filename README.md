@@ -56,3 +56,4 @@ This is a solution to React Router's issue of not scrolling to #hash-fragments w
 npm i react-router-hash-link
 <HashLink to="/#about">About</HashLink> 
 ```
+Or manually, change from /# to /#/#
