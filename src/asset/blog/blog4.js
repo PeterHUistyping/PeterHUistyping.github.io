@@ -7,8 +7,85 @@ export function Blog4(){
     <div>
         <Blog_Top/>
             <>
+            <h1 id="project_database">Database Design Project (C++)</h1>
+    <h1 id="cmu15445_database_project">CMU15-445 <em>Database</em> Project</h1>
+    <p>Database Design Project (C++)<br />
+        Course Link: </p>
+    <p>https://15445.courses.cs.cmu.edu/fall2021/assignments.html </p>
+    <p>Project Link: </p>
+    <p>https://github.com/cmu-db/bustub </p>
+    <h2 id="environment">Environment</h2>
+    <p>Mac &amp; Linux_Ubuntu (VMware)</p>
+    <h2 id="tools">Tools</h2>
+    <p>CMake, Google C++ Style Guide, Unit Testing, etc </p>
+    <h2 id="gradescopetestfile">Gradescope Test File</h2>
+     Print out the test file to get the whole Gradescope test file!<br />
+        FILE *out;<br />
+        out = fopen("/autograder/bustub/test/buffer/ grading<em>buffer</em>pool<em>manager</em>instance<em>test.cpp",
+            "r");
+            // out = fopen("../test/buffer/buffer</em>pool<em>manager</em>instance_test.cpp", "r");<br />
+        char ch;<br />
+   
 
-                <a href="#">See More on GitHub</a>
+    <h2 id="project0">Project 0</h2>
+    <p><img src="bustub/submission/Photo/Project0_GS.png" alt="Pr0" /> </p>
+    <p>Keypoint used in C++:<br />
+        Template -- template  
+            Exception </p>
+    <p>How to create m*n arrays [the 2nd way-inherit] </p>
+    <p>Google C++ Style Guide<br />
+        Naming_Class Data Members need a trailing underscore. </p>
+    <pre><code>
+    ** no viable conversion from   
+    std::unique_ptr&lt;bustub::RowMatrix&lt;int&gt; : temp   
+    const RowMatrix&lt;T&gt; * : temp.get()  
+    
+    Consider replacing 'unsigned long' with 'uint64' uint64_t  
+    C-style casts are discouraged; use static_cast/const_cast/reinterpret_cast  
+    Convert one int -&gt;int64_t  
+    const uint64_t size = (static_cast&lt;uint64_t&gt;(rows_) * cols_)  
+    </code></pre>
+     <img src="bustub/submission/Photo/check-clang-tidy.png" alt="Check-clang-tidy" /><br />
+        <img src="bustub/submission/Photo/Project0_1.png" alt="Pr0" />
+     
+
+    <h2 id="project1">Project 1</h2>
+    <p><img src="bustub/submission/Photo/Project1_GS.png" alt="Pr1_Gradescope" /> </p>
+    <p>Reference: Database-System-Concepts-7th-Edition Ch13.5 Database Buffer </p>
+    <p>LRU Replacer<br />
+        Need to search in o(1), delete; Perform like a stack<br />
+        Data Structure: Hash map + Linked list </p>
+    <p>Buffer Pool Manager (BPM) Instance<br />
+        </p>
+    <p>Class Pages (including content;page<em>id</em> ;pin<em>count</em> = 0; is<em>dirty</em>)<br />
+        Class BPM is friend class of Pages<br />
+        Class DiskManager(Responsible for writing page from BPM to Disk) </p>
+    <p>-&gt; Parallel BPM, which has its own latch / Inheritance </p>
+    <p>Print out the test file to get the whole Gradescope test file!<br />
+        /<em>Gradescope Test output</em>/ </p>
+    <pre><code>
+            FILE *out;
+            out = fopen("/autograder/bustub/test/buffer/grading_..._test.cpp", "r");  
+            // out = fopen("../test/buffer/..._test.cpp", "r");  
+            char ch;  
+            while ((ch = getc(out)) != EOF)  
+                putchar (ch)
+             
+            fclose(out);  
+            </code></pre>
+     Get the path for testing on Gradescope using getcwd().<br />
+        #include   direct.h ; (Windows)<br />
+            #include   unistd.h ; (Linux/Mac)<br />
+                int MAX<em>PATH = 10000;
+                    char buffer[MAX</em>PATH];<br />
+                std::cout &lt;&lt; getcwd(buffer, MAX_PATH);  
+    <p>latch .lock();</p>
+
+ 
+     <img src="bustub/submission/Photo/Project1.png" alt="Pr1" />  
+
+
+    <a href="https://github.com/PeterHUistyping/CMU15-445_Database_Project">See More on GitHub</a>
             </>
     
         <Blog_Footer />
