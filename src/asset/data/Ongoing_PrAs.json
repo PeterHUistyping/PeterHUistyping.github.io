@@ -1,0 +1,90 @@
+[
+    {
+        "Title":"Computer Vision",
+        "Category":"Stanford CS231n",
+        "line":2,
+        "Des1": "⛵Update: Start from 9/Jan/2023 ",
+        "Des2":"Python, Numpy, kNN, Softmax, SVM classifier, Cross Validation",
+        "Time":"2023.1.9-Present",
+        "Github":"https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision"
+    },
+    {
+        "Title":"Machine Learning and Real-world Data",
+        "Category":"Python, Numpy, kNN, Softmax, SVM classifier ...",
+        "line":2,
+        "Des1": "⛵Update: Start from 17/Jan/2023",
+        "Des2":"Text Classification using ML with improvements, including Naive Bayes classifier, Cross-Validation, NLP",
+        "Time":"2023.1.17-Present",
+        "Italic":"Cambridge Part IA",
+        "Github":"https://github.com/PeterHUistyping/Machine_Learning-Real_World_Data",
+        "Blog":"blog8"
+        
+    },
+    {
+        "Title":"Machine Learning",
+        "Category":"Stanford CS229",
+        "line":2,
+        "Des1": "⛵Update: Start from 16/Oct/2022 ",
+        "Des2":"linear classifiers (Logistic Regression, GDA), Stochastic Gradient Descent, L1 L2 Regularization, SVM",
+        "Time":"2022.10.16-Present",
+        "Github":"https://github.com/PeterHUistyping/Stanford_CS229.Machine_Learning"
+      
+    },
+    {
+        "Title":"Operating System",
+        "Category":"MIT 6.S081",
+        "line":1,
+        "Des1": "⛵Update: Start from 14/Oct/2022",
+        "Time":"2022.10.14-Present",
+        "Github":"https://github.com/PeterHUistyping/Operating_System"
+    },
+    {
+        "Title":"Database Design Project",
+        "Category":"C++",
+        "line":4,
+        "Des1": "Buffer Pool Management System, Latch, LRU Replacement policy, Buffer Pool Manager Instance. In order to solve the concurrent problem, implement the PARALLEL Buffer Pool Manager.",
+        "Des2":"C++ STL; Useful Coding Skills: Google C++ Style Guide",
+        "Des3":"logger.h:Debug logging functions for EE / LOG_DEBUG ; gtest/gtest.h:Google Unit Testing<br>", 
+        "Des4": "@brief @param @return @author @date @version",
+        "Time":"2022.9.9-Present",
+        "Github":"https://github.com/PeterHUistyping/CMU15-445_Database_Project",
+        "Italic":"CMU15-445 Project",
+        "Blog":"blog4",
+        "More":"https://google.github.io/styleguide/cppguide.html"
+    },
+    {
+        "Title":"Introduction to Computer Graphics",
+        "Category":"C++, OpenGL",
+        "line":4,
+        "Des1": " With the help of the Open Course, I have implemented a ray tracer using C++, with two kinds of cameras, orthonormal and perspective camera respectively.",
+        "Des2": "In addition, several types of primitives are built, e.g. sphere, triangle, plane, triangle mesh, just to name a few. ",
+        "Des3": "Command-line usage; .vscode configuration.",
+        "Des4": "Useful Coding Skills: Command line Argument; Using Assert(); On each .h, #progma once",
+        "Time":"2022.8-Present",
+        "Italic":"MIT6.387",
+        "Github":"https://github.com/PeterHUistyping/MIT6.837-CG-Fall2004-Assignment",
+        "Blog":"blog3" 
+    },
+    {
+        "Title":"Algorithm and Data Structure",
+        "Category":"Java, C++",
+        "line":1,
+        "Des1": "Leetcode, Intro to Algorithms",
+        "Italic":"MIT 6.006 / Also the Third Edition book",
+        "Time":"2022.9.9-Present",
+        "Github":"https://github.com/PeterHUistyping/Algorithm-Data_Structure"
+       
+    },
+    {
+        "pic1_src":"./asset/photo/Assignment/5/page.png",
+        "pic1_alt":"Webpage",
+        "pic2_src":"./asset/photo/Assignment/5/blog2.0.png",
+        "pic2_alt":"Blog",
+        "Title":"Starting my Personal Page and Blog",
+        "Category":"HTML, CCS, js, React",
+        "line":1,
+        "Des1": "Update Details attached.",
+        "Time":"2022.08-Present"
+        
+    }
+]
