@@ -18,7 +18,7 @@ document.write('            </li>');
 document.write('            <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li>');
 document.write('            <li><a href="/#/Blog_Sorting/#welcome">📝Blog</a> ');
 document.write('                <ul>');
-document.write('                    <li> <a href="./blog5.html">⛵Update</a></li>');
+document.write('                    <li> <a href="/#/blog5">⛵Update</a></li>');
 document.write('                </ul>');
 document.write('            </li>');
 document.write('            <li><a href="/#/#contact">📬Contact</a></li>');

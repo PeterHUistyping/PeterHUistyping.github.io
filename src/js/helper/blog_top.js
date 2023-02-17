@@ -6,7 +6,7 @@ export default function Blog_Top(){
         <div class="top">
         <ul>
             <li>
-                <a_ href="#"><i>Peter </i>HU\'s Website</a_>
+                <a_ href="#"><i>Peter </i>HU's Website</a_>
             </li>
             <li>
                 <a href="../">🏠HOME</a>
@@ -22,7 +22,7 @@ export default function Blog_Top(){
             <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li>
             <li><a href="/#/Blog_Sorting/#welcome">📝Blog</a> 
                 <ul>
-                    <li> <a href="/asset/blog/blog5.html">⛵Update</a></li>
+                    <li> <a href="/#/blog5">⛵Update</a></li>
                 </ul>
             </li>
             <li><HashLink to="/#contact">📬Contact </HashLink> </li>
