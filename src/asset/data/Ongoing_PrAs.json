@@ -53,9 +53,9 @@
         "More":"https://google.github.io/styleguide/cppguide.html"
     },
     {
-        "pic1_src":"./asset/photo/Assignment/blog3/MyProject/Antialiasing.png",
+        "pic1_src":"./asset/photo/Assignment/blog3/Antialiasing.png",
         "pic1_alt":"Antialiasing",
-        "pic2_src":"./asset/photo/Assignment/blog3/MyProject/Self-similar_fractals.png",
+        "pic2_src":"./asset/photo/Assignment/blog3/Self-similar_fractals.png",
         "pic2_alt":"Self-similar fractals",
         "Title":"Introduction to Computer Graphics",
         "Category":"C++, OpenGL",
