@@ -6,6 +6,13 @@ import ScrollToTop from "./js/helper/ScrollToTop";
 import { Blog } from "./asset/blog/new";
 import { Blog1 } from "./asset/blog/blog1";
 import { Blog2 } from "./asset/blog/blog2";
+import { Blog3 } from "./asset/blog/blog3";
+import { Blog4 } from "./asset/blog/blog4";
+import { Blog5 } from "./asset/blog/blog5";
+import { Blog6 } from "./asset/blog/blog6";
+import { Blog7 } from "./asset/blog/blog7";
+import { Blog8 } from "./asset/blog/blog8";
+import { Blog9 } from "./asset/blog/blog9";
 function App() {
   return (
   <> 
@@ -16,6 +23,13 @@ function App() {
         <Route path="/blog" element={<Blog />}/>
         <Route path="/blog1" element={<Blog1 />}/>
         <Route path="/blog2" element={<Blog2 />}/>
+        <Route path="/blog3" element={<Blog3 />}/>
+        <Route path="/blog4" element={<Blog4 />}/>
+        <Route path="/blog5" element={<Blog5 />}/>
+        <Route path="/blog6" element={<Blog6 />}/> 
+        <Route path="/blog7" element={<Blog7 />}/>
+        <Route path="/blog8" element={<Blog8 />}/>
+        <Route path="/blog9" element={<Blog9 />}/>
         <Route element={<NotFound />}/>
       </Routes> 
       </ScrollToTop>

@@ -1,8 +1,8 @@
 import "../index.css";
  
-import Hr_Award from '../../public/asset/data/Hr_Award.json';
-import Ongoing from '../../public/asset/data/Ongoing_PrAs.json';
-import Past from '../../public/asset/data/Past_PrAs.json';
+import Hr_Award from '../asset/data/Hr_Award.json';
+import Ongoing from '../asset/data/Ongoing_PrAs.json';
+import Past from '../asset/data/Past_PrAs.json';
 import Blog_Footer from "./helper/blog_footer";
 import Blog_Top from "./helper/blog_top";
 import $ from "jquery";

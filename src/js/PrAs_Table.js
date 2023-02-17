@@ -1,5 +1,5 @@
-import Ongoing from '../../public/asset/data/Ongoing_PrAs.json';
-import past from '../../public/asset/data/Past_PrAs.json';
+import Ongoing from '../asset/data/Ongoing_PrAs.json';
+import past from '../asset/data/Past_PrAs.json';
 import All_table from './helper/tableCommon';
 function Ongoing_label(){
    return(

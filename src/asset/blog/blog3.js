@@ -1,17 +1,14 @@
-<html>
+import ScrollToTop from "../../js/helper/ScrollToTop";
+import Blog_Footer from "../../js/helper/blog_footer";
+import Blog_Top from "../../js/helper/blog_top";
+export function Blog3(){
+    return(
+    <ScrollToTop> 
+    <div>
+        <Blog_Top/>
+            <>
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="./asset/css/style.css">
-    <style type="text/css">
-    </style>
-</head>
-
-<body>
-    <script src="./blog_top.js"></script>
-
-    <!--  Beginning of the blog  -->
-    <h1 id="mit6837cgfall2004assignment">MIT6.837 Computer Graphics Assignment</h1>
+            <h1 id="mit6837cgfall2004assignment">MIT6.837 Computer Graphics Assignment</h1>
     <div class="h2_center">About this Assignment</div>
     <div class="container">
         <p>With the help of the Open Course, I have the experience of writing a ray tracer using C++, including ray
@@ -27,7 +24,7 @@
             compared with other IDE. Command-line could help build the project efficiently. </p>
     </div>
 
-    <p><img style="width: 960px; height: 540px;"
+    <p><img width=" 960px;" height=" 540px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment0_Barnsley%20fern/Self-similar%20fractals.png"
             alt="Self-similar fractals" /></p>
     <h2 id="lessonmaterial">Lesson Material</h2>
@@ -45,7 +42,7 @@
     IFS Function
     </code></pre>
     <p>A glimpse of it ⬇<br />
-        <img style="width: 960px; height: 540px;"
+        <img width=" 960px;" height=" 540px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment0_Barnsley%20fern/Self-similar%20fractals.png"
             alt="Self-similar fractals" />
     </p>
@@ -55,10 +52,10 @@
     C++ Object Oriented Programming
     </code></pre>
     <p>A glimpse of it ⬇<br />
-        <img style="width: 960px; height: 540px;"
+        <img width=" 960px;" height=" 540px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment1_Sphere-Ray/Sphere.png" alt="Sphere" />
     </p>
-    <p><img style="width: 960px; height: 540px;"
+    <p><img width=" 960px;" height=" 540px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment1_Sphere-Ray/Sphere-depth.png" alt="Depth" /></p>
     <p><em>scene1<em>07.txt sample output is wrong</em> \
             （Use scene1</em>08.txt，camera center 0,0,2 instead）\
@@ -71,14 +68,14 @@
     Affine Transformations 
     </code></pre>
     <p>A glimpse of it ⬇<br />
-        <img style="width: 960px; height: 540px;"
+        <img width=" 960px;" height=" 540px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment2_Tri-Ray/Raytracing1.png"
             alt="Sphere with Normal Visualization & Diffuse Coloring" />
-        <img style="width: 960px; height: 540px;"
+        <img width=" 960px;" height=" 540px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment2_Tri-Ray/Raytracing2.png" alt="Planes & Triangles" />
-        <img style="width: 960px; height: 540px;"
+        <img width=" 960px;" height=" 540px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment2_Tri-Ray/Raytracing3.png" alt="TriangleMesh" />
-        <img style="width: 960px; height: 540px;"
+        <img width=" 960px;" height=" 540px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment2_Tri-Ray/Raytracing4.png" alt="Transformations" />
     </p>
     <p>"-shade_back" to be updated. ✅ Done on Assignment4</p>
@@ -90,11 +87,11 @@
     Specular Color
     </code></pre>
     <p>A glimpse of it ⬇<br />
-        <img style="width: 960px; height: 340px;"
+        <img width=" 960px;" height=" 340px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment3_Open-GL/OpenGL1.png" alt="OpenGL Display 1" />
-        <img style="width: 960px; height: 340px;"
+        <img width=" 960px;" height=" 340px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment3_Open-GL/OpenGL2.png" alt="OpenGL Display 2" />
-        <img style="width: 960px; height: 340px;"
+        <img width=" 960px;" height=" 340px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment3_Open-GL/OpenGL3.png" alt="OpenGL Display 3" />
     </p>
     <p>Guidance:
@@ -115,9 +112,9 @@
     PointLight
     </code></pre>
     <p>A glimpse of it ⬇<br />
-        <img style="width: 960px; height: 540px;"
+        <img width=" 960px;" height=" 540px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment4_Ray-Tracer/RayTracer.png" alt="Ray Tracer" />
-        <img style="width: 960px; height: 540px;"
+        <img width=" 960px;" height=" 540px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment4_Ray-Tracer/RayTracerBUG.png" alt="Ray Tracer BUG" />
     </p>
     <p>*Adjustment
@@ -137,13 +134,13 @@
     Transformation:Flatten the Transformation Hierarchy
     </code></pre>
     <p>A glimpse of it ⬇<br />
-        <img style="width: 960px; height: 340px;"
+        <img width=" 960px;" height=" 340px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment5_Voxel-Rendering/5_1.png" alt="Sphere" />
-        <img style="width: 960px; height: 340px;"
+        <img width=" 960px;" height=" 340px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment5_Voxel-Rendering/5_2.png" alt="Sphere+" />
-        <img style="width: 960px; height: 640px;"
+        <img width=" 960px;" height=" 640px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment5_Voxel-Rendering/5_3.png" alt="Visualization" />
-        <img style="width: 960px; height: 340px;"
+        <img width=" 960px;" height=" 340px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment5_Voxel-Rendering/5_4.png" alt="Stanford Rabbit" />
     </p>
     <p>Updated: extern.h</p>
@@ -161,7 +158,7 @@
     CheckerBoard, Perlin Noise, Wood, etc
     </code></pre>
     <p>A glimpse of it ⬇<br />
-        <img style="width: 960px; height: 540px;"
+        <img width=" 960px;" height=" 540px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment6_Grid-Acceleration+Solid-Textures/Texture.png"
             alt="Texture" />
     </p>
@@ -180,7 +177,7 @@
     <p>A glimpse of it ⬇<br />
         <img src="/asset/photo/Assignment/blog3/MyProject/assignment7_Supersampling+Antialiasing/Antialiasing.png"
             alt="Antialiasing" />
-        <img style="width: 1200px; height: 300px;"
+        <img width=" 1200px;" height=" 300px;"
             src="/asset/photo/Assignment/blog3/MyProject/assignment7_Supersampling+Antialiasing/Supersampling.png"
             alt="Supersampling" />
 
@@ -230,8 +227,10 @@
 
     <a href="https://github.com/PeterHUistyping/MIT6.837-CG-Fall2004-Assignment">See More on GitHub
     </a>
-    <!--  End of the blog  -->
-    <script src="./blog_footer.js"></script>
-</body>
-
-</html>
+            </>
+    
+        <Blog_Footer />
+    </div> 
+    </ScrollToTop>
+    )
+}

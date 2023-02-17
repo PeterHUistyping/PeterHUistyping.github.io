@@ -1,4 +1,4 @@
-import resource from '../../public/asset/data/Hr_Award.json';
+import resource from '../asset/data/Hr_Award.json';
 import All_table from './helper/tableCommon';
 
 export default function HrAw_table(){
