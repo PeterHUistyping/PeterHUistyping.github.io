@@ -1,18 +1,15 @@
-<html>
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="../../css/style.css">
-    <style type="text/css">
-    </style>
-</head>
-
-<body>
-    <script src="./blog_top.js"></script>
-
-    <h1>Typing-Game</h1>
+import ScrollToTop from "../../js/helper/ScrollToTop";
+import Blog_Footer from "../../js/helper/blog_footer";
+import Blog_Top from "../../js/helper/blog_top";
+export function Blog1(){
+    return(
+    <ScrollToTop> 
+    <div>
+    <Blog_Top/>
+        <>
+        <h1>Typing-Game</h1>
     C Project Super Programmer Game Development<br/>
-    <img style="width: 960px; height: 540px;" src="../photo/Assignment/1/Interface.png" alt="Interface">
+    <img width= "960px" height="540px" src="/asset/photo/Assignment/1/Interface.png" alt="Interface"/>
     <br/>
 
     <a href="https://github.com/PeterHUistyping/Typing-Game">Project
@@ -39,10 +36,12 @@
     ground, smashing a gap. When there are too much gaps, it is considered a failure.<br/>
     You can design a character with a reward, and pressing this one will automatically fill in some gaps.
     Scoring rules can be designed.<br/>
-    <img style="width: 960px; height: 540px;" src="../photo/Assignment/1/KEYBOARD-RAINBOW.png" alt="KEYBOARD-RAINBOW">
+    <img width= "960px" height="540px" src="/asset/photo/Assignment/1/KEYBOARD-RAINBOW.png" alt="KEYBOARD-RAINBOW"/>
     <br/><a href="https://github.com/PeterHUistyping/Typing-Game">See More on GitHub </a>
-
-    <script src="./blog_footer.js"></script>
-</body>
-
-</html>
+    </>
+     
+    <Blog_Footer />
+     </div> 
+    </ScrollToTop>
+    )
+}

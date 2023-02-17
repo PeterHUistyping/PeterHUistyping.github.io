@@ -1,6 +1,6 @@
-import ScrollToTop from "../helper/ScrollToTop";
-import Blog_Footer from "../helper/blog_footer";
-import Blog_Top from "../helper/blog_top";
+import ScrollToTop from "../../js/helper/ScrollToTop";
+import Blog_Footer from "../../js/helper/blog_footer";
+import Blog_Top from "../../js/helper/blog_top";
 export function Blog(){
     return(
     <ScrollToTop> 
