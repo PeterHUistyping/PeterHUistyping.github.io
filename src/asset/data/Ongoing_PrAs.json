@@ -9,6 +9,10 @@
         "Github":"https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision"
     },
     {
+        "pic1_src":"./asset/photo/Assignment/8/Estimation of log-log.png",
+        "pic1_alt":"Zipf",
+        "pic2_src":"./asset/photo/Assignment/8/Numbers of Words.png",
+        "pic2_alt":"Heaps",
         "Title":"Machine Learning and Real-world Data",
         "Category":"Python, Numpy, kNN, Softmax, SVM classifier ...",
         "line":2,
