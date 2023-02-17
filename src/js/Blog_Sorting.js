@@ -7,23 +7,26 @@ import Blog_Footer from "./helper/blog_footer";
 import Blog_Top from "./helper/blog_top";
 import $ from "jquery";
 import ScrollToTop from "./helper/ScrollToTop";
+import Resource  from "./resource";
 var resource=Ongoing.concat(Hr_Award);
 resource=resource.concat(Past); 
 export function Blog_Sorting(){
     return(   
     <ScrollToTop> 
-    <div>
-     <Blog_Top/>
-    <center>
-   <p id="welcome"><strong><font size="+3"> Welcome to My Personal Blog📝</font></strong></p>
-   </center>
+        <div>
+        <Blog_Top/>
+        <center>
+            <p id="welcome"><strong><font size="+3"> Welcome to My Personal Blog📝</font></strong></p>
+        </center>
    <br />  
    
-   &ensp;&ensp;&ensp;
-   {/* ⬇ <i>Sort Data on Header Click</i> */}
+    &ensp;&ensp;&ensp;
+    {/* ⬇ <i>Sort Data on Header Click</i> */}
     <Table resource={resource}/>
  
-   <Blog_Footer />
+    <Resource />
+ 
+    <Blog_Footer />
     </div> 
     </ScrollToTop>
     )
