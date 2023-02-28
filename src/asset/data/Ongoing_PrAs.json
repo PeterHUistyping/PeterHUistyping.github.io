@@ -1,6 +1,10 @@
 [
     {
         "Title":"Computer Vision",
+        "pic1_src":"./asset/photo/Assignment/other/CV_CIFAR-10.png", 
+        "pic1_alt":"CV_CIFAR-10",
+        "pic2_src":"./asset/photo/Assignment/other/CV_Cross-Validation.png",
+        "pic2_alt":"CV_Cross-Validation",
         "Category":"Stanford CS231n",
         "line":2,
         "Des1": "⛵Update: Start from 9/Jan/2023 ",
@@ -26,6 +30,8 @@
     },
     {
         "Title":"Machine Learning",
+        "pic1_src":"./asset/photo/Assignment/other/ML_GDA.png", 
+        "pic1_alt":"ML_GDA",
         "Category":"Stanford CS229",
         "line":2,
         "Des1": "⛵Update: Start from 16/Oct/2022 ",
@@ -36,6 +42,10 @@
     },
     {
         "Title":"Operating System",
+        "pic1_src":"./asset/photo/Assignment/other/OS_CAM.png", 
+        "pic1_alt":"TLB",
+        "pic2_src":"./asset/photo/Assignment/other/OS_Process.png",
+        "pic2_alt":"Process",
         "Category":"MIT 6.S081",
         "line":1,
         "Des1": "⛵Update: Start from 14/Oct/2022",
@@ -44,6 +54,10 @@
     },
     {
         "Title":"Database Design Project",
+        "pic1_src":"./asset/photo/Assignment/3/DB_T.png",
+        "pic1_alt":"PASS",
+        "pic2_src":"./asset/photo/Assignment/3/DB_score.png",
+        "pic2_alt":"Auto grader",
         "Category":"C++",
         "line":4,
         "Des1": "Buffer Pool Management System, Latch, LRU Replacement policy, Buffer Pool Manager Instance. In order to solve the concurrent problem, implement the PARALLEL Buffer Pool Manager.",
@@ -74,7 +88,11 @@
         "Blog":"blog3" 
     },
     {
-        "Title":"Algorithm and Data Structure",
+        "Title":"Algorithm and Data Structure", 
+        "pic1_src":"./asset/photo/Assignment/other/Algo_Red-black.png", 
+        "pic1_alt":"Red-black Tree",
+        "pic2_src":"./asset/photo/Assignment/other/Algo_maxflow.png",
+        "pic2_alt":"maxflow",
         "Category":"Java, C++",
         "line":1,
         "Des1": "Leetcode, Intro to Algorithms",
@@ -84,11 +102,11 @@
        
     },
     {
+        "Title":"Starting my Personal Page and Blog",
         "pic1_src":"./asset/photo/Assignment/5/page.png",
         "pic1_alt":"Webpage",
         "pic2_src":"./asset/photo/Assignment/5/blog2.0.png",
-        "pic2_alt":"Blog",
-        "Title":"Starting my Personal Page and Blog",
+        "pic2_alt":"Blog", 
         "Category":"HTML, CCS, js, React",
         "line":1,
         "Des1": "Update Details attached.",

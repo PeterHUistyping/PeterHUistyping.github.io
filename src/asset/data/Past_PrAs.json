@@ -60,6 +60,8 @@
     },
     {
         "Title":"Started programming",
+        "pic1_src":"./asset/photo/Assignment/other/St_VB.png", 
+        "pic1_alt":"VB",
         "Italic":"VB Programming Experience",
         "line":1,
         "Des1": "Foundation of Computer Science",
