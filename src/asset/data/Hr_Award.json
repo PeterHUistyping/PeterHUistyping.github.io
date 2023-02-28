@@ -37,29 +37,43 @@
 },
 {  
     "Title":"Jardine Scholarship",
+    "pic1_src":"./asset/photo/Logo/Jardine.png",
+    "pic1_alt":"Jardine Scholarship",
     "Category":"Award",
     "line":1,
     "Des1": "Fully-funded Scholarship during my study at University of Cambridge",
     "Italic":"Issued by Jardine Foundation",
     "Time":"2022.02",
-    "PDF":"./asset/doc/Jardine_Certificate.jpg"
+    "PDF":"./asset/doc/Jardine_Certificate.jpg",
+    "More":"https://en.wikipedia.org/wiki/Jardine_Scholarship"
 },
 {  
-    "Title":"Adolescents' Science and Technology Innovation Contest Third Place",
+    "Title":"Shanghai Adolescents' Science and Technology Innovation Contest Third Place",
+    "pic1_src":"./asset/doc/STIC1.png",
+    "pic1_alt":"Carsim",
+    "pic2_src":"./asset/doc/STIC2.png",
+    "pic2_alt":"Tire-Analysis",
     "Category":"Research",
     "line":2,
     "Des1": "Deep research into the phenomenon of tire-locking, including why it may happen and its pros and cons using Force Analysis.",
     "Des2": "Introduced the Anti-lock braking system into our research by our mentor. Self-made physical simulation test for tire-locking.",
     "Italic":"Issued by Shanghai Association for Science and Technology, Shanghai Municipal Education Commission",
-    "Time":"2020.04"
+    "Time":"2020.04",
+    "PDF":"./asset/doc/STIC.jpg",
+    "More":"https://en.wikipedia.org/wiki/China_Adolescents_Science_%26_Technology_Innovation_Contest"
 },
 {  
     "Title":"Accepted for Publication Twice",
+    "pic1_src":"./asset/doc/SSP1.png",
+    "pic1_alt":"Acceptance",
+    "pic2_src":"./asset/doc/SSP2.png",
+    "pic2_alt":"Essay",
     "Category":"English Essay",
     "line":2,
     "Des1": "English Essays in Shanghai Student Post",
     "Des2":"Topic: Effective Ways to Overcome Obstacle in Study, Campus Life without Snack Stores.",
     "Italic":"Issued by Shanghai Student Post",
-    "Time":"2018.10, 2019.05"
+    "Time":"2018.10, 2019.05",
+    "More":"https://mp.weixin.qq.com/s/SisAWVWlr1gx2IsSa7CL6Q"
 }
 ]
