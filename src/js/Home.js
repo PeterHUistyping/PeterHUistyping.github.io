@@ -66,12 +66,11 @@ export function Home() {
    
     
     
-    <h2><b>Other Interests</b></h2>
-    Music, Swimming, Yoga, Gym, etc<br />
-    Ethics in Mathematics<br />
-    <strong>Economics Related Topics: </strong>
-    Macro & Micro, Money Banking 
+    <h2><b>INTEREST AND EXTRACURRICULAR ACTIVITIES </b></h2>
+    Music, Swimming, Yoga, Gym, Helping others etc.  |  Society Joined: Ethics in Mathematics<br />
+    <strong>Economics Related Topics: </strong> Macro & Micro, Money Banking<br />
 
+  
     <Index_Footer />
     </div>
 
