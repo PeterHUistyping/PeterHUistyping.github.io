@@ -7,8 +7,8 @@
     "Category":"C and C++, Compression, Concurrent",
     "line":4,
     "Des1": "In a team of 4, winning £7000 prize.",
-    "Des2":"Responsible for LZSS algorithm and improvements.",
-    "Des3":"Communicate between team members to collaborate.", 
+    "Des2":"Learning and researching from scratch in a month, digesting lots of papers and source code available, like RFC1951, LZSS.",
+    "Des3":"Responsible for LZSS algorithm and improvements. Brainstorming with team members.", 
     "Des4": "Demonstrate my presentation skills.",
     "Italic":"Issued by Huawei UK R&D",
     "Time":"2022.10.20-2022.11.26",
@@ -35,8 +35,7 @@
     "Github":"https://github.com/PeterHUistyping/Mercuria_Hackathon2022",
     "Blog":"blog7"
 },
-{
-     
+{  
     "Title":"Jardine Scholarship",
     "Category":"Award",
     "line":1,
@@ -44,5 +43,22 @@
     "Italic":"Issued by Jardine Foundation",
     "Time":"2022.02",
     "PDF":"./asset/doc/Jardine_Certificate.jpg"
-    
-}]
+},
+{  
+    "Title":"Adolescents' Science and Technology Innovation Contest Third Place",
+    "Category":"Research",
+    "line":2,
+    "Des1": "Deep research into the phenomenon of tire-locking, including why it may happen and its pros and cons using Force Analysis.",
+    "Des2": "Introduced the Anti-lock braking system into our research by our mentor. Self-made physical simulation test for tire-locking.",
+    "Italic":"Issued by Shanghai Association for Science and Technology, Shanghai Municipal Education Commission",
+    "Time":"2020.04"
+},
+{  
+    "Title":"Accepted for Publication Twice",
+    "Category":"English Essay",
+    "line":1,
+    "Des1": "English Essays in Shanghai Student Post",
+    "Italic":"Issued by Shanghai Student Post",
+    "Time":"2018.10, 2019.05"
+}
+]
