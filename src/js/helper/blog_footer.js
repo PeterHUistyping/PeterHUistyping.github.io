@@ -13,7 +13,7 @@ export default function Blog_Footer(){
         <table class="table_footer">
             <tbody>
                 <td>
-                    Originally written in Markdown(.md). Convert Markdown to HTML via <a
+                    Originally written in Markdown(.md) <br/>Convert Markdown to HTML via <a
                         href="https://showdownjs.com/">Showdown</a><br/>
                    <FooterCommon />
                 </td>
