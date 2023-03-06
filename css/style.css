@@ -18,7 +18,18 @@
   /*the first word*/
   padding: 0;
 }
-
+pre {
+  width: 100%;
+  border: 1px solid black;
+  float: left;
+  justify-content: center;
+  min-width: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+}
+code {
+  display: inline-block;
+}
 .top li {
   float: left;
   margin-right: 5%;
