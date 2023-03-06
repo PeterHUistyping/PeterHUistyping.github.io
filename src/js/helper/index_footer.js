@@ -5,7 +5,7 @@ export default function Index_Footer(){
     <hr width="50%" color="#987cb9" SIZE="1" /> 
     <table class="table_footer">
     <tbody>
-        <td>
+        <td >
             <strong>Contact Details </strong>|
             Email: zh369@cam.ac.uk <br/> Phone: (+44) 07990 719841
             | <a href="./asset/doc/CV_PeterHU.pdf">CV</a> |<a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a>

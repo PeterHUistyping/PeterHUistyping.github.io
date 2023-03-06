@@ -1,6 +1,6 @@
 .top {
   height: auto;
-  width: 100vw;
+  width: 100%;
   background: white;
   letter-spacing: 0.075em;
   top: 0;
@@ -104,8 +104,8 @@ h3 {
 }
 
 .table_profile {
-  width: 42vw;
-  height: 50vh;
+  width: 560px;
+  height: 330px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -113,42 +113,41 @@ h3 {
 }
 
 .img_profile {
-  width: 16vw;
-  height: 40vh;
+  width: 200px;
+  height: 280 px;
 }
 
 .img_normal {
-  width: 60vw;
-  height: 80vh;
+  width: 600px;
+  height: 800 px;
 }
 
 .table_pastproject {
-  width: 80vw;
-  height: 10vh;
-  margin-left: 1vw;
+  width: 1140px;
+  height: 150px;
 }
 
 .table_pastproject_photo {
-  width:10vw;
-  height: 16vh;
+  width: 200px;
+  height: 125px;
 }
  
 .table_newproject {
-  width: 80vw;
-  height: 20vh;
+  width: 1140px;
+  height: 50px;
 }
 
 .table_newproject_photo {
-  width: 10vw;
-  height: 16vh;
+  width: 200px;
+  height: 125px;
 }
 .img_pastproject {
-  width: 12vw;
-  height: 14vh;
+  width: 180px;
+  height: 115px;
 }
 
 .table_footer {
-  width: 100vw;
+  width: 700px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
