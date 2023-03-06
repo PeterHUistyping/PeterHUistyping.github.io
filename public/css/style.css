@@ -127,7 +127,23 @@ h3 {
   width: 16vw;
   max-height: 40vh;
 }
-
+@media only screen and (max-width: 800px) {
+  .table_profile {
+    width: 90vw;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /*border: 1px solid black;*/
+  }
+  
+}
+@media only screen and (max-width: 600px) {
+  .img_profile {
+    width: 30vw;
+    max-height: 80vh;
+  }
+}
 .img_normal {
   width: 60vw;
   max-height: 80vh;
