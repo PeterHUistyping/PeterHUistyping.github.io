@@ -24,6 +24,7 @@ export function Blog5(){
         Reuse:Only need to change here once instead of multiple times<br /><br />
         Directory: Using class Top ul li a <br />
         Setting utf-8 to display emoji</p>
+    <p>Adjust to mobile view: CSS add "media only screen and (max-width: 800px)" condition -2023.3.6</p>
     <img class="img_normal" src="asset/photo/Assignment/5/page.png" alt="Personal Page"/><br />
 
     Code Reconstruction<br/>
