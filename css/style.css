@@ -127,6 +127,7 @@ h3 {
   width: 16vw;
   max-height: 40vh;
 }
+
 @media only screen and (max-width: 800px) {
   .table_profile {
     width: 90vw;
@@ -136,7 +137,6 @@ h3 {
     text-align: center;
     /*border: 1px solid black;*/
   }
-  
 }
 @media only screen and (max-width: 600px) {
   .img_profile {
@@ -155,14 +155,14 @@ h3 {
 }
 
 .table_project_photo {
-  width:18vw;
-  max-height: 20vh;
+  width:16vw;
+  max-height: 16vh;
 }
  
  
 .img_project {
-  width: 17vw;
-  max-height: 20vh;
+  width: 15vw;
+  max-height: 16vh;
   margin-left: 1vw;
   margin-right: 0.5vw;
 }
