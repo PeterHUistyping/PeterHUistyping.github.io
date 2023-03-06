@@ -24,7 +24,7 @@ export function Blog3(){
             compared with other IDE. Command-line could help build the project efficiently. </p>
     </div>
 
-    <p><img width=" 960px;" height=" 540px;"
+    <p><img width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment0_Barnsley%20fern/Self-similar%20fractals.png"
             alt="Self-similar fractals" /></p>
     <h2 id="lessonmaterial">Lesson Material</h2>
@@ -42,7 +42,7 @@ export function Blog3(){
     IFS Function
     </code></pre>
     <p>A glimpse of it ⬇<br />
-        <img width=" 960px;" height=" 540px;"
+        <img width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment0_Barnsley%20fern/Self-similar%20fractals.png"
             alt="Self-similar fractals" />
     </p>
@@ -52,10 +52,10 @@ export function Blog3(){
     C++ Object Oriented Programming
     </code></pre>
     <p>A glimpse of it ⬇<br />
-        <img width=" 960px;" height=" 540px;"
+        <img width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment1_Sphere-Ray/Sphere.png" alt="Sphere" />
     </p>
-    <p><img width=" 960px;" height=" 540px;"
+    <p><img width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment1_Sphere-Ray/Sphere-depth.png" alt="Depth" /></p>
     <p><em>scene1<em>07.txt sample output is wrong</em> \
             （Use scene1</em>08.txt，camera center 0,0,2 instead）\
@@ -68,14 +68,14 @@ export function Blog3(){
     Affine Transformations 
     </code></pre>
     <p>A glimpse of it ⬇<br />
-        <img width=" 960px;" height=" 540px;"
+        <img  width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment2_Tri-Ray/Raytracing1.png"
             alt="Sphere with Normal Visualization & Diffuse Coloring" />
-        <img width=" 960px;" height=" 540px;"
+        <img  width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment2_Tri-Ray/Raytracing2.png" alt="Planes & Triangles" />
-        <img width=" 960px;" height=" 540px;"
+        <img  width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment2_Tri-Ray/Raytracing3.png" alt="TriangleMesh" />
-        <img width=" 960px;" height=" 540px;"
+        <img  width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment2_Tri-Ray/Raytracing4.png" alt="Transformations" />
     </p>
     <p>"-shade_back" to be updated. ✅ Done on Assignment4</p>
@@ -87,11 +87,11 @@ export function Blog3(){
     Specular Color
     </code></pre>
     <p>A glimpse of it ⬇<br />
-        <img width=" 960px;" height=" 340px;"
+        <img   width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment3_Open-GL/OpenGL1.png" alt="OpenGL Display 1" />
-        <img width=" 960px;" height=" 340px;"
+        <img   width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment3_Open-GL/OpenGL2.png" alt="OpenGL Display 2" />
-        <img width=" 960px;" height=" 340px;"
+        <img   width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment3_Open-GL/OpenGL3.png" alt="OpenGL Display 3" />
     </p>
     <p>Guidance:
@@ -112,9 +112,9 @@ export function Blog3(){
     PointLight
     </code></pre>
     <p>A glimpse of it ⬇<br />
-        <img width=" 960px;" height=" 540px;"
+        <img  width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment4_Ray-Tracer/RayTracer.png" alt="Ray Tracer" />
-        <img width=" 960px;" height=" 540px;"
+        <img  width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment4_Ray-Tracer/RayTracerBUG.png" alt="Ray Tracer BUG" />
     </p>
     <p>*Adjustment
@@ -134,13 +134,13 @@ export function Blog3(){
     Transformation:Flatten the Transformation Hierarchy
     </code></pre>
     <p>A glimpse of it ⬇<br />
-        <img width=" 960px;" height=" 340px;"
+        <img   width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment5_Voxel-Rendering/5_1.png" alt="Sphere" />
-        <img width=" 960px;" height=" 340px;"
+        <img   width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment5_Voxel-Rendering/5_2.png" alt="Sphere+" />
-        <img width=" 960px;" height=" 640px;"
+        <img   width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment5_Voxel-Rendering/5_3.png" alt="Visualization" />
-        <img width=" 960px;" height=" 340px;"
+        <img   width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment5_Voxel-Rendering/5_4.png" alt="Stanford Rabbit" />
     </p>
     <p>Updated: extern.h</p>
@@ -158,7 +158,7 @@ export function Blog3(){
     CheckerBoard, Perlin Noise, Wood, etc
     </code></pre>
     <p>A glimpse of it ⬇<br />
-        <img width=" 960px;" height=" 540px;"
+        <img  width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment6_Grid-Acceleration+Solid-Textures/Texture.png"
             alt="Texture" />
     </p>
@@ -175,9 +175,9 @@ export function Blog3(){
         Reference: Fundamentals of computer graphics-(2009)  Ch9 SignalProcessing  
         </code></pre>
     <p>A glimpse of it ⬇<br />
-        <img src="/asset/photo/Assignment/blog3/MyProject/assignment7_Supersampling+Antialiasing/Antialiasing.png"
+        <img   width= "100vw" src="/asset/photo/Assignment/blog3/MyProject/assignment7_Supersampling+Antialiasing/Antialiasing.png"
             alt="Antialiasing" />
-        <img width=" 1200px;" height=" 300px;"
+        <img   width= "400vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment7_Supersampling+Antialiasing/Supersampling.png"
             alt="Supersampling" />
 

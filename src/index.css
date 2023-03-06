@@ -48,3 +48,11 @@
 .blog_sorting table td :hover {
     background-color: rgb(255, 203, 107);
 }
+
+pre{
+    width: 100vw;
+}
+code{
+    width: 100vw;
+ 
+}

@@ -37,7 +37,7 @@ export function Blog2(){
     ·Class Electrical_Appliance<br/>
     Includes its color and maintenance_period.<br/>
     <h3>Class Order</h3>
-    <img width= "600px" height= "300px" src="asset/photo/Assignment/2/Order_txt.png" alt="Order_txt"/> <br/>
+    <img width= "300vw" src="asset/photo/Assignment/2/Order_txt.png" alt="Order_txt"/> <br/>
     ·Includes the date of the order, lists of goods and relevant information.<br/>
     After each order is completed, the order information should be printed on the screen and saved locally in txt.
     Subclasses includes:<br/>
@@ -83,7 +83,7 @@ export function Blog2(){
         friend Goods operator * (int n, const Goods& g2); <br/>
         friend Goods operator=(Goods&
         g1,const Goods& g2); <br/>
-        <img width= "960px" height= "540px" src="asset/photo/Assignment/2/Order.png" alt="Order"/><br/>
+        <img width= "300vw" src="asset/photo/Assignment/2/Order.png" alt="Order"/><br/>
         <a href="https://github.com/PeterHUistyping/Supermarket-Management-System">See More on GitHub
         </a>
             </>

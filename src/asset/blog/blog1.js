@@ -9,7 +9,7 @@ export function Blog1(){
         <>
         <h1>Typing-Game</h1>
     C Project Super Programmer Game Development<br/>
-    <img width= "960px" height="540px" src="/asset/photo/Assignment/1/Interface.png" alt="Interface"/>
+    <img width= "300vw" src="/asset/photo/Assignment/1/Interface.png" alt="Interface"/>
     <br/>
 
     <a href="https://github.com/PeterHUistyping/Typing-Game">Project
@@ -36,7 +36,7 @@ export function Blog1(){
     ground, smashing a gap. When there are too much gaps, it is considered a failure.<br/>
     You can design a character with a reward, and pressing this one will automatically fill in some gaps.
     Scoring rules can be designed.<br/>
-    <img width= "960px" height="540px" src="/asset/photo/Assignment/1/KEYBOARD-RAINBOW.png" alt="KEYBOARD-RAINBOW"/>
+    <img width= "300vw" src="/asset/photo/Assignment/1/KEYBOARD-RAINBOW.png" alt="KEYBOARD-RAINBOW"/>
     <br/><a href="https://github.com/PeterHUistyping/Typing-Game">See More on GitHub </a>
     </>
      

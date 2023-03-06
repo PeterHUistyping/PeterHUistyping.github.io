@@ -40,7 +40,7 @@ export default function Blog_Top(){
         </ul>
     </div>
     </body_>
-    <br /><br /><br />
+    <br /><br /><br /><br /><br /><br />
     </>
     )
 }

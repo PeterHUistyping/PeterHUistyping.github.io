@@ -30,7 +30,7 @@ function App() {
         <Route path="/blog7" element={<Blog7 />}/>
         <Route path="/blog8" element={<Blog8 />}/>
         <Route path="/blog9" element={<Blog9 />}/>
-        <Route element={<NotFound />}/>
+        <Route path="/" element={<NotFound />}/>
       </Routes> 
       </ScrollToTop>
       </>

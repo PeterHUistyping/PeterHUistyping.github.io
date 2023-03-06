@@ -28,7 +28,7 @@ export function Blog4(){
    
 
     <h2 id="project0">Project 0</h2>
-    <p><img src="bustub/submission/Photo/Project0_GS.png" alt="Pr0" /> </p>
+    <p><img   width= "300vw" src="bustub/submission/Photo/Project0_GS.png" alt="Pr0" /> </p>
     <p>Keypoint used in C++:<br />
         Template -- template  
             Exception </p>
@@ -45,12 +45,12 @@ export function Blog4(){
     Convert one int -&gt;int64_t  
     const uint64_t size = (static_cast&lt;uint64_t&gt;(rows_) * cols_)  
     </code></pre>
-     <img src="bustub/submission/Photo/check-clang-tidy.png" alt="Check-clang-tidy" /><br />
-        <img src="bustub/submission/Photo/Project0_1.png" alt="Pr0" />
+     <img   width= "300vw" src="bustub/submission/Photo/check-clang-tidy.png" alt="Check-clang-tidy" /><br />
+        <img   width= "300vw" src="bustub/submission/Photo/Project0_1.png" alt="Pr0" />
      
 
     <h2 id="project1">Project 1</h2>
-    <p><img src="bustub/submission/Photo/Project1_GS.png" alt="Pr1_Gradescope" /> </p>
+    <p><img   width= "300vw" src="bustub/submission/Photo/Project1_GS.png" alt="Pr1_Gradescope" /> </p>
     <p>Reference: Database-System-Concepts-7th-Edition Ch13.5 Database Buffer </p>
     <p>LRU Replacer<br />
         Need to search in o(1), delete; Perform like a stack<br />
@@ -82,7 +82,7 @@ export function Blog4(){
     <p>latch .lock();</p>
 
  
-     <img src="bustub/submission/Photo/Project1.png" alt="Pr1" />  
+     <img   width= "300vw" src="bustub/submission/Photo/Project1.png" alt="Pr1" />  
 
 
     <a href="https://github.com/PeterHUistyping/CMU15-445_Database_Project">See More on GitHub</a>

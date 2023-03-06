@@ -16,7 +16,7 @@ export function Blog5(){
         Better display on mobile device. <br /></p>
     <center>
         <iframeset cols="100%">
-            <iframe src="/" width="1024px" height="400px"></iframe>
+            <iframe src="/"    width= "400vw" height="400vw"></iframe>
         </iframeset>
     </center><br />
 
@@ -41,7 +41,7 @@ export function Blog5(){
         <br />
         <center>
             <iframeset cols="100%">
-                <iframe src="/asset/blog/blog_directory_Storting.html" width="1024px" height="400px"></iframe>
+                <iframe src="/asset/blog/blog_directory_Storting.html"  width= "400vw" height="400vw"></iframe>
             </iframeset>
         </center><br />
         
@@ -50,7 +50,7 @@ export function Blog5(){
         Reuse: the same part in the HTML / using JavaScript to encapsulate the header and footer<br/>
         <center>
             <iframeset cols="100%">
-                <iframe src="/asset/blog/blog_directory.html" width="1024px" height="400px"></iframe>
+                <iframe src="/asset/blog/blog_directory.html"  width= "400vw" height="400vw"></iframe>
             </iframeset>
         </center><br />
 
