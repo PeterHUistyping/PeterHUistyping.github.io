@@ -8,7 +8,9 @@
   margin-left: 0;
   margin-bottom: 5px;
 }
-
+p{
+  overflow: auto;
+}
 .top ul {
   width: auto;
   list-style-type: none;
