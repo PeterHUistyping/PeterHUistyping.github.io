@@ -114,26 +114,29 @@ h3 {
 
 .img_profile {
   width: 16vw;
-  height: 40vh;
+  max-height: 40vh;
 }
 
 .img_normal {
   width: 60vw;
-  
+  max-height: 80vh;
 }
 
 .table_project {
   width: 80vw;
   height: 10vh;
+   
 }
 
 .table_project_photo {
   width:10vw;
+  max-height: 16vh;
 }
  
  
 .img_project {
   width: 13vw;
+  height: 14vh;
   margin-left: 1vw;
   margin-right: 0.5vw;
 }
