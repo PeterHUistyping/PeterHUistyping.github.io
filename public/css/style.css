@@ -122,29 +122,22 @@ h3 {
   height: 80vh;
 }
 
-.table_pastproject {
+.table_project {
   width: 80vw;
   height: 10vh;
-  margin-left: 1vw;
 }
 
-.table_pastproject_photo {
+.table_project_photo {
   width:10vw;
   height: 16vh;
 }
  
-.table_newproject {
-  width: 80vw;
-  height: 20vh;
-}
-
-.table_newproject_photo {
-  width: 10vw;
-  height: 16vh;
-}
-.img_pastproject {
-  width: 12vw;
+ 
+.img_project {
+  width: 13vw;
   height: 14vh;
+  margin-left: 1vw;
+  margin-right: 0.5vw;
 }
 
 .table_footer {

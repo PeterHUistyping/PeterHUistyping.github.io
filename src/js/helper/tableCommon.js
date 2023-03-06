@@ -1,10 +1,10 @@
 function Pic(props){
     if(props.src)
     return( 
-        <td class="table_pastproject_photo" rowspan="2">
+        <td class="table_project_photo" rowspan="2">
             <div>
                 <div>
-                <img class="img_pastproject" src={props.src}  alt={props.alt} />
+                <img class="img_project" src={props.src}  alt={props.alt} />
                 </div>
             </div> 
         </td>
@@ -119,7 +119,7 @@ export default function All_table(props){
     //const keys = [...Array(resource.length).keys()];
     const keys = [...Array(props.resource.length).keys()];
     return(
-    <table class="table_pastproject">
+    <table class="table_project">
         {keys.map((item)=>(
             <Tbody id={item} resource={props.resource}/>
         ))}  
