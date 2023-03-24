@@ -37,8 +37,8 @@ export function Blog3(){
     <h2 id="projectintroduction">Project Introduction</h2>
     <h4 id="assignment0veryinteresting">Assignment0: [<strong>Very Interesting!</strong>]</h4>
     <pre><code>
-    Self-similar fractals (a subpart of the object is similar to the whole) 
-    Barnsley fern\dargon\X\Triangle\Levy
+    Self-similar fractals (a subpart of the object is similar to the whole) <br/>
+    Barnsley fern\dargon\X\Triangle\Levy<br/>
     IFS Function
     </code></pre>
     <p>A glimpse of it ⬇<br />
@@ -47,8 +47,8 @@ export function Blog3(){
             alt="Self-similar fractals" />
     </p>
     <h4 id="assignment1raycasting">Assignment1: [Ray Casting]</h4>
-    <pre><code>Sphere-Ray Intersection-(Geometric/Algebraic)  
-    Orthonormal Basis - from Linear Algebra
+    <pre><code>Sphere-Ray Intersection-(Geometric/Algebraic)  <br/>
+    Orthonormal Basis - from Linear Algebra<br/>
     C++ Object Oriented Programming
     </code></pre>
     <p>A glimpse of it ⬇<br />
@@ -62,9 +62,9 @@ export function Blog3(){
         Proved by linking two sphere functions, which turn out to be an oval on plane XOY.</p>
     <h4 id="assignment2raytracing">Assignment2: [Ray Tracing]</h4>
     <pre><code>
-    NormalVisualization/ DiffuseShading
-    Perspective Camera
-    New primitives- Planes &amp; Triangles
+    NormalVisualization/ DiffuseShading<br/>
+    Perspective Camera<br/>
+    New primitives- Planes &amp; Triangles<br/>
     Affine Transformations 
     </code></pre>
     <p>A glimpse of it ⬇<br />
@@ -81,9 +81,9 @@ export function Blog3(){
     <p>"-shade_back" to be updated. ✅ Done on Assignment4</p>
     <h4 id="assignment3opengl">Assignment3: [Open GL]</h4>
     <pre><code>
-    OpenGL API - 3D Simulation
-    Sphere Tessellation &amp; Gouraud interpolation
-    DirectionalLight
+    OpenGL API - 3D Simulation<br/>
+    Sphere Tessellation &amp; Gouraud interpolation<br/>
+    DirectionalLight<br/>
     Specular Color
     </code></pre>
     <p>A glimpse of it ⬇<br />
@@ -107,8 +107,8 @@ export function Blog3(){
         Blinn-Phong Model the exponent-&gt;100 (nonlinear relationship)</p>
     <h4 id="assignment4raytracer">Assignment4: [Ray Tracer]</h4>
     <pre><code>
-    Shadows Reflection &amp; Refraction
-    OpenGL API Representation
+    Shadows Reflection &amp; Refraction<br/>
+    OpenGL API Representation<br/>
     PointLight
     </code></pre>
     <p>A glimpse of it ⬇<br />
@@ -126,11 +126,11 @@ export function Blog3(){
         main loop raycasting has been transferred here.</p>
     <h4 id="assignment5voxelrendering">Assignment5: [Voxel Rendering]</h4>
     <pre><code>
-    Bounding boxes for Primitives
-    Sphere voxelization
-    Regular grid data structure
-    Grid::paint()-Two Ways to previsualize
-    Fast ray-grid intersection
+    Bounding boxes for Primitives<br/>
+    Sphere voxelization<br/>
+    Regular grid data structure<br/>
+    Grid::paint()-Two Ways to previsualize<br/>
+    Fast ray-grid intersection<br/>
     Transformation:Flatten the Transformation Hierarchy
     </code></pre>
     <p>A glimpse of it ⬇<br />
@@ -152,9 +152,9 @@ export function Blog3(){
         &amp; (3) the faces crossed to enter each cell along the ray.</p>
     <h4 id="assignment6gridaccelerationsolidtextures">Assignment6: [Grid Acceleration &amp; Solid Textures]</h4>
     <pre><code>
-    RAY TRACING STATISTICS
-    Grid Acceleration 
-    Solid Textures 
+    RAY TRACING STATISTICS<br/>
+    Grid Acceleration <br/>
+    Solid Textures <br/>
     CheckerBoard, Perlin Noise, Wood, etc
     </code></pre>
     <p>A glimpse of it ⬇<br />
@@ -168,10 +168,10 @@ export function Blog3(){
         pixel-&gt;width, height</p>
 
     <h4 id="assignment7supersamplingantialiasing">Assignment7: [Supersampling &amp; Antialiasing]</h4>
-    <pre><code>Several new base and derived Class  
-        Class Film, Sample  
-        Class Sampler: - random/uniform/jittered samples  
-        Class Filter: -box/tent/gaussian filter  
+    <pre><code>Several new base and derived Class  <br/>
+        Class Film, Sample  <br/>
+        Class Sampler: - random/uniform/jittered samples  <br/>
+        Class Filter: -box/tent/gaussian filter  <br/>
         Reference: Fundamentals of computer graphics-(2009)  Ch9 SignalProcessing  
         </code></pre>
     <p>A glimpse of it ⬇<br />
@@ -194,33 +194,33 @@ export function Blog3(){
     <p>*Notice that .C = .cpp (at least in VScode)</p>
     <p>From Assignment3 onwards, include the below header Files on Mac instead.</p>
     <pre><code>
-    #define GL_SILENCE_DEPRECATION
-    // Defined before OpenGL and GLUT includes to avoid deprecation messages 
-    #include &lt;OpenGL/gl.h&gt; 
-    #include &lt;OpenGL/glu.h&gt; 
-    #include &lt;GLUT/glut.h&gt; 
+    #define GL_SILENCE_DEPRECATION<br/>
+    // Defined before OpenGL and GLUT includes to avoid deprecation messages <br/>
+    #include &lt;OpenGL/gl.h&gt; <br/>
+    #include &lt;OpenGL/glu.h&gt; <br/>
+    #include &lt;GLUT/glut.h&gt; <br/>
     
-    In task.json
-        "-framework" ,"GLUT"," -framework", "OpenGL"
+    In task.json<br/>
+        "-framework" ,"GLUT"," -framework", "OpenGL"<br/>
     
-    Add glutInit(&amp;argc, argv); in main
-        change glEnable() etc after glutCreateWindow("OpenGL Viewer");
+    Add glutInit(&amp;argc, argv); in main<br/>
+        change glEnable() etc after glutCreateWindow("OpenGL Viewer");<br/>
     
-    *Adjustment
-    In addition, some head files in ray folder is being cut to Object3D folder.\
+    *Adjustment<br/>
+    In addition, some head files in ray folder is being cut to Object3D folder.<br/>
     Codes have been revised.
     </code></pre>
     <h3 id="usingvscodec">Using VSCode C++</h3>
-    <p>Using my code (on Mac Clang++)\
-        Note that you should open the Myproject folder,\
-        /lib contains vector-matrix-image header files or .C\
+    <p>Using my code (on Mac Clang++) 
+        Note that you should open the Myproject folder, 
+        /lib contains vector-matrix-image header files or .C 
         /ray contains the other.</p>
     <p>You should replace four files in .vscode (in Myproject folder) with those from each corresponding
-        .vscode-assignment<em>(0-9) (in assignment folder).\
+        .vscode-assignment<em>(0-9) (in assignment folder). 
             .vscode-assignment</em>(0-9) is used for coding via the Myproject folder.</p>
-    <p>*In assignment 0, there are two ".vscode" folders\
-        .vscode-assignment0 is used for coding via the Myproject folder.\
-        .vscode-inside is used for coding via the assignment0_Barnsley fern folder. \
+    <p>*In assignment 0, there are two ".vscode" folders 
+        .vscode-assignment0 is used for coding via the Myproject folder.
+        .vscode-inside is used for coding via the assignment0_Barnsley fern folder. 
         DO NEED to include everything from lib folder.</p>
     <h3 id="usingviusalstudio">Using Viusal Studio</h3>
     <p>Try doing it yourself.</p>

@@ -36,13 +36,13 @@ export function Blog4(){
     <p>Google C++ Style Guide<br />
         Naming_Class Data Members need a trailing underscore. </p>
     <pre><code>
-    ** no viable conversion from   
-    std::unique_ptr&lt;bustub::RowMatrix&lt;int&gt; : temp   
-    const RowMatrix&lt;T&gt; * : temp.get()  
+    ** no viable conversion from   <br/>
+    std::unique_ptr&lt;bustub::RowMatrix&lt;int&gt; : temp   <br/>
+    const RowMatrix&lt;T&gt; * : temp.get()  <br/>
     
-    Consider replacing 'unsigned long' with 'uint64' uint64_t  
-    C-style casts are discouraged; use static_cast/const_cast/reinterpret_cast  
-    Convert one int -&gt;int64_t  
+    Consider replacing 'unsigned long' with 'uint64' uint64_t  <br/>
+    C-style casts are discouraged; use static_cast/const_cast/reinterpret_cast  <br/>
+    Convert one int -&gt;int64_t  <br/>
     const uint64_t size = (static_cast&lt;uint64_t&gt;(rows_) * cols_)  
     </code></pre>
      <img   width= "300vw" src="asset/photo/Assignment/4/check-clang-tidy.png" alt="Check-clang-tidy" /><br />
@@ -64,14 +64,14 @@ export function Blog4(){
     <p>Print out the test file to get the whole Gradescope test file!<br />
         /<em>Gradescope Test output</em>/ </p>
     <pre><code>
-            FILE *out;
-            out = fopen("/autograder/bustub/test/buffer/grading_..._test.cpp", "r");  
-            // out = fopen("../test/buffer/..._test.cpp", "r");  
-            char ch;  
-            while ((ch = getc(out)) != EOF)  
-                putchar (ch)
+            FILE *out;<br/>
+            out = fopen("/autograder/bustub/test/buffer/grading_..._test.cpp", "r");  <br/>
+            // out = fopen("../test/buffer/..._test.cpp", "r");  <br/>
+            char ch;  <br/>
+            while ((ch = getc(out)) != EOF)  <br/>
+                putchar (ch)<br/>
              
-            fclose(out);  
+            fclose(out);  <br/>
             </code></pre>
      Get the path for testing on Gradescope using getcwd().<br />
         #include   direct.h ; (Windows)<br />
