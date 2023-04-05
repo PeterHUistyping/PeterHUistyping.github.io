@@ -25,10 +25,12 @@ export function Blog_Sorting(){
     <Table resource={resource}/>
  
     <Resource />
- 
+    <br/>  <br/> <br/> <br/>
+    <img  width= "100%"  src="/asset/photo/bg/Magic.jpg" alt="Magic"/>
     <Blog_Footer />
     </div> 
     </ScrollToTop>
+
     )
 }
 $(document).ready(function () {
