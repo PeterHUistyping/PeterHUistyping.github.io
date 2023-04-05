@@ -19,14 +19,15 @@ export function Blog_Sorting(){
             <p id="welcome"><strong><font size="+3"> Welcome to My Personal Blog📝</font></strong></p>
         </center>
    <br />  
-   
+  
+    <img  width= "100%"  src="/asset/photo/bg/Magic.jpg" alt="Magic"/>
+    <br/>  <br/> <br/> <br/>
     &ensp;&ensp;&ensp;
     {/* ⬇ <i>Sort Data on Header Click</i> */}
     <Table resource={resource}/>
  
     <Resource />
-    <br/>  <br/> <br/> <br/>
-    <img  width= "100%"  src="/asset/photo/bg/Magic.jpg" alt="Magic"/>
+    
     <Blog_Footer />
     </div> 
     </ScrollToTop>
