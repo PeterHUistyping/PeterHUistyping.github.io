@@ -35,7 +35,6 @@ export function Blog_Sorting(){
         <Table resource={resource}/>
         <img  width= "100%"  src="/asset/photo/bg/Magic2.jpg" alt="Magic"/> 
         <Resource />
-      
         <Blog_Footer />
        
     </div> 
