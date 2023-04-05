@@ -28,14 +28,16 @@ export function Blog_Sorting(){
         <br />  
     
         <img  width= "100%"  src="/asset/photo/bg/Magic.jpg" alt="Magic"/> */}
-        <br/>  <br/> <br/> <br/>
-        &ensp;&ensp;&ensp;
-        {/* ⬇ <i>Sort Data on Header Click</i> */}
+       
+       
+        {/*  &ensp;&ensp;&ensp;
+        ⬇ <i>Sort Data on Header Click</i> */}
         <Table resource={resource}/>
-    
+        <img  width= "100%"  src="/asset/photo/bg/Magic2.jpg" alt="Magic"/> 
         <Resource />
-        
+      
         <Blog_Footer />
+       
     </div> 
     </ScrollToTop>
 

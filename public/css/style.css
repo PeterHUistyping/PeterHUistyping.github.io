@@ -194,15 +194,10 @@ h3 {
   background-color: white;
 }
 
-.image { 
-  position: relative; 
-  width: 100%; /* for IE 6 */
-}
-
 .imageContainer {
- 
   background-image:  url("/asset/photo/bg/Magic.jpg");
-  background-size: auto 100%;
+  background-size: 100% auto ;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 50vh;
+ 
 }
