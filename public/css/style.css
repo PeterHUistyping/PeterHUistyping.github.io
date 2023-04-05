@@ -199,5 +199,13 @@ h3 {
   background-size: 100% auto ;
   background-repeat: no-repeat;
   height: 50vh;
- 
+}
+
+@media only screen and (max-width: 800px) {
+  .imageContainer {
+    background-image:  url("/asset/photo/bg/Magic.jpg");
+    background-size: 100% auto ;
+    background-repeat: no-repeat;
+    height: 18vh;
+  }
 }
