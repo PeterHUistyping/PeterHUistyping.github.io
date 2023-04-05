@@ -77,7 +77,9 @@ body_ {
 }
 
 body {
-  background-color: #E0EEE0;
+  /* background-color: #E0EEE0; */
+  /* background-image:radial-gradient(#e7edcc ,#E0EEE0); */
+  background-image: linear-gradient(to right, #d9f2d9, #dfe6be );
 }
 
 h1 {
