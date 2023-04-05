@@ -15,20 +15,27 @@ export function Blog_Sorting(){
     <ScrollToTop> 
         <div>
         <Blog_Top/>
+        <div class="imageContainer">
+         <br />  
+            <center><p id="welcome" ><strong>
+                <font size="+3" color="white"> Welcome to My Personal Blog📝</font>
+                </strong></p> </center>
+        </div>
+        {/* 
         <center>
-            <p id="welcome"><strong><font size="+3"> Welcome to My Personal Blog📝</font></strong></p>
+            <p id="welcome"><strong><font size="+3"></font></strong></p>
         </center>
-   <br />  
-  
-    <img  width= "100%"  src="/asset/photo/bg/Magic.jpg" alt="Magic"/>
-    <br/>  <br/> <br/> <br/>
-    &ensp;&ensp;&ensp;
-    {/* ⬇ <i>Sort Data on Header Click</i> */}
-    <Table resource={resource}/>
- 
-    <Resource />
+        <br />  
     
-    <Blog_Footer />
+        <img  width= "100%"  src="/asset/photo/bg/Magic.jpg" alt="Magic"/> */}
+        <br/>  <br/> <br/> <br/>
+        &ensp;&ensp;&ensp;
+        {/* ⬇ <i>Sort Data on Header Click</i> */}
+        <Table resource={resource}/>
+    
+        <Resource />
+        
+        <Blog_Footer />
     </div> 
     </ScrollToTop>
 
