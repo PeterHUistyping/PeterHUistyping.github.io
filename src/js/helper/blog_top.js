@@ -1,4 +1,5 @@
 import { HashLink } from 'react-router-hash-link';
+ 
 export default function Blog_Top(){
     return (
         <>
@@ -28,15 +29,22 @@ export default function Blog_Top(){
             <li><HashLink to="/#contact">📬Contact </HashLink> </li>
             <li><a href="#">⬆️Top</a></li>
 
-            <li><a href="/asset/blog/blog.html">🎶Music</a>
+            {/* <li><a href="/asset/blog/blog.html">🎶Music</a>
                 <ul>
                 <li><a href="#">🚫 on 👉</a></li>
                 </ul>
                 <ul>
                 <li><a href="#">Frame</a></li>
                 </ul>
+            </li> */}
+            {/* <li>
+                <Button onClick={sayHello}>Settings</Button>
+            </li>      */}
+            <li>    
+                <a href="/asset/blog/blog.html">   
+                <button class="button button_settings" onclick="location.href='http://www.example.com'">🎶</button>      
+                </a>
             </li>
-
         </ul>
     </div>
     </body_>
@@ -44,3 +52,4 @@ export default function Blog_Top(){
     </>
     )
 }
+ 

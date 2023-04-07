@@ -53,6 +53,8 @@ pre {
 
 .top li a:hover {
   background-color: #E0EEE0;
+  color: black;
+  border-radius: 16px;
 }
 
 .top ul li ul {
@@ -210,4 +212,22 @@ h3 {
     background-repeat: no-repeat;
     height: 18vh;
   }
+}
+
+.button_settings {
+  border-radius: 1px;
+  padding: 2px;
+  margin: 2px ;
+  font-size: 14px;
+  text-align: center;
+  background-color:white;
+  color: grey;
+  border-radius: 16px; /* Pill Button */
+  border: 3px solid #E0EEE0;
+}
+
+.button_settings:hover {
+  color: black;
+  border-radius: 16px;
+  background-color: #E0EEE0;
 }
