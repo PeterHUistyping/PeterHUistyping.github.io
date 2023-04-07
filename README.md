@@ -12,6 +12,7 @@ npm install jquery
 ## React Usage
 ```
 npm run eject
+npm run start
 npm run deploy
 ```   
 ## Trouble Shooting
