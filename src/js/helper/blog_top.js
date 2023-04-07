@@ -42,7 +42,7 @@ export default function Blog_Top(){
             </li>      */}
             <li>    
                 <a href="/asset/blog/blog.html">   
-                <button class="button button_settings" onclick="location.href='http://www.example.com'">🎶</button>      
+                <button class="button button_settings">🎶</button>      
                 </a>
             </li>
         </ul>
