@@ -7,7 +7,7 @@ export default function Blog_Top(){
         <div class="top">
         <ul>
             <li>
-                <a_ href="#"><i>Peter </i>HU's Website</a_>
+                <a_ href="#"><i>Peter </i>HU's Blogs&nbsp; &nbsp;</a_>
             </li>
             <li>
                 <a href="../">🏠HOME</a>

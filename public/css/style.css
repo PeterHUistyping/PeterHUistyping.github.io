@@ -52,7 +52,8 @@ pre {
 }
 
 .top li a:hover {
-  background-color: #E0EEE0;
+  background-color: #d9f2d9;
+  font-weight:bold;
   color: black;
   border-radius: 16px;
 }
@@ -79,8 +80,8 @@ body_ {
 }
 
 body {
-  /* background-color: #E0EEE0; */
-  /* background-image:radial-gradient(#e7edcc ,#E0EEE0); */
+  /* background-color: #d9f2d9; */
+  /* background-image:radial-gradient(#e7edcc ,#d9f2d9); */
   background-image: linear-gradient(to right, #d9f2d9, #dfe6be );
 }
 
@@ -223,11 +224,23 @@ h3 {
   background-color:white;
   color: grey;
   border-radius: 16px; /* Pill Button */
-  border: 3px solid #E0EEE0;
+  border: 3px solid #d9f2d9;
 }
 
 .button_settings:hover {
   color: black;
   border-radius: 16px;
-  background-color: #E0EEE0;
+  background-color: #d9f2d9;
 }
+
+.button_blogs {
+  color: black;
+  background-color:#d9f2d9;  
+  border: 2px solid white;
+}
+.button_blogs:hover {
+  color: white;
+  font-weight:bold;
+  background-color: #dfe6be;
+}
+

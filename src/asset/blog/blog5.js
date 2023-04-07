@@ -35,7 +35,7 @@ export function Blog5(){
     <img class="img_normal" src="asset/photo/Assignment/5/React_js.png" alt="React_js"/><br/>
    
     <h2 id="blog"><center>Blog</center></h2>
-    Update Blog3.0: This patch updates blog UI system with better visual effect. -2023.4.5<br/>
+    Blogs<i>3.0</i> Platform: This patch updates blog UI system with better visual effect. -2023.4.5<br/>
     
     <img class="img_normal" src="asset/photo/Assignment/5/BlogApr23.png" alt="Blog_Apr23"/><br/>
 
@@ -44,7 +44,7 @@ export function Blog5(){
     &ensp; &ensp; &ensp; Using JavaScript to support table display and sorting -2022.9.27<br/>
     (Table sorting is no longer supported in react version. -2023.2.16)<br/>
     
-    Update Blog3.0: This patch updates navigation bar UI design and music button. -2023.4.7<br/>
+    Blogs<i>3.0</i> Platform: This patch updates navigation bar UI design and music button. -2023.4.7<br/>
     <br/>Updated Music for Blog: Using   frame  and iframe to support Music autoplay and looping -2022.9.18<br/>
         <br />
         <center>
