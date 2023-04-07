@@ -18,7 +18,8 @@ export function Blog_Sorting(){
         <div class="imageContainer">
          <br />  
             <center><p id="welcome" ><strong>
-                <font size="+3" color="white"> Welcome to My Personal Blog📝</font>
+                <font size="+3" color="white">Welcome to My Blogs📝</font>
+                <font size="+1" color="white"><i>3.0</i></font>
                 </strong></p> </center>
         </div>
         {/* 
