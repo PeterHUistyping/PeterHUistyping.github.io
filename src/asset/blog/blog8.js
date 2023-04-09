@@ -30,9 +30,9 @@ export function Blog8(){
     </code></pre>
     <h2 id="zipfslawandheapslaw">Zipf’s Law and Heaps’ Law</h2>
     <p>Zipf’s law says that there is a reverse exponential relationship between the frequency of a word (fw) in a large natural language text, and its relative frequency rank (rw; the ranking of its frequency in comparison with other words’ frequencies) <br/>
-    <img class="img_normal" src="/asset/photo/Assignment/8/Estimation of log-log.png" alt="Zipf" /><br/>
+    <img class="img_normal" src="/asset/photo/Assignment/8/Estimation of log-log.png" alt="Zipf" title="Zipf" /><br/>
     Heaps’ law relates the number of distinct words in a text to the overall number of words in the text.<br/>
-    <img class="img_normal" src="/asset/photo/Assignment/8/Numbers of Words.png" alt="Heaps" /></p>
+    <img class="img_normal" src="/asset/photo/Assignment/8/Numbers of Words.png" alt="Heaps" title="Heaps"/></p>
     <h2 id="statisticalsignificancetesting">Statistical Significance Testing</h2>
     <p>Modify the simple classifier to include the information about the magnitude of a sentiment.<br/>
     A word with a strong intensity should be weighted <em>four</em> times as high for the evaluator.<br/>

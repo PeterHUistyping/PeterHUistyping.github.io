@@ -83,7 +83,7 @@ export function Blog2(){
         friend Goods operator * (int n, const Goods& g2); <br/>
         friend Goods operator=(Goods&
         g1,const Goods& g2); <br/>
-        <img width= "300vw" src="asset/photo/Assignment/2/Order.png" alt="Order"/><br/>
+        <img width= "300vw" src="asset/photo/Assignment/2/Order.png" alt="Order" title="Order"/><br/>
         <a href="https://github.com/PeterHUistyping/Supermarket-Management-System">See More on GitHub
         </a>
             </>

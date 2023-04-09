@@ -25,19 +25,19 @@ export function Blog5(){
         Directory: Using class Top ul li a <br />
         Setting utf-8 to display emoji</p>
     <p>Adjust to mobile view: CSS add "media only screen and (max-width: 800px)" condition -2023.3.6</p>
-    <img class="img_normal" src="asset/photo/Assignment/5/page.png" alt="Personal Page"/><br />
+    <img class="img_normal" src="asset/photo/Assignment/5/page.png" alt="Personal Page" title="Personal Page"/><br />
 
     Code Reconstruction<br/>
     Using React together with React to construct functions, thus shortening the lines of code and maintenance cost. -2023.2.1<br />
     Reconstructing the whole web structure using React App. -2023.2.15<br/>
     Adding a 404 redirect to home page. <br/>
     Using React component-based architecture, using Routes to deliever new page. -2023.2.16<br/>
-    <img class="img_normal" src="asset/photo/Assignment/5/React_js.png" alt="React_js"/><br/>
+    <img class="img_normal" src="asset/photo/Assignment/5/React_js.png" alt="React_js" title="React_js"/><br/>
    
     <h2 id="blog"><center>Blog</center></h2>
     Blogs<i>3.0</i> Platform: This patch updates blog UI system with better visual effect. -2023.4.5<br/>
     
-    <img class="img_normal" src="asset/photo/Assignment/5/BlogApr23.png" alt="Blog_Apr23"/><br/>
+    <img class="img_normal" src="asset/photo/Assignment/5/BlogApr23.png" alt="Blog_Apr23" title="Blog_Apr23"/><br/>
 
     
     Updated Blog2.0: ⬇ <i>Sort Data on Header Click</i> <br/>
@@ -64,11 +64,11 @@ export function Blog5(){
             </iframeset>
         </center><br />
 
-        
+        <h2>Legacy Display</h2>
 
 
-        <img class="img_normal" src="asset/photo/Assignment/5/blog2.0.png" alt="Blog2.0"/>
-        <img class="img_normal" src="asset/photo/Assignment/5/blog.png" alt="Blog"/> 
+        <img class="img_normal" src="asset/photo/Assignment/5/blog2.0.png" alt="Blog2.0" title="Blog2.0"/>
+        <img class="img_normal" src="asset/photo/Assignment/5/blog.png" alt="Blog" title="Blog"/> 
         <br/>
         
 

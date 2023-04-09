@@ -45,12 +45,12 @@ export function Blog4(){
     Convert one int -&gt;int64_t  <br/>
     const uint64_t size = (static_cast&lt;uint64_t&gt;(rows_) * cols_)  
     </code></pre>
-     <img   width= "300vw" src="asset/photo/Assignment/4/check-clang-tidy.png" alt="Check-clang-tidy" /><br />
-        <img   width= "300vw" src="asset/photo/Assignment/4/Project0_1.png" alt="Pr0" />
+     <img   width= "300vw" src="asset/photo/Assignment/4/check-clang-tidy.png" alt="Check-clang-tidy" title="Check-clang-tidy"/><br />
+        <img   width= "300vw" src="asset/photo/Assignment/4/Project0_1.png" alt="Pr0" title="Pr0"/>
      
 
     <h2 id="project1">Project 1</h2>
-    <p><img   width= "300vw" src="asset/photo/Assignment/4/Project1_GS.png" alt="Pr1_Gradescope" /> </p>
+    <p><img   width= "300vw" src="asset/photo/Assignment/4/Project1_GS.png" alt="Pr1_Gradescope" title="Pr1_Gradescope"/> </p>
     <p>Reference: Database-System-Concepts-7th-Edition Ch13.5 Database Buffer </p>
     <p>LRU Replacer<br />
         Need to search in o(1), delete; Perform like a stack<br />

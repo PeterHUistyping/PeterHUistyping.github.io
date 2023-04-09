@@ -26,7 +26,7 @@ export function Blog3(){
 
     <p><img width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment0_Barnsley%20fern/Self-similar%20fractals.png"
-            alt="Self-similar fractals" /></p>
+            alt="Self-similar fractals" title="Self-similar fractals"/></p>
     <h2 id="lessonmaterial">Lesson Material</h2>
     <p>Course Calendar:
         https://groups.csail.mit.edu/graphics/classes/6.837/F04/calendar.html</p>
@@ -44,7 +44,7 @@ export function Blog3(){
     <p>A glimpse of it ⬇<br />
         <img width= "300vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment0_Barnsley%20fern/Self-similar%20fractals.png"
-            alt="Self-similar fractals" />
+            alt="Self-similar fractals"  title="Self-similar fractals" />
     </p>
     <h4 id="assignment1raycasting">Assignment1: [Ray Casting]</h4>
     <pre><code>Sphere-Ray Intersection-(Geometric/Algebraic)  <br/>
@@ -176,10 +176,10 @@ export function Blog3(){
         </code></pre>
     <p>A glimpse of it ⬇<br />
         <img   width= "100vw" src="/asset/photo/Assignment/blog3/MyProject/assignment7_Supersampling+Antialiasing/Antialiasing.png"
-            alt="Antialiasing" />
+            alt="Antialiasing" title="Antialiasing"/>
         <img   width= "400vw"
             src="/asset/photo/Assignment/blog3/MyProject/assignment7_Supersampling+Antialiasing/Supersampling.png"
-            alt="Supersampling" />
+            alt="Supersampling" title="Supersampling"/>
 
     </p>
     <p>*Adjustment:<br />

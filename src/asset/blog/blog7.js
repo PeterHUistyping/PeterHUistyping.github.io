@@ -95,7 +95,7 @@ export function Blog7(){
     For the data provided, across all time, rank the top 100 most polluting vessels along with the GHGs they emitted.<br/>
     </code></pre>
 
-    <p><img class="img_normal" src="/asset/photo/Assignment/7/Compare_Report.png" alt="Intro" /></p>
+    <p><img class="img_normal" src="/asset/photo/Assignment/7/Compare_Report.png" alt="Compare_Report" title="Compare_Report"/></p>
     <h3 id="challenge2voyagerouteoptimization">Challenge 2: Voyage route optimization</h3>
     <pre><code>• How can we help vessels to plan optimised routes that reduce fuel consumption and emissions in any scenario?<br/>
     Step 1: Simple routing<br/>
@@ -114,7 +114,7 @@ export function Blog7(){
     Step 4: Analyse<br/>
     Using the Voyage data, generate GHG efficient voyages for 100 unique voyages.<br/>
     </code></pre>
-    <p><img class="img_normal" src="/asset/photo/Assignment/7/Map.png" alt="Intro" /></p>
+    <p><img class="img_normal" src="/asset/photo/Assignment/7/Map.png" alt="Map" /></p>
     <h3 id="challenge3cargologisticsoptimization">Challenge 3: Cargo logistics optimization</h3>
     <pre><code>• Vessel operators and cargo exporters want to optimise their logistics planning to minimize their impact on the environment. There should be an app for that!<br/>
     Step 1: Cargo emissions<br/>
