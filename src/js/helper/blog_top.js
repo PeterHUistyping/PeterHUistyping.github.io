@@ -29,8 +29,8 @@ export default function Blog_Top(){
                 </ul>
             </li>
             <li><HashLink to="/#contact">📬Contact </HashLink> </li>
-            <li><a href="#">⬆️Top</a></li>
-
+            {/* <li><a href="#">⬆️Top</a></li> */}
+            <li><a href={window.location.href+"/#"}>⬆️Top</a></li>
             {/* <li><a href="/asset/blog/blog.html">🎶Music</a>
                 <ul>
                 <li><a href="#">🚫 on 👉</a></li>
