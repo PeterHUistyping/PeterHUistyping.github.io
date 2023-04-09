@@ -1,6 +1,7 @@
 import ScrollToTop from "../../js/helper/ScrollToTop";
 import Blog_Footer from "../../js/helper/blog_footer";
 import Blog_Top from "../../js/helper/blog_top";
+ 
 export function Blog5(){
     return(
     <ScrollToTop> 
@@ -66,8 +67,10 @@ export function Blog5(){
     Adding the feature of seeing the state of music display state. -2023.4.9<br/>
     Removing legacy version ( Music for Blog: Using   frame  and iframe to support Music autoplay and looping -2022.9.18 )<br/>
         <br />
-      
-        <h2>Legacy Display</h2>
+     
+    <br />
+
+        <h2><center>Legacy Display</center></h2>
 
         <img class="img_normal" src="asset/photo/Assignment/5/BlogMar23.png" alt="Blog3.0_Mar23" title="Blog3.0_Mar23"/><br/>
         <img class="img_normal" src="asset/photo/Assignment/5/blog2.0.png" alt="Blog2.0" title="Blog2.0"/><br/>
@@ -76,23 +79,29 @@ export function Blog5(){
         (Table sorting is no longer supported in react version. -2023.2.16)<br/>
         <br/>
         <center>
-            <iframeset height="60wh" cols="100%">
-                <iframe src="/asset/blog/blog_directory_Storting.html"  width= "400vw" height="400vw" title="blog2.0"></iframe>
-            </iframeset>
-            <iframeset height="60wh" cols="100%">
-                <iframe src="/asset/blog/blog_directory.html"  width= "400vw" height="400vw" title="blog1.0"></iframe>
+            <iframeset >
+                <iframe src="/asset/blog/blog_directory_Storting.html"   title="blog2.0"></iframe> 
             </iframeset>
         </center><br />
+        
         <img class="img_normal" src="asset/photo/Assignment/5/blog.png" alt="Blog1.0" title="Blog1.0"/> <br/>
         Originally written in Markdown(.md).<br/> Convert Markdown to HTML via <a
             href="https://showdownjs.com/">Showdown</a><br/>
         Reuse: the same part in the HTML / using JavaScript to encapsulate the header and footer<br/>
-        
-        
         <br/>       <br/>
+         <center>
+            <iframeset >
+                <iframe src="/asset/blog/blog_directory.html"   title="blog1.0"></iframe>
+            </iframeset>
+        </center><br />
         <img class="img_normal" src="asset/photo/Assignment/5/page.png" alt="Personal Page2022" title="Personal Page 2022"/><br />
-
-        <a href="/">Welcome to My Personal Page</a>
+        <br/>
+       
+        <center> 
+            <a href="/"> 
+            <button class="button button_blogs"> 🏠 PERSONAL PAGE </button>  
+            </a> 
+        </center> 
             </>
     
         <Blog_Footer />
