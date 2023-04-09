@@ -29,7 +29,7 @@ export default function Blog_Footer(){
     </>
 )
 }
- 
+
 function popup() {
     alert("Warm Welcome!\n\
     \n---Version: Blogs3.0 Platform---\n---Music: Town of Windmill---\n \n ----------More Info----------\n \
