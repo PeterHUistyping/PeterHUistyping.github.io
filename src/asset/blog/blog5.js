@@ -43,11 +43,11 @@ export function Blog5(){
     Updated Blog2.0: ⬇ <i>Sort Data on Header Click</i> <br/>
     &ensp; &ensp; &ensp; Using JavaScript to support table display and sorting -2022.9.27<br/>
     (Table sorting is no longer supported in react version. -2023.2.16)<br/>
-    
+    <br/>
     Blogs<i>3.0</i> Platform: This patch updates navigation bar UI design and music button. -2023.4.7<br/>
     Further update on music system: enable play and pause toggle design. Disable music on main website. <br/>
     Adding the feature of seeing the state of music display state. -2023.4.9<br/>
-    <br/>Updated Music for Blog: Using   frame  and iframe to support Music autoplay and looping -2022.9.18<br/>
+    Removing legacy version ( Music for Blog: Using   frame  and iframe to support Music autoplay and looping -2022.9.18 )<br/>
         <br />
         <center>
             <iframeset cols="100%">

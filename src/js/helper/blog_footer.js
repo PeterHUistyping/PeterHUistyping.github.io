@@ -14,7 +14,7 @@ export default function Blog_Footer(){
             <tbody>
                 <td>
                     Blogs<i>3.0</i> - Artistic, Better, Convenient Platform  &nbsp;
-                    <button class="button button_blogs" onClick={() => alert("Originally written in Markdown(.md) \nConvert Markdown to HTML via Showdown https://showdownjs.com/.")}> Details </button>
+                    <button class="button button_blogs" onClick={() => {popup()}}> Details </button>
                     &nbsp;
                     <a href="/#/blog5"> 
                      <button class="button button_blogs">Update Log</button>  
@@ -29,8 +29,12 @@ export default function Blog_Footer(){
     </>
 )
 }
-function myFunction() {
-  alert("I am an alert box!");
+ 
+function popup() {
+    alert("Version: Blogs3.0 Platform\n \
+    Originally written in Markdown(.md) \n \
+    Convert Markdown to HTML via Showdown \n \
+    https://showdownjs.com/")
 }
 
  
