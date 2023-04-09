@@ -1,5 +1,6 @@
 import { HashLink } from 'react-router-hash-link';
- 
+import React from "react";
+import { useRef } from "react";
 export default function Blog_Top(){
     return (
         <>
@@ -41,9 +42,10 @@ export default function Blog_Top(){
                 <Button onClick={sayHello}>Settings</Button>
             </li>      */}
             <li>    
-                <a href="/asset/blog/blog.html">   
-                <button class="button button_settings">🎶</button>      
-                </a>
+                {/* <a href="/asset/blog/blog.html">   
+                <button class="button button_settings" onClick={() => setDisable(true)}>🎶</button>      
+                </a> */}
+                <DisableAfterClick />
             </li>
         </ul>
     </div>
@@ -52,4 +54,30 @@ export default function Blog_Top(){
     </>
     )
 }
+let audio = new Audio("/asset/audio/Town_of_Windmill.mp3");
+let music_state=true
+function DisableAfterClick() {
+//   const [disable, setDisable] = React.useState(false);
+    let btnRef = useRef();
+    const onBtnClick = (e) => {
+    if (btnRef.current) {
+        // window.location.href="/asset/blog/blog.html"
+        if(music_state){
+            audio.play();
+        }
+        else{
+            audio.pause();
+        }
+        music_state=!music_state
+        // btnRef.current.setAttribute("disabled", "disabled");
+    }
+  };
+
+ 
+  return (
+        <button  class="button button_settings" ref={btnRef} onClick={onBtnClick}>🎶</button>      
+  );
+
+}
+
  
