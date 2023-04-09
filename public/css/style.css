@@ -215,7 +215,7 @@ h3 {
   }
 }
 
-.button_settings {
+.button_musicoff {
   /* border-radius: 1px;
   padding: 2px;
   margin: 2px ; */
@@ -227,10 +227,28 @@ h3 {
   border: 3px solid #d9f2d9;
 }
 
-.button_settings:hover {
+.button_musicoff:hover {
   color: black;
   border-radius: 16px;
   background-color: #d9f2d9;
+}
+
+.button_musicon {
+  /* border-radius: 1px;
+  padding: 2px;
+  margin: 2px ; */
+  font-size: 14px;
+  text-align: center;
+  background-color:#d9f2d9;
+  color: grey;
+  border-radius: 16px; /* Pill Button */
+  border: 3px solid #d9f2d9;
+}
+
+.button_musicon:hover {
+  color: black;
+  border-radius: 16px;
+  background-color: white;
 }
 
 .button_blogs {

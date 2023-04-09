@@ -1,6 +1,7 @@
 import { HashLink } from 'react-router-hash-link';
 import React from "react";
 import { useRef } from "react";
+import { useState } from "react";
 export default function Blog_Top(){
     return (
         <>
@@ -57,7 +58,7 @@ export default function Blog_Top(){
 let audio = new Audio("/asset/audio/Town_of_Windmill.mp3");
 let music_state=true
 function DisableAfterClick() {
-//   const [disable, setDisable] = React.useState(false);
+    const [btnState, setBtnState] = React.useState(false);
     let btnRef = useRef();
     const onBtnClick = (e) => {
     if (btnRef.current) {
@@ -68,14 +69,15 @@ function DisableAfterClick() {
         else{
             audio.pause();
         }
-        music_state=!music_state
+        music_state=!music_state;
+        setBtnState(btnState => !btnState);
         // btnRef.current.setAttribute("disabled", "disabled");
     }
   };
 
  
   return (
-        <button  class="button button_settings" ref={btnRef} onClick={onBtnClick}>🎶</button>      
+        <button  className={`button ${btnState ? "button_musicon" : "button_musicoff"}`} ref={btnRef} onClick={onBtnClick}>🎶</button>      
   );
 
 }
