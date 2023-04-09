@@ -76,10 +76,10 @@ export function Blog5(){
         (Table sorting is no longer supported in react version. -2023.2.16)<br/>
         <br/>
         <center>
-            <iframeset cols="100%">
+            <iframeset height="60wh" cols="100%">
                 <iframe src="/asset/blog/blog_directory_Storting.html"  width= "400vw" height="400vw" title="blog2.0"></iframe>
             </iframeset>
-            <iframeset cols="100%">
+            <iframeset height="60wh" cols="100%">
                 <iframe src="/asset/blog/blog_directory.html"  width= "400vw" height="400vw" title="blog1.0"></iframe>
             </iframeset>
         </center><br />
