@@ -31,7 +31,8 @@ export default function Blog_Footer(){
 }
  
 function popup() {
-    alert("Version: Blogs3.0 Platform\nMusic: Town of Windmill\n \
+    alert("Warm Welcome!\n\
+    \n---Version: Blogs3.0 Platform---\n---Music: Town of Windmill---\n \n ----------More Info----------\n \
     Originally written in Markdown(.md) \n \
     Convert Markdown to HTML via Showdown \n \
     https://showdownjs.com/ \n  \n \
