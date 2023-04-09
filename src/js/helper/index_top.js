@@ -9,7 +9,7 @@ export default function Index_Top(){
                     <a_ href="#"><i>Peter </i>HU's Website</a_>
                 </li>
                 <li>
-                    <a href="http://PeterHUistyping.github.io">🏠HOME</a>
+                    <a href="http://PeterHUistyping.github.io/#">🏠HOME</a>
                 </li>
                 <li><HashLink to="/#project">📊Project</HashLink>
                     <ul>

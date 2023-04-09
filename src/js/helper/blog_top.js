@@ -12,7 +12,7 @@ export default function Blog_Top(){
                 <a_ href="#"><i>Peter </i>HU's Blogs&nbsp; &nbsp;</a_>
             </li>
             <li>
-                <a href="../">🏠HOME</a>
+                <a href="/#">🏠HOME</a>
             </li>
 
             <li>  <HashLink to="/#project">📊Project</HashLink>   

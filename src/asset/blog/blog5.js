@@ -13,7 +13,7 @@ export function Blog5(){
     </code></pre>
     <h2 id="personalpage" >
         <center> 
-            <a href="/"> 
+            <a href="/#"> 
             <button class="button button_blogs"> 🏠 PERSONAL PAGE </button>  
             </a> 
         </center> 
@@ -27,7 +27,7 @@ export function Blog5(){
            <img width="160vw" src="asset/photo/Assignment/5/Mobile_Home_Apr2023.png" alt="Mobile_Home_Apr2023" title="Mobile View of Home Page"/><br/> 
     {/* <center>
         <iframeset cols="100%">
-            <iframe src="/"    width= "400vw" height="400vw"></iframe>
+            <iframe src="/#"    width= "400vw" height="400vw"></iframe>
         </iframeset>
     </center><br /> */}
 
@@ -63,7 +63,8 @@ export function Blog5(){
     
    
     Blogs<i>3.0</i> Platform: This patch updates navigation bar UI design and music button. -2023.4.7<br/>
-    Further update on music system: enable play and pause toggle design. Disable music on main website. <br/>
+    Further update on music system: enable play and pause toggle design.<br/>
+    Enable music on main page by redirecting to '/#' instead of '/'. ( Music can't continue on main website. -- Fixed) <br/>
     Adding the feature of seeing the state of music display state. -2023.4.9<br/>
     Removing legacy version ( Music for Blog: Using   frame  and iframe to support Music autoplay and looping -2022.9.18 )<br/>
         <br />
@@ -98,7 +99,7 @@ export function Blog5(){
         <br/>
        
         <center> 
-            <a href="/"> 
+            <a href="/#"> 
             <button class="button button_blogs"> 🏠 PERSONAL PAGE </button>  
             </a> 
         </center> 
