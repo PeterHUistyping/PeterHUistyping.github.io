@@ -16,22 +16,25 @@ export function Blog5(){
             <button class="button button_blogs"> 🏠 PERSONAL PAGE </button>  
             </a> 
         </center> 
+
     
     </h2>
     <p>Powered by Github Page<br />
-        Main idea: Using table to sort things up<br />
-        Better display on mobile device. <br /></p>
-    <center>
+        Main idea: Using table to sort things up, achieving
+        better display on mobile device.  <br />
+   Adjust to mobile view: CSS add "media only screen and (max-width: 800px)" condition -2023.3.6</p>
+           <img width="160vw" src="asset/photo/Assignment/5/Mobile_Home_Apr2023.png" alt="Mobile_Home_Apr2023" title="Mobile View of Home Page"/><br/> 
+    {/* <center>
         <iframeset cols="100%">
             <iframe src="/"    width= "400vw" height="400vw"></iframe>
         </iframeset>
-    </center><br />
+    </center><br /> */}
 
     <p>CSS ~ Change style directly<br />
         Reuse:Only need to change here once instead of multiple times<br /><br />
-        Directory: Using class Top ul li a <br />
-        Setting utf-8 to display emoji</p>
-    <p>Adjust to mobile view: CSS add "media only screen and (max-width: 800px)" condition -2023.3.6</p>
+        Navigation Bar: Using class Top ul li a
+        , with utf-8 setting to display emoji</p>
+    
    
 
     Code Reconstruction<br/>
