@@ -30,16 +30,9 @@ export function Blog_Sorting(){
         //     animateState: {
         //       opacity: 1,
         //       clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
-        //     },
-           
+        //     }  
         //   }}
-
         > 
-    {/* <motion.div   
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 1 }}  >  */}
     <ScrollToTop> 
         <div>
         <Blog_Top/>
