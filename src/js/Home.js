@@ -2,9 +2,10 @@
  import PrAs_table from "./PrAs_Table";
  import Index_Footer from "./helper/index_footer";
  import Index_Top from "./helper/index_top";
+ import { motion } from 'framer-motion'
 export function Home() {
   return (
-
+    <motion.div    > 
     <div>
     <Index_Top/>       
     <div class="h2_center">About Me</div>
@@ -73,7 +74,7 @@ export function Home() {
   
     <Index_Footer />
     </div>
-
+  </motion.div>
 
   );
 }

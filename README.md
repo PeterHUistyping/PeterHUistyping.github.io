@@ -8,6 +8,7 @@ npx create-react-app .
 npm install gh-pages --save-dev
 npm install react-router-dom
 npm install jquery
+npm install framer-motion
 ```
 ## React Usage
 ```

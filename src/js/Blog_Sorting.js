@@ -8,10 +8,38 @@ import Blog_Top from "./helper/blog_top";
 import $ from "jquery";
 import ScrollToTop from "./helper/ScrollToTop";
 import Resource  from "./resource";
+import { motion } from 'framer-motion'
 var resource=Ongoing.concat(Hr_Award);
 resource=resource.concat(Past); 
 export function Blog_Sorting(){
     return(   
+        <motion.div   
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.8 }} 
+        // initial="initialState"
+        // animate="animateState"
+        
+        // transition={{ duration: 1 }} 
+        // variants={{
+        //     initialState: {
+        //       opacity: 0,
+          
+        //       clipPath: "polygon(50% 0, 50% 0, 50% 100%, 50% 100%)",
+        //     },
+        //     animateState: {
+        //       opacity: 1,
+        //       clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
+        //     },
+           
+        //   }}
+
+        > 
+    {/* <motion.div   
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 1 }}  >  */}
     <ScrollToTop> 
         <div>
         <Blog_Top/>
@@ -40,7 +68,7 @@ export function Blog_Sorting(){
        
     </div> 
     </ScrollToTop>
-
+    </motion.div>
     )
 }
 $(document).ready(function () {
