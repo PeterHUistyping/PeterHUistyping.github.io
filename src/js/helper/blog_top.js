@@ -30,7 +30,7 @@ export default function Blog_Top(){
             </li>
             <li><HashLink to="/#contact">📬Contact </HashLink> </li>
             {/* <li><a href="#">⬆️Top</a></li> */}
-            <li><a href={window.location.href+"/#"}>⬆️Top</a></li>
+            <li><a href={window.location.href+"/#"}>🔝Top</a></li>
             {/* <li><a href="/asset/blog/blog.html">🎶Music</a>
                 <ul>
                 <li><a href="#">🚫 on 👉</a></li>
@@ -42,12 +42,18 @@ export default function Blog_Top(){
             {/* <li>
                 <Button onClick={sayHello}>Settings</Button>
             </li>      */}
-            <li>    
-                {/* <a href="/asset/blog/blog.html">   
-                <button class="button button_settings" onClick={() => setDisable(true)}>🎶</button>      
-                </a> */}
-                <DisableAfterClick />
+            <li><a href={window.location.href}>⚙️Settings🛠️</a>
+                <ul>
+                    <li><Bg_color /></li>
+                    <li>    
+                        {/* <a href="/asset/blog/blog.html">   
+                        <button class="button button_settings" onClick={() => setDisable(true)}>🎶</button>      
+                        </a> */}
+                        <DisableAfterClick />
+                    </li>
+                </ul>
             </li>
+           
         </ul>
     </div>
     </body_>
@@ -74,12 +80,50 @@ function DisableAfterClick() {
         // btnRef.current.setAttribute("disabled", "disabled");
     }
   };
-
- 
   return (
         <button  className={`button ${btnState ? "button_musicon" : "button_musicoff"}`} ref={btnRef} onClick={onBtnClick}>🎶</button>      
   );
 
-}
-
- 
+};
+function ChangeBodyColor(c){
+  document.body.style.backgroundColor = c;
+};
+const colors = ["#f9e5f7", "#eedcd0","#d9f2d9", "#ddd9f5","#def5f1" ];
+function Bg_color() {
+  const [backgroundColor, setBackgroundColor] = React.useState("");
+  return (
+    <div
+      style={{
+        backgroundColor
+      }}
+    >
+      <style>
+        {`
+        .circle {
+          border-radius: 50%;
+          width: 15px;
+          height: 15px;
+          border: 1px solid black;
+          display: inline-block;
+          cursor: pointer;
+        }
+      `}
+      </style>
+      {colors.map((c) => {
+        return (
+          <div
+            key={c}
+            style={{
+              backgroundColor: c
+            }}
+            class="circle"
+            onClick={() =>{setBackgroundColor(c);ChangeBodyColor(c)} }
+          >
+            
+          </div>
+          
+        );
+      })}
+    </div>
+  );
+};

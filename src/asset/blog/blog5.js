@@ -56,7 +56,9 @@ export function Blog5(){
         </center> 
 
     </h2>
-    Blogs<i>3.0</i> Platform: This patch updates blog UI system with better visual effect. -2023.4.5<br/>
+    Blogs<i>3.0</i> Platform: This patch updates navigation bar in Blogs<i>3.0</i> Platform, adding ⚙️Settings🛠️.<br/>
+    ⚙️Settings🛠️ supports changing backgroundColor, controlling music. -2023.4.11<br/>
+    Updates blog UI system with better visual effect. -2023.4.5<br/>
     <img class="img_normal" src="asset/photo/Assignment/5/blog3.0.png" alt="Blog3.0" title="Blog3.0"/> <br></br>
    
 

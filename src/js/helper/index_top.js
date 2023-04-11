@@ -24,7 +24,7 @@ export default function Index_Top(){
                     </ul>
                 </li>
                  <li><HashLink to="/#contact">📬Contact </HashLink> </li>
-                <li><a href="#">⬆️Top</a></li>
+                <li><a href="#">🔝Top</a></li>
             </ul>
         </div>
         <br /><br /><br /><br />
