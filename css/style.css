@@ -80,9 +80,10 @@ body_ {
 }
 
 body {
-  /* background-color: #d9f2d9; */
+  background-color: #d9f2d9;
   /* background-image:radial-gradient(#e7edcc ,#d9f2d9); */
-  background-image: linear-gradient(to right, #d9f2d9, #dfe6be );
+  /* background-image: linear-gradient(to right, #d9f2d9, #dfe6be ); */
+  
 }
 
 h1 {
@@ -219,7 +220,7 @@ h3 {
   /* border-radius: 1px;
   padding: 2px;
   margin: 2px ; */
-  font-size: 14px;
+  /* font-size: 14px; */
   text-align: center;
   background-color:white;
   color: grey;
@@ -237,7 +238,7 @@ h3 {
   /* border-radius: 1px;
   padding: 2px;
   margin: 2px ; */
-  font-size: 14px;
+  /* font-size: 14px; */
   text-align: center;
   background-color:#d9f2d9;
   color: grey;
