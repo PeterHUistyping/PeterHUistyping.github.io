@@ -5,7 +5,7 @@ export default function Resource(){
     keys.sort((a,b)=>a-b);
     return(
         <>
-        <p id="resource"><strong><font size="+2"> Useful Resource and Reference📚</font></strong></p>
+        <p id="resource"><strong><font size="+2"> Useful Resource and Reference for Computer Science📚</font></strong></p>
         {keys.map((item, index)=>(
             <>
             {index+1}. <a href={resource[item].link}>{resource[item].description}</a>

@@ -56,7 +56,7 @@ export function Blog_Sorting(){
         <Table resource={resource}/>
         <img  width= "100%"  src="/asset/photo/bg/Magic2.jpg" alt="Magic"/> <br/>
         <p><strong>More to Discover</strong></p> 
-        Useful Resource and Reference <a href="/#/ref">📚</a>
+        Useful Resource and Reference for Computer Science<a href="/#/ref">📚</a>
         <Blog_Footer />
        
     </div> 
