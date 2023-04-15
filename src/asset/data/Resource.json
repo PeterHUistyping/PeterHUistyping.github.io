@@ -1,5 +1,10 @@
 [
     { "link":"https://www.cs.utexas.edu/users/EWD/",
-      "description":"The manuscripts of Edsger W. Dijkstra"
+      "description":"The manuscripts of Dijkstra",
+      "author":"Edsger W. Dijkstra"
+    },
+    { "link":"https://www.nand2tetris.org",
+      "description":"Building a Modern Computer From First Principles",
+      "author":"Noam Nisan and Shimon Schocken (MIT Press)"
     }
 ]

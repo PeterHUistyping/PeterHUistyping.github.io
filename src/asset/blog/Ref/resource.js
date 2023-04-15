@@ -5,16 +5,16 @@ export default function Resource(){
     keys.sort((a,b)=>a-b);
     return(
         <>
-        <br /> <br /> <br />
- 
         <p id="resource"><strong><font size="+2"> Useful Resource and Reference📚</font></strong></p>
-   
-        {keys.map((item)=>(
+        {keys.map((item, index)=>(
             <>
-            <a href={resource[item].link}>{resource[item].description}</a>
+            {index+1}. <a href={resource[item].link}>{resource[item].description}</a>
             <br/>
+            Author: <i>{resource[item].author}</i>
+            <br/> <br/>
             </>
         ))}  
+        <p>Disclaimer: <i>All rights belong to their respective owners. I do NOT own any of these contents.</i></p>
         </>
     )
 }
