@@ -7,7 +7,6 @@ import Blog_Footer from "./helper/blog_footer";
 import Blog_Top from "./helper/blog_top";
 import $ from "jquery";
 import ScrollToTop from "./helper/ScrollToTop";
-import Resource  from "./resource";
 import { motion } from 'framer-motion'
 var resource=Ongoing.concat(Hr_Award);
 resource=resource.concat(Past); 
@@ -55,8 +54,9 @@ export function Blog_Sorting(){
         {/*  &ensp;&ensp;&ensp;
         ⬇ <i>Sort Data on Header Click</i> */}
         <Table resource={resource}/>
-        <img  width= "100%"  src="/asset/photo/bg/Magic2.jpg" alt="Magic"/> 
-        <Resource />
+        <img  width= "100%"  src="/asset/photo/bg/Magic2.jpg" alt="Magic"/> <br/>
+        <p><strong>More to Discover</strong></p> 
+        Useful Resource and Reference <a href="/#/ref">📚</a>
         <Blog_Footer />
        
     </div> 

@@ -13,6 +13,7 @@ import { Blog6 } from "./asset/blog/blog6";
 import { Blog7 } from "./asset/blog/blog7";
 import { Blog8 } from "./asset/blog/blog8";
 import { Blog9 } from "./asset/blog/blog9";
+import { Blogref} from "./asset/blog/Ref/blogRef"
 import { AnimatePresence } from "framer-motion";
 function App() {
   const location = useLocation();
@@ -33,6 +34,7 @@ function App() {
           <Route path="/blog7" element={<Blog7 />}/>
           <Route path="/blog8" element={<Blog8 />}/>
           <Route path="/blog9" element={<Blog9 />}/>
+          <Route path="/ref" element={<Blogref />}/>
           <Route path='/*' element={<NotFound />}/>
         </Routes> 
       </AnimatePresence>

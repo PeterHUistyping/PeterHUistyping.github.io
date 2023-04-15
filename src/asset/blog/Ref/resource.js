@@ -1,4 +1,4 @@
-import resource from "../asset/data/Resource.json"
+import resource from "../../../asset/data/Resource.json"
 export default function Resource(){
     var len=resource.length;
     var keys = [...Array(len).keys()];

@@ -14,8 +14,7 @@ export function Home() {
         Computer Science and how it can be applied in nearly all fields of life. I am open to new fields of area and
         enjoy exploring unknown features. The joy of improving myself step by step is what I enjoy.
     </div>
-    
- 
+
     <h2><b>WORK EXPERIENCE</b></h2>
     
     <b>GPU Software Engineer Intern </b><i> 2022.12- Present</i> <br />
@@ -50,22 +49,11 @@ export function Home() {
     ·Calculus  ·Linear Algebra  ·Discrete Math  ·Probability and Statistics  ·Abstract Algebra  ·Topology (basic)
     <br/>
 
-
-     
-
-
     <h2 id="project"><b>HONORS and AWARDS</b></h2>
     <HrAw_table />
  
-     
-   
     <h2 id="project_sub"><b>PROJECT and ASSIGNMENT</b></h2>
     <PrAs_table />
-    
-    
-
-   
-    
     
     <h2><b>INTEREST AND EXTRACURRICULAR ACTIVITIES </b></h2>
     Music, Swimming, Yoga, Gym, Helping others etc.  |  Society Joined: Ethics in Mathematics<br />
@@ -74,7 +62,7 @@ export function Home() {
   
     <Index_Footer />
     </div>
-  </motion.div>
+    </motion.div>
 
   );
 }
