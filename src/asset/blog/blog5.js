@@ -64,6 +64,14 @@ export function Blog5(){
                     <br/><br/> 
                 </center> 
             </h2>
+            
+            Originally written in Markdown(.md).<br/> Convert Markdown to HTML via <a
+                href="https://showdownjs.com/">Showdown</a><br/>
+            Reuse: the same part in the HTML / using JavaScript to encapsulate the header and footer<br/>
+            
+            ---Version: Blogs3.0 Platform---<br/>
+            ---Music: Town of Windmill---<br/>
+
             <p><strong><center>More update coming soon...</center></strong></p>   <br/>  <br/>       
 
 
@@ -73,13 +81,11 @@ export function Blog5(){
             <br/>
             2023.4.11<br/>
             Blogs<i>3.0</i> Platform: This patch updates navigation bar in Blogs<i>3.0</i> Platform, adding ⚙️Settings🛠️.<br/>
-            ⚙️Settings🛠️ supports changing backgroundColor, controlling music.<br/>
+            ⚙️Settings🛠️ supports changing background color, controlling music.<br/>
             <br/>
             2023.4.5<br/>
             Updates blog UI system with better visual effect. <br/>
             <img class="img_normal" src="asset/photo/Assignment/5/blog3.0.png" alt="Blog3.0" title="Blog3.0"/> <br></br>
-        
-
             
             2023.4.7    <br/>
             Blogs<i>3.0</i> Platform: This patch updates navigation bar UI design and music button. <br/>
@@ -94,30 +100,35 @@ export function Blog5(){
             <br />
 
             <h2><center>Legacy Display</center></h2>
-
+            --- Blog3.0 Design --- <br/>
             <img class="img_normal" src="asset/photo/Assignment/5/BlogMar23.png" alt="Blog3.0_Mar23" title="Blog3.0_Mar23"/><br/>
-            <img class="img_normal" src="asset/photo/Assignment/5/blog2.0.png" alt="Blog2.0" title="Blog2.0"/><br/>
-            Updated Blog2.0: ⬇ <i>Sort Data on Header Click</i> <br/>
+            <br/>
+
+            --- Blog2.0 Design --- <br/>
+            Updated new feature: ⬇ <i>Sort Data on Header Click</i> <br/>
             2022.9.27<br/>
             &ensp; &ensp; &ensp; Using JavaScript to support table display and sorting <br/>
             (2023.2.16 Table sorting is no longer supported in react version. )<br/>
             <br/>
+            <img class="img_normal" src="asset/photo/Assignment/5/blog2.0.png" alt="Blog2.0" title="Blog2.0"/><br/>
+      
             <center>
                 <iframeset >
                     <iframe src="/asset/blog/blog_directory_Storting.html"   title="blog2.0"></iframe> 
                 </iframeset>
             </center><br />
-            
+            <br/>
+            --- Blog1.0 Design --- <br/>
             <img class="img_normal" src="asset/photo/Assignment/5/blog.png" alt="Blog1.0" title="Blog1.0"/> <br/>
-            Originally written in Markdown(.md).<br/> Convert Markdown to HTML via <a
-                href="https://showdownjs.com/">Showdown</a><br/>
-            Reuse: the same part in the HTML / using JavaScript to encapsulate the header and footer<br/>
+        
             <br/>       <br/>
             <center>
                 <iframeset >
                     <iframe src="/asset/blog/blog_directory.html"   title="blog1.0"></iframe>
                 </iframeset>
             </center><br />
+            
+            --- Personal Page 2022 --- <br/>
             <img class="img_normal" src="asset/photo/Assignment/5/page.png" alt="Personal Page2022" title="Personal Page 2022"/><br />
             <br/>
         
