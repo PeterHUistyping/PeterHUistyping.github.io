@@ -190,7 +190,7 @@ h3 {
 .sidebar a {
   display: block;
   color: grey;
-  padding: 8px;
+  padding: 8px; /* change sidebar alignment here*/
   text-decoration: none;
 }
 .sidebar a.active {
