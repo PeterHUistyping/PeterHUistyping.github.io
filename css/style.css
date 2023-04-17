@@ -55,6 +55,7 @@ pre {
 .top li a:hover {
   background-color: #d9f2d9;
   font-weight:bold;
+  font-style: italic;
   color: black;
   border-radius: 16px;
 }
@@ -189,16 +190,21 @@ h3 {
 .sidebar a {
   display: block;
   color: grey;
-  padding: 16px;
+  padding: 8px; /* change sidebar alignment here*/
   text-decoration: none;
 }
 .sidebar a.active {
   background-color: #04AA6D;
   color: white;
+  font-weight:bold;
+  font-style: italic;
+
 }
 .sidebar a:hover:not(.active) {
   background-color: #555;
   color: white;
+  font-weight:bold;
+  font-style: italic;
 }
 .content {
   margin-left: 180px;
