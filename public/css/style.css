@@ -8,6 +8,7 @@
   margin-left: 0;
   margin-bottom: 5px;
 }
+
 p{
   overflow: auto;
 }
@@ -159,8 +160,8 @@ h3 {
   width:16vw;
   max-height: 16vh;
 }
- 
- 
+
+
 .img_project {
   width: 15vw;
   max-height: 16vh;
@@ -175,6 +176,44 @@ h3 {
   text-align: center;
 }
 
+.table_ref {
+  width:92vw;
+  height: 10vh;
+  
+}
+.table_refSidebar {
+  width:16vw;
+  max-height: 16vh;
+  position: fixed;
+}
+
+.sidebar{
+  position: fixed;
+  top:  25vh;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  padding: 20px 0;
+  transition: all 0.5s ease;
+}
+.sidebar a {
+  display: block;
+  color: grey;
+  padding: 16px;
+  text-decoration: none;
+}
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+}
 .blog {
   background-color: bisque;
 }

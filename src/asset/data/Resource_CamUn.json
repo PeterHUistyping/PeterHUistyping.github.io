@@ -1,0 +1,10 @@
+[
+    { "link":"https://www.cl.cam.ac.uk/teaching/exams/pastpapers/",
+      "description":"CS Past exam papers",
+      "author":"Department of Computer Science and Technology"
+    },
+    { "link":"https://www.maths.cam.ac.uk/undergradnst/pastpapers",
+      "description":"NST math Past Paper",
+      "author":"Mathematics for the Natural Sciences Tripos (NST)"
+    }
+]
