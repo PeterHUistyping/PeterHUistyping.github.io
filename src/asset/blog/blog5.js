@@ -74,7 +74,8 @@ export function Blog5(){
 
             <p><strong><center>More update coming soon...</center></strong></p>   <br/>  <br/>       
 
-
+            2023.4.17<br/>
+            Introduce sidebar in Ref📚 for classification.<br/>
             2023.4.15<br/>
             Introduce a separate Ref📚 module in Blog system.<br/>
             Change the format of Update Log, using chronological order now. <br/>

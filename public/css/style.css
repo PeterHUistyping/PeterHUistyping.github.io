@@ -55,6 +55,7 @@ pre {
 .top li a:hover {
   background-color: #d9f2d9;
   font-weight:bold;
+  font-style: italic;
   color: black;
   border-radius: 16px;
 }
@@ -176,22 +177,12 @@ h3 {
   text-align: center;
 }
 
-.table_ref {
-  width:92vw;
-  height: 10vh;
-  
-}
-.table_refSidebar {
-  width:16vw;
-  max-height: 16vh;
-  position: fixed;
-}
 
 .sidebar{
   position: fixed;
   top:  25vh;
   left: 0;
-  width: 200px;
+  width: 160px;
   height: 100%;
   padding: 20px 0;
   transition: all 0.5s ease;
@@ -199,19 +190,24 @@ h3 {
 .sidebar a {
   display: block;
   color: grey;
-  padding: 16px;
+  padding: 8px;
   text-decoration: none;
 }
 .sidebar a.active {
   background-color: #04AA6D;
   color: white;
+  font-weight:bold;
+  font-style: italic;
+
 }
 .sidebar a:hover:not(.active) {
   background-color: #555;
   color: white;
+  font-weight:bold;
+  font-style: italic;
 }
 .content {
-  margin-left: 200px;
+  margin-left: 180px;
   padding: 1px 16px;
 }
 .blog {
