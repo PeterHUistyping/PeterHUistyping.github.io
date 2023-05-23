@@ -70,8 +70,31 @@ export function Blog5(){
             Reuse: the same part in the HTML / using JavaScript to encapsulate the header and footer<br/>
             
             ---Version: Blogs3.0 Platform---<br/>
-            ---Music: Town of Windmill---<br/>
-
+            ---Music: Town of Windmill---<br/> <br/>
+            <p><strong><center>Heuristic Evaluation of the Design</center></strong></p>
+            <ol>
+                <li><p>1. Visibility of system status<br/>
+                Designs should keep users informed about what is going on, through appropriate, timely feedback.<br/>
+                use progress bars / indicators</p></li>
+                <li><p>2. Match between system and real world<br/>
+                The design should speak the users' language. Use words, phrases, and concepts familiar to the user, rather than internal jargon.</p></li>
+                <li><p>3. User control and freedom<br/>
+                Users often perform actions by mistake. They need a clearly marked "emergency exit" to leave the unwanted action.</p></li>
+                <li><p>4. Consistency and standards<br/>
+                Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions.</p></li>
+                <li><p>5. Error prevention<br/>
+                Good error messages are important, but the best designs carefully prevent problems from occurring in the first place.</p></li>
+                <li><p>6. Recognition rather than recall<br/>
+                Minimize the user's memory load by making elements, actions, and options visible. Avoid making users remember information.</p></li>
+                <li><p>7. Flexibility and efficiency of use<br/>
+                Shortcuts - hidden from novice users - may speed up the interaction for the expert user such that the design can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.</p></li>
+                <li><p>8. Aesthetic and minimalist design<br/>
+                Interfaces should not contain information which is irrelevant. Every extra unit of information in an interface competes with the relevant units of information.</p></li>
+                <li><p>9. Help users recognize and recover from errors<br/>
+                Error messages should be expressed in plain language (no error codes), precisely indicate the problem, and constructively suggest a solution.</p></li>
+                <li><p>10. Help and documentation<br/>
+                It’s best if the design doesn’t need any additional explanation. However, it may be necessary to provide documentation to help users complete their tasks.</p></li>
+            </ol>
             <p><strong><center>More update coming soon...</center></strong></p>   <br/>  <br/>       
 
             2023.4.17<br/>

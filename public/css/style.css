@@ -129,6 +129,7 @@ h3 {
 .img_profile {
   width: 16vw;
   max-height: 40vh;
+  border-radius: 50%;
 }
 
 @media only screen and (max-width: 800px) {
@@ -145,6 +146,7 @@ h3 {
   .img_profile {
     width: 30vw;
     max-height: 80vh;
+    border-radius: 50%;
   }
 }
 .img_normal {
