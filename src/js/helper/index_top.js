@@ -5,8 +5,8 @@ export default function Index_Top(){
         <body_>   
         <div class="top">
             <ul>
-                <li>
-                    <a_ href="#"><i>Peter </i>HU's Website</a_>
+                <li> 
+                    <HashLink style={{ color: 'black' }} to="/#"><i>Peter </i>HU's Website</HashLink>
                 </li>
                 <li>
                     <a href="http://PeterHUistyping.github.io/#">🏠HOME</a>

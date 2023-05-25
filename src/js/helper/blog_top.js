@@ -9,7 +9,7 @@ export default function Blog_Top(){
         <div class="top">
         <ul>
             <li>
-                <a_ href="#"><i>Peter </i>HU's Blogs&nbsp; &nbsp;</a_>
+              <HashLink  style={{ color: 'black' }} to="/Blog_Sorting/#welcome" ><i >Peter </i>HU's Blogs&nbsp; &nbsp;</HashLink> 
             </li>
             <li>
                 <a href="/#">🏠HOME</a>
@@ -17,7 +17,7 @@ export default function Blog_Top(){
 
             <li>  <HashLink to="/#project">📊Project</HashLink>   
                 <ul>
-                    <li> <HashLink to="/#ongoing_project">🆕Ongoing</HashLink> </li>
+                    <li><HashLink to="/#ongoing_project">🆕Ongoing</HashLink> </li>
                     <li><HashLink to="/#previous_project">📖Previous</HashLink> </li>
                 </ul>
             </li>
