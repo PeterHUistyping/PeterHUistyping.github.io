@@ -10,8 +10,8 @@ export function Home() {
     <Index_Top/>       
     <div class="h2_center">About Me</div>
     <div class="aboutMeContainer">
-        I am a Computer Science student studying at University of Cambridge. What I really enjoy is the beauty of
-        Computer Science and how it can be applied in nearly all fields of life. I am open to new fields of area and
+        Computer Science student studying at University of Cambridge. What I really enjoy is the beauty of
+        science and how it can be applied in nearly all fields of life. I am open to new fields of area and
         enjoy exploring unknown features. The joy of improving myself step by step is what I enjoy.
         <br/><br/> Exploring areas in Graphics, ML, AI, Math, Algorithms, etc. 
     </div>

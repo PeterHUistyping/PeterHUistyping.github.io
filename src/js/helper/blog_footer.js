@@ -37,7 +37,7 @@ function popup() {
     Originally written in Markdown(.md) \n \
     Convert Markdown to HTML via Showdown \n \
     https://showdownjs.com/ \n  \n \
-    Please press the button below to Exit. Thank you! ⬇️")
+    Please press the below button to Exit. Thank you! ⬇️")
 }
 
  
