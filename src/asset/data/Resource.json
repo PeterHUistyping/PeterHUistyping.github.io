@@ -6,5 +6,9 @@
     { "link":"https://www.nand2tetris.org",
       "description":"Building a Modern Computer From First Principles",
       "author":"Noam Nisan and Shimon Schocken (MIT Press)"
+    },
+    { "link":"https://www.pbr-book.org/",
+    "description":"Physically Based Rendering: From Theory To Implementation",
+    "author":"Matt Pharr, Wenzel Jakob, and Greg Humphreys"
     }
 ]
