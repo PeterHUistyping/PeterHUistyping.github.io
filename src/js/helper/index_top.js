@@ -61,7 +61,7 @@ function Profile2(){
         <td width="280" text-align="center">
     <h1 id="contact"><i>Peter</i> HU </h1>
      
-    <p> University of Cambridge <br/>Computer Science <br/>Part IA</p> <br/><strong>Contact
+    <p> University of Cambridge <br/>Computer Science <br/>Part IB</p> <br/><strong>Contact
         Details</strong><br/>
     Email: zh369@cam.ac.uk <br/> Phone: (+44) 07990 719841
     <br/><a href="./asset/doc/CV_PeterHU.pdf">CV</a> | <a
