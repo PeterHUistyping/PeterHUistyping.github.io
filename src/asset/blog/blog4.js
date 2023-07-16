@@ -7,7 +7,7 @@ export function Blog4(){
     <div>
         <Blog_Top/>
             <>
-            <h1 id="project_database">Database Design Project (C++)</h1>
+            <h1 id="project_database">Database Management System Design Project (C++)</h1>
     <h1 id="cmu15445_database">CMU15-445 <em>Database</em> Project</h1>
     <p>Database Design Project (C++)<br />
         Course Link: </p>
@@ -85,7 +85,7 @@ export function Blog4(){
      <img   width= "300vw" src="asset/photo/Assignment/4/Project1.png" alt="Pr1" />  
     <br />
 
-    <a href="https://github.com/PeterHUistyping/CMU15-445_Database_Project">See More on GitHub</a>
+    <a href="https://github.com/PeterHUistyping/CMU15-445_Database_Management_System">See More on GitHub</a>
             </>
     
         <Blog_Footer />
