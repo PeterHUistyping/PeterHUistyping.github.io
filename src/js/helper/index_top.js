@@ -66,8 +66,8 @@ function Profile2(){
     Email: zh369@cam.ac.uk <br/> Phone: (+44) 07990 719841
     <br/><a href="./asset/doc/CV_PeterHU.pdf">CV</a> | <a
         href="https://www.linkedin.com/in/peterhu2022/">LinkedIn</a> | <a
-        href="https://github.com/PeterHUistyping">Github</a>
-    | More <br/>
+        href="https://github.com/PeterHUistyping">Github</a> |
+         More <br/>
 </td>
       
     )
