@@ -8,7 +8,7 @@ export function Blog4(){
         <Blog_Top/>
             <>
             <h1 id="project_database">Database Design Project (C++)</h1>
-    <h1 id="cmu15445_database_project">CMU15-445 <em>Database</em> Project</h1>
+    <h1 id="cmu15445_database">CMU15-445 <em>Database</em> Project</h1>
     <p>Database Design Project (C++)<br />
         Course Link: </p>
     <p>https://15445.courses.cs.cmu.edu/fall2021/assignments.html </p>
