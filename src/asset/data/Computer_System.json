@@ -1,0 +1,49 @@
+[
+    {
+        "Title":"Operating System",
+        "pic1_src":"./asset/photo/Assignment/other/OS_CAM.png", 
+        "pic1_alt":"TLB",
+        "pic2_src":"./asset/photo/Assignment/other/OS_Process.png",
+        "pic2_alt":"Process",
+        "Category":"MIT 6.S081",
+        "line":1,
+        "Des1": "⛵Update: Start from 14/Oct/2022",
+        "Time":"2022.10.14-Present",
+        "Github":"https://github.com/PeterHUistyping/Operating_System"
+    },
+    {
+        "Title":"Database Management System Design Project",
+        "pic1_src":"./asset/photo/Assignment/3/DB_T.png",
+        "pic1_alt":"PASS",
+        "pic2_src":"./asset/photo/Assignment/3/DB_score.png",
+        "pic2_alt":"Auto grader",
+        "Category":"C++",
+        "line":4,
+        "Des1": "Buffer Pool Management System, Latch, LRU Replacement policy, Buffer Pool Manager Instance. In order to solve the concurrent problem, implement the PARALLEL Buffer Pool Manager.",
+        "Des2":"C++ STL; Useful Coding Skills: Google C++ Style Guide",
+        "Des3":"logger.h:Debug logging functions for EE / LOG_DEBUG ; gtest/gtest.h:Google Unit Testing<br>", 
+        "Des4": "@brief @param @return @author @date @version",
+        "Time":"2022.9.9-Present",
+        "Github":"https://github.com/PeterHUistyping/CMU15-445_Database_Management_System",
+        "Italic":"CMU15-445 Project",
+        "Blog":"blog4",
+        "More":"https://google.github.io/styleguide/cppguide.html"
+    },
+    {
+        "pic1_src":"./asset/photo/Assignment/blog3/Antialiasing.png",
+        "pic1_alt":"Antialiasing",
+        "pic2_src":"./asset/photo/Assignment/blog3/Self-similar_fractals.png",
+        "pic2_alt":"Self-similar fractals",
+        "Title":"Introduction to Computer Graphics",
+        "Category":"C++, OpenGL",
+        "line":4,
+        "Des1": " With the help of the Open Course, I have implemented a ray tracer using C++, with two kinds of cameras, orthonormal and perspective camera respectively.",
+        "Des2": "In addition, several types of primitives are built, e.g. sphere, triangle, plane, triangle mesh, just to name a few. ",
+        "Des3": "Command-line usage; .vscode configuration.",
+        "Des4": "Useful Coding Skills: Command line Argument; Using Assert(); On each .h, #progma once",
+        "Time":"2022.8-Present",
+        "Italic":"MIT6.387",
+        "Github":"https://github.com/PeterHUistyping/MIT6.837-CG-Fall2004-Assignment",
+        "Blog":"blog3" 
+    }
+]

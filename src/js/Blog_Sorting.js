@@ -3,12 +3,16 @@ import "../index.css";
 import Hr_Award from '../asset/data/Hr_Award.json';
 import Ongoing from '../asset/data/Ongoing_PrAs.json';
 import Past from '../asset/data/Past_PrAs.json';
+import Computer_System from '../asset/data/Computer_System.json';
+import Machine_Learning from '../asset/data/Machine_Learning.json';
 import Blog_Footer from "./helper/blog_footer";
 import Blog_Top from "./helper/blog_top";
 import $ from "jquery";
 import ScrollToTop from "./helper/ScrollToTop";
 import { motion } from 'framer-motion'
 var resource=Ongoing.concat(Hr_Award);
+resource=resource.concat(Computer_System); 
+resource=resource.concat(Machine_Learning); 
 resource=resource.concat(Past); 
 export function Blog_Sorting(){
     return(   
