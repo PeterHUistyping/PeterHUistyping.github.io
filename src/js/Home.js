@@ -3,17 +3,20 @@
  import Index_Footer from "./helper/index_footer";
  import Index_Top from "./helper/index_top";
  import { motion } from 'framer-motion'
+ function popup() {
+  alert("What I really enjoy is the beauty of science and how it can be applied in nearly all fields of life.\nI am open to new fields of area and enjoy exploring unknown features.\n")
+}
+
 export function Home() {
   return (
     <motion.div    > 
     <div>
     <Index_Top/>       
-    <div class="h2_center">About Me</div>
+    <div class="h2_center" onClick={() => {popup()}}>About Me 👇</div>
     <div class="aboutMeContainer">
-        Computer Science undergraduate studying at University of Cambridge. What I really enjoy is the beauty of
-        science and how it can be applied in nearly all fields of life. I am open to new fields of area and
-        enjoy exploring unknown features. The joy of improving myself step by step is what I enjoy.
-        <br/><br/> Exploring areas in Graphics, ML, AI, Math, Algorithms, etc. 
+        Computer Science undergraduate at University of Cambridge.        <br/> 
+        Strong background and interest in Math, Algorithms and System related fields.<br/>
+        Exploring areas in Computer System, Graphic and Machine Learning-Data Science, etc.    
     </div>
     <center>
     {/* <embed src="asset/doc/CV_PeterHU.pdf"  width="800px" height="600px" /> */}
