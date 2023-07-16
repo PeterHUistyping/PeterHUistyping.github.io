@@ -65,7 +65,7 @@
         "Des3":"logger.h:Debug logging functions for EE / LOG_DEBUG ; gtest/gtest.h:Google Unit Testing<br>", 
         "Des4": "@brief @param @return @author @date @version",
         "Time":"2022.9.9-Present",
-        "Github":"https://github.com/PeterHUistyping/CMU15-445_Database_Project",
+        "Github":"https://github.com/PeterHUistyping/CMU15-445_Database_Management_System",
         "Italic":"CMU15-445 Project",
         "Blog":"blog4",
         "More":"https://google.github.io/styleguide/cppguide.html"
