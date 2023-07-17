@@ -11,10 +11,10 @@ export default function Index_Top(){
                 <li>
                     <a href="http://PeterHUistyping.github.io/#">🏠HOME</a>
                 </li>
-                <li><HashLink to="/#project">📊Project</HashLink>
+                <li><HashLink to="/project/">📊Project</HashLink>
                     <ul>
-                        <li> <HashLink to="/#ongoing_project">🆕Ongoing</HashLink> </li>
-                        <li><HashLink to="/#previous_project">📖Previous</HashLink> </li>
+                        {/* <li> <HashLink to="/project/#ongoing_project">🆕Ongoing</HashLink> </li> */}
+                        <li><HashLink to="/project/#previous_project">📖Previous</HashLink> </li>
                     </ul>
                 </li>
                 <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li>
@@ -30,46 +30,6 @@ export default function Index_Top(){
         </div>
         <br /><br /><br /><br />
     </body_>
-    <Profile/>
     </>
     )
-}
-function Profile(){
-    return(
-        <table class="table_profile">
-        <tbody>
-            <tr>
-            <Profile1/>
-            <Profile2/>
-            </tr>
-        </tbody>
-    </table>
-    )
-}
-function Profile1(){
-    return(
-        <td width="280" rowspan="1" height="300">
-            <div> 
-                    <img class="img_profile" src="./asset/photo/Peter_Hu.jpg" alt="Profile Photo"/>
-            </div>
-        </td>
-      
-    )
-}
-function Profile2(){
-    return(
-        <td width="280" text-align="center">
-    <h1 id="contact"><i>Peter</i> HU </h1>
-     
-    <p> University of Cambridge <br/>Computer Science <br/>Part IB</p> <br/><strong>Contact
-        Details</strong><br/>
-    Email: zh369@cam.ac.uk <br/> Phone: (+44) 07990 719841
-    <br/><a href="./asset/doc/CV_PeterHU.pdf">CV</a> | <a
-        href="https://www.linkedin.com/in/peterhu2022/">LinkedIn</a> | <a
-        href="https://github.com/PeterHUistyping">Github</a> |
-         More <br/>
-</td>
-      
-    )
-   
 }

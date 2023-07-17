@@ -15,10 +15,10 @@ export default function Blog_Top(){
                 <a href="/#">🏠HOME</a>
             </li>
 
-            <li>  <HashLink to="/#project">📊Project</HashLink>   
+            <li>  <HashLink to="/project">📊Project</HashLink>   
                 <ul>
-                    <li><HashLink to="/#ongoing_project">🆕Ongoing</HashLink> </li>
-                    <li><HashLink to="/#previous_project">📖Previous</HashLink> </li>
+                    {/* <li><HashLink to="/project/#ongoing_project">🆕Ongoing</HashLink> </li> */}
+                    <li><HashLink to="/project/#previous_project">📖Previous</HashLink> </li>
                 </ul>
             </li>
 

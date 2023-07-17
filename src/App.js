@@ -1,5 +1,6 @@
 import {Route,Routes, useLocation} from "react-router-dom";
 import {Home} from "./js/Home";
+import {Project} from "./js/Project";
 import {Blog_Sorting} from "./js/Blog_Sorting";
 import {NotFound} from "./js/404";
 import ScrollToTop from "./js/helper/ScrollToTop";
@@ -35,6 +36,7 @@ function App() {
           <Route path="/blog8" element={<Blog8 />}/>
           <Route path="/blog9" element={<Blog9 />}/>
           <Route path="/ref" element={<Blogref />}/>
+          <Route path="/project" element={<Project />}/>
           <Route path='/*' element={<NotFound />}/>
         </Routes> 
       </AnimatePresence>
