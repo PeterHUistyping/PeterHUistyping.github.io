@@ -41,9 +41,11 @@ export function Blog8(){
     The p-value of the two-sided sign test for classifier_a "classifier magnitude" and classifier_b "naive bayes classifier": 0.07683763213126037<br/>
     </code></pre>
 
+    <frameset cols="90%,0.5%">
+        <frame src=" https://peterhuistyping.github.io/Machine_Learning-Real_World_Data"></frame>
+    </frameset> 
 
-
-
+    <br></br>
     <a href="https://github.com/PeterHUistyping/Machine_Learning-Real_World_Data">See More on GitHub</a>
             </>
     

@@ -10,5 +10,15 @@
     { "link":"https://www.pbr-book.org/",
     "description":"Physically Based Rendering: From Theory To Implementation",
     "author":"Matt Pharr, Wenzel Jakob, and Greg Humphreys"
+    },
+    {
+      "link":"https://missing.csail.mit.edu/",
+      "description":"The Missing Semester of Your CS Education",
+      "author":"MIT Edu"
+    },
+    {
+      "link":"https://csapp.cs.cmu.edu/",
+      "description":"Computer Systems: A Programmer's Perspective",
+      "author":"Randal E. Bryant and David R. O'Hallaron"
     }
 ]
