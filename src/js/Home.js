@@ -2,12 +2,16 @@
  import Index_Top from "./helper/index_top";
  import { motion } from 'framer-motion'
 import { HashLink } from 'react-router-hash-link';
-
+import React, { useEffect, useState } from "react";
  function popup() {
   alert("What I really enjoy is the beauty of science and how it can be applied in nearly all fields of life.\nI am open to new fields of area and enjoy exploring unknown features.\n")
 }
 
 export function Home() {
+  const [show , setShow] = useState(false);
+  const handleOnClick = () => {
+        setShow(! show);
+  }
   return (
     <motion.div> 
     <div>
@@ -52,7 +56,19 @@ export function Home() {
     <i>Please refer to SKILLS section in  <a href="./asset/doc/CV_PeterHU.pdf">CV</a>.</i> */}
 
 
-    <h2><b>EDUCATION BACKGROUND</b></h2>
+    <h2 ><b>EDUCATION BACKGROUND</b></h2>
+    <button onClick={handleOnClick}>Show Details</button>
+    {
+        show &&
+        <>
+        <br/>
+        <img width="671" height="386 " src="./asset/photo/Profile/Cam.png" alt="Cam" />
+        <br/>
+        <img width="671" height="318 " src="./asset/photo/Profile/XMU.png" alt="XMU" />
+        <br/>
+        </>
+    }
+     <br/>
     {/* <img width="838" height="908" src="./asset/photo/Profile/Edu.png" alt="Edu" /> <br/> */}
     {/* <b>University of Cambridge </b><i> 2022.10 - Present</i><br />
     <img width="54" height="48" src="./asset/photo/Logo/Cam.png" alt="Cambridge" /> 
