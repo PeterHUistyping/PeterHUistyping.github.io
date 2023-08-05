@@ -49,9 +49,9 @@ export function Home() {
     
         </center>
         <center>
-    <br/> 
+ 
     <h2 id="project"><b><HashLink to="/project">AWARDS and PROJECTS 📊</HashLink></b></h2>  
-    <br/> 
+ 
     {/* <h2  id="skills"><b>TECHNICAL SKILLS</b></h2>
 
     <i>Please refer to SKILLS section in  <a href="./asset/doc/CV_PeterHU.pdf">CV</a>.</i> */}
@@ -88,7 +88,6 @@ export function Home() {
     <br></br> */}
     <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i><br />
 
-    <br/> 
 
     <h2><b>INTEREST AND EXTRACURRICULAR ACTIVITIES </b></h2>
     Music, Swimming, Yoga, Gym, Helping others etc.  |  Society Joined: Ethics in Mathematics<br />
