@@ -33,9 +33,10 @@ export function Home() {
     {/* <embed src="asset/doc/CV_PeterHU.pdf"  width="800px" height="600px" /> */}
         <center>
     <h2><b>WORK EXPERIENCE</b></h2>
+
     <b>GPU Algorithm/Architect Researcher </b><i> <br />
       2023.6 - Present</i> <br />
-    <b>GPU Algorithm/Architect Researcher </b><i><br /> 
+    <b>CPU Algorithm/Architect Researcher </b><i><br /> 
       2023.6 - Present</i> <br />
     <b>GPU Software Engineer </b><i> <br />
       2022.12 - 2023.5 (Part Time) </i> <br />
@@ -44,7 +45,7 @@ export function Home() {
     
     Huawei Research Lab, Cambridge <br />
     
-    <br/><i>Please refer to EXPERIENCE section in <a href="./asset/doc/CV_PeterHU.pdf">CV</a>.</i>
+    <i>Please refer to EXPERIENCE section in <a href="./asset/doc/CV_PeterHU.pdf">CV</a>.</i><br />
     
         </center>
         <center>
@@ -116,7 +117,7 @@ function Profile(){
 }
 function Profile1(){
   return(
-      <td width="280" rowspan="1" height="300">
+      <td width="280" rowspan="1" height="200">
           <div> 
                   <img class="img_profile" src="./asset/photo/Peter_Hu.jpg" alt="Profile Photo"/>
           </div>
