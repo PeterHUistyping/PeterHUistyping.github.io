@@ -4,7 +4,7 @@ function Pic(props){
         <td class="table_project_photo" rowspan="2">
             <div>
                 <div>
-                <img class="img_project" src={props.src}  alt={props.alt} />
+                <img class="img_project" src={props.src}  alt={props.alt} loading="lazy"/>
                 </div>
             </div> 
         </td>
