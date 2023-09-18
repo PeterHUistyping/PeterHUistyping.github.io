@@ -20,12 +20,12 @@ export function Blogref(){
             <div class="content">
                 <h2> Computer System (including Graphics)</h2>
                 <a href="https://peterhuistyping.github.io/Computer_System_Guidance">🌐 Computer System Guidance</a>   |   
-                <a href="https://github.com/PeterHUistyping/Computer_System_Guidance">👨‍💻 Github </a>  <br></br>
+                <a href="https://github.com/PeterHUistyping/Computer_System_Guidance">👨‍💻 Github</a>  <br></br>
                 <br></br>   
                 
                 <h2> Machine Learning (including GPT)</h2>
                 <a href="https://peterhuistyping.github.io/Machine_Learning_Guidance">🌐 Machine Learning Guidance</a>  |  
-                <a href="https://github.com/PeterHUistyping/Machine_Learning_Guidance">👨‍💻 Github </a>   <br></br>
+                <a href="https://github.com/PeterHUistyping/Machine_Learning_Guidance">👨‍💻 Github</a>   <br></br>
                 <br></br>
                 
                 <h2> Others</h2>
