@@ -138,6 +138,7 @@ h3 {
   width: 12vw;
   max-height: 40vh;
   border-radius: 50%;
+  border: 1.5px solid rgb(255, 255, 255);
 }
 
 @media only screen and (max-width: 800px) {
@@ -174,10 +175,11 @@ h3 {
 
 
 .img_project {
-  width: 15vw;
-  max-height: 16vh;
+  width: 13.6vw;
+  max-height: 15vh;
   margin-left: 1vw;
   margin-right: 0.5vw;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 .table_footer {
