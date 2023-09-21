@@ -9,9 +9,14 @@ import React, { useEffect, useState } from "react";
 
 export function Home() {
   const [show , setShow] = useState(false);
+  const [show2 , setShow2] = useState(false);
+  const [show3 , setShow3] = useState(false);
+  const [show4 , setShow4] = useState(false);
+
   const handleOnClick = () => {
         setShow(! show);
   }
+ 
   return (
     <motion.div> 
     <div>
@@ -35,12 +40,44 @@ export function Home() {
     <h2><b>WORK EXPERIENCE</b></h2>
 
     <b>GPU Algorithm/Architect Researcher </b><i> <br />
-      2023.6 - Present</i> <br />
-    <b>CPU Algorithm/Architect Researcher </b><i><br /> 
-      2023.6 - Present</i> <br />
-    <b>GPU Software Engineer </b><i> <br />
-      2022.12 - 2023.5 (Part Time) </i> <br />
+      2023.6 - Present</i>  &nbsp;| &nbsp;
+    <button onClick={() => {setShow(! show)}}>Show Details</button>
+    {
+        show &&
+        <>
+        <br/>
+        <img width="671" height="490 " src="./asset/photo/Profile/GPU2.png" alt="GPU2" />
+        <br/>
+        <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i><br />
 
+        </>
+    }<br />  
+    <b>CPU Algorithm/Architect Researcher </b><i><br /> 
+      2023.6 - Present</i>   &nbsp;| &nbsp;
+      <button onClick={ () => {setShow2(! show2)}}>Show Details</button>
+    {
+        show2 &&
+        <>
+        <br/>
+        <img width="671" height="615 " src="./asset/photo/Profile/CPU.png" alt="CPU" />
+        <br/>
+        <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i><br />
+
+        </>
+    }<br /> <br /> 
+    <b>GPU Software Engineer </b><i> <br />
+      2022.12 - 2023.5 (Part Time)</i>   &nbsp;| &nbsp;
+      <button onClick={() => {setShow3(! show3)}}>Show Details</button>
+    {
+        show3 &&
+        <>
+        <br/>
+        <img width="671" height="276 " src="./asset/photo/Profile/GPU1.png" alt="GPU1" />
+        <br/>
+        <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i><br />
+
+        </>
+    }<br />  
     <img width="28" height="28" src="./asset/photo/Logo/Huawei.png" alt="Huawei"/> 
     
     Huawei Research Lab, Cambridge <br />
@@ -58,9 +95,9 @@ export function Home() {
 
 
     <h2 ><b>EDUCATION BACKGROUND</b></h2>
-    <button onClick={handleOnClick}>Show Details</button>
+    <button onClick={() => {setShow4(! show4)}}>Show Details</button>
     {
-        show &&
+        show4 &&
         <>
         <br/>
         <img width="671" height="386 " src="./asset/photo/Profile/Cam.png" alt="Cam" />
