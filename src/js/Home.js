@@ -39,21 +39,12 @@ export function Home() {
         <center>
     <h2><b>WORK EXPERIENCE</b></h2>
 
-    <b>GPU Algorithm/Architect Researcher </b><i> <br />
-      2023.6 - Present</i>  &nbsp;| &nbsp;
-    <button onClick={() => {setShow(! show)}}>Show Details</button>
-    {
-        show &&
-        <>
-        <br/>
-        <img width="671" height="490 " src="./asset/photo/Profile/GPU2.png" alt="GPU2" />
-        <br/>
-        <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i><br />
-
-        </>
-    }<br />  
+    
     <b>CPU Algorithm/Architect Researcher </b><i><br /> 
-      2023.6 - Present</i>   &nbsp;| &nbsp;
+      2023.6 - Present</i>  
+      &nbsp;| &nbsp;
+      <i>Scheduling, DVFS, Dynamic Resource Management </i> 
+       &nbsp;| &nbsp;
       <button onClick={ () => {setShow2(! show2)}}>Show Details</button>
     {
         show2 &&
@@ -64,9 +55,29 @@ export function Home() {
         <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i><br />
 
         </>
-    }<br /> <br /> 
+    }<br /> 
+    <b>GPU Algorithm/Architect Researcher </b><i> <br />
+      2023.5 - Present</i>
+      &nbsp;| &nbsp;<a href="./asset/doc/RT_Peter-v6.pdf">Ray Tracing Slides(Intersection, Acceleration)</a> 
+      &nbsp;| &nbsp;
+    <button onClick={() => {setShow(! show)}}>Show Details</button>
+    {
+        show &&
+        <>
+        <br/>
+        <img width="671" height="490 " src="./asset/photo/Profile/GPU2.png" alt="GPU2" />
+        <br/>
+        <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i>
+
+        </>
+    } 
+    
+    <br />  <br /> 
     <b>GPU Software Engineer </b><i> <br />
-      2022.12 - 2023.5 (Part Time)</i>   &nbsp;| &nbsp;
+      2022.12 - 2023.5 (Part Time)</i> 
+      &nbsp;| &nbsp;
+      <i>C++, Vulkan, GPU Driver </i> 
+        &nbsp;| &nbsp;
       <button onClick={() => {setShow3(! show3)}}>Show Details</button>
     {
         show3 &&
