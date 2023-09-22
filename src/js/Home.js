@@ -40,7 +40,7 @@ export function Home() {
     <h2><b>WORK EXPERIENCE</b></h2>
 
     
-    <b>CPU Algorithm/Architect Researcher </b><i><br /> 
+    <b>Research Intern (CPU Algorithm/Architect) </b><i><br /> 
       2023.6 - Present</i>  
       &nbsp;| &nbsp;
       <i>Scheduling, DVFS, Dynamic Resource Management </i> 
@@ -56,7 +56,7 @@ export function Home() {
 
         </>
     }<br /> 
-    <b>GPU Algorithm/Architect Researcher </b><i> <br />
+    <b>Research Intern (GPU Algorithm/Architect) </b><i> <br />
       2023.5 - Present</i>
       &nbsp;| &nbsp;<a href="./asset/doc/RT_Peter-v6.pdf">Ray Tracing Slides(Intersection, Acceleration)</a> 
       &nbsp;| &nbsp;
