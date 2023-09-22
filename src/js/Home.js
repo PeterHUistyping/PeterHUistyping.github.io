@@ -73,7 +73,7 @@ export function Home() {
     } 
     
     <br />  <br /> 
-    <b>GPU Software Engineer </b><i> <br />
+    <b>GPU Software Engineering Intern </b><i> <br />
       2022.12 - 2023.5 (Part Time)</i> 
       &nbsp;| &nbsp;
       <i>C++, Vulkan, GPU Driver </i> 
