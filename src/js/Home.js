@@ -43,7 +43,7 @@ export function Home() {
     <b>Research Intern (CPU Algorithm/Architect) </b><i><br /> 
       2023.6 - Present</i>  
       &nbsp;| &nbsp;
-      <i>Scheduling, DVFS, Dynamic Resource Management </i> 
+      <a href="https://peterhuistyping.github.io/CPU_Scheduling_Review/">Scheduling, DVFS, Dynamic Resource Management</a> 
        &nbsp;| &nbsp;
       <button onClick={ () => {setShow2(! show2)}}>Show Details</button>
     {
