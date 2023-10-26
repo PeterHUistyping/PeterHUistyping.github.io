@@ -40,8 +40,9 @@ export function Home() {
     <h2><b>RESEARCH EXPERIENCE</b></h2>
 
     <b>Research Intern (GPU Algorithm) </b><i> <br />
-      2023.5 - Present</i>
-      &nbsp;| &nbsp;<a href="./asset/doc/RT_Peter-v6.pdf">Ray Tracing Slides(Intersection, Acceleration)</a> 
+      2023.5 - Present</i>  <br />
+      {/* &nbsp;| &nbsp;  */}
+      <a href="./asset/doc/RT_Peter-v6.pdf">Ray Tracing Slides(Intersection, Acceleration)</a> 
       &nbsp;| &nbsp;
     <button onClick={() => {setShow(! show)}}>Show Details</button>
     {
@@ -56,8 +57,9 @@ export function Home() {
     } <br /> 
 
   <b>Research Intern (CPU Architect) </b><i><br /> 
-      2023.6 - Present</i>  
-      &nbsp;| &nbsp;
+      2023.6 - 2023.10</i>   <br />
+           {/* &nbsp;| &nbsp;  */}
+
       <a href="https://peterhuistyping.github.io/CPU_Scheduling_Review/">Scheduling, DVFS, Dynamic Resource Management</a> 
        &nbsp;| &nbsp;
       <button onClick={ () => {setShow2(! show2)}}>Show Details</button>
@@ -74,9 +76,9 @@ export function Home() {
 
     <h2><b>WORK EXPERIENCE</b></h2>
 
-    <b>GPU Software Engineering Intern </b><i> <br />
-      2022.12 - 2023.5 (Part Time)</i> 
-      &nbsp;| &nbsp;
+    <b>GPU Software Engineer Intern </b><i> <br />
+      2022.12 - 2023.5 (Part Time) </i>   <br />
+      {/* &nbsp;| &nbsp; */}
       <i>C++, Vulkan, GPU Driver </i> 
         &nbsp;| &nbsp;
       <button onClick={() => {setShow3(! show3)}}>Show Details</button>
