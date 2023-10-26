@@ -37,10 +37,25 @@ export function Home() {
    
     {/* <embed src="asset/doc/CV_PeterHU.pdf"  width="800px" height="600px" /> */}
         <center>
-    <h2><b>WORK EXPERIENCE</b></h2>
+    <h2><b>RESEARCH EXPERIENCE</b></h2>
 
-    
-    <b>Research Intern (CPU Algorithm/Architect) </b><i><br /> 
+    <b>Research Intern (GPU Algorithm) </b><i> <br />
+      2023.5 - Present</i>
+      &nbsp;| &nbsp;<a href="./asset/doc/RT_Peter-v6.pdf">Ray Tracing Slides(Intersection, Acceleration)</a> 
+      &nbsp;| &nbsp;
+    <button onClick={() => {setShow(! show)}}>Show Details</button>
+    {
+        show &&
+        <>
+        <br/>
+        <img width="671" height="490 " src="./asset/photo/Profile/GPU2.png" alt="GPU2" />
+        <br/>
+        <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i>
+
+        </>
+    } <br /> 
+
+  <b>Research Intern (CPU Architect) </b><i><br /> 
       2023.6 - Present</i>  
       &nbsp;| &nbsp;
       <a href="https://peterhuistyping.github.io/CPU_Scheduling_Review/">Scheduling, DVFS, Dynamic Resource Management</a> 
@@ -56,23 +71,9 @@ export function Home() {
 
         </>
     }<br /> 
-    <b>Research Intern (GPU Algorithm/Architect) </b><i> <br />
-      2023.5 - Present</i>
-      &nbsp;| &nbsp;<a href="./asset/doc/RT_Peter-v6.pdf">Ray Tracing Slides(Intersection, Acceleration)</a> 
-      &nbsp;| &nbsp;
-    <button onClick={() => {setShow(! show)}}>Show Details</button>
-    {
-        show &&
-        <>
-        <br/>
-        <img width="671" height="490 " src="./asset/photo/Profile/GPU2.png" alt="GPU2" />
-        <br/>
-        <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i>
 
-        </>
-    } 
-    
-    <br />  <br /> 
+    <h2><b>WORK EXPERIENCE</b></h2>
+
     <b>GPU Software Engineering Intern </b><i> <br />
       2022.12 - 2023.5 (Part Time)</i> 
       &nbsp;| &nbsp;
