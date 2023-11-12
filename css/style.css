@@ -251,7 +251,7 @@ h3 {
   top:  40vh;
   bottom: 25vh; 
   /* different */
-  left: 0.1vw;
+  left: 0vw;
   width: 6vw;
   /* height: 100%; */
   padding: 20px 0;
@@ -263,16 +263,16 @@ h3 {
 
 .sidebar_main a {
   display: block;
-  color: grey;
+  color: #70757a;
   padding: 8px; /* change sidebar alignment here*/
   text-decoration: none;
 }
+
 .sidebar_main a.active {
   background-color: #04AA6D;
   color: white;
   font-weight:bold;
   font-style: italic;
-
 }
 .sidebar_main a:hover:not(.active) {
   background-color: #555;
