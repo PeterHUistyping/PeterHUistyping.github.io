@@ -64,7 +64,10 @@ function Education(){
 function About_me(){
   return (
     <>
-  <div class="h2_center" onClick={() => {popup()}}>About Me 👇</div>
+    <center>
+    <large> <large><i onClick={() => {popup()}}>About Me 👇</i></large></large>
+    </center>
+ 
   <div class="aboutMeContainer">
   Strong background and interest in Math, Algorithms and System related fields. <br/>
   
