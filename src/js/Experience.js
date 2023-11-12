@@ -20,8 +20,7 @@ export function Experience(){
     <Sidebar_Project />
     <div class="content">
         <>   
-        {/*  Project_and_assignment   */}
-        <h2 ><b>EXPERIENCE</b></h2>
+      {/* <h2 ><b>EXPERIENCE</b></h2> */}
      
       <h2><b>RESEARCH EXPERIENCE</b></h2>
 
@@ -41,6 +40,9 @@ export function Experience(){
 
           </>
       } <br /> 
+        <embed src="./asset/doc/RT_Peter-v6.pdf"  width="400px" height="300px"  />
+        <br /> <br /> 
+       
 
     <b>Research Intern (CPU Architect) </b><i><br /> 
         2023.6 - 2023.10</i>   <br />
@@ -59,7 +61,8 @@ export function Experience(){
 
           </>
       }<br /> 
-
+        <embed src="https://peterhuistyping.github.io/CPU_Scheduling_Review/" width="430px" height="300px"   />
+        <br /> 
       <h2><b>WORK EXPERIENCE</b></h2>
 
       <b>GPU Software Engineer Intern </b><i> <br />
