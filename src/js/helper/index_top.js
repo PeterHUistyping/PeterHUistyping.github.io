@@ -12,10 +12,10 @@ export default function Index_Top(){
                     <a href="http://PeterHUistyping.github.io/#">🏠HOME</a>
                 </li>
                 <li><HashLink to="/project/">📊Project</HashLink>
-                    <ul>
-                        {/* <li> <HashLink to="/project/#ongoing_project">🆕Ongoing</HashLink> </li> */}
+                    {/* <ul>
+                        <li> <HashLink to="/project/#ongoing_project">🆕Ongoing</HashLink> </li>
                         <li><HashLink to="/project/#previous_project">📖Previous</HashLink> </li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li>
                 <li><a href="/#/Blog_Sorting/#welcome">📝Blog</a>

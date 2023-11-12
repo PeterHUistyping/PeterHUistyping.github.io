@@ -15,7 +15,7 @@ export function Blogref(){
             <p id="resource"><strong><font size="+2"> Useful Resource and Reference for Computer Science📚</font></strong></p>
             <div class="sidebar">
                 <HashLink to="/ref/#ref">📚Reference</HashLink>  
-                <HashLink to="/ref/#camUn">📄Cambridge Exam</HashLink> 
+                <HashLink to="/ref/#camUn">📄Cam Exam</HashLink> 
             </div>
             <div class="content">
                 <h2> Computer System (including Graphics)</h2>

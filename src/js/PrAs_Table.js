@@ -31,8 +31,6 @@ export default function PrAs_table(){
             <a href="https://github.com/PeterHUistyping/Machine_Learning_Guidance">👨‍💻 Github</a>   <br></br>
        
        </center>
-
-
        <All_table resource={Machine_Learning}/> 
        <Ongoing_label /> 
        <All_table resource={Ongoing}/> 

@@ -164,13 +164,13 @@ h3 {
 }
 
 .table_project {
-  width:92vw;
+  width: 80vw;
   height: 10vh;
 }
 
 .table_project_photo {
-  width:16vw;
-  max-height: 16vh;
+  width:8vw;
+  max-height: 10vh;
 }
 
 
@@ -194,7 +194,7 @@ h3 {
   position: fixed;
   top:  25vh;
   left: 0;
-  width: 160px;
+  width: 8vw;
   height: 100%;
   padding: 20px 0;
   transition: all 0.5s ease;
@@ -219,7 +219,7 @@ h3 {
   font-style: italic;
 }
 .content {
-  margin-left: 180px;
+  margin-left: 10vw;
   padding: 1px 16px;
 }
 .blog {

@@ -16,10 +16,10 @@ export default function Blog_Top(){
             </li>
 
             <li>  <HashLink to="/project">📊Project</HashLink>   
-                <ul>
-                    {/* <li><HashLink to="/project/#ongoing_project">🆕Ongoing</HashLink> </li> */}
+                {/* <ul>
+                    <li><HashLink to="/project/#ongoing_project">🆕Ongoing</HashLink> </li>
                     <li><HashLink to="/project/#previous_project">📖Previous</HashLink> </li>
-                </ul>
+                </ul> */}
             </li>
 
             <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li>
