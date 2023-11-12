@@ -1,20 +1,23 @@
-import PrAs_table from "./PrAs_Table";
-import Sidebar_Project from "./helper/project_sidebar"
+import HrAw_table from "./HrAw_Table";
 
 import Index_Footer from "./helper/index_footer";
 import Index_Top from "./helper/index_top";
 import { motion } from 'framer-motion'
- 
-export function Project(){
+import Sidebar_Project from "./helper/project_sidebar"
+
+export function Award(){
     return (
     <motion.div> 
     <Index_Top/> 
+    
     <Sidebar_Project />
+     
     <div class="content">
-        <>   
-        {/*  Project_and_assignment   */}
-        <h2 id="project"><b>PROJECTS and ASSIGNMENTS</b></h2>
-        <PrAs_table />
+        <>
+        {/* Honors_and_awards */}
+        <h2 id="project"><b>HONORS and AWARDS</b></h2>
+        <HrAw_table />
+        
         </>
     </div>
 
