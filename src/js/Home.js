@@ -140,7 +140,7 @@ export function Home() {
     <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i><br />
 
 
-    <h2><b>INTEREST AND EXTRACURRICULAR ACTIVITIES </b></h2>
+    <h2><b>INTEREST AND EXTRACURRICULUM </b></h2>
     Music, Swimming, Yoga, Gym, Helping others etc.  |  Society Joined: Ethics in Mathematics<br />
     <strong>Economics Related Topics: </strong> Macro & Micro, Money Banking<br />
       </center>

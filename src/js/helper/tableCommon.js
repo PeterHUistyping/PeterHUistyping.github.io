@@ -1,4 +1,5 @@
-function Pic(props){
+// large screen
+function Pic_Large(props){
     if(props.src)
     return( 
         <td class="table_project_photo" rowspan="2">
@@ -20,6 +21,37 @@ function Pic(props){
     </td>
     )
 }
+
+function Pic(props){
+    var w = window.innerWidth;
+    if(props.src1 && props.src2 && w<800 )
+    return( 
+        <td class="table_project_photo" rowspan="2">
+            <div>
+                <div>
+                <img class="img_project" src={props.src1}  alt={props.alt1} loading="lazy"/>
+                </div>
+                <div>
+                <img class="img_project" src={props.src2}  alt={props.alt2} loading="lazy"/>
+                </div>
+            </div> 
+        </td>
+    )
+    else if(w>=800 )
+    return(
+        <>
+            <Pic_Large  src={props.src1} alt={props.alt1}/>
+            <Pic_Large  src={props.src2} alt={props.src2}/>
+        </>
+    )
+    else
+    return (
+    <>
+        <Pic_Large  src={props.src1} alt={props.alt1}/>
+    </>
+)
+}
+
 function Intro_Des(props){
     if(props.line==4)
     return(
@@ -84,11 +116,13 @@ function PicIntro_table(proxy){
     return(
         <tr>
             <Pic 
-                src={proxy.resource[proxy.id].pic1_src}
-                alt={proxy.resource[proxy.id].pic1_alt}/>
-            <Pic 
+                src1={proxy.resource[proxy.id].pic1_src}
+                alt1={proxy.resource[proxy.id].pic1_alt}
+                src2={proxy.resource[proxy.id].pic2_src}
+                alt2={proxy.resource[proxy.id].pic2_alt}/>
+            {/* <Pic 
                 src={proxy.resource[proxy.id].pic2_src}
-                alt={proxy.resource[proxy.id].pic2_alt}/>
+                alt={proxy.resource[proxy.id].pic2_alt}/> */}
             <Intro 
             Title={proxy.resource[proxy.id].Title}
             Category={proxy.resource[proxy.id].Category}
