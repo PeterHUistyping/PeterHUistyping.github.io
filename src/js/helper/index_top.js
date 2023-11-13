@@ -11,7 +11,7 @@ export default function Index_Top(){
                 <li>
                     <a href="http://PeterHUistyping.github.io/#">🏠HOME</a>
                 </li>
-                <li><HashLink to="/project/">🧑‍💻Project</HashLink>
+                <li><HashLink to="/project/">🧑‍💻Project▾</HashLink>
                     <ul>
                         <li> <HashLink to="/award/">Award</HashLink> </li>
                         <li><HashLink to="/experience">Experience</HashLink> </li>
@@ -22,7 +22,7 @@ export default function Index_Top(){
                     </ul> */}
                 </li>
                 <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li>
-                <li><a href="/#/Blog_Sorting/#welcome">📝Blog</a>
+                <li><a href="/#/Blog_Sorting/#welcome">📝Blog▾</a>
                     <ul>
                         <li> <a href="/#/ref">📚Ref</a></li>
                         <li> <a href="/#/blog5">⛵Update</a></li>
