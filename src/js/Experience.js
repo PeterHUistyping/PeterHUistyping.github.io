@@ -48,9 +48,9 @@ export function Experience(){
         2023.6 - 2023.10</i>   <br />
             {/* &nbsp;| &nbsp;  */}
 
-        <a href="https://peterhuistyping.github.io/CPU_Scheduling_Review/">Scheduling, DVFS, Dynamic Resource Management</a> 
-        &nbsp;| &nbsp;
-        <button onClick={ () => {setShow2(! show2)}}>Show Details</button>
+      <a href="https://peterhuistyping.github.io/CPU_Scheduling_Review/">Scheduling, DVFS, Dynamic Resource Management</a> 
+      &nbsp;| &nbsp;
+      <button onClick={ () => {setShow2(! show2)}}>Show Details</button>
       {
           show2 &&
           <>
@@ -63,25 +63,28 @@ export function Experience(){
       }<br /> 
         <embed src="https://peterhuistyping.github.io/CPU_Scheduling_Review/" width="430px" height="300px"   />
         <br /> 
-      <h2><b>WORK EXPERIENCE</b></h2>
+
+      {/* &nbsp;| &nbsp; */}
+      {/* <h2><b>WORK EXPERIENCE</b></h2>
 
       <b>GPU Software Engineer Intern </b><i> <br />
         2022.12 - 2023.5 (Part Time) </i>   <br />
-        {/* &nbsp;| &nbsp; */}
+
         <i>C++, Vulkan, GPU Driver </i> 
           &nbsp;| &nbsp;
             <button onClick={() => {setShow3(! show3)}}>Show Details</button>
         {
-            show3 &&
-            <>
-            <br/>
-            <img width="671" height="276 " src="./asset/photo/Profile/GPU1.png" alt="GPU1" />
-            <br/>
-            <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i><br />
+          show3 &&
+          <>
+          <br/>
+          <img width="671" height="276 " src="./asset/photo/Profile/GPU1.png" alt="GPU1" />
+          <br/>
+          <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i><br />
 
-            </>
-        }<br />  
-        <img width="28" height="28" src="./asset/photo/Logo/Huawei.png" alt="Huawei"/> 
+      </>
+    }<br />  
+      */}
+        <img width="20" height="20" src="./asset/photo/Logo/Huawei.png" alt="Huawei"/> 
         
         Huawei Research Lab, Cambridge <br />
         
