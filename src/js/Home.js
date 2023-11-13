@@ -110,10 +110,11 @@ function Skill(){
   )
 }
 
+           
 function Sidebar_Notice(){
     return(
   <div class ="announcement">
-    👈 Please click the left Sidebar for relevant <i>Projects, Experience, Awards</i>. 🧑‍💻
+    👈 Please click the left Sidebar for relevant <i> <HashLink to="/award">AWARD</HashLink> , <HashLink to="/project">PROJECT</HashLink>, <HashLink to="/experience">EXPERIENCE</HashLink></i>. 🧑‍💻
   </div>
     )
 }
