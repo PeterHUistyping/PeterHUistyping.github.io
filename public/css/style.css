@@ -258,7 +258,8 @@ h3 {
   transition: all 0.5s ease;
   font-size: small;
   /* background-color: white; */
-  background: linear-gradient(to right, white 20%, #d9f2d9 80% );
+  background: rgba(210, 210, 210, 0.15) ;
+  
 }
 
 .sidebar_main a {
@@ -266,6 +267,8 @@ h3 {
   color: #70757a;
   padding: 8px; /* change sidebar alignment here*/
   text-decoration: none;
+  background-color:rgba(150, 150, 150, 0.15);
+
 }
 
 .sidebar_main a.active {
