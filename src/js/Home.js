@@ -3,6 +3,8 @@
  import { motion } from 'framer-motion'
 import { HashLink } from 'react-router-hash-link';
 import Sidebar_Project from "./helper/project_sidebar"
+import FooterCommon from "./helper/footerCommom"
+
 import React, { useEffect, useState } from "react";
  function popup() {
   alert("What I really enjoy is the beauty of science and how it can be applied in nearly all fields of life.\nI am open to new fields of area and enjoy exploring unknown features.\n")
@@ -105,7 +107,7 @@ function Skill(){
     <>
       <br/> <center><large><i  id="skills">SKILLS</i></large>  <br/>
 
-      <i>Please refer to <a href="./asset/doc/CV_PeterHU.pdf">CV</a>.</i></center> 
+      <i>Please refer to <a href="./asset/doc/CV_PeterHU.pdf">CV📄</a>.</i></center> 
   </>
   )
 }
@@ -163,7 +165,14 @@ export function Home() {
       <div class="content">
         <Detail />
       </div>
-      <Index_Footer />
+      <hr width="50%" color="#987cb9" SIZE="1" /> 
+      <table class="table_footer">
+          <tbody>
+                <td>
+                  <FooterCommon />
+                </td>
+          </tbody>
+      </table>
     </div>
     </motion.div>
   );
@@ -200,10 +209,9 @@ function Profile2(){
   <p> University of Cambridge <br/>Computer Science <br/>Part IB</p> <br/><strong>Contact
       Details</strong><br/>
   Email: zh369@cam.ac.uk <br/> Phone: (+44) 07990 719841
-  <br/><a href="./asset/doc/CV_PeterHU.pdf">CV</a> | <a
-      href="https://www.linkedin.com/in/peterhu2022/">LinkedIn</a> | <a
-      href="https://github.com/PeterHUistyping">Github</a> |
-       More <br/>
+  <br/><a href="./asset/doc/CV_PeterHU.pdf">CV📄</a> | <HashLink to="/project">📊</HashLink> | <a href="https://github.com/PeterHUistyping"> <img width= "18vw" src="/asset/photo/Logo/github.svg" alt="github"/></a> |  <a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "16vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a> |  More <br/>
+
+       
 </td>
     
   )

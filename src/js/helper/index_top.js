@@ -1,9 +1,6 @@
 import { HashLink } from 'react-router-hash-link';
 import {ChangeBodyColor} from "./blog_top";
-
-export default function Index_Top(){
-    ChangeBodyColor("#d9f2d9");
-
+function Index_top(){
     return (
         <>
         <body_>   
@@ -25,7 +22,6 @@ export default function Index_Top(){
                         <li><HashLink to="/project/#previous_project">📖Previous</HashLink> </li>
                     </ul> */}
                 </li>
-                <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li>
                 <li><a href="/#/Blog_Sorting/">📝Blog▾</a>
                     <ul>
                         <li> <a href="/#/ref">📚Ref</a></li>
@@ -33,11 +29,31 @@ export default function Index_Top(){
                     </ul>
                 </li>
                  <li><HashLink to="/#contact">📬Contact </HashLink> </li>
+                 <li><a href="https://github.com/PeterHUistyping"> <img width= "22vw" src="/asset/photo/Logo/github.svg" alt="github"/></a></li>
+                 <li><a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "22vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a></li>
+
                  {/* <li><a href={window.location.href+"/#"}>🔝</a></li> */}
             </ul>
         </div>
-        <br /><br /><br /><br />
+        <br /><br />
     </body_>
     </>
     )
+}
+export default function Index_Top(){
+    ChangeBodyColor("#d9f2d9");
+    var w = window.innerWidth;
+    if( w>800 ){
+      return(
+        <Index_top/>
+
+      )}
+    else{
+      return(
+          <>
+             <Index_top/>
+            <br/> 
+            <br/> 
+          </>
+      )}
 }
