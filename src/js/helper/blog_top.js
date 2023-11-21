@@ -52,7 +52,7 @@ function Blog_top(){
           {/* <li>
               <Button onClick={sayHello}>Settings</Button>
           </li>      */}
-          <li><a href={window.location.href}>🏷️Settings</a>
+          <li><a href={window.location.href}>🏷️Settings▾</a>
           {/* 🛠️<large>⚙️</large> */}
               <ul>
                   <li><Bg_color /></li>
