@@ -9,7 +9,7 @@ function Blog_top(){
       <div class="top">
       <ul>
           <li>
-            <HashLink  style={{ color: 'black' }} to="/Blog_Sorting/#welcome" ><i >Peter </i>HU's Blogs&nbsp; &nbsp;</HashLink> 
+            <HashLink  style={{ color: 'black' }} to="/Blog_Sorting/" ><i >Peter </i>HU's Blogs&nbsp; &nbsp;</HashLink> 
           </li>
           <li>
               <a href="/#">🏠HOME</a>
@@ -27,7 +27,7 @@ function Blog_top(){
           </li>
 
           <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li>
-          <li><a href="/#/Blog_Sorting/#welcome">📝Blog▾</a> 
+          <li><a href="/#/Blog_Sorting/">📝Blog▾</a> 
               <ul>
                   <li> <a href="/#/ref">📚Ref</a></li>
                   <li> <a href="/#/blog5">⛵Update</a></li>

@@ -75,7 +75,7 @@ export function Blog5(){
 
             <h2 id="blog">
                 <center> 
-                    <a href="/#/Blog_Sorting/#welcome"> 
+                    <a href="/#/Blog_Sorting"> 
                     <button class="button button_blogs"> 📝 Blogs<i>3.0</i> PLATFORM <br></br>
                     Artistic, Better, Convenient
                     </button>  

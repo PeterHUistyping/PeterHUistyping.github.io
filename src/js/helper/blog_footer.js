@@ -6,7 +6,7 @@ export default function Blog_Footer(){
     <div class=" blog">
         <ul>
             <li><a href="/#">🔙 HOME 🏠</a></li>
-            <li><a href="/#/Blog_Sorting/#welcome">🔙 Blog 📝</a></li>
+            <li><a href="/#/Blog_Sorting">🔙 Blog 📝</a></li>
         </ul>
     </div>
     <hr width="50%" color="#987cb9" SIZE="1" />
