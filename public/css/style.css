@@ -288,8 +288,9 @@ h3 {
   margin-left: 10vw;
   padding: 1px 16px;
 }
+
 .blog {
-  background-color: bisque;
+  background-color: rgb(242, 246, 206);
 }
 
 
@@ -367,7 +368,7 @@ h3 {
 
 .button_blogs {
   color: black;
-  background-color:#d9f2d9;  
+  background-color:#dce2dc;  
   border: 2px solid white;
 }
 .button_blogs:hover {
