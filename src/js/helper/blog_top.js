@@ -90,10 +90,11 @@ function DisableAfterClick() {
   );
 
 };
-function ChangeBodyColor(c){
+const colors = ["#f9e5f7", "#eedcd0","#d9f2d9", "#ddd9f5","#def5f1" ];
+
+export function ChangeBodyColor(c){
   document.body.style.backgroundColor = c;
 };
-const colors = ["#f9e5f7", "#eedcd0","#d9f2d9", "#ddd9f5","#def5f1" ];
 function Bg_color() {
   const [backgroundColor, setBackgroundColor] = React.useState("");
   return (

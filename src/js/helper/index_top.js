@@ -1,5 +1,9 @@
 import { HashLink } from 'react-router-hash-link';
+import {ChangeBodyColor} from "./blog_top";
+
 export default function Index_Top(){
+    ChangeBodyColor("#d9f2d9");
+
     return (
         <>
         <body_>   

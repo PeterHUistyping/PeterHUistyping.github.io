@@ -6,7 +6,7 @@
 
 .blog_sorting table {
     border: solid 1px white;
-    background-color: bisque;
+    background-color: rgb(218, 218, 241);
     border-collapse: collapse;
     width: 100%;
     cursor: default;
@@ -18,7 +18,7 @@
 }
 
 .blog_sorting table thead tr {
-    background-color: rgb(240, 157, 4);
+    background-color: rgb(154, 125, 211);
 }
 
 .blog_sorting td {
@@ -46,7 +46,7 @@
 }
 
 .blog_sorting table td :hover {
-    background-color: rgb(255, 203, 107);
+    background-color: rgb(190, 172, 239);
 }
 
 pre{

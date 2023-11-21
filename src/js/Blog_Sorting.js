@@ -9,7 +9,8 @@ import Blog_Footer from "./helper/blog_footer";
 import Blog_Top from "./helper/blog_top";
 import $ from "jquery";
 import ScrollToTop from "./helper/ScrollToTop";
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
+import {ChangeBodyColor} from "./helper/blog_top";
 var resource=Ongoing.concat(Hr_Award);
 resource=resource.concat(Computer_System); 
 resource=resource.concat(Machine_Learning); 
@@ -185,12 +186,16 @@ function Table_content(props){
     }
 }
 
+ 
 function Table(props){
+    ChangeBodyColor("#ddd9f5");
+    
     var len=props.resource.length;
     var keys = [...Array(len).keys()];
     keys.sort((a,b)=>a-b);
    
     return(
+        
     <div class="blog_sorting">
     <table id="tableSort">
         <thead>
