@@ -14,10 +14,16 @@ export function Experience(){
     const handleOnClick = () => {
           setShow(! show);
     }
+
+ 
     return (
     <motion.div> 
     <Index_Top/> 
     <Sidebar_Project />
+    <script>
+      document.getElementById("sidebar_home").focus();
+   </script>
+   
     <div class="content">
         <>   
       {/* <h2 ><b>EXPERIENCE</b></h2> */}
