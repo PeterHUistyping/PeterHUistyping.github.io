@@ -35,7 +35,7 @@ function Blog_top(){
           </li>
           <li><HashLink to="/#contact">📬Contact </HashLink> </li>
           {/* <li><a href="#">⬆️Top</a></li> */}
-          <li><a href={window.location.href+"/#"}>🔝Top</a></li>
+          {/* <li><a href={window.location.href+"/#"}>🔝</a></li> */}
           {/* <li><a href="/asset/blog/blog.html">🎶Music</a>
               <ul>
               <li><a href="#">🚫 on 👉</a></li>
@@ -47,7 +47,8 @@ function Blog_top(){
           {/* <li>
               <Button onClick={sayHello}>Settings</Button>
           </li>      */}
-          <li><a href={window.location.href}>⚙️Settings🛠️</a>
+          <li><a href={window.location.href}>🏷️Settings</a>
+          {/* 🛠️<large>⚙️</large> */}
               <ul>
                   <li><Bg_color /></li>
                   <li>    
