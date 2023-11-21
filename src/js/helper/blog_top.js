@@ -2,69 +2,84 @@ import { HashLink } from 'react-router-hash-link';
 import React from "react";
 import { useRef } from "react";
 import { useState } from "react";
-export default function Blog_Top(){
+function Blog_top(){
     return (
+      <>
+      <body_>
+      <div class="top">
+      <ul>
+          <li>
+            <HashLink  style={{ color: 'black' }} to="/Blog_Sorting/#welcome" ><i >Peter </i>HU's Blogs&nbsp; &nbsp;</HashLink> 
+          </li>
+          <li>
+              <a href="/#">🏠HOME</a>
+          </li>
+
+          <li>  <HashLink to="/project">🧑‍💻Project▾</HashLink>   
+                  <ul>
+                      <li> <HashLink to="/award/">Award</HashLink> </li>
+                      <li><HashLink to="/experience">Experience</HashLink> </li>
+                  </ul>
+              {/* <ul>
+                  <li><HashLink to="/project/#ongoing_project">🆕Ongoing</HashLink> </li>
+                  <li><HashLink to="/project/#previous_project">📖Previous</HashLink> </li>
+              </ul> */}
+          </li>
+
+          <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li>
+          <li><a href="/#/Blog_Sorting/#welcome">📝Blog▾</a> 
+              <ul>
+                  <li> <a href="/#/ref">📚Ref</a></li>
+                  <li> <a href="/#/blog5">⛵Update</a></li>
+              </ul>
+          </li>
+          <li><HashLink to="/#contact">📬Contact </HashLink> </li>
+          {/* <li><a href="#">⬆️Top</a></li> */}
+          <li><a href={window.location.href+"/#"}>🔝Top</a></li>
+          {/* <li><a href="/asset/blog/blog.html">🎶Music</a>
+              <ul>
+              <li><a href="#">🚫 on 👉</a></li>
+              </ul>
+              <ul>
+              <li><a href="#">Frame</a></li>
+              </ul>
+          </li> */}
+          {/* <li>
+              <Button onClick={sayHello}>Settings</Button>
+          </li>      */}
+          <li><a href={window.location.href}>⚙️Settings🛠️</a>
+              <ul>
+                  <li><Bg_color /></li>
+                  <li>    
+                      {/* <a href="/asset/blog/blog.html">   
+                      <button class="button button_settings" onClick={() => setDisable(true)}>🎶</button>      
+                      </a> */}
+                      <DisableAfterClick />
+                  </li>
+              </ul>
+          </li>
+        
+      </ul>
+  </div>
+  </body_>
+  <br /><br /> 
+  </>
+  )
+}
+export default function Blog_Top(){
+  var w = window.innerWidth;
+  if( w>800 ){
+    return(
+      <Blog_top />
+    )}
+  else{
+    return(
         <>
-        <body_>
-        <div class="top">
-        <ul>
-            <li>
-              <HashLink  style={{ color: 'black' }} to="/Blog_Sorting/#welcome" ><i >Peter </i>HU's Blogs&nbsp; &nbsp;</HashLink> 
-            </li>
-            <li>
-                <a href="/#">🏠HOME</a>
-            </li>
-
-            <li>  <HashLink to="/project">🧑‍💻Project▾</HashLink>   
-                    <ul>
-                        <li> <HashLink to="/award/">Award</HashLink> </li>
-                        <li><HashLink to="/experience">Experience</HashLink> </li>
-                    </ul>
-                {/* <ul>
-                    <li><HashLink to="/project/#ongoing_project">🆕Ongoing</HashLink> </li>
-                    <li><HashLink to="/project/#previous_project">📖Previous</HashLink> </li>
-                </ul> */}
-            </li>
-
-            <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li>
-            <li><a href="/#/Blog_Sorting/#welcome">📝Blog▾</a> 
-                <ul>
-                    <li> <a href="/#/ref">📚Ref</a></li>
-                    <li> <a href="/#/blog5">⛵Update</a></li>
-                </ul>
-            </li>
-            <li><HashLink to="/#contact">📬Contact </HashLink> </li>
-            {/* <li><a href="#">⬆️Top</a></li> */}
-            <li><a href={window.location.href+"/#"}>🔝Top</a></li>
-            {/* <li><a href="/asset/blog/blog.html">🎶Music</a>
-                <ul>
-                <li><a href="#">🚫 on 👉</a></li>
-                </ul>
-                <ul>
-                <li><a href="#">Frame</a></li>
-                </ul>
-            </li> */}
-            {/* <li>
-                <Button onClick={sayHello}>Settings</Button>
-            </li>      */}
-            <li><a href={window.location.href}>⚙️Settings🛠️</a>
-                <ul>
-                    <li><Bg_color /></li>
-                    <li>    
-                        {/* <a href="/asset/blog/blog.html">   
-                        <button class="button button_settings" onClick={() => setDisable(true)}>🎶</button>      
-                        </a> */}
-                        <DisableAfterClick />
-                    </li>
-                </ul>
-            </li>
-           
-        </ul>
-    </div>
-    </body_>
-    <br /><br /><br /><br /><br /><br />
-    </>
-    )
+          <Blog_top />
+          <br/> 
+          <br/> 
+        </>
+    )}
 }
 let audio = new Audio("/asset/audio/Town_of_Windmill.mp3");
 let music_state=true

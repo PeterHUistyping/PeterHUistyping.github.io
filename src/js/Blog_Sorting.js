@@ -59,10 +59,11 @@ export function Blog_Sorting(){
         {/*  &ensp;&ensp;&ensp;
         ⬇ <i>Sort Data on Header Click</i> */}
         <Table resource={resource}/>
-        <img  width= "100%"  src="/asset/photo/bg/Magic2.jpg" alt="Magic"/> <br/>
         <p><strong>More to Discover</strong></p> 
         Useful  <a href="/#/ref">Resource and Reference📚</a> <i>for Computer Science</i>
-        <Blog_Footer />
+        <img  width= "100%"  src="/asset/photo/bg/Magic2.jpg" alt="Magic"/> <br/>
+       
+        {/* <Blog_Footer /> */}
        
     </div> 
     </ScrollToTop>
