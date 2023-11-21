@@ -28,10 +28,12 @@ function Index_top(){
                         <li> <a href="/#/blog5">⛵Update</a></li>
                     </ul>
                 </li>
-                 <li><HashLink to="/#contact">📬Contact </HashLink> </li>
-                 <li><a href="https://github.com/PeterHUistyping"> <img width= "22vw" src="/asset/photo/Logo/github.svg" alt="github"/></a></li>
-                 <li><a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "22vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a></li>
-
+                <li><HashLink to="/#contact">📬Contact▾</HashLink>
+                <ul>
+                    <li><a href="https://github.com/PeterHUistyping"> <img width= "22vw" src="/asset/photo/Logo/github.svg" alt="github"/></a></li>
+                    <li><a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "22vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a></li>
+                </ul>
+                </li>
                  {/* <li><a href={window.location.href+"/#"}>🔝</a></li> */}
             </ul>
         </div>
