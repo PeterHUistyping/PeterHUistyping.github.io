@@ -6,9 +6,7 @@ import Sidebar_Project from "./helper/project_sidebar"
 import FooterCommon from "./helper/footerCommom"
 
 import React, { useEffect, useState } from "react";
- function popup() {
-  alert("What I really enjoy is the beauty of science and how it can be applied in nearly all fields of life.\nI am open to new fields of area and enjoy exploring unknown features.\n")
-}
+
 
 function Education(){
   const [show , setShow] = useState(false);
@@ -67,25 +65,12 @@ function About_me(){
   return (
     <>
     <center>
-    <large> <large><i onClick={() => {popup()}}>About Me 👇</i></large></large>
+    <large> <large><i>About Me 👇</i></large></large> <br/>
+    
+    Strong background and interest in Math, Algorithms and System related fields,  <br/>
+     with past long-term research lab, collaborative competition experience and wide theoretical knowledge.  <br/>
+    <HashLink to="/aboutme">See more ...</HashLink>
     </center>
- 
-  <div class="aboutMeContainer">
-  Strong background and interest in Math, Algorithms and System related fields. <br/>
-  
-  &emsp; &nbsp;&nbsp;
-  <b>Conducted long-term System-related (Graphics/GPU, CPU, etc) research with AI/ML in industry lab</b>, ranging from high-level architecture/algorithm design to low-level implementation. Theoretical expertise (literature, brainstorm), coupled with practical skills (the key developer for the simulation framework), comprise my areas of research proficiency. <br/>
-
-  &emsp; &nbsp;&nbsp;
-  <b>Enjoy most of the elegant and crazy ideas raised in Computer Science</b>, mathematic principles as well as engineering techniques. It includes courses from Cambridge, MIT/CMU OpenCourseWare.   <br/>
-
-  &emsp; &nbsp;&nbsp;
-  <b>Past group competition experience in compression</b> implemented in C and C++, where new ideas on LZSS and complete pipeline come up from our team. It achieves a lossless compression with overall better compression rate and processing speed compared with google Draco for the given 3D graphics data input. <br/>
-
-  &emsp; &nbsp;&nbsp;
-  Exploring areas in Computer System, Graphic and Machine Learning-Data Science, etc and open to new opportunities and fields.       <br/>
-
-  </div>
     </>
   )
 }
@@ -116,7 +101,14 @@ function Skill(){
 function Sidebar_Notice(){
     return(
   <div class ="announcement">
-    👈 Please click the left Sidebar for relevant <i> <HashLink to="/award">AWARD</HashLink> , <HashLink to="/project">PROJECT</HashLink>, <HashLink to="/experience">EXPERIENCE</HashLink></i>. 🧑‍💻
+    👈 Please click the left Sidebar for relevant sections. <br/>
+          🧑‍💻<br/> 
+    <i> 
+      <HashLink to="/award">AWARD</HashLink> , <br/>
+      <HashLink to="/project">PROJECT</HashLink>, <br/>
+      <HashLink to="/experience">EXPERIENCE</HashLink>. <br/>
+    </i>
+      
   </div>
     )
 }
@@ -159,6 +151,7 @@ export function Home() {
   return (
     <motion.div> 
     <Index_Top/> 
+    <br/>
     <div>
       <Profile/>
       <Sidebar_Project />

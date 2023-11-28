@@ -12,6 +12,8 @@ export default function Sidebar_Project(){
         Navigation ☰<i>Sidebar</i>☰ <br></br>
         <nav>
            <NavLink id="sidebar_home" exact activeClassName='is-active' to="/">▸HOME</NavLink>  
+           {/* <center>
+                    <HashLink id="sidebar_system"  to="/aboutme">&nbsp;AboutMe</HashLink> </center> */}
            <NavLink id="sidebar_award" exact activeClassName='is-active' to="/award">▸AWARD</NavLink>  
             <NavLink id="sidebar_project" exact activeClassName='is-active'  to="/project">▸PROJECT</NavLink> 
                 <center>

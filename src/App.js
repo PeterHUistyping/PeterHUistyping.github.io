@@ -2,6 +2,8 @@ import {Route,Routes, useLocation} from "react-router-dom";
 import {Home} from "./js/Home";
 import {Project} from "./js/Project";
 import {Experience} from "./js/Experience";
+import {AboutMe} from "./js/AboutMe";
+
 import {Award} from "./js/Award";
 import {Project_Others} from "./js/Project_Others";
 import {Blog_Sorting} from "./js/Blog_Sorting";
@@ -42,6 +44,8 @@ function App() {
           <Route path="/award" element={<Award />}/>
           <Route path="/project" element={<Project />}/>
           <Route path="/experience" element={<Experience />}/>
+          <Route path="/aboutme" element={<AboutMe />}/>
+
           
           <Route path="/project_others" element={<Project_Others />}/>
           <Route path='/*' element={<NotFound />}/>
