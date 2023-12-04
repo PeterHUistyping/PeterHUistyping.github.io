@@ -94,7 +94,7 @@ export function Experience(){
         
         Huawei Research Lab, Cambridge <br />
         
-        <i>Please refer to EXPERIENCE section in <a href="./asset/doc/CV_PeterHU.pdf">CV📄</a>.</i><br />
+        <i>Please refer to EXPERIENCE section in <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="./asset/photo/Logo/cv.png" alt="cv"/></a>.</i><br />
       
         <br />  <br />  <br />  <br />  <br />  <br />  <br />  
         </>
