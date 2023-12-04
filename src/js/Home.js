@@ -201,7 +201,7 @@ function Profile2(){
    
   <p> University of Cambridge <br/>Computer Science <br/>Part IB</p> <br/><strong>Contact
       Details</strong><br/>
-  Email: zh369@cam.ac.uk <br/> Phone: (+44) 07990 719841
+  <img width= "18vw" src="/asset/photo/Logo/e-mail.png" alt="email"/>zh369@cam.ac.uk <br/> <img width= "12vw" src="/asset/photo/Logo/phone.png" alt="phone"/> (+44) 07990 719841
   <br/><HashLink to="/project">📊</HashLink> | <a href="https://github.com/PeterHUistyping"> <img width= "18vw" src="/asset/photo/Logo/github.svg" alt="github"/></a> |  <a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "16vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a> | <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="/asset/photo/Logo/cv.png" alt="cv"/></a> 
   {/* |  More  */}
   <br/>
