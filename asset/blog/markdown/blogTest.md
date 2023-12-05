@@ -1,6 +1,0 @@
-# Hi
-Demo
-
-*hi*
-
-$\Delta$
