@@ -35,9 +35,11 @@ function popup() {
     alert("Warm Welcome!\n\
     \n---Version: Blogs3.0 Platform---\n---Music: Town of Windmill---\n \n ----------More Info----------\n \
     Originally written in Markdown(.md) \n \
-    Convert Markdown to HTML via Showdown \n \
-    https://showdownjs.com/ \n  \n \
+    Convert to HTML via React-Markdown. \n \
     Please press the below button to Exit. Thank you! ⬇️")
+
+    // Showdown https://showdownjs.com/ \n  \n \
+    
 }
 
  
