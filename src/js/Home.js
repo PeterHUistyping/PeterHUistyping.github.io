@@ -26,7 +26,7 @@ function Education(){
         Undergraduate<br />
         2022.10 - 2025.06</i><br />
         Computer Science<br />
-        Jardine fully-funded Scholarship.<br />
+        <a href="https://en.wikipedia.org/wiki/Jardine_Scholarship">Jardine</a> <a href="./asset/doc/Jardine_Certificate.jpg">Scholarship</a> [fully-funded]. <br />
 
     <img width="24" height="24" src="./asset/photo/Logo/xmu.png" alt="XMU"/>
     <b> Xiamen University </b><i> <br />
@@ -40,7 +40,7 @@ function Education(){
         <i> 2018.09 - 2021.06</i><br />
         {/* High School Diploma<br /> */}
         Physics Rep, research project leader, 
-        awarded ShuPing Scholarship twice.<br />
+        awarded <a href="https://en.wikipedia.org/wiki/Shuping_Scholarship">ShuPing Scholarship</a> twice.<br />
         
     <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i>
     &emsp;&emsp;
