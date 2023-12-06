@@ -1,6 +1,6 @@
 # Machine Learning and Real World data
 
-[GitHub](https://github.com/PeterHUistyping/Machine_Learning-Real_World_Data/edit/master/README.md)
+[GitHub](https://github.com/PeterHUistyping/Machine_Learning-Real_World_Data)
 
 Course website: https://www.cl.cam.ac.uk/teaching/2122/MLRD/  
 
@@ -139,4 +139,4 @@ networkx.centrality
 Girvan-Newman algorithm on facebook_circle.edges
 
 
-[See More on GitHub](https://github.com/PeterHUistyping/Machine_Learning-Real_World_Data/edit/master/README.md)
+[See More on GitHub](https://github.com/PeterHUistyping/Machine_Learning-Real_World_Data)
