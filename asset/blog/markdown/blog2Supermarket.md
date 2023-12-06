@@ -1,8 +1,11 @@
 # Supermarket-Management-System
  C++ OOP Project
 
+[Github](https://github.com/PeterHUistyping/Supermarket-Management-System)
+
 ## OS
 Windows
+
 ## Environment
 Dev C++ & Visual Studio
 
@@ -27,6 +30,8 @@ Class Goods
     Includes its color and maintenance_period. 
 
 Class Order
+
+![Order_txt](asset/photo/Assignment/2/Order_txt.png)
 
     ·Includes the date of the order, lists of goods and relevant information.
     After each order is completed, the order information should be printed on the screen and saved locally in txt.
@@ -82,31 +87,8 @@ Operator Overloading
     friend Goods operator * (int n, const Goods& g2);
     friend Goods operator = (Goods& g1,const Goods& g2);
 ``` 
-### Interface
-Initialization
-![Initialization](Photo/Initialization.png)
 
-Menu
-![Menu](Photo/Menu.png)
+![Order](asset/photo/Assignment/2/Order.png)
 
-Sell
-![Sell1](Photo/Sell1.png)
-![Sell2](Photo/Sell2.png)
-
-Order
-![Order](Photo/Order.png)
-![Order-txt](Photo/Order-txt.png)
-
-Display
-![Display](Photo/Display.png)
-
-Return
-![Return](Photo/Return.png)
-![Return-out](Photo/Return-out.png)
-
-Revenue
-![Revenue](Photo/Revenue.png)
-
-Save
-![Save](Photo/Save.png)
-![Save-txt](Photo/Save-txt.png)
+ 
+[See more on Github](https://github.com/PeterHUistyping/Supermarket-Management-System)
