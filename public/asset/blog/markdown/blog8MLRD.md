@@ -114,10 +114,14 @@ SENT -----+-----+-----+-----+-----+
 The cohen kappa score for the review predictions from 2019 to 2022 is 0.6523603977342954.
 ```
 ## Hidden Markov Models (HMM)
-Two matrices for the HMM: transition matrix (A) and emission matrix (B). <br/>
-Viterbi Algorithm: DP  <br/>
-Evaluation: precision, recall and F-measure  <br/>
-Semi-Supervised Learning with Self-Training <br/>
+Two matrices for the HMM: transition matrix (A) and emission matrix (B). 
+
+Viterbi Algorithm: DP  
+
+Evaluation: precision, recall and F-measure  
+
+**Semi-Supervised Learning with Self-Training**
+
 0. Train an HMM model with the available labelled training data as done in the first part of the task.
 1. Use the trained model to predict the hidden sequences of all available unlabelled data.
 2. Merge the labelled data with the new pseudo-labelled data.
@@ -127,10 +131,15 @@ Semi-Supervised Learning with Self-Training <br/>
 ![Score Through iteration](/asset/photo/Assignment/8/all_score.png)
 
 ## Social Networks
-Undirected and unweighted graph, Node, Link. <br/>
-e.g, Facebook-style networks, Twitter-style networks<br/>
-Visualize the network with Gephi<br/>
-Find the degree of each node.<br/>
+
+Undirected and unweighted graph, Node, Link. 
+
+e.g, Facebook-style networks, Twitter-style networks
+
+Visualize the network with Gephi
+
+Find the degree of each node.
+
 Determine the diameter of the network using a breadth-first all-pairs shortest path (APSP) algorithm.
 
 Calculate betweenness centrality using Brandes algorithm: 

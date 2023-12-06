@@ -253,6 +253,11 @@ h3 {
 }
 
  
+.comments-container {
+  max-height: 640px;
+  overflow-y: scroll;
+}
+
 .sidebar_main{
   position: fixed;
   top:  40vh;

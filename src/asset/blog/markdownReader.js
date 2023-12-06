@@ -5,7 +5,9 @@ import ReactMarkdown from 'react-markdown'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import { useEffect, useState } from "react";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+// import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+
+
 export function Blog(props){
 
     const [content, setContent] = useState("");
@@ -36,8 +38,8 @@ export function Blog(props){
                 rehypePlugins={[rehypeKatex]} 
                 children={content}
                 components={{img:({node,...props})=><img style={{maxWidth:'80%', maxHeight:'60vh'}}{...props}/>}}
-        
-                 />
+                />
+
             {/* </SyntaxHighlighter> */}
            </div>
            </>
