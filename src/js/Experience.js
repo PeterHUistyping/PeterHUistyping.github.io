@@ -34,7 +34,7 @@ export function Experience(){
         2023.5 - Present</i>  <br />
         {/* &nbsp;| &nbsp;  */}
         <a href="./asset/doc/RT_Peter-v6.pdf">Ray Tracing Slides(Intersection, Acceleration)</a> 
-        &nbsp;| &nbsp;
+        &nbsp;| &nbsp; <a href="./asset/doc/StarofCambridge.png">Award</a> &nbsp; 
       <button onClick={() => {setShow(! show)}}>Show Details</button>
       {
           show &&
