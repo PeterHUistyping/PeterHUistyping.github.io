@@ -288,12 +288,12 @@ h3 {
 
 }
 
-/* .sidebar_main a.active {
+.sidebar_main a.active {
   background-color: #04AA6D;
   color: white;
   font-weight:bold;
   font-style: italic;
-} */
+}
 
 .sidebar_main a:hover {
   /* :not(.active) */

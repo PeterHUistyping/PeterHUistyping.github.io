@@ -27,8 +27,8 @@ function App() {
     <> 
         <ScrollToTop>
         <AnimatePresence mode='wait'>
-          <Routes key={location.pathname} location={location}>
-            <Route path="/" element={<Home />}/>
+          <Routes>
+            <Route exact path={"/"} element={<Home />}/>
             <Route path="/Blog_Sorting" element={<Blog_Sorting />}/>
             <Route path="/blog" element={<Blog id="0" name="Test" />}/>
             <Route path="/blog1" element={<Blog id="1" name="TypingGame" />}/>
@@ -46,8 +46,8 @@ function App() {
             <Route path="/experience" element={<Experience />}/>
             <Route path="/aboutme" element={<AboutMe />}/>
   
-            
             <Route path="/project_others" element={<Project_Others />}/>
+
             <Route path='/*' element={<NotFound />}/>
           </Routes> 
         </AnimatePresence>
