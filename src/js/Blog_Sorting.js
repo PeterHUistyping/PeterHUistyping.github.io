@@ -60,7 +60,7 @@ export function Blog_Sorting(){
         ⬇ <i>Sort Data on Header Click</i> */}
         <Table resource={resource}/>
         <p><strong>More to Discover</strong></p> 
-        Useful  <a href="/#/ref">Resource and Reference📚</a> <i>for Computer Science</i>
+        Useful  <a href="/ref">Resource and Reference📚</a> <i>for Computer Science</i>
         <img  width= "100%"  src="/asset/photo/bg/Magic2.jpg" alt="Magic"/> <br/>
        
         {/* <Blog_Footer /> */}
@@ -166,7 +166,7 @@ function Table_content(props){
         <>
         <tr class="hover">
           <td class="sequence">{props.id}</td>
-          <td><a href={"/#/"+props.resource.Blog}><center>{props.resource.Title}</center></a></td>  
+          <td><a href={"/"+props.resource.Blog}><center>{props.resource.Title}</center></a></td>  
           <td>{props.resource.Time}</td>
           <td>{props.resource.Category}</td>  
         </tr>

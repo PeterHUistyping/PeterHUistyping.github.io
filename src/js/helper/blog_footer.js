@@ -5,8 +5,8 @@ export default function Blog_Footer(){
     <br/><br/><br/><br/><br/>
     <div class=" blog">
         <ul>
-            <li><a href="/#">🔙 HOME 🏠</a></li>
-            <li><a href="/#/Blog_Sorting">🔙 Blog 📝</a></li>
+            <li><a href="/">🔙 HOME 🏠</a></li>
+            <li><a href="/Blog_Sorting">🔙 Blog 📝</a></li>
         </ul>
     </div>
     <hr width="50%" color="#987cb9" SIZE="1" />
@@ -17,7 +17,7 @@ export default function Blog_Footer(){
                     Blogs<i>3.0</i> - Artistic, Better, Convenient Platform  &nbsp;
                     <button class="button button_blogs" onClick={() => {popup()}}> Details </button>
                     &nbsp;
-                    <a href="/#/blog5"> 
+                    <a href="/blog5"> 
                      <button class="button button_blogs">Update Log</button>  
                      </a> 
                      <br/>

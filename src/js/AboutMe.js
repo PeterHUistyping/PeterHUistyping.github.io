@@ -1,4 +1,4 @@
-import { HashLink } from 'react-router-hash-link';
+import { NavLink } from "react-router-dom"; 
 import Index_Footer from "./helper/index_footer";
 import Index_Top from "./helper/index_top";
 import { motion } from 'framer-motion'
@@ -40,14 +40,14 @@ export function AboutMe(){
             👈 Please click the left Sidebar for relevant sections. <br/>
             🧑‍💻<br/> 
         <i> 
-        <HashLink to="/award">AWARD</HashLink> , <br/>
-        <HashLink to="/project">PROJECT</HashLink>, <br/>
-        <HashLink to="/experience">EXPERIENCE</HashLink>. <br/>
+        <NavLink to="/award">AWARD</NavLink> , <br/>
+        <NavLink to="/project">PROJECT</NavLink>, <br/>
+        <NavLink to="/experience">EXPERIENCE</NavLink>. <br/>
         </i>
         </div>
         <br/><br/> 
 
-         <HashLink to="/">Home</HashLink> </center>
+         <NavLink to="/">Home</NavLink> </center>
     </div>
 
 

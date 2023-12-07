@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { Route,Routes, useLocation,HashRouter as Router} from 'react-router-dom';
+import { Route,Routes, useLocation, BrowserRouter as Router} from 'react-router-dom';
 
 import {Home} from "./js/Home";
 import {Project} from "./js/Project";
@@ -58,11 +58,9 @@ function App() {
 
   
 root.render(
-  
     <Router hashType="noslash"> 
         <App />
     </Router>
- 
 );
 
 // If you want to start measuring performance in your app, pass a function

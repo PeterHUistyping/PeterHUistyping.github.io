@@ -4,7 +4,6 @@ import Blog_Top from "../../../js/helper/blog_top";
 import Resource  from "./resource";
 import ref from "../../../asset/data/Resource.json"
 import camUn from "../../../asset/data/Resource_CamUn.json"
-import { HashLink } from 'react-router-hash-link';
 import { NavLink } from "react-router-dom"; 
 
 export function Blogref(){
@@ -15,8 +14,8 @@ export function Blogref(){
             <>
             <p id="resource"><strong><font size="+2"> Useful Resource and Reference for Computer Science📚</font></strong></p>
             <div class="sidebar">
-                <HashLink to="/ref/#ref">📚Reference</HashLink>  
-                <HashLink to="/ref/#camUn">📄Cam Exam</HashLink> 
+                <NavLink to="/ref#ref">📚Reference</NavLink>  
+                <NavLink to="/ref#camUn">📄Cam Exam</NavLink> 
             </div>
             <div class="content">
                 <h2> Computer System (including Graphics)</h2>

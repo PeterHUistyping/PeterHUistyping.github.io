@@ -56,7 +56,7 @@ Solution: Using HashRouter. <br/>
 This is a solution to React Router's issue of not scrolling to #hash-fragments when using the < Link> component to navigate. <br/>
 ```
 npm i react-router-hash-link
-<HashLink to="/#about">About</HashLink> 
+<NavLink to="/#about">About</NavLink> 
 ```
 Or manually, change from /# to /#/# <br/>
 

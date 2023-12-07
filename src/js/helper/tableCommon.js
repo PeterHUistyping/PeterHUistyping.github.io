@@ -87,7 +87,7 @@ function Italic_Intro(props){
 }
 function Blog_link(props){
     if(props.link){
-        return (<a href={"/#/"+props.link}>📝Blog</a>)
+        return (<a href={"/"+props.link}>📝Blog</a>)
     }
     else{
         return (<a href={props.link}>📝Blog</a>)

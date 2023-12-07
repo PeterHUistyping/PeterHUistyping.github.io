@@ -1,4 +1,4 @@
-import { HashLink } from 'react-router-hash-link';
+import { NavLink } from "react-router-dom"; 
 import React from "react";
 import { useRef } from "react";
 import { useState } from "react";
@@ -9,31 +9,31 @@ function Blog_top(){
       <div class="top">
       <ul>
           <li>
-            <HashLink  style={{ color: 'black' }} to="/Blog_Sorting/" ><i >Peter </i>HU's Blogs&nbsp; &nbsp;</HashLink> 
+            <a  style={{ color: 'black' }} href="/Blog_Sorting" ><i >Peter </i>HU's Blogs&nbsp; &nbsp;</a> 
           </li>
           <li>
-              <a href="/#">🏠HOME</a>
+              <a href="/">🏠HOME</a>
           </li>
 
-          <li>  <HashLink to="/project">🧑‍💻Project▾</HashLink>   
+          <li>  <a href="/project">🧑‍💻Project▾</a>   
                   <ul>
-                      <li> <HashLink to="/award/">Award</HashLink> </li>
-                      <li><HashLink to="/experience">Experience</HashLink> </li>
+                      <li> <a href="/award">Award</a> </li>
+                      <li><a to="/experience">Experience</a> </li>
                   </ul>
               {/* <ul>
-                  <li><HashLink to="/project/#ongoing_project">🆕Ongoing</HashLink> </li>
-                  <li><HashLink to="/project/#previous_project">📖Previous</HashLink> </li>
+                  <li><NavLink to="/project/#ongoing_project">🆕Ongoing</NavLink> </li>
+                  <li><NavLink to="/project/#previous_project">📖Previous</NavLink> </li>
               </ul> */}
           </li>
 
           {/* <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li> */}
-          <li><a href="/#/Blog_Sorting/">📝Blog▾</a> 
+          <li><a href="/Blog_Sorting">📝Blog▾</a> 
               <ul>
-                  <li> <a href="/#/ref">📚Ref</a></li>
-                  <li> <a href="/#/blog5">⛵Update</a></li>
+                  <li> <a href="/ref">📚Ref</a></li>
+                  <li> <a href="/blog5">⛵Update</a></li>
               </ul>
           </li>
-          <li><HashLink to="/#contact">📬Contact▾</HashLink>
+          <li><a href="/#contact">📬Contact▾</a>
           <ul>
               <li><a href="https://github.com/PeterHUistyping"> <img width= "22vw" src="/asset/photo/Logo/github.svg" alt="github"/></a></li>
               <li><a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "22vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a></li>

@@ -6,7 +6,33 @@ import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import { useEffect, useState } from "react";
 // import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import Giscus from '@giscus/react';
 
+export default function Comments() {
+    return (
+      <>
+      <br/>
+      <div>
+      <Giscus 
+          src="https://giscus.app/client.js"
+          repo="PeterHUistyping/PeterHUistyping.github.io"
+          repo-id="R_kgDOH2ed3A"
+          category="Blog"
+          category-id="DIC_kwDOH2ed3M4CbirX"
+          mapping="pathname"
+          strict="0"
+          reactions-enabled="1"
+          emit-metadata="0"
+          input-position="bottom"
+          theme="preferred_color_scheme"
+          lang="en"
+          loading="lazy"
+          crossorigin="anonymous"
+          />
+      </div>
+      </>
+    );
+  }
 
 export function Blog(props){
 
@@ -43,6 +69,7 @@ export function Blog(props){
             {/* </SyntaxHighlighter> */}
            </div>
            </>
+           <Comments id={props.id} name={props.name}/> 
         <Blog_Footer />
     </div> 
     </ScrollToTop>
