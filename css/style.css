@@ -184,7 +184,6 @@ h3 {
     /*border: 1px solid black;*/
   }
 }
-
 @media only screen and (max-width: 600px) {
   .img_profile {
     width: 30vw;
@@ -192,7 +191,6 @@ h3 {
     border-radius: 50%;
   }
 }
-
 .img_normal {
   width: 60vw;
   max-height: 80vh;
@@ -234,23 +232,20 @@ h3 {
   padding: 20px 0;
   transition: all 0.5s ease;
 }
-
 .sidebar a {
   display: block;
   color: grey;
   padding: 8px; /* change sidebar alignment here*/
   text-decoration: none;
 }
-
-/* .sidebar a.active {
+.sidebar a.active {
   background-color: #04AA6D;
   color: white;
   font-weight:bold;
   font-style: italic;
-} */
 
-.sidebar a:hover{
-  /* : not(.active)  */
+}
+.sidebar a:hover:not(.active) {
   background-color: #555;
   color: white;
   font-weight:bold;
@@ -294,9 +289,7 @@ h3 {
   font-weight:bold;
   font-style: italic;
 }
-
-.sidebar_main a:hover {
-  /* :not(.active) */
+.sidebar_main a:hover:not(.active) {
   background-color: #555;
   color: white;
   font-weight:bold;
