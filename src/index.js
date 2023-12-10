@@ -40,6 +40,8 @@ function App() {
             <Route path="/blog7" element={<Blog id="7" name="DSMercuria" />}/>
             <Route path="/blog8" element={<Blog id="8" name="MLRD" />}/>
             <Route path="/blog9" element={<Blog id="9" name="Priest-Beneath" />}/>
+            <Route path="/blog10" element={<Blog id="10" name="CVStanford" />}/>
+
             <Route path="/ref" element={<Blogref />}/>
             <Route path="/award" element={<Award />}/>
             <Route path="/project" element={<Project />}/>

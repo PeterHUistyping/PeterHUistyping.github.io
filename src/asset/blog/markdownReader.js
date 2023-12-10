@@ -5,6 +5,8 @@ import ReactMarkdown from 'react-markdown'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import { useEffect, useState } from "react";
+import 'katex/dist/katex.min.css'
+
 // import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 
 
