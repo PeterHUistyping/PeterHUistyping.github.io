@@ -24,7 +24,6 @@ export function Blog(props){
     <ScrollToTop> 
     <div>
         <Blog_Top/>
-            <>
             <div
             style={{
                 border: 'hidden',
@@ -44,7 +43,6 @@ export function Blog(props){
 
             {/* </SyntaxHighlighter> */}
            </div>
-           </>
         <Blog_Footer />
     </div> 
     </ScrollToTop>

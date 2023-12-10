@@ -99,7 +99,7 @@ Gradient Check: using easy-to-write Numerical gradient to make sure everything i
 
 ### Softmax
 
-Q3 [Implement a Softmax classifier](/MyProject22/assignment1/softmax.ipynb)
+Q3 [Implement a Softmax classifier](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment1/softmax.ipynb)
 
 Loss Function: cross-entropy
 
