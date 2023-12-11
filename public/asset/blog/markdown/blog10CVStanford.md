@@ -73,27 +73,88 @@ Q1 [k-Nearest Neighbor classifier](https://github.com/PeterHUistyping/Stanford_C
 
 ![knn_Cross-validation](asset/photo/Assignment/10/Photo/Cross-Validation_on_k.png)
 
+[kNN Online Demo](http://vision.stanford.edu/teaching/cs231n-demos/knn/)
+
 ## Linear Classifier: Parametric approach
 
-Preprocessing: Reshape into single row; Normalization, center, scale; Add bias dimension term
+Score function,
 
-Implement a fully-vectorized loss function, analytic gradient expression
+$y = f(x^{3072}, W^{10 \times 3072}) = W x +b  + \alpha R(W)$
 
-Validation set to tune the learning rate and regularization strength
+[Linear Classifier](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment1/cs231n/classifiers/linear_classifier.py)
 
-Optimize the loss function with SGD
+See more at Lecture 2-3 and related reading.
 
-Visualize the final learned weights
+```
+Train data shape:  (49000, 32, 32, 3)
+Train labels shape:  (49000,)
+
+Validation data shape:  (1000, 32, 32, 3)
+Validation labels shape:  (1000,)
+# to tune the learning rate and regularization strength
+
+Test data shape:  (1000, 32, 32, 3)
+Test labels shape:  (1000,)
+```
+
+Preprocessing
+
+- Reshape image into flattened row  `(_,3072)`;
+- Normalization, center, scale;
+  - Subtract the mean image from train and test data
+- Add bias dimension term one
+
+Loss function
+
+- fully-vectorized
+- **Gradient Check**
+
+  - Analytic gradient: exact, fast, error-prone,
+  - Numerical gradient: easy-to-write but slow.
+  - Using the latter to make sure everything is right.
+- with regulation term
+
+  - L1 / L2 / Elastic net (L1+L2)
+- Optimize the loss function with SGD
+
+  - SGD  / SGD+Momentum / RMSProp  / Adam
+
+    - Adam is a good default choice in many cases; it often works ok even with constant learning rate
+    - SGD+Momentum can out perform Adam but may require more tuning of LR and schedule
+    - If full batch updates then try out L-BFGS (and don’t forget to disable all sources of noise)
+
+  ![Loss Linear](asset/photo/Assignment/10/Photo/LossLinear.png)
+
+  - Visualize the final learned weights
 
 ### SVM
 
 Q2 [Training a Support Vector Machine](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment1/svm.ipynb)
 
-Loss Function: max-margin loss
+Preprocessing:
 
-Analytic gradient: exact, fast, error-prone
+- Subtract the mean image from train and test data
+  - ![Mean-Image-validation](asset/photo/Assignment/10/Photo/MeanImageVisualization.png)
 
-Gradient Check: using easy-to-write Numerical gradient to make sure everything is right.
+Loss Function: [Hinge loss](https://en.wikipedia.org/wiki/Hinge_loss) max-margin classification
+
+The SVM “wants” the correct class for each image to a have a score higher than the incorrect classes by some fixed margin Delta = 1.
+
+score vector $s=f(x_i,W)$
+
+$$
+L_i = \sum_{j \neq y_i} max(0, s_j -s_i +1)
+$$
+
+```
+|\ Loss
+| \
+|   \
+O _ _ 1 = = 2 = = 3.  delta_s 
+		    = correct class - incorrect class 
+```
+
+Split data into train, val; choose hyperparameter on val and evaluate on test
 
 ![svm_Cross-validation](asset/photo/Assignment/10/Photo/svm_Cross-validation.png)
 
@@ -101,15 +162,39 @@ Gradient Check: using easy-to-write Numerical gradient to make sure everything i
 
 Q3 [Implement a Softmax classifier](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment1/softmax.ipynb)
 
-Loss Function: cross-entropy
+$$
+P(Y=k |X=x_i)= \frac{exp(s_k)}{\sum_j exp(s_j)}
+$$
 
-### Two-Layer Neural Network
+Loss Function: [Cross-entropy](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjxzcKM4YWDAxXFR0EAHflmCksQFnoECBkQAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCross-entropy&usg=AOvVaw228IHK-lfaJa7UIBg6wMJX&opi=89978449)
+
+$$
+L_i = - log P(Y=y_i|X=x_i)
+$$
+
+![learned weights](asset/photo/Assignment/10/Photo/learnedWeights.png)
+
+## Two-Layer Neural Network
+
+Score function,
+
+$y = f(x^{3072}, W_1^{H \times 3072}, W_2^{10 \times H}) =W_2 \sigma(W_1x + b_1) + b_2$
+
+Hierarchical computation $3072 \rightarrow H \rightarrow C=10$.
+
+- Activation function $\sigma$
+- Sigmoid / (Leeky) ReLU / tanh / Maxout / ReLU / ELU
+
+See more at Lecture 4 and related reading.
 
 Q4 [Two-Layer Neural Network](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment1/two_layer_net.ipynb)
+
+The architecure is 
+
+affine - relu - affine - softmax.
+
+![LossAcc](asset/photo/Assignment/10/Photo/LossAccTwoLayerNet.png)
 
 ## Image Features
 
 Q5 [Higher Level Representations: Image Features](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment1/features.ipynb)
-
-
-[See more on GitHub](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision)
