@@ -106,7 +106,7 @@ function Intro(props){
             Des4={props.Des4}/>
             <Italic_Intro Italic={props.Italic}/>
             {props.Time}<br/>
-            <a href={props.Github}>Project (Github) </a>
+            <a href={props.Github}><img width= "13vw" src="/asset/photo/Logo/github.svg" alt="github"/> Project </a>
             | <Blog_link link={props.Blog}/> | <a href={props.PDF}>PDF</a> | <a href={props.Video}>Video</a>  | <a href={props.More}>More</a> <br/> 
         </td>
     )
