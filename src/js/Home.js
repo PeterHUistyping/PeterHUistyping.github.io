@@ -69,7 +69,10 @@ function About_me(){
     
     Strong background and interest in Math, Algorithms and System related fields,  <br/>
      with past long-term research lab, collaborative competition experience and wide theoretical knowledge.  <br/>
+   
     <HashLink to="/aboutme">See more ...</HashLink>
+    
+
     </center>
     </>
   )

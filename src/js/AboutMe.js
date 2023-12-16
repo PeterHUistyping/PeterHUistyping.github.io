@@ -25,40 +25,41 @@ export function AboutMe(){
         &emsp; &nbsp;&nbsp;
         <b>Conducted long-term collaborative research in industry lab</b> on  <br/>
         - Image Processing, Graphics + AI/ML with GPU, CV; <br/>
+
+        <center>
+                 {/* 1568 1340 = 1.17 */}
+        <img height="300" src="/asset/photo/Logo/Relationship_CV.png" alt="CV" />
+        </center>
+
         - System-related (Scheduling, CPU), <br/>
 
         &emsp; &nbsp;&nbsp;
         ranging from high-level architecture design to low-level algorithm implementation. 
         Theoretical expertise (literature, brainstorm), coupled with practical skills (the key developer for the simulation framework), comprise my areas of research proficiency. <br/>
 
-        <br/>
 
         &emsp; &nbsp;&nbsp;
         <b>Enjoy most of the elegant and crazy ideas raised in Computer Science</b>, mathematic principles as well as engineering techniques. It includes courses from Cambridge, MIT/CMU OpenCourseWare.   <br/>
 
-        <br/>
 
         &emsp; &nbsp;&nbsp;
         <b>Past group competition experience in compression</b> implemented in C and C++, where new ideas on LZSS and complete pipeline come up from our team. It achieves a lossless compression with overall better compression rate and processing speed compared with google Draco for the given 3D graphics data input. <br/>
 
-        <br/>
 
         &emsp; &nbsp;&nbsp;
         Exploring areas in Graphics + AI/ML with GPU, CV / System-related topics, etc and open to new opportunities and fields.       <br/>
-        <br/><br/> 
         <center> 
         <div class ="announcement">
             👈 Please click the left Sidebar for relevant sections. <br/>
             🧑‍💻<br/> 
         <i> 
+        <HashLink to="/">Home</HashLink> , <br/>
         <HashLink to="/award">AWARD</HashLink> , <br/>
         <HashLink to="/project">PROJECT</HashLink>, <br/>
         <HashLink to="/experience">EXPERIENCE</HashLink>. <br/>
         </i>
         </div>
-        <br/>
-
-         <HashLink to="/">Home</HashLink> </center>
+         </center>
     </div>
 
     <Index_Footer />
