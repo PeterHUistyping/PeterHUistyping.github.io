@@ -13,8 +13,7 @@ export function AboutMe(){
     
     <Sidebar_Project />
      
-     <br/><br/><br/><br/><br/>
-     <br/><br/><br/><br/><br/>
+     <br/><br/>
  
     
     <center>
@@ -24,16 +23,28 @@ export function AboutMe(){
         Strong background and interest in Math, Algorithms and System related fields. <br/>
         
         &emsp; &nbsp;&nbsp;
-        <b>Conducted long-term System-related (Graphics/GPU, CPU, etc) research with AI/ML in industry lab</b>, ranging from high-level architecture/algorithm design to low-level implementation. Theoretical expertise (literature, brainstorm), coupled with practical skills (the key developer for the simulation framework), comprise my areas of research proficiency. <br/>
+        <b>Conducted long-term collaborative research in industry lab</b> on  <br/>
+        - Image Processing, Graphics + AI/ML with GPU, CV; <br/>
+        - System-related (Scheduling, CPU), <br/>
+
+        &emsp; &nbsp;&nbsp;
+        ranging from high-level architecture design to low-level algorithm implementation. 
+        Theoretical expertise (literature, brainstorm), coupled with practical skills (the key developer for the simulation framework), comprise my areas of research proficiency. <br/>
+
+        <br/>
 
         &emsp; &nbsp;&nbsp;
         <b>Enjoy most of the elegant and crazy ideas raised in Computer Science</b>, mathematic principles as well as engineering techniques. It includes courses from Cambridge, MIT/CMU OpenCourseWare.   <br/>
 
+        <br/>
+
         &emsp; &nbsp;&nbsp;
         <b>Past group competition experience in compression</b> implemented in C and C++, where new ideas on LZSS and complete pipeline come up from our team. It achieves a lossless compression with overall better compression rate and processing speed compared with google Draco for the given 3D graphics data input. <br/>
 
+        <br/>
+
         &emsp; &nbsp;&nbsp;
-        Exploring areas in Computer System, Graphic and Machine Learning-Data Science, etc and open to new opportunities and fields.       <br/>
+        Exploring areas in Graphics + AI/ML with GPU, CV / System-related topics, etc and open to new opportunities and fields.       <br/>
         <br/><br/> 
         <center> 
         <div class ="announcement">
@@ -45,15 +56,10 @@ export function AboutMe(){
         <HashLink to="/experience">EXPERIENCE</HashLink>. <br/>
         </i>
         </div>
-        <br/><br/> 
+        <br/>
 
          <HashLink to="/">Home</HashLink> </center>
     </div>
-
-
-
-    
-    <br/><br/><br/><br/><br/>
 
     <Index_Footer />
     </motion.div>)
