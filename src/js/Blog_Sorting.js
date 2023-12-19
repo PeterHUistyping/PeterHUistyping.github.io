@@ -1,5 +1,4 @@
 import "../index.css";
- 
 import Hr_Award from '../asset/data/Hr_Award.json';
 import Ongoing from '../asset/data/Ongoing_PrAs.json';
 import Past from '../asset/data/Past_PrAs.json';
@@ -15,6 +14,7 @@ var resource=Ongoing.concat(Hr_Award);
 resource=resource.concat(Computer_System); 
 resource=resource.concat(Machine_Learning); 
 resource=resource.concat(Past); 
+
 export function Blog_Sorting(){
     return(   
         <motion.div   
@@ -42,10 +42,14 @@ export function Blog_Sorting(){
         <Blog_Top/>
         <div class="imageContainer">
          <br />  
-            <center><p id="welcome" ><strong>
+            <center>
+            <p id="welcome" >
+                <strong>
                 <font size="+3" color="white">Welcome to My Blogs📝</font>
                 <font size="+1" color="white"><i>3.0</i></font>
-                </strong></p> </center>
+                </strong>
+            </p> 
+            </center>
         </div>
         {/* 
         <center>
