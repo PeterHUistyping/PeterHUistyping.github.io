@@ -30,7 +30,7 @@ export function Experience(){
      
       <h2><b>RESEARCH EXPERIENCE</b></h2>
 
-      <b>Research Intern (GPU Algorithm) </b><i> <br />
+      <b>Research Intern (Graphics Algorithm / GPU Architecture) </b><i> <br />
         2023.5 - Present</i>  <br />
         {/* &nbsp;| &nbsp;  */}
         <a href="./asset/doc/RT_Peter-v6.pdf">Ray Tracing Slides(Intersection, Acceleration)</a> 
@@ -40,7 +40,7 @@ export function Experience(){
           show &&
           <>
           <br/>
-          <img width="671" height="490 " src="./asset/photo/Profile/GPU2.png" alt="GPU2" />
+          <img width="722" height="705" src="./asset/photo/Profile/GPU2.png" alt="GPU2" />
           <br/>
           <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i>
 
