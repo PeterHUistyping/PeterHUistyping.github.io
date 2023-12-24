@@ -7,10 +7,9 @@ export default function FooterCommon(){
     ).format(myDate).replace(/\./g, '-');
     return (
         <>
-        © Copyright 2022-2023 PeterHU. Hosted by <a href="https://pages.github.com/">GitHub Pages</a> and <a href="https://reactjs.org">React App</a>.<br/>
-            Last updated:
+        © Copyright 2022-2024 PeterHU. Hosted by <a href="https://pages.github.com/">GitHub Pages</a> and <a href="https://reactjs.org">React App</a>.<br/>
+            Last updated: 
             {myNewDate.toString()}
- 
         </>
     )
 }

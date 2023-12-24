@@ -5,6 +5,8 @@ import Past from '../asset/data/Past_PrAs.json';
 import Computer_System from '../asset/data/Computer_System.json';
 import Machine_Learning from '../asset/data/Machine_Learning.json';
 import Blog_Footer from "./helper/blog_footer";
+import FooterCommon from "./helper/footerCommom"
+
 import Blog_Top from "./helper/blog_top";
 import $ from "jquery";
 import ScrollToTop from "./helper/ScrollToTop";
@@ -40,7 +42,7 @@ export function Blog_Sorting(){
     <ScrollToTop> 
         <div>
         <Blog_Top/>
-        <div class="imageContainer">
+        <div class="blogHeader">
          <br />  
             <center>
             <p id="welcome" >
@@ -65,9 +67,15 @@ export function Blog_Sorting(){
         <Table resource={resource}/>
         <p><strong>More to Discover</strong></p> 
         Useful  <a href="/#/ref">Resource and Reference📚</a> <i>for Computer Science</i>
-        <img  width= "100%"  src="/asset/photo/bg/Magic2.jpg" alt="Magic"/> <br/>
-       
-        {/* <Blog_Footer /> */}
+        {/* <img  width= "100%"  src="/asset/photo/bg/Magic2.jpg" alt="Magic"/> <br/> */}
+        <div class="blogFooter">
+         <br />  
+            <center>
+            {/* <Blog_Footer /> */}
+            <FooterCommon/>   
+
+            </center>
+        </div>
        
     </div> 
     </ScrollToTop>

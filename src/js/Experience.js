@@ -31,7 +31,7 @@ export function Experience(){
       <h2><b>RESEARCH EXPERIENCE</b></h2>
 
       <b>Research Intern (Graphics Algorithm / GPU Architecture) </b><i> <br />
-        2023.5 - Present</i>  <br />
+        2023.5 - 2024.1</i>  <br />
         {/* &nbsp;| &nbsp;  */}
         <a href="./asset/doc/RT_Peter-v6.pdf">Ray Tracing Slides(Intersection, Acceleration)</a> 
         &nbsp;| &nbsp; <a href="./asset/doc/StarofCambridge.png">Award</a> &nbsp; 
