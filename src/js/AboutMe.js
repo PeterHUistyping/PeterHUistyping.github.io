@@ -51,13 +51,10 @@ export function AboutMe(){
         <center> 
         <div class ="announcement">
             👈 Please click the left Sidebar for relevant sections. <br/>
-            🧑‍💻<br/> 
-        <i> 
-        <HashLink to="/">Home</HashLink> , <br/>
-        <HashLink to="/award">AWARD</HashLink> , <br/>
-        <HashLink to="/project">PROJECT</HashLink>, <br/>
-        <HashLink to="/experience">EXPERIENCE</HashLink>. <br/>
-        </i>
+        <HashLink to="/">🏠 Home</HashLink> , <br/>
+        <HashLink to="/award">🥇 <i>AWARD</i></HashLink> , <br/>
+        <HashLink to="/project">🧑‍💻 <i>PROJECT</i></HashLink>, <br/>
+        <HashLink to="/experience">🗓️ <i>EXPERIENCE</i></HashLink>. <br/>
         </div>
          </center>
     </div>

@@ -70,7 +70,8 @@ function About_me(){
     Strong background and interest in Graphic, Vision with ML / System related fields.  <br/>
      Long-term Research Lab experience, collaborative compression competition and wide theoretical knowledge.  <br/>
    
-    <HashLink to="/aboutme">See more ...</HashLink>
+      <HashLink to="/aboutme">See MORE ...</HashLink> 
+      {/* | <HashLink to="/project">📊<i>PROJECT</i></HashLink> */}
     
 
     </center>
@@ -105,12 +106,9 @@ function Sidebar_Notice(){
     return(
   <div class ="announcement">
     👈 Please click the left Sidebar for relevant sections. <br/>
-          🧑‍💻<br/> 
-    <i> 
-      <HashLink to="/award">AWARD</HashLink> , <br/>
-      <HashLink to="/project">PROJECT</HashLink>, <br/>
-      <HashLink to="/experience">EXPERIENCE</HashLink>. <br/>
-    </i>
+      <HashLink to="/award">🥇 <i>AWARD</i></HashLink> , <br/>
+      <HashLink to="/project">🧑‍💻 <i>PROJECT</i></HashLink>, <br/>
+      <HashLink to="/experience">🗓️ <i>EXPERIENCE</i></HashLink>. <br/>
       
   </div>
     )
@@ -202,11 +200,21 @@ function Profile2(){
       <td width="280" text-align="center">
   <h1 id="contact"><i>Peter</i> HU </h1>
    
-  <p> University of Cambridge <br/>Computer Science <br/>Part IB</p> <br/><strong>Contact
-      Details</strong><br/>
-  <img width= "18vw" src="/asset/photo/Logo/e-mail.png" alt="email"/>zh369@cam.ac.uk <br/> <img width= "12vw" src="/asset/photo/Logo/phone.png" alt="phone"/> (+44) 07990 719841
-  <br/><HashLink to="/project">📊</HashLink> | <a href="https://github.com/PeterHUistyping"> <img width= "18vw" src="/asset/photo/Logo/github.svg" alt="github"/></a> |  <a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "16vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a> | <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="/asset/photo/Logo/cv.png" alt="cv"/></a> 
+  <p> University of Cambridge <br/>Computer Science <br/>Part IB</p> <br/>
+  <strong>Contact Details</strong><br/>
+
+  <img width= "18vw" src="/asset/photo/Logo/e-mail.png" alt="email"/>
+  <a href="mailto:zh369@cam.ac.uk" >Email</a>   &nbsp; 
+      {/* zh369@cam.ac.uk  */}
+  <img width= "12vw" src="/asset/photo/Logo/phone.png" alt="phone"/> 
+  <a href="tel:4407990719841">Tel</a>
+  {/* (+44) 07990 719841 */}
   {/* |  More  */}
+
+  <br/>
+
+  <a href="https://github.com/PeterHUistyping"> <img width= "18vw" src="/asset/photo/Logo/github.svg" alt="github"/></a> |  <a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "16vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a> | <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="/asset/photo/Logo/cv.png" alt="cv"/></a> 
+
   <br/>
 
        
