@@ -14,6 +14,8 @@ Main idea: Using table to sort things up, achieving better display on mobile dev
 
 **More update coming soon...**
 
+1 Jan 2024  
+Continuation of ©
   
 12 Nov 2023  
 Add more sub-page for Projects, awards and experience.  
@@ -58,6 +60,8 @@ Reuse: the same part in the HTML / using JavaScript to encapsulate the header an
 
 **More update coming soon...**
 
+Dec 2023  
+Update the layout and footer of the Blog main page.
 
 17 Apr 2023  
 Introduce sidebar in Ref📚 for classification.  
