@@ -43,7 +43,9 @@ function Index_top(){
     )
 }
 export default function Index_Top(){
-    ChangeBodyColor("#d9f2d9");
+    // ChangeBodyColor("#d9f2d9");
+    ChangeBodyColor("#ffffff");
+
     var w = window.innerWidth;
     if( w>800 ){
       return(

@@ -82,7 +82,8 @@ body_ {
 }
 
 body {
-  background-color: #d9f2d9;
+  background-color: white;
+  /* #d9f2d9; */
   /* background-image:radial-gradient(#e7edcc ,#d9f2d9); */
   /* background-image: linear-gradient(to right, #d9f2d9, #dfe6be ); */
   
