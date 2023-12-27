@@ -14,16 +14,20 @@ Main idea: Using table to sort things up, achieving better display on mobile dev
 
 **More update coming soon...**
 
-  
+1 Jan 2024  
+Continuation of ©
+
+![Home_Dec2023](asset/photo/Assignment/5/Home_Dec2023.png "Home Page v2 Dec")  
+
 12 Nov 2023  
 Add more sub-page for Projects, awards and experience.  
 Update home page with left navigation bar and brand-new layout.  
 Differentiate mobile and PC view of the Main page by checking screen width in js.  
-![Mobile_Home_Apr2023](asset/photo/Assignment/5/Home_Nov2023.png "Home Page v2")  
+[Home_Nov2023](asset/photo/Assignment/5/Home_Nov2023.png "Home Page v2 Nov")  
   
 6 Mar 2023  
 Adjust to mobile view: CSS add "media only screen and (max-width: 800px)" condition.  
-![Mobile_Home_Apr2023](asset/photo/Assignment/5/Mobile_Home_Apr2023.png "Mobile View of Home Page")  
+[Mobile_Home_Apr2023](asset/photo/Assignment/5/Mobile_Home_Apr2023.png "Mobile View of Home Page")  
  
 Code Reconstruction
 -------------------
@@ -37,10 +41,10 @@ Adding a 404 redirect to home page.
   
 1 Feb 2023  
 Using React together with React to construct functions, thus shortening the lines of code and maintenance cost.  
-![React_js](asset/photo/Assignment/5/React_js.png "React_js")  
+[React_js Setup](asset/photo/Assignment/5/React_js.png "React_js")  
 
 \--- Personal Page 2022 ---  
-![Personal Page2022](asset/photo/Assignment/5/page.png "Personal Page 2022")  
+[Home 2022](asset/photo/Assignment/5/page.png "Personal Page 2022")  
   
 
 [🏠PERSONAL PAGE](/#)
@@ -58,6 +62,8 @@ Reuse: the same part in the HTML / using JavaScript to encapsulate the header an
 
 **More update coming soon...**
 
+Dec 2023  
+Update the layout and footer of the Blog main page.
 
 17 Apr 2023  
 Introduce sidebar in Ref📚 for classification.  
@@ -71,7 +77,7 @@ Blogs_3.0_ Platform: This patch updates navigation bar in Blogs_3.0_ Platform, a
   
 5 Apr 2023  
 Updates blog UI system with better visual effect.  
-![Blog3.0](asset/photo/Assignment/5/blog3.0.png "Blog3.0")  
+[Blog3.0](asset/photo/Assignment/5/blog3.0.png "Blog3.0")  
   
 7 Apr 2023  
 Blogs_3.0_ Platform: This patch updates navigation bar UI design and music button.  
@@ -84,35 +90,6 @@ Removing legacy version (2022.9.18 Music for Blog: Using frame and iframe to sup
   
   
 
-## Legacy Display
-
-
-
-\--- Blog3.0 Design ---  
-  
-![Blog3.0_Mar23](asset/photo/Assignment/5/BlogMar23.png "Blog3.0_Mar23")
-
-  
-
-\--- [Blog2.0](/asset/blog/blog_directory_Storting.html) Design ---
-
-
-Updated new feature: ⬇ _Sort Data on Header Click_  
-2022.9.27  
-      Using JavaScript to support table display and sorting  
-(2023.2.16 Table sorting is no longer supported in react version. )  
-  
-
-![Blog2.0](asset/photo/Assignment/5/blog2.0.png "Blog2.0")
-
-  
-
-\--- [Blog1.0](/asset/blog/blog_directory.html) Design ---
-
-
-  
-
-![Blog1.0](asset/photo/Assignment/5/blog.png "Blog1.0")
 
 **Appendix: Heuristic Evaluation of the Design**
 
@@ -147,3 +124,25 @@ Updated new feature: ⬇ _Sort Data on Header Click_
 10.  Help and documentation  
     It’s best if the design doesn’t need any additional explanation. However, it may be necessary to provide documentation to help users complete their tasks.
 
+
+## Legacy Display
+
+\--- [Blog3.0_Mar23](asset/photo/Assignment/5/BlogMar23.png "Blog3.0_Mar23") Design ---  
+  
+\--- [Blog2.0](/asset/blog/blog_directory_Storting.html) Design ---
+
+
+Updated new feature: ⬇ _Sort Data on Header Click_  
+2022.9.27  
+      Using JavaScript to support table display and sorting  
+(2023.2.16 Table sorting is no longer supported in react version. )  
+  
+
+[Blog2.0](asset/photo/Assignment/5/blog2.0.png "Blog2.0")
+
+  
+
+\--- [Blog1.0](/asset/blog/blog_directory.html) Design ---
+
+
+[Blog1.0](asset/photo/Assignment/5/blog.png "Blog1.0")
