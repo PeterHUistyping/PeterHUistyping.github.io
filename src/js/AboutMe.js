@@ -24,7 +24,7 @@ export function AboutMe(){
         
         &emsp; &nbsp;&nbsp;
         <b>Conducted long-term collaborative research in industry lab</b> on  <br/>
-        - Image Processing, Graphics + AI/ML with GPU, CV; <br/>
+        - Visual Computing (Image Processing, Graphics, Vision) + AI/ML; <br/>
 
         <center>
                  {/* 1568 1340 = 1.17 */}
