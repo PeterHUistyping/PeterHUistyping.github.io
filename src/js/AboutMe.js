@@ -20,7 +20,7 @@ export function AboutMe(){
     <large>  <i onClick={() => {popup()}}>About Me 👇</i></large> 
     </center>
     <div class="aboutMeContainer">
-        Strong background and interest in Math, Algorithms and System related fields. <br/>
+        Strong background and interest in Visual Computing (Graphics, Vision) with ML / System related fields.  <br/>
         
         &emsp; &nbsp;&nbsp;
         <b>Conducted long-term collaborative research in industry lab</b> on  <br/>
