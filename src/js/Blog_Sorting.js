@@ -4,6 +4,8 @@ import Ongoing from '../asset/data/Ongoing_PrAs.json';
 import Past from '../asset/data/Past_PrAs.json';
 import Computer_System from '../asset/data/Computer_System.json';
 import Machine_Learning from '../asset/data/Machine_Learning.json';
+import Visual_Computing from '../asset/data/Visual_Computing.json';
+
 import Blog_Footer from "./helper/blog_footer";
 import FooterCommon from "./helper/footerCommom"
 
@@ -15,6 +17,7 @@ import {ChangeBodyColor} from "./helper/blog_top";
 var resource=Ongoing.concat(Hr_Award);
 resource=resource.concat(Computer_System); 
 resource=resource.concat(Machine_Learning); 
+resource=resource.concat(Visual_Computing); 
 resource=resource.concat(Past); 
 
 export function Blog_Sorting(){

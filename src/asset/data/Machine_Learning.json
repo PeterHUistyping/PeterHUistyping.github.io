@@ -1,18 +1,5 @@
 [
-    {
-        "Title":"Computer Vision",
-        "pic1_src":"./asset/photo/Assignment/other/CV_CIFAR-10.png", 
-        "pic1_alt":"CV_CIFAR-10",
-        "pic2_src":"./asset/photo/Assignment/other/CV_Cross-Validation.png",
-        "pic2_alt":"CV_Cross-Validation",
-        "Category":"Stanford CS231n",
-        "line":2,
-        "Des1": "⛵Update: Start from 9/Jan/2023 ",
-        "Des2":"Python, Numpy, kNN, Softmax, SVM classifier, Cross Validation",
-        "Time":"2023.1.9-Present",
-        "Blog":"blog10",
-        "Github":"https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision"
-    },
+   
     {
         "Title":"Machine Learning and Real-world Data",
         "pic1_src":"./asset/photo/Assignment/8/Estimation of log-log.png",

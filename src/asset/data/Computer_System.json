@@ -28,22 +28,5 @@
         "Italic":"CMU15-445 Project",
         "Blog":"blog4",
         "More":"https://google.github.io/styleguide/cppguide.html"
-    },
-    {
-        "pic1_src":"./asset/photo/Assignment/blog3/Antialiasing.png",
-        "pic1_alt":"Antialiasing",
-        "pic2_src":"./asset/photo/Assignment/blog3/Self-similar_fractals.png",
-        "pic2_alt":"Self-similar fractals",
-        "Title":"Introduction to Computer Graphics",
-        "Category":"C++, OpenGL",
-        "line":4,
-        "Des1": " With the help of the Open Course, I have implemented a ray tracer using C++, with two kinds of cameras, orthonormal and perspective camera respectively.",
-        "Des2": "In addition, several types of primitives are built, e.g. sphere, triangle, plane, triangle mesh, just to name a few. ",
-        "Des3": "Command-line usage; .vscode configuration.",
-        "Des4": "Useful Coding Skills: Command line Argument; Using Assert(); On each .h, #progma once",
-        "Time":"2022.8-Present",
-        "Italic":"MIT6.387",
-        "Github":"https://github.com/PeterHUistyping/MIT6.837-CG-Fall2004-Assignment",
-        "Blog":"blog3" 
     }
 ]

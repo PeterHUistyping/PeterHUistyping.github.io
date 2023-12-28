@@ -17,9 +17,14 @@ export default function Sidebar_Project(){
            <NavLink id="sidebar_award" exact activeClassName='is-active' to="/award">▸AWARD</NavLink>  
             <NavLink id="sidebar_project" exact activeClassName='is-active'  to="/project">▸PROJECT</NavLink> 
                 <center>
-                    <HashLink id="sidebar_system"  to="/project/#Computer_System">&nbsp;&nbsp;&nbsp;System</HashLink> </center>
+                    <HashLink id="sidebar_visual"  to="/project/#Visual_Computing">&nbsp;&nbsp;&nbsp;Visual Computing</HashLink> 
+                </center>
                 <center>
-                    <HashLink id="sidebar_ml"  to="/project/#Machine_Learning">&nbsp;&nbsp;&nbsp;ML</HashLink> </center>
+                    <HashLink id="sidebar_ml"  to="/project/#Machine_Learning">&nbsp;&nbsp;&nbsp;ML</HashLink> 
+                </center>
+                <center>
+                    <HashLink id="sidebar_system"  to="/project/#Computer_System">&nbsp;&nbsp;&nbsp;System</HashLink> 
+                </center>
                 <center>
                     <NavLink id="sidebar_others" exact activeClassName='is-active' to="/project_others">&nbsp;&nbsp;&nbsp;Others</NavLink></center>  
             <small><NavLink id="sidebar_exp" exact activeClassName='is-active' to="/experience">▸EXPERIENCE</NavLink></small> 

@@ -1,0 +1,33 @@
+[   
+    {
+        "Title":"Computer Vision",
+        "pic1_src":"./asset/photo/Assignment/other/CV_CIFAR-10.png", 
+        "pic1_alt":"CV_CIFAR-10",
+        "pic2_src":"./asset/photo/Assignment/other/CV_Cross-Validation.png",
+        "pic2_alt":"CV_Cross-Validation",
+        "Category":"Stanford CS231n",
+        "line":2,
+        "Des1": "⛵Update: Start from 9/Jan/2023 ",
+        "Des2":"Python, Numpy, kNN, Softmax, SVM classifier, Cross Validation",
+        "Time":"2023.1.9-Present",
+        "Blog":"blog10",
+        "Github":"https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision"
+    },
+    {
+        "pic1_src":"./asset/photo/Assignment/blog3/Antialiasing.png",
+        "pic1_alt":"Antialiasing",
+        "pic2_src":"./asset/photo/Assignment/blog3/Self-similar_fractals.png",
+        "pic2_alt":"Self-similar fractals",
+        "Title":"Introduction to Computer Graphics",
+        "Category":"C++, OpenGL",
+        "line":4,
+        "Des1": " With the help of the Open Course, I have implemented a ray tracer using C++, with two kinds of cameras, orthonormal and perspective camera respectively.",
+        "Des2": "In addition, several types of primitives are built, e.g. sphere, triangle, plane, triangle mesh, just to name a few. ",
+        "Des3": "Command-line usage; .vscode configuration.",
+        "Des4": "Useful Coding Skills: Command line Argument; Using Assert(); On each .h, #progma once",
+        "Time":"2022.8-Present",
+        "Italic":"MIT6.387",
+        "Github":"https://github.com/PeterHUistyping/MIT6.837-CG-Fall2004-Assignment",
+        "Blog":"blog3" 
+    }
+]
