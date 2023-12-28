@@ -218,7 +218,7 @@ You should replace four files in .vscode (in Myproject folder) with those from e
 .vscode-inside is used for coding via the assignment0_Barnsley fern folder. \
 DO NEED to include everything from lib folder.
 
-### Using Viusal Studio
+### Using Visual Studio
 Try doing it yourself.
 
 

@@ -222,7 +222,7 @@ export function Blog3(){
         .vscode-assignment0 is used for coding via the Myproject folder.
         .vscode-inside is used for coding via the assignment0_Barnsley fern folder. 
         DO NEED to include everything from lib folder.</p>
-    <h3 id="usingviusalstudio">Using Viusal Studio</h3>
+    <h3 id="usingVisualstudio">Using Visual Studio</h3>
     <p>Try doing it yourself.</p>
 
     <a href="https://github.com/PeterHUistyping/MIT6.837-CG-Fall2004-Assignment">See More on GitHub
