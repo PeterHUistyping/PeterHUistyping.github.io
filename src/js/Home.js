@@ -213,7 +213,13 @@ function Profile2(){
 
   <br/>
 
-  <a href="https://github.com/PeterHUistyping"> <img width= "18vw" src="/asset/photo/Logo/github.svg" alt="github"/></a> |  <a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "16vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a> | <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="/asset/photo/Logo/cv.png" alt="cv"/></a> 
+  <a href="https://github.com/PeterHUistyping"> <img width= "18vw" src="/asset/photo/Logo/github.svg" alt="github"/></a> | 
+  
+   <a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "16vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a> |
+
+   <a href="https://www.kaggle.com/peterhu2022"> <img width= "16vw" src="/asset/photo/Logo/kaggle.svg" alt="linkedin"/></a> |
+  
+   <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="/asset/photo/Logo/cv.png" alt="cv"/></a> 
 
   <br/>
 
