@@ -189,7 +189,7 @@ See more at Lecture 4 and related reading.
 
 Q4 [Two-Layer Neural Network](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment1/two_layer_net.ipynb)
 
-The architecure is 
+The architecture is 
 
 affine - relu - affine - softmax.
 
@@ -198,3 +198,170 @@ affine - relu - affine - softmax.
 ## Image Features
 
 Q5 [Higher Level Representations: Image Features](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment1/features.ipynb)
+
+Color Histogram (hue channel in HSV);  Histogram of Oriented Gradients.
+
+## Assignment 2: Further Image classification, CNN
+
+Q1: [Multi-Layer Fully Connected Neural Networks](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment2/FullyConnectedNets.ipynb)
+
+Extend the Neural Network to n layers.
+
+**Optimizer** Implementation
+
+First-order method
+
+- Vanilla SGD
+
+```python
+# Vanilla update
+x += - learning_rate * dx
+```
+
+- SGD + Momentum
+
+```python
+# Momentum update
+v = mu * v - learning_rate * dx # integrate velocity
+x += v # integrate position
+```
+
+- Nesterov Momentum
+
+```python
+x_ahead = x + mu * v
+# evaluate dx_ahead (the gradient at x_ahead instead of at x)
+v = mu * v - learning_rate * dx_ahead
+x += v
+```
+
+Second-order methods
+
+Adaptive learning rate methods
+
+- RMSProp
+
+```python
+cache = decay_rate * cache + (1 - decay_rate) * dx**2
+x += - learning_rate * dx / (np.sqrt(cache) + eps)
+```
+
+- Adam
+
+```python
+# t is your iteration counter going from 1 to infinity
+m = beta1*m + (1-beta1)*dx
+# mt = m / (1-beta1**t) 		# bias correction
+v = beta2*v + (1-beta2)*(dx**2)         # RMSProp with Momentum
+# vt = v / (1-beta2**t)			# bias correction
+x += - learning_rate * mt / (np.sqrt(vt) + eps)
+```
+
+![Optim](asset/photo/Assignment/10/Photo/Optim.png)
+
+Q2: [Batch/Layer Normalization](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment2/BatchNormalization.ipynb)
+
+Q3: [Dropout](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment2/Dropout.ipynb)
+
+Q4: [Convolutional Neural Networks](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment2/ConvolutionalNetworks.ipynb)
+
+**Convolution**
+
+$$
+input (N,C_{in},H,W), weight(N, C_{in}, HH, WW), bias(C_{out}); out(N, C_{out}, H', W')
+$$
+
+$$
+H' = 1 + (H + 2 * pad - HH) / stride
+$$
+
+$$
+W' = 1 + (W + 2 * pad - WW) / stride
+$$
+
+```python
+# x (N, C, H, W)
+
+x = np.pad(x, ((0,), (0,), (pad,), (pad,)), 'constant', constant_values = 0)   
+# (N, C, H+2*pad, W+2*pad) 
+ 
+x_col = x.T  
+# (W+2*pad, H+2*pad, C, N)
+
+x_col = np.lib.stride_tricks.sliding_window_view(x_col, (WW,HH,C,N))   
+# ((W+2*pad-WW, H+2*pad-HH), WW, HH, C, N)
+  
+x_col = x_col.T[...,::stride,::stride]
+# (N, C, HH, WW, H_, W_)
+  
+x_col = x_col.reshape(N, C*HH*WW, -1)
+# (N, C*HH*WW,  H_ * W_)  
+```
+
+$$
+out(N_i,C_{out_j})= bias(C_{out_j})+ \sum_{k=0}^{C_{in}−1} weight(C_{out_j},k)⋆input(N_i,k)
+$$
+
+```python
+out = (w_row @ x_col).reshape(N, F, H_, W_) + b[np.newaxis, :, np.newaxis, np.newaxis] 
+```
+
+Example: Sobel operator for edge detection, or filter for gray-scale conversion
+
+**Max Pool**
+
+For each N, C, find the max among pool_height * pool_width.
+
+**Normalization**
+
+- Spatial Batch  ~ Batch
+- Spatial Group  ~ Layer (with spatial consideration)
+
+Q5: [PyTorch on CIFAR-10](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment2/PyTorch.ipynb)
+
+**Preparation**
+
+```python
+transform = T.Compose([
+                T.ToTensor(),
+                T.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010))
+            ])
+
+cifar10_train = dset.CIFAR10('./cs231n/datasets', train=True, download=True,
+                             transform=transform)
+loader_train = DataLoader(cifar10_train, batch_size=64, 
+                          sampler=sampler.SubsetRandomSampler(range(NUM_TRAIN)))
+x.view(N, -1) # reshape
+```
+
+| API               | Flexibility | Convenience |
+| ----------------- | ----------- | ----------- |
+| Barebone          | High        | Low         |
+| `nn.Module`     | High        | Medium      |
+| `nn.Sequential` | Low         | High        |
+
+- [nn.init](https://pytorch.org/docs/master/nn.init.html) package contains convenient initialization methods.
+
+```python
+nn.init.kaiming_normal_(self.fc.weight)
+```
+
+- PyTorch: Two-Layer Network
+- PyTorch: Three-Layer ConvNet
+- PyTorch: CIFAR-10 **open-ended challenge**
+- Alternative optimizers (Adam, Adagrad, RMSprop, etc.)
+- Alternative activation functions such as leaky ReLU, parametric ReLU, ELU, or MaxOut.
+- Model ensembles
+- Data augmentation
+- New Architectures
+  - [This blog has an in-depth overview](https://chatbotslife.com/resnets-highwaynets-and-densenets-oh-my-9bb15918ee32)
+  - [ResNets](https://arxiv.org/abs/1512.03385) where the input from the previous layer is added to the output.
+    $$
+    y = f(x) + x
+    $$
+  - [DenseNets](https://arxiv.org/abs/1608.06993) where inputs into previous layers are concatenated together.
+    $$
+    y = f(x,x-1,x-2…,x-n)
+    $$
+
+Q6: [Network Visualization: Saliency Maps, Class Visualization, and Fooling Images](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment2/Network_Visualization.ipynb)
