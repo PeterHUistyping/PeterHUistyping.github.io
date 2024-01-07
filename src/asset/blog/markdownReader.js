@@ -6,7 +6,7 @@ import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import { useEffect, useState } from "react";
 import 'katex/dist/katex.min.css'
-
+import remarkGfm from 'remark-gfm'
 // import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 
 
@@ -35,7 +35,7 @@ export function Blog(props){
         > 
         {/* <SyntaxHighlighter language="c"  showLineNumbers> */}
                 <ReactMarkdown 
-                remarkPlugins={[remarkMath]} 
+                remarkPlugins={[remarkMath, remarkGfm]} 
                 rehypePlugins={[rehypeKatex]} 
                 children={content}
                 components={{img:({node,...props})=><img style={{maxWidth:'80%', maxHeight:'60vh'}}{...props}/>}}
