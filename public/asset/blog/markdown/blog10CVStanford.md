@@ -40,7 +40,7 @@ Visualize the dataset
 idxs = np.random.choice(idxs, samples_per_class, replace=False) 
 ```
 
-![CIFAR-10](asset/photo/Assignment/10/Photo/CIFAR-10.png)
+![CIFAR-10](asset/photo/Assignment/10/CIFAR-10.png)
 
 ```
 Training data shape:  (50000, 32, 32, 3) 
@@ -58,7 +58,7 @@ Q1 [k-Nearest Neighbor classifier](https://github.com/PeterHUistyping/Stanford_C
 - **Testing**:  classify every test image by comparing to all training images and transferring the labels of the k most similar training examples.
 
   - compute the distance matrix between each test point in X and each training point  shape = **$N_{te} \times N_{tr}$**
-    ![DistanceMatrix](asset/photo/Assignment/10/Photo/DistanceMatrix.png)
+    ![DistanceMatrix](asset/photo/Assignment/10/DistanceMatrix.png)
   - L1, L2 distances, np.linalg.norm() 
       -   $$||X|| = \sqrt{|\sum_{i,j} x_{i,j}^2|}$$
   - Prediction
@@ -71,7 +71,7 @@ Q1 [k-Nearest Neighbor classifier](https://github.com/PeterHUistyping/Stanford_C
 
   - the best value of k (hyperparameter) is *cross-validated*
 
-![knn_Cross-validation](asset/photo/Assignment/10/Photo/Cross-Validation_on_k.png)
+![knn_Cross-validation](asset/photo/Assignment/10/Cross-Validation_on_k.png)
 
 [kNN Online Demo](http://vision.stanford.edu/teaching/cs231n-demos/knn/)
 
@@ -123,7 +123,7 @@ Loss function
     - SGD+Momentum can out perform Adam but may require more tuning of LR and schedule
     - If full batch updates then try out L-BFGS (and don’t forget to disable all sources of noise)
 
-  ![Loss Linear](asset/photo/Assignment/10/Photo/LossLinear.png)
+  ![Loss Linear](asset/photo/Assignment/10/LossLinear.png)
 
   - Visualize the final learned weights
 
@@ -134,7 +134,7 @@ Q2 [Training a Support Vector Machine](https://github.com/PeterHUistyping/Stanfo
 Preprocessing:
 
 - Subtract the mean image from train and test data
-  - ![Mean-Image-validation](asset/photo/Assignment/10/Photo/MeanImageVisualization.png)
+  - ![Mean-Image-validation](asset/photo/Assignment/10/MeanImageVisualization.png)
 
 Loss Function: [Hinge loss](https://en.wikipedia.org/wiki/Hinge_loss) max-margin classification
 
@@ -156,7 +156,7 @@ O _ _ 1 = = 2 = = 3.  delta_s
 
 Split data into train, val; choose hyperparameter on val and evaluate on test
 
-![svm_Cross-validation](asset/photo/Assignment/10/Photo/svm_Cross-validation.png)
+![svm_Cross-validation](asset/photo/Assignment/10/svm_Cross-validation.png)
 
 ### Softmax
 
@@ -172,7 +172,7 @@ $$
 L_i = - log P(Y=y_i|X=x_i)
 $$
 
-![learned weights](asset/photo/Assignment/10/Photo/learnedWeights.png)
+![learned weights](asset/photo/Assignment/10/learnedWeights.png)
 
 ## Two-Layer Neural Network
 
@@ -193,7 +193,7 @@ The architecture is
 
 affine - relu - affine - softmax.
 
-![LossAcc](asset/photo/Assignment/10/Photo/LossAccTwoLayerNet.png)
+![LossAcc](asset/photo/Assignment/10/LossAccTwoLayerNet.png)
 
 ## Image Features
 
@@ -257,7 +257,7 @@ v = beta2*v + (1-beta2)*(dx**2)         # RMSProp with Momentum
 x += - learning_rate * mt / (np.sqrt(vt) + eps)
 ```
 
-![Optim](asset/photo/Assignment/10/Photo/Optim.png)
+![Optim](asset/photo/Assignment/10/Optim.png)
 
 Q2: [Batch/Layer Normalization](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment2/BatchNormalization.ipynb)
 

@@ -1,10 +1,10 @@
 [   
     {
         "Title":"Computer Vision",
-        "pic1_src":"./asset/photo/Assignment/other/CV_CIFAR-10.png", 
-        "pic1_alt":"CV_CIFAR-10",
-        "pic2_src":"./asset/photo/Assignment/other/CV_Cross-Validation.png",
-        "pic2_alt":"CV_Cross-Validation",
+        "pic1_src":"./asset/photo/Assignment/10/learnedWeights.png",
+        "pic1_alt":"Learned Weights",
+        "pic2_src":"./asset/photo/Assignment/10/Optim.png", 
+        "pic2_alt":"Optim",
         "Category":"Stanford CS231n",
         "line":2,
         "Des1": "⛵Update: Start from 9/Jan/2023 ",
@@ -14,10 +14,10 @@
         "Github":"https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision"
     },
     {
-        "pic1_src":"./asset/photo/Assignment/blog3/Antialiasing.png",
-        "pic1_alt":"Antialiasing",
-        "pic2_src":"./asset/photo/Assignment/blog3/Self-similar_fractals.png",
-        "pic2_alt":"Self-similar fractals",
+        "pic1_src":"./asset/photo/Assignment/blog3/Self-similar_fractals.png",
+        "pic1_alt":"Self-similar fractals",
+        "pic2_src":"./asset/photo/Assignment/blog3/MyProject/assignment2_Tri-Ray/Raytracing2.png",
+        "pic2_alt":"Ray tracing",
         "Title":"Introduction to Computer Graphics",
         "Category":"C++, OpenGL",
         "line":4,
