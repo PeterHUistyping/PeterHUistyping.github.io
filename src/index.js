@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import { Route,Routes, useLocation,HashRouter as Router} from 'react-router-dom';
 
 import {Home} from "./js/Home";
+import {PhotoDisplay} from "./js/PhotoDisplay";
 import {Project} from "./js/Project";
 import {Experience} from "./js/Experience";
 import {AboutMe} from "./js/AboutMe";
@@ -29,6 +30,7 @@ function App() {
         <AnimatePresence mode='wait'>
           <Routes key={location.pathname} location={location}>
             <Route path="/" element={<Home />}/>
+            <Route path="/PhotoDisplay" element={<PhotoDisplay />}/>
             <Route path="/Blog_Sorting" element={<Blog_Sorting />}/>
             <Route path="/blog" element={<Blog id="0" name="Test" />}/>
             <Route path="/blog1" element={<Blog id="1" name="TypingGame" />}/>

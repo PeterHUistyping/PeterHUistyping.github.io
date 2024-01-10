@@ -84,7 +84,7 @@ function Interest_extra(){
     <>
   <br/>  <br/> <large><i>INTEREST AND EXTRACURRICULUM</i></large> <br/>
 
-  Music, Swimming, Gym, Helping others etc.  <br />  
+  <HashLink to="/PhotoDisplay">Photographs</HashLink>, Music, Swimming, Gym,    etc.  <br />  
   Society: Ethics in Mathematics<br />
   <i>Economics Related Topics: </i> Macro & Micro, Money Banking<br />
     </>
