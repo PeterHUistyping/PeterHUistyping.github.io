@@ -22,12 +22,16 @@ export function PhotoDisplay(){
 
     <br/><br/>
 
-    Jun | July  <br/>
-    <img height="300" src="/asset/photo/Display/2023/230619.png" alt="230619" />
-    <img height="300" src="/asset/photo/Display/2023/230700.png" alt="230700" />
+    July | Jun  <br/>
 
-    <img height="300" src="/asset/photo/Display/2023/230702.png" alt="230702" />
     <img height="300" src="/asset/photo/Display/2023/230709.png" alt="230709" />
+    <img height="300" src="/asset/photo/Display/2023/230702.png" alt="230702" />
+
+    <img height="300" src="/asset/photo/Display/2023/230700.png" alt="230700" />
+    <img height="300" src="/asset/photo/Display/2023/230619.png" alt="230619" />
+
+
+
     <br/><br/>
 
   
