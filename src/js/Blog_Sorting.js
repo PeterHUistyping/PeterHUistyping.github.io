@@ -5,7 +5,7 @@ import Past from '../asset/data/Past_PrAs.json';
 import Computer_System from '../asset/data/Computer_System.json';
 import Machine_Learning from '../asset/data/Machine_Learning.json';
 import Visual_Computing from '../asset/data/Visual_Computing.json';
-
+import { HashLink } from 'react-router-hash-link';
 import Blog_Footer from "./helper/blog_footer";
 import FooterCommon from "./helper/footerCommom"
 
@@ -68,9 +68,13 @@ export function Blog_Sorting(){
         {/*  &ensp;&ensp;&ensp;
         ⬇ <i>Sort Data on Header Click</i> */}
         <Table resource={resource}/>
+        <center>
         <p><strong>More to Discover</strong></p> 
-        Useful  <a href="/#/ref">Resource and Reference📚</a> <i>for Computer Science</i>
+        Useful  <a href="/#/ref">Resource and Reference📚</a> | <HashLink to="/PhotoDisplay">Photographs Of Moments</HashLink>
+        </center>
+      
         {/* <img  width= "100%"  src="/asset/photo/bg/Magic2.jpg" alt="Magic"/> <br/> */}
+       
         <div class="blogFooter">
          <br />  
             <center>
