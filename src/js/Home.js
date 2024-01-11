@@ -42,7 +42,7 @@ function Education(){
         Physics Rep, research project leader, 
         awarded <a href="https://en.wikipedia.org/wiki/Shuping_Scholarship">ShuPing Scholarship</a> twice.<br />
         
-    <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i>
+    {/* <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i> */}
     &emsp;&emsp;
     
     <button onClick={() => {setShow4(! show4)}}>Show Details</button>
@@ -84,7 +84,7 @@ function Interest_extra(){
     <>
   <br/>  <br/> <large><i>INTEREST AND EXTRACURRICULUM</i></large> <br/>
 
-  <HashLink to="/PhotoDisplay">Photographs</HashLink>, Music, Swimming, Gym,    etc.  <br />  
+  <HashLink to="/PhotoDisplay">Photography</HashLink>, Music, Swimming, Gym,    etc.  <br />  
   Society: Ethics in Mathematics<br />
   <i>Economics Related Topics: </i> Macro & Micro, Money Banking<br />
     </>
@@ -215,7 +215,7 @@ function Profile2(){
 
   <a href="https://github.com/PeterHUistyping"> <img width= "18vw" src="/asset/photo/Logo/github.svg" alt="github"/></a> | 
   
-   <a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "16vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a> |
+   {/* <a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "16vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a> | */}
 
    <a href="https://www.kaggle.com/peterhu2022"> <img width= "16vw" src="/asset/photo/Logo/kaggle.svg" alt="linkedin"/></a> |
   

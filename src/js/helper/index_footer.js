@@ -12,7 +12,7 @@ export default function Index_Footer(){
             <a href="tel:4407990719841">Tel</a> | 
              {/* (+44) 07990 719841 */}
              <a href="https://github.com/PeterHUistyping"> <img width= "18vw" src="/asset/photo/Logo/github.svg" alt="github"/></a> |  
-             <a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "16vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a> |
+             {/* <a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "16vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a> | */}
              <a href="https://www.kaggle.com/peterhu2022"> <img width= "16vw" src="/asset/photo/Logo/kaggle.svg" alt="linkedin"/></a> 
               {/* | More*/ }
               <br/> 

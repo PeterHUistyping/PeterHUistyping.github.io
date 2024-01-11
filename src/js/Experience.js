@@ -42,7 +42,7 @@ export function Experience(){
           <br/>
           <img width="722" height="705" src="./asset/photo/Profile/GPU2.png" alt="GPU2" />
           <br/>
-          <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i>
+          {/* <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i> */}
 
           </>
       } <br /> 
@@ -63,7 +63,7 @@ export function Experience(){
           <br/>
           <img width="671" height="615 " src="./asset/photo/Profile/CPU.png" alt="CPU" />
           <br/>
-          <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i><br />
+          {/* <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i><br /> */}
 
           </>
       }<br /> 
