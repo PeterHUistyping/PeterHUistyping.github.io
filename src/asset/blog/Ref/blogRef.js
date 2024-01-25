@@ -19,17 +19,29 @@ export function Blogref(){
                 <HashLink to="/ref/#camUn">📄Cam Exam</HashLink> 
             </div>
             <div class="content">
-                <strong>Visual Computing</strong> <a href="https://peterhuistyping.github.io/Visual_Computing">🌐 Guidance</a>  |  
-                <a href="https://github.com/PeterHUistyping/Visual_Computing">👨‍💻 Github</a>   <br></br>
-                <br></br>
+
+            🔭 Collections of projects & reference by domain, some done by me. <br/><br/>
+              
+
+            <center>
+
+                <strong>Visual Computing:</strong> <a href="https://peterhuistyping.github.io/Visual_Computing"> 🌐 </a>  | 
+                <a href="https://github.com/PeterHUistyping/Visual_Computing"> 👨‍💻 </a>
+
+                &ensp;&ensp;&ensp;   &ensp;&ensp;&ensp;
+                
+                <strong>Machine Learning:</strong> <a href="https://peterhuistyping.github.io/Machine_Learning_Guidance"> 🌐 </a>  |  
+                <a href="https://github.com/PeterHUistyping/Machine_Learning_Guidance"> 👨‍💻 </a>     
+
+                &ensp;&ensp;&ensp;  &ensp;&ensp;&ensp;
                 
                 
-                <strong>Machine Learning</strong> <a href="https://peterhuistyping.github.io/Machine_Learning_Guidance">🌐 Guidance</a>  |  
-                <a href="https://github.com/PeterHUistyping/Machine_Learning_Guidance">👨‍💻 Github</a>   <br></br>
-                <br></br>
-                
-                <strong>Computer System</strong> <a href="https://peterhuistyping.github.io/Computer_System_Guidance">🌐 Guidance</a>   |   
-                <a href="https://github.com/PeterHUistyping/Computer_System_Guidance">👨‍💻 Github</a>  <br></br>
+                <strong>Computer System:</strong> <a href="https://peterhuistyping.github.io/Computer_System_Guidance"> 🌐 </a>   |   
+                <a href="https://github.com/PeterHUistyping/Computer_System_Guidance"> 👨‍💻 </a>    
+            </center>
+                <br/>
+                and many other projects scattered in Repo waited to be explored:)<br/>
+
                 <br></br>   
 
                 <h2> Others</h2>
