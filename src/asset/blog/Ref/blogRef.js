@@ -47,9 +47,9 @@ export function Blogref(){
                 <h2> Others</h2>
                 <Resource id="ref"   resource={ref}/>   
                 <br/><br/><br/>
-                <h2 id="camUn">Cambridge Undergraduate Exam</h2>
+                <h2 id="camUn">Cambridge Undergraduate</h2>
                 <Resource  resource={camUn}/>   
-                <p>Disclaimer: <i>All rights belong to their respective owners. I do NOT own any of these contents.</i></p>      
+                <p>Disclaimer: <i>For certain materials, all rights belong to their respective owners. I do NOT own any of these contents.</i></p>      
             </div>
            </>
     </div> 

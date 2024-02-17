@@ -1,4 +1,8 @@
 [
+    { "link":"https://peterhuistyping.github.io/Cambridge_CS_Tripos/",
+    "description":"Cambridge CS Tripos Notes",
+    "author":"Peter, during undergraduate."
+    },
     { "link":"https://www.cl.cam.ac.uk/teaching/exams/pastpapers/",
       "description":"CS Past exam papers",
       "author":"Department of Computer Science and Technology"
