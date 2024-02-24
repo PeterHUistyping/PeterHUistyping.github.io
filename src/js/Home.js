@@ -25,7 +25,7 @@ function Education(){
     <b> University of Cambridge </b><i> <br />
         Undergraduate<br />
         2022.10 - 2025.06</i><br />
-        Computer Science<br />
+        Computer Science | <a href="https://peterhuistyping.github.io/Cambridge_CS_Tripos/">Notes</a><br />
         <a href="https://en.wikipedia.org/wiki/Jardine_Scholarship">Jardine</a> <a href="./asset/doc/Jardine_Certificate.jpg">Scholarship</a> [fully-funded]. <br />
 
     <img width="24" height="24" src="./asset/photo/Logo/xmu.png" alt="XMU"/>
