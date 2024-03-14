@@ -9,7 +9,8 @@ import React, { useEffect, useState } from "react";
 export default function Sidebar_Project(){
     return (
     <div id="nav" class="sidebar_main">
-        Navigation ☰<i>Sidebar</i>☰ <br></br>
+        {/* Navigation  */}
+        &nbsp; ☰<i>Sitemap</i>☰ <br></br>
         <nav>
            <NavLink id="sidebar_home" exact activeClassName='is-active' to="/">▸HOME</NavLink>  
            {/* <center>
