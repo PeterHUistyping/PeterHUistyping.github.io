@@ -46,12 +46,13 @@ export function Experience(){
 
           </>
       } 
-      Tech talk <i>Ray Tracing (Intersection, Acceleration)</i> <a href="./asset/doc/RT_Peter-v6.pdf">Slides</a>  &nbsp; <br /> 
+      Sharing Session: <i>Ray Tracing (Intersection, Acceleration)</i> <a href="./asset/doc/RT_Peter-v6.pdf">Slides</a>  &nbsp; <br /> 
       <embed src="./asset/doc/RT_Peter-v6.pdf"  width="400px" height="300px"  />
 
       <div class="announcement">
-        <b>Feedback</b> @ <a href="https://kudos.chu.cam.ac.uk/talks/about">Churchill College Tech talk</a>,
-        <br />
+      Speeding up real-time Ray Tracing @ <a href="https://kudos.chu.cam.ac.uk/talks/about">Churchill College Tech talk</a> | Time:  <i>Nov 1, 2023</i>
+        <br/>
+        <b>Feedback:</b>
         <i>"You managed to give a very broad overview of a wide range of techniques used to speed up ray tracing."</i>
         <br />
         <i>"Very rich and complex concepts that cover graphics pipeline rendering in depth. Discussed design tradeoffs and current directions of research."</i>
