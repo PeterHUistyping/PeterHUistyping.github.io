@@ -10,7 +10,9 @@ export default function Sidebar_Project(){
     return (
     <div id="nav" class="sidebar_main">
         {/* Navigation  */}
-        &nbsp; ☰<i>Sitemap</i>☰ <br></br>
+        &nbsp; ☰<i>Sitemap</i>☰ 
+        <br></br>
+        <br></br>
         <nav>
            <NavLink id="sidebar_home" exact activeClassName='is-active' to="/">▸HOME</NavLink>  
            {/* <center>

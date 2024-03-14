@@ -240,7 +240,7 @@ h3 {
   text-decoration: none;
 }
 .sidebar a.active {
-  background-color: #04AA6D;
+  background-color: #d9f2d9;
   color: white;
   font-weight:bold;
   font-style: italic;
@@ -271,7 +271,8 @@ h3 {
   transition: all 0.5s ease;
   font-size: small;
   /* background-color: white; */
-  background: rgba(210, 210, 210, 0.15) ;
+  /* background: rgba(210, 210, 210, 0.15) ; */
+  background: #f5fbf5;
   
 }
 
@@ -280,16 +281,20 @@ h3 {
   color: #70757a;
   padding: 8px; /* change sidebar alignment here*/
   text-decoration: none;
-  background-color:rgba(150, 150, 150, 0.15);
+  /* background-color:rgba(150, 150, 150, 0.15); */
 
 }
 
 .sidebar_main a.active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #d9f2d9;
+  /* background-color: #C2E7FF; */
+  /* background-color: #d9f2d9; */
+  /* color: white; */
+  color: #1D0035;
   font-weight:bold;
   font-style: italic;
 }
+
 .sidebar_main a:hover:not(.active) {
   background-color: #555;
   color: white;
