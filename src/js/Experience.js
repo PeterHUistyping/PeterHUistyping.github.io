@@ -31,11 +31,11 @@ export function Experience(){
       <h2><b>RESEARCH EXPERIENCE</b></h2>
 
       <b>Research Intern (Graphics Algorithm / GPU Architecture) </b><i> <br />
-        2023.5 - 2024.1</i>  <br />
+        2023.5 - 2024.1</i>  &nbsp;| &nbsp;  <button onClick={() => {setShow(! show)}}>Show Details</button> <br />
+  
+        <a href="./asset/doc/StarofCambridge.png">Award</a> for new prediction algorithm proposed with joint efforts.
         {/* &nbsp;| &nbsp;  */}
-        <a href="./asset/doc/RT_Peter-v6.pdf">Ray Tracing Slides(Intersection, Acceleration)</a> 
-        &nbsp;| &nbsp; <a href="./asset/doc/StarofCambridge.png">Award</a> &nbsp; 
-      <button onClick={() => {setShow(! show)}}>Show Details</button>
+        <br />    <br />
       {
           show &&
           <>
@@ -45,18 +45,31 @@ export function Experience(){
           {/* <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i> */}
 
           </>
-      } <br /> 
-        <embed src="./asset/doc/RT_Peter-v6.pdf"  width="400px" height="300px"  />
+      } 
+      Tech talk <i>Ray Tracing (Intersection, Acceleration)</i> <a href="./asset/doc/RT_Peter-v6.pdf">Slides</a>  &nbsp; <br /> 
+      <embed src="./asset/doc/RT_Peter-v6.pdf"  width="400px" height="300px"  />
+
+      <div class="announcement">
+        <b>Feedback</b> @ <a href="https://kudos.chu.cam.ac.uk/talks/about">Churchill College Tech talk</a>,
+        <br />
+        <i>"You managed to give a very broad overview of a wide range of techniques used to speed up ray tracing."</i>
+        <br />
+        <i>"Very rich and complex concepts that cover graphics pipeline rendering in depth. Discussed design tradeoffs and current directions of research."</i>
+        <br />
+        <i>"Beautiful video to demonstrate why we want ray tracing, useful pictures and diagrams throughout to explain ideas, introduced a lot of steps in the pipeline where I can see some of it being used outside graphics."</i>
+        <br />
+      </div>
+
         <br /> <br /> 
        
 
     <b>Research Intern (CPU Architect) </b><i><br /> 
-        2023.6 - 2023.10</i>   <br />
-            {/* &nbsp;| &nbsp;  */}
+        2023.6 - 2023.10</i>   &nbsp;| &nbsp; <button onClick={ () => {setShow2(! show2)}}>Show Details</button> <br />
+           
 
       <a href="https://peterhuistyping.github.io/CPU_Scheduling_Review/">Scheduling, DVFS, Dynamic Resource Management</a> 
       &nbsp;| &nbsp;
-      <button onClick={ () => {setShow2(! show2)}}>Show Details</button>
+     
       {
           show2 &&
           <>
