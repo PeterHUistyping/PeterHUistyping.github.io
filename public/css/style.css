@@ -130,7 +130,8 @@ h3 {
 .announcement {
   padding: 10px 15px;
   border-radius: 6px;
-  background: rgba(210, 210, 210, 0.2509803922);
+  /* background: rgba(210, 210, 210, 0.2509803922); */
+  background-color: #f5fbf5;
   margin-top: 20px;
   /* color: rgba(50, 50, 50, 0.7411764706); */
 }
