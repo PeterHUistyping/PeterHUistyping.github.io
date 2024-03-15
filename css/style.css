@@ -60,6 +60,11 @@ pre {
   border-radius: 16px;
 }
 
+.top li a.active {
+  font-weight:bold;
+  color: #1D0035;
+}
+
 .top ul li ul {
   /*the second index*/
   margin-left: -0.2px;
