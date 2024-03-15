@@ -172,7 +172,7 @@ export function Home() {
   );
 }
 
-function Profile(){
+export function Profile(){
   return(
       <table class="table_profile">
       <tbody>
