@@ -44,7 +44,7 @@ function Index_top(){
                             {/* <a href="/#/ref">📚Ref</a> */}
                         </li>
                         <li> 
-                            <NavLink id="top_blog5" exact activeClassName='is-active' to="/ blog5">⛵Update</NavLink>  
+                            <NavLink id="top_blog5" exact activeClassName='is-active' to="/blog5">⛵Update</NavLink>  
                             {/* <a href="/#/blog5">⛵Update</a> */}
                         </li>
                     </ul>
