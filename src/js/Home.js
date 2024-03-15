@@ -210,7 +210,7 @@ function Profile2(){
   <p> University of Cambridge <br/>Computer Science <br/>Part IB</p> <br/>
   <strong>Contact Details</strong><br/>
 
-  <img width= "18vw" src="/asset/photo/Logo/e-mail.png" alt="email"/>
+  <img width= "12vw" src="/asset/photo/Logo/e-mail.png" alt="email"/>
   <a href="mailto:zh369@cam.ac.uk" >Email</a>   &nbsp; 
       {/* zh369@cam.ac.uk  */}
   <img width= "12vw" src="/asset/photo/Logo/phone.png" alt="phone"/> 
