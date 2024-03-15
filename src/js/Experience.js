@@ -21,6 +21,7 @@ export function Experience(){
     <Index_Top/> 
     <Sidebar_Project />
     <script>
+      document.getElementById("top").focus();
       document.getElementById("sidebar_home").focus();
    </script>
    

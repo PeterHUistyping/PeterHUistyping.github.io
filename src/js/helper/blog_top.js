@@ -1,25 +1,35 @@
+import { NavLink } from "react-router-dom"; 
 import { HashLink } from 'react-router-hash-link';
 import React from "react";
 import { useRef } from "react";
-import { useState } from "react";
+
 function Blog_top(){
     return (
       <>
       <body_>
-      <div class="top">
+      <div class="top" >
       <ul>
           <li>
             <HashLink  style={{ color: 'black' }} to="/Blog_Sorting/" ><i >Peter </i>HU's Blogs&nbsp; &nbsp;</HashLink> 
           </li>
           <li>
-              <a href="/#">🏠HOME</a>
+            <NavLink id="top_home" exact activeClassName='is-active' to="/">🏠HOME</NavLink>  
+              {/* <a href="/#">🏠HOME</a> */}
           </li>
 
-          <li>  <HashLink to="/project">🧑‍💻Project▾</HashLink>   
-                  <ul>
-                      <li> <HashLink to="/award/">Award</HashLink> </li>
-                      <li><HashLink to="/experience">Experience</HashLink> </li>
-                  </ul>
+          <li>  
+            <NavLink id="top_project" exact activeClassName='is-active' to="/project">🧑‍💻Project▾</NavLink>  
+            {/* <HashLink to="/project/" >🧑‍💻Project▾</HashLink> */}
+              <ul>
+                  <li> 
+                      <NavLink id="top_award" exact activeClassName='is-active' to="/award">Award</NavLink>  
+                      {/* <HashLink to="/award/">Award</HashLink> */}
+                  </li>
+                  <li>
+                      <NavLink id="top_experience" exact activeClassName='is-active' to="/experience">Experience</NavLink>
+                      {/* <HashLink to="/experience">Experience</HashLink>  */}
+                  </li>
+              </ul>
               {/* <ul>
                   <li><HashLink to="/project/#ongoing_project">🆕Ongoing</HashLink> </li>
                   <li><HashLink to="/project/#previous_project">📖Previous</HashLink> </li>
@@ -27,10 +37,18 @@ function Blog_top(){
           </li>
 
           {/* <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li> */}
-          <li><a href="/#/Blog_Sorting/">📝Blog▾</a> 
+          <li>
+            <NavLink id="top_blog" exact activeClassName='is-active' to="/Blog_Sorting">📝Blog▾</NavLink>  
+            {/* <a href="/#/Blog_Sorting/">📝Blog▾</a>  */}
               <ul>
-                  <li> <a href="/#/ref">📚Ref</a></li>
-                  <li> <a href="/#/blog5">⛵Update</a></li>
+                  <li> 
+                    <NavLink id="top_ref" exact activeClassName='is-active' to="/ref">📚Ref</NavLink>  
+                    {/* <a href="/#/ref">📚Ref</a> */}
+                  </li>
+                  <li> 
+                    <NavLink id="top_blog5" exact activeClassName='is-active' to="/blog5">⛵Update</NavLink>  
+                    {/* <a href="/#/blog5">⛵Update</a> */}
+                  </li>
               </ul>
           </li>
           <li><HashLink to="/#contact">📬Contact▾</HashLink>
