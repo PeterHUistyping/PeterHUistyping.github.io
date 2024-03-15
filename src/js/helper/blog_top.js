@@ -1,3 +1,6 @@
+/* All rights reserved. 2022-2024 (c) Peter HU */
+
+
 import { NavLink } from "react-router-dom"; 
 import { HashLink } from 'react-router-hash-link';
 import React from "react";
@@ -10,10 +13,10 @@ function Blog_top(){
       <div class="top" >
       <ul>
           <li>
-            <HashLink  style={{ color: 'black' }} to="/Blog_Sorting/" ><i >Peter </i>HU's Blogs&nbsp; &nbsp;</HashLink> 
+              <HashLink style={{ color: 'black' }} to="/Blog_Sorting/" ><i >Peter </i>HU's Blogs&nbsp; &nbsp;</HashLink> 
           </li>
           <li>
-            <NavLink id="top_home" exact activeClassName='is-active' to="/">🏠HOME</NavLink>  
+              <NavLink id="top_home" exact activeClassName='is-active' to="/">🏠HOME</NavLink>  
               {/* <a href="/#">🏠HOME</a> */}
           </li>
 
@@ -51,7 +54,9 @@ function Blog_top(){
                   </li>
               </ul>
           </li>
-          <li><HashLink to="/#contact">📬Contact▾</HashLink>
+          <li>
+            {/* <HashLink to="/#contact">📬Contact▾</HashLink> */}
+            <NavLink id="top_contact" exact activeClassName='is-active' to="/contact">📬Contact▾</NavLink>
           <ul>
               <li><a href="https://github.com/PeterHUistyping"> <img width= "22vw" src="/asset/photo/Logo/github.svg" alt="github"/></a></li>
               {/* <li><a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "22vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a></li> */}

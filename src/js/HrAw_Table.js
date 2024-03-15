@@ -1,3 +1,6 @@
+/* All rights reserved. 2022-2024 (c) Peter HU */
+
+
 import resource from '../asset/data/Hr_Award.json';
 import All_table from './helper/tableCommon';
 

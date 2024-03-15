@@ -1,3 +1,5 @@
+/* All rights reserved. 2022-2024 (c) Peter HU */
+
 import ScrollToTop from "../../../js/helper/ScrollToTop";
 import Blog_Footer from "../../../js/helper/blog_footer";
 import Blog_Top from "../../../js/helper/blog_top";

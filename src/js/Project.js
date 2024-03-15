@@ -1,3 +1,6 @@
+/* All rights reserved. 2022-2024 (c) Peter HU */
+
+
 import PrAs_table from "./PrAs_Table";
 import Sidebar_Project from "./helper/project_sidebar"
 

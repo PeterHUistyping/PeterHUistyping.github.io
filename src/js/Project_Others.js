@@ -1,3 +1,6 @@
+/* All rights reserved. 2022-2024 (c) Peter HU */
+
+
 import Index_Footer from "./helper/index_footer";
 import Index_Top from "./helper/index_top";
 import { motion } from 'framer-motion'

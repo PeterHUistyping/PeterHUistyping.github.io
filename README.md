@@ -2,6 +2,8 @@
 Welcome to My Personal Home Page: https://peterhuistyping.github.io/ \
 With Blogs, Projects, Files,etc updated from time to time.
 
+<!-- All rights reserved. 2022-2024 (c) Peter HU  -->
+
 ## React Setup
 ```
 npx create-react-app .

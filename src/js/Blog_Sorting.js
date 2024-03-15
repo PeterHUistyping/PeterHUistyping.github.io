@@ -1,3 +1,6 @@
+/* All rights reserved. 2022-2024 (c) Peter HU */
+
+
 import "../index.css";
 import Hr_Award from '../asset/data/Hr_Award.json';
 import Ongoing from '../asset/data/Ongoing_PrAs.json';

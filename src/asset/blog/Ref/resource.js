@@ -1,3 +1,5 @@
+/* All rights reserved. 2022-2024 (c) Peter HU */
+
 export default function resource(props){
     var len=props.resource.length;
     var keys = [...Array(len).keys()];

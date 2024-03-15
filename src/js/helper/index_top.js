@@ -1,3 +1,6 @@
+/* All rights reserved. 2022-2024 (c) Peter HU */
+
+
 import { NavLink } from "react-router-dom"; 
 import { HashLink } from 'react-router-hash-link';
 import {ChangeBodyColor} from "./blog_top";
@@ -8,12 +11,11 @@ function Index_top(){
         <div class="top">
             <ul>
                 <li> 
-                    <HashLink style={{ color: 'black' }} to="/#"><i>Peter </i>HU's Website</HashLink>
+                    <HashLink style={{ color: 'black' }} to="https://peterhuistyping.github.io/"><i>Peter </i>HU's Website</HashLink>
                 </li>
                 <li>
                     <NavLink id="top_home" exact activeClassName='is-active' to="/">🏠HOME</NavLink>  
                     {/* <a href="/#">🏠HOME</a> */}
-
                 </li>
                 <li>
                     <NavLink id="top_project" exact activeClassName='is-active' to="/project">🧑‍💻Project▾</NavLink>  
@@ -48,7 +50,8 @@ function Index_top(){
                     </ul>
                 </li>
                 <li> 
-                    <HashLink to="/#contact">📬Contact▾</HashLink>
+                    {/* <HashLink to="/#contact">📬Contact▾</HashLink> */}
+                    <NavLink id="top_contact" exact activeClassName='is-active' to="/contact">📬Contact▾</NavLink>
                 <ul>
                     <li><a href="https://github.com/PeterHUistyping"> <img width= "22vw" src="/asset/photo/Logo/github.svg" alt="github"/></a></li>
                     {/* <li><a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "22vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a></li> */}

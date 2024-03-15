@@ -1,3 +1,6 @@
+/* All rights reserved. 2022-2024 (c) Peter HU */
+
+
 import FooterCommon from "./footerCommom"
 export default function Index_Footer(){
     return(

@@ -1,6 +1,9 @@
- import Index_Footer from "./helper/index_footer";
- import Index_Top from "./helper/index_top";
- import { motion } from 'framer-motion'
+/* All rights reserved. 2022-2024 (c) Peter HU */
+
+ 
+import Index_Footer from "./helper/index_footer";
+import Index_Top from "./helper/index_top";
+import { motion } from 'framer-motion'
 import { HashLink } from 'react-router-hash-link';
 import Sidebar_Project from "./helper/project_sidebar"
 import FooterCommon from "./helper/footerCommom"
@@ -152,6 +155,10 @@ export function Home() {
   return (
     <motion.div> 
     <Index_Top/> 
+    <script>
+      document.getElementById("top").focus();
+      document.getElementById("sidebar_home").focus();
+    </script>
     <br/>
     <div>
       <Profile/>
@@ -181,9 +188,10 @@ export function Profile(){
           <Profile2/>
           </tr>
       </tbody>
-  </table>
+      </table>
   )
 }
+
 function Profile1(){
   return(
       <td width="280" rowspan="1" height="200">
@@ -191,7 +199,6 @@ function Profile1(){
                   <img class="img_profile" src="./asset/photo/Peter_Hu.jpg" alt="Profile Photo"/>
           </div>
       </td>
-    
   )
 }
 

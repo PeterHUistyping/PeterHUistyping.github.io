@@ -1,3 +1,6 @@
+/* All rights reserved. 2022-2024 (c) Peter HU */
+
+
 import { useEffect } from "react";
 import { useLocation } from "react-router";
 

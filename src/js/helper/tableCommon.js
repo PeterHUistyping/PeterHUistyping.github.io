@@ -1,3 +1,6 @@
+/* All rights reserved. 2022-2024 (c) Peter HU */
+
+
 // large screen
 function Pic_Large(props){
     if(props.src)

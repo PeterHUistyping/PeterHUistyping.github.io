@@ -1,3 +1,6 @@
+/* All rights reserved. 2022-2024 (c) Peter HU */
+
+
 import All_table from './helper/tableCommon';
 import Computer_System from '../asset/data/Computer_System.json';
 import Machine_Learning from '../asset/data/Machine_Learning.json';

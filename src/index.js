@@ -1,10 +1,15 @@
+/* All rights reserved. 2022-2024 (c) Peter HU */
+
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { Route,Routes, useLocation,HashRouter as Router} from 'react-router-dom';
 
-import {Home,Profile} from "./js/Home";
+import {Home} from "./js/Home";
+import {Contact} from "./js/Contact";
+
 import {PhotoDisplay} from "./js/PhotoDisplay";
 import {Project} from "./js/Project";
 import {Experience} from "./js/Experience";
@@ -30,10 +35,17 @@ function App() {
         <AnimatePresence mode='wait'>
           <Routes key={location.pathname} location={location}>
             <Route path="/" element={<Home />}/>
-            <Route path="/contact" element={<Profile />}/>
 
             <Route path="/PhotoDisplay" element={<PhotoDisplay />}/>
+            <Route path="/award" element={<Award />}/>
+            <Route path="/project" element={<Project />}/>
+            <Route path="/project_others" element={<Project_Others />}/>
+            <Route path="/experience" element={<Experience />}/>
+            <Route path="/aboutme" element={<AboutMe />}/>
+            <Route path="/contact" element={<Contact />}/>
+
             <Route path="/Blog_Sorting" element={<Blog_Sorting />}/>
+            <Route path="/ref" element={<Blogref />}/>
             <Route path="/blog" element={<Blog id="0" name="Test" />}/>
             <Route path="/blog1" element={<Blog id="1" name="TypingGame" />}/>
             <Route path="/blog2" element={<Blog id="2" name="Supermarket" />}/>
@@ -45,15 +57,7 @@ function App() {
             <Route path="/blog8" element={<Blog id="8" name="MLRD" />}/>
             <Route path="/blog9" element={<Blog id="9" name="Priest-Beneath" />}/>
             <Route path="/blog10" element={<Blog id="10" name="CVStanford" />}/>
-
-            <Route path="/ref" element={<Blogref />}/>
-            <Route path="/award" element={<Award />}/>
-            <Route path="/project" element={<Project />}/>
-            <Route path="/experience" element={<Experience />}/>
-            <Route path="/aboutme" element={<AboutMe />}/>
-  
-            
-            <Route path="/project_others" element={<Project_Others />}/>
+        
             <Route path='/*' element={<NotFound />}/>
           </Routes> 
         </AnimatePresence>

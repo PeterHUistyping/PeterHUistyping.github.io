@@ -1,3 +1,5 @@
+/* All rights reserved. 2022-2024 (c) Peter HU */
+
  
 export default function FooterCommon(){
     var myDate = new Date(document.lastModified);

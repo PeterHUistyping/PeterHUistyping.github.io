@@ -1,3 +1,6 @@
+/* All rights reserved. 2022-2024 (c) Peter HU */
+
+
 import PrAs_table from "./PrAs_Table";
 import Sidebar_Project from "./helper/project_sidebar"
 
@@ -20,11 +23,6 @@ export function Experience(){
     <motion.div> 
     <Index_Top/> 
     <Sidebar_Project />
-    <script>
-      document.getElementById("top").focus();
-      document.getElementById("sidebar_home").focus();
-   </script>
-   
     <div class="content">
         <>   
       {/* <h2 ><b>EXPERIENCE</b></h2> */}

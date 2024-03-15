@@ -1,3 +1,6 @@
+/* All rights reserved. 2022-2024 (c) Peter HU */
+
+
 export function readjson(){
     var data;
     var request = new XMLHttpRequest();
