@@ -39,7 +39,7 @@ function App() {
             <Route path="/PhotoDisplay" element={<PhotoDisplay />}/>
             <Route path="/award" element={<Award />}/>
             <Route path="/project" element={<Project />}/>
-            <Route path="/project_others" element={<Project_Others />}/>
+            <Route path="/project/others" element={<Project_Others />}/>
             <Route path="/experience" element={<Experience />}/>
             <Route path="/aboutme" element={<AboutMe />}/>
             <Route path="/contact" element={<Contact />}/>

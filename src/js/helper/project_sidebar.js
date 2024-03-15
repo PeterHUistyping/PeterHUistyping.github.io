@@ -28,7 +28,7 @@ export default function Sidebar_Project(){
                     <HashLink id="sidebar_system"  to="/project/#Computer_System">&nbsp;&nbsp;&nbsp;System</HashLink> 
                 </center>
                 <center>
-                    <NavLink id="sidebar_others" exact activeClassName='is-active' to="/project_others">&nbsp;&nbsp;&nbsp;Others</NavLink></center>  
+                    <NavLink id="sidebar_others" exact activeClassName='is-active' to="/project/others">&nbsp;&nbsp;&nbsp;Others</NavLink></center>  
             <small><NavLink id="sidebar_exp" exact activeClassName='is-active' to="/experience">▸EXPERIENCE</NavLink></small> 
         </nav> 
     </div>     
