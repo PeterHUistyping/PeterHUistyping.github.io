@@ -11,13 +11,17 @@ Navigation Bar: Using class Top ul li a, with utf-8 setting to display emoji.
 Main idea: Using table to sort things up, achieving better display on mobile device.  
 
   
-
 **More update coming soon...**
+
+15 Mar 2024  
+Update navigation bar active based on position.  
+Update new theme for sitemap (sidebar) and Logos (compatible for dark theme).  
+Add a separate Contact Page, highlighting main profile and contact details.  
+![Home_Mar2024](asset/photo/Assignment/5/Home_Mar2024.png "Home Page v2 Mar")  
 
 1 Jan 2024  
 Continuation of ©
-
-![Home_Dec2023](asset/photo/Assignment/5/Home_Dec2023.png "Home Page v2 Dec")  
+[Home_Dec2023](asset/photo/Assignment/5/Home_Dec2023.png "Home Page v2 Dec")  
 
 12 Nov 2023  
 Add more sub-page for Projects, awards and experience.  
