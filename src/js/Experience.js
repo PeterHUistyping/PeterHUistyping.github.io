@@ -80,7 +80,7 @@ export function Experience(){
 
           </>
       }<br /> 
-        <embed src="https://peterhuistyping.github.io/CPU_Scheduling_Review/" width="430px" height="300px"   />
+        <embed src="https://peterhuistyping.github.io/CPU_Scheduling_Review/" width="90%" height="300px"   />
         <br /> 
 
       {/* &nbsp;| &nbsp; */}
