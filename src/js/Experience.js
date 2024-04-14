@@ -46,7 +46,7 @@ export function Experience(){
           </>
       } 
       Sharing Session: <i>Ray Tracing (Intersection, Acceleration)</i> <a href="./asset/doc/RT_Peter-v6.pdf">Slides</a>  &nbsp; <br /> 
-      <embed src="./asset/doc/RT_Peter-v6.pdf"  width="90%" height="300px"  />
+      <embed src="./asset/doc/RT_Peter-v6.pdf"  width="92%" height="300px"  />
 
       <div class="announcement">
       Speeding up real-time Ray Tracing @ <a href="https://kudos.chu.cam.ac.uk/talks/about">Churchill College Tech talk</a> | Time:  <i>Nov 1, 2023</i>
@@ -80,7 +80,7 @@ export function Experience(){
 
           </>
       }<br /> 
-        <embed src="https://peterhuistyping.github.io/CPU_Scheduling_Review/" width="90%" height="300px"   />
+        <embed src="https://peterhuistyping.github.io/CPU_Scheduling_Review/" width="90%" height="300px"  />
         <br /> 
 
       {/* &nbsp;| &nbsp; */}
