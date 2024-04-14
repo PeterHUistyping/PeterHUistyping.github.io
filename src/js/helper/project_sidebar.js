@@ -19,7 +19,7 @@ export default function Sidebar_Project(){
            <NavLink id="sidebar_award" exact activeClassName='is-active' to="/award">▸AWARD</NavLink>  
             <NavLink id="sidebar_project" exact activeClassName='is-active'  to="/project">▸PROJECT</NavLink> 
                 <center>
-                    <HashLink id="sidebar_visual"  to="/project/#Visual_Computing">&nbsp;&nbsp;&nbsp;Visual Computing</HashLink> 
+                    <HashLink id="sidebar_visual"  to="/project/#Visual_Computing">&nbsp;&nbsp;&nbsp;Visual</HashLink> 
                 </center>
                 <center>
                     <HashLink id="sidebar_ml"  to="/project/#Machine_Learning">&nbsp;&nbsp;&nbsp;ML</HashLink> 
