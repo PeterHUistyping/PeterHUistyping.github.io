@@ -12,7 +12,7 @@ import {Contact} from "./js/Contact";
 
 import {PhotoDisplay} from "./js/PhotoDisplay";
 import {Project} from "./js/Project";
-import {Experience} from "./archive/Experience";
+import {Experience} from "./js/Experience";
 import {AboutMe} from "./js/AboutMe";
 import {Research} from "./js/Research";
 

@@ -1,34 +1,36 @@
 /* All rights reserved. 2022-2024 (c) Peter HU */
 
 
-import PrAs_table from "../js/PrAs_Table";
-import Sidebar_Project from "../js/helper/project_sidebar"
+import Sidebar_Project from "./helper/project_sidebar"
 
-import Index_Footer from "../js/helper/index_footer";
-import Index_Top from "../js/helper/index_top";
+import Index_Footer from "./helper/index_footer";
+import Index_Top from "./helper/index_top";
 import { motion } from 'framer-motion'
 import React, { useEffect, useState } from "react";
  
 export function Experience(){
-    const [show , setShow] = useState(false);
-    const [show2 , setShow2] = useState(false);
-    const [show3 , setShow3] = useState(false);
-  
-    const handleOnClick = () => {
-          setShow(! show);
-    }
-
-    <h2><b>RESEARCH EXPERIENCE</b></h2>
- 
     return (
     <motion.div> 
     <Index_Top/> 
     <Sidebar_Project />
+    <h2><b>EXPERIENCE</b></h2>
+    <ExperienceContents />
+    <Index_Footer />
+    </motion.div>)
+}
+
+
+export function ExperienceContents(){
+  const [show , setShow] = useState(false);
+  const [show2 , setShow2] = useState(false);
+  const [show3 , setShow3] = useState(false);
+
+  const handleOnClick = () => {
+        setShow(! show);
+  }
+  return (
     <div class="content">
         <>   
-      {/* <h2 ><b>EXPERIENCE</b></h2> */}
-     
-
       <b>Research Intern (Graphics Algorithm / GPU Architecture) </b><i> <br />
         2023.5 - 2024.1</i>  &nbsp;| &nbsp;  <button onClick={() => {setShow(! show)}}>Show Details</button> <br />
   
@@ -62,7 +64,7 @@ export function Experience(){
       </div>
 
         <br /> <br /> 
-       
+        <br /> <br />        
 
     <b>Research Intern (CPU Architect) </b><i><br /> 
         2023.6 - 2023.10</i>   &nbsp;| &nbsp; <button onClick={ () => {setShow2(! show2)}}>Show Details</button> <br />
@@ -114,7 +116,6 @@ export function Experience(){
         </>
     </div>
 
-    <Index_Footer />
-    </motion.div>)
+  )
+  
 }
-

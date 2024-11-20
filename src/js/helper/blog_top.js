@@ -28,7 +28,7 @@ function Blog_top(){
               <ul>
                   <li> 
                       <NavLink id="top_award" exact activeClassName='is-active' to="/award">Awards</NavLink>  
-                      {/* <HashLink to="/award/">Award</HashLink> */}
+                      {/* <HashLink to="/award/">Awards</HashLink> */}
                   </li>
                   <li>
                       <NavLink id="top_experience" exact activeClassName='is-active' to="/experience">Experience</NavLink>
