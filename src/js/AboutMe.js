@@ -30,8 +30,8 @@ export function AboutMe(){
         - Visual Computing (Graphics, Vision, Image Processing) + AI/ML; <br/>
 
         <center>
-                 {/* 1568 1340 = 1.17 */}
-        <img height="300" src="/asset/photo/Logo/Relationship_CV.png" alt="CV" />
+        {/* 1568 1340 = 1.17 */}
+        <img height="200vw" src="/asset/photo/Logo/Relationship_CV.png" alt="CV" />
         </center>
 
         - System-related (Scheduling, CPU), <br/>
