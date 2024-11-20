@@ -1,0 +1,13 @@
+[ {
+    "pic1_src":"./asset/photo/pub/1/diagram.png",
+    "pic1_alt":"diagram",
+    "pic2_src":"./asset/photo/pub/1/teaser.png",
+    "pic2_alt":"teaser",
+    "Title":"NeuMaDiff: Neural Material Synthesis via Hyperdiffusion",
+    "Category":"Graphics, Vision",
+    "line":1,
+    "Des1": "Chenliang Zhou, Zheyuan Hu, Alejandro Sztrajman, Yancheng Cai, Yaru Liu, Cengiz Oztirel",
+    "Time":"2024.11",
+    "PDF":"https://arxiv.org/abs/2411.12015"
+}
+]

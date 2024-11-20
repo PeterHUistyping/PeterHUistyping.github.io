@@ -109,10 +109,10 @@ function Sidebar_Notice(){
     return(
   <div class ="announcement">
     👈 Please click the left Sidebar for relevant sections. <br/>
-      <HashLink to="/award">🥇 <i>AWARD</i></HashLink> , <br/>
-      <HashLink to="/project">🧑‍💻 <i>PROJECT</i></HashLink>, <br/>
-      <HashLink to="/experience">🗓️ <i>EXPERIENCE</i></HashLink>. <br/>
-      
+    <HashLink to="/publication"><i>Publication</i></HashLink> , <br/>
+      <HashLink to="/award"><i>Award🥇</i></HashLink> , <br/>
+      <HashLink to="/project"><i>Project</i></HashLink>, <br/>
+      <HashLink to="/experience"><i>Experience</i></HashLink>. <br/>
   </div>
     )
 }

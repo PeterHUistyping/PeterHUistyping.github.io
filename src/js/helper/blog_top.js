@@ -19,7 +19,9 @@ function Blog_top(){
               <NavLink id="top_home" exact activeClassName='is-active' to="/">🏠HOME</NavLink>  
               {/* <a href="/#">🏠HOME</a> */}
           </li>
-
+          <li>
+              <NavLink id="top_pub" exact activeClassName='is-active' to="/publication">💭Publication</NavLink>  
+          </li>
           <li>  
             <NavLink id="top_project" exact activeClassName='is-active' to="/project">🧑‍💻Project▾</NavLink>  
             {/* <HashLink to="/project/" >🧑‍💻Project▾</HashLink> */}
