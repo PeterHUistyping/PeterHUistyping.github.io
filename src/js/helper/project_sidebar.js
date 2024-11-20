@@ -16,9 +16,9 @@ export default function Sidebar_Project(){
            <NavLink id="sidebar_home" exact activeClassName='is-active' to="/">▸HOME</NavLink>  
            {/* <center>
                     <HashLink id="sidebar_system"  to="/aboutme">&nbsp;AboutMe</HashLink> </center> */}
-        <NavLink id="sidebar_pub" exact activeClassName='is-active' to="/publication">▸PUB.</NavLink>  
-           <NavLink id="sidebar_award" exact activeClassName='is-active' to="/award">▸AWARD</NavLink>  
-            <NavLink id="sidebar_project" exact activeClassName='is-active'  to="/project">▸PROJECT</NavLink> 
+        <NavLink id="sidebar_pub" exact activeClassName='is-active' to="/research">▸Research</NavLink>  
+           <NavLink id="sidebar_award" exact activeClassName='is-active' to="/award">▸Award</NavLink>  
+            <NavLink id="sidebar_project" exact activeClassName='is-active'  to="/project">▸Projects</NavLink> 
                 <center>
                     <HashLink id="sidebar_visual"  to="/project/#Visual_Computing">&nbsp;&nbsp;&nbsp;Visual</HashLink> 
                 </center>
@@ -30,7 +30,7 @@ export default function Sidebar_Project(){
                 </center>
                 <center>
                     <NavLink id="sidebar_others" exact activeClassName='is-active' to="/project/others">&nbsp;&nbsp;&nbsp;Others</NavLink></center>  
-            <small><NavLink id="sidebar_exp" exact activeClassName='is-active' to="/experience">▸EXPERIENCE</NavLink></small> 
+            {/* <small><NavLink id="sidebar_exp" exact activeClassName='is-active' to="/experience">▸EXPERIENCE</NavLink></small>  */}
         </nav> 
     </div>     
     )

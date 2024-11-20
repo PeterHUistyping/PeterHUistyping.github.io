@@ -13,11 +13,12 @@ export function Award(){
     <Index_Top/> 
     
     <Sidebar_Project />
+    
+    <h2 id="project"><b>HONORS and AWARDS</b></h2>
      
     <div class="content">
         <>
         {/* Honors_and_awards */}
-        <h2 id="project"><b>HONORS and AWARDS</b></h2>
         <HrAw_table />
         
         </>

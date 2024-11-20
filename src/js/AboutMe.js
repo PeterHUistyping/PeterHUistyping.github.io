@@ -26,8 +26,8 @@ export function AboutMe(){
         Strong background and interest in Visual Computing (Graphics, Vision) with ML / System related fields.  <br/>
         
         &emsp; &nbsp;&nbsp;
-        <b>Conducted long-term collaborative research in industry lab</b> on  <br/>
-        - Visual Computing (Image Processing, Graphics, Vision) + AI/ML; <br/>
+        <b>Conducted long-term collaborative research in academic and industry lab</b> on  <br/>
+        - Visual Computing (Graphics, Vision, Image Processing) + AI/ML; <br/>
 
         <center>
                  {/* 1568 1340 = 1.17 */}
@@ -54,11 +54,11 @@ export function AboutMe(){
         <center> 
         <div class ="announcement">
             👈 Please click the left Sidebar for relevant sections. <br/>
-        <HashLink to="/">🏠 Home</HashLink> , <br/>
-        <HashLink to="/publication"><i>Publication</i></HashLink> , <br/>
-        <HashLink to="/award"><i>Award🥇</i></HashLink> , <br/>
-        <HashLink to="/project"><i>Project</i></HashLink>, <br/>
-        <HashLink to="/experience"><i>Experiment</i></HashLink>. <br/>
+        <HashLink to="/">🏠 Home</HashLink> <br/>
+        <HashLink to="/research"><i>Research💭</i></HashLink> <br/>
+        <HashLink to="/award"><i>Awards🥇</i></HashLink> <br/>
+        <HashLink to="/project"><i>Projects🧑‍💻</i></HashLink><br/>
+        {/* <HashLink to="/experience"><i>Experience</i></HashLink><br/> */}
         </div>
          </center>
     </div>

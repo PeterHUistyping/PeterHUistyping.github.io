@@ -20,14 +20,14 @@ function Blog_top(){
               {/* <a href="/#">🏠HOME</a> */}
           </li>
           <li>
-              <NavLink id="top_pub" exact activeClassName='is-active' to="/publication">💭Publication</NavLink>  
+              <NavLink id="top_res" exact activeClassName='is-active' to="/research">💭Research</NavLink>  
           </li>
           <li>  
-            <NavLink id="top_project" exact activeClassName='is-active' to="/project">🧑‍💻Project▾</NavLink>  
+            <NavLink id="top_project" exact activeClassName='is-active' to="/project">🧑‍💻Projects▾</NavLink>  
             {/* <HashLink to="/project/" >🧑‍💻Project▾</HashLink> */}
               <ul>
                   <li> 
-                      <NavLink id="top_award" exact activeClassName='is-active' to="/award">Award</NavLink>  
+                      <NavLink id="top_award" exact activeClassName='is-active' to="/award">Awards</NavLink>  
                       {/* <HashLink to="/award/">Award</HashLink> */}
                   </li>
                   <li>

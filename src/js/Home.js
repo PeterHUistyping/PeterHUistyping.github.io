@@ -71,9 +71,9 @@ function About_me(){
     <large> <large><i>About Me 👇</i></large></large> <br/>
     
     Strong background and interest in Visual Computing (Graphics, Vision) with ML / System related fields.  <br/>
-     Long-term Research Lab experience, collaborative compression competition and wide theoretical knowledge.  <br/>
+     Various research experience, collaborative compression competition and wide theoretical knowledge.  <br/>
    
-      <HashLink to="/aboutme">See MORE ...</HashLink> 
+      <HashLink to="/aboutme">MORE ...</HashLink> 
       {/* | <HashLink to="/project">📊<i>PROJECT</i></HashLink> */}
     
 
@@ -108,11 +108,12 @@ function Skill(){
 function Sidebar_Notice(){
     return(
   <div class ="announcement">
-    👈 Please click the left Sidebar for relevant sections. <br/>
-    <HashLink to="/publication"><i>Publication</i></HashLink> , <br/>
-      <HashLink to="/award"><i>Award🥇</i></HashLink> , <br/>
-      <HashLink to="/project"><i>Project</i></HashLink>, <br/>
-      <HashLink to="/experience"><i>Experience</i></HashLink>. <br/>
+    <h1>
+      <HashLink to="/research">Research💭</HashLink><br/>
+      <HashLink to="/award">Awards🥇</HashLink><br/>
+      <HashLink to="/project">Projects🧑‍💻</HashLink><br/>
+    </h1>
+      {/* <HashLink to="/experience"><i>Experience</i></HashLink><br/> */}
   </div>
     )
 }

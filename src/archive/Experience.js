@@ -1,11 +1,11 @@
 /* All rights reserved. 2022-2024 (c) Peter HU */
 
 
-import PrAs_table from "./PrAs_Table";
-import Sidebar_Project from "./helper/project_sidebar"
+import PrAs_table from "../js/PrAs_Table";
+import Sidebar_Project from "../js/helper/project_sidebar"
 
-import Index_Footer from "./helper/index_footer";
-import Index_Top from "./helper/index_top";
+import Index_Footer from "../js/helper/index_footer";
+import Index_Top from "../js/helper/index_top";
 import { motion } from 'framer-motion'
 import React, { useEffect, useState } from "react";
  
@@ -18,6 +18,7 @@ export function Experience(){
           setShow(! show);
     }
 
+    <h2><b>RESEARCH EXPERIENCE</b></h2>
  
     return (
     <motion.div> 
@@ -27,7 +28,6 @@ export function Experience(){
         <>   
       {/* <h2 ><b>EXPERIENCE</b></h2> */}
      
-      <h2><b>RESEARCH EXPERIENCE</b></h2>
 
       <b>Research Intern (Graphics Algorithm / GPU Architecture) </b><i> <br />
         2023.5 - 2024.1</i>  &nbsp;| &nbsp;  <button onClick={() => {setShow(! show)}}>Show Details</button> <br />
@@ -49,7 +49,8 @@ export function Experience(){
       <embed src="./asset/doc/RT_Peter-v6.pdf"  width="92%" height="300px"  />
 
       <div class="announcement">
-      Speeding up real-time Ray Tracing @ <a href="https://kudos.chu.cam.ac.uk/talks/about">Churchill College Tech talk</a> | Time:  <i>Nov 1, 2023</i>
+      <b>Talk: </b>
+      Speeding up real-time Ray Tracing @ <a href="https://kudos.chu.cam.ac.uk/talks/about">Churchill College Tech talk</a> | Date:  <i>Nov 1, 2023</i>
         <br/>
         <b>Feedback:</b>
         <i>"You managed to give a very broad overview of a wide range of techniques used to speed up ray tracing."</i>

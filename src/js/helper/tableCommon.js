@@ -96,11 +96,24 @@ function Blog_link(props){
         return (<a href={props.link}>📝Blog</a>)
     }
 }
+
+
+function GetCategory(props){
+    // check props.Category is not empty
+    if(props.Category){
+        return (<>[<i>{props.Category}</i>]</>)
+    }
+    else{
+        return (<> </>)
+    }
+}
+
+
 function Intro(props){
     
     return(
         <td class="width: 600px;" rowspan="2">
-            <strong>{props.Title}  [<i>{props.Category}</i>]<br/></strong>
+            <strong>{props.Title}  <GetCategory Category={props.Category}/><br/></strong>
             <Intro_Des 
             line={props.line}
             Des1={props.Des1}

@@ -12,9 +12,9 @@ import {Contact} from "./js/Contact";
 
 import {PhotoDisplay} from "./js/PhotoDisplay";
 import {Project} from "./js/Project";
-import {Experience} from "./js/Experience";
+import {Experience} from "./archive/Experience";
 import {AboutMe} from "./js/AboutMe";
-import {Publication} from "./js/Pub";
+import {Research} from "./js/Research";
 
 import {Award} from "./js/Award";
 import {Project_Others} from "./js/Project_Others";
@@ -39,7 +39,7 @@ function App() {
 
             <Route path="/PhotoDisplay" element={<PhotoDisplay />}/>
             <Route path="/award" element={<Award />}/>
-            <Route path="/publication" element={<Publication />}/>
+            <Route path="/research" element={<Research />}/>
             <Route path="/project" element={<Project />}/>
             <Route path="/project/others" element={<Project_Others />}/>
             <Route path="/experience" element={<Experience />}/>

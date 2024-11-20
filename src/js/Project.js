@@ -13,10 +13,11 @@ export function Project(){
     <motion.div> 
     <Index_Top/> 
     <Sidebar_Project />
+    <h2 id="project"><b>PROJECTS and ASSIGNMENTS</b></h2>
+    
     <div class="content">
         <>   
         {/*  Project_and_assignment   */}
-        <h2 id="project"><b>PROJECTS and ASSIGNMENTS</b></h2>
         <PrAs_table />
         </>
     </div>

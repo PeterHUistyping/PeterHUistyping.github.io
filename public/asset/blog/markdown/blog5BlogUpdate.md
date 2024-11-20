@@ -13,6 +13,10 @@ Main idea: Using table to sort things up, achieving better display on mobile dev
   
 **More update coming soon...**
 
+20 Nov 2024  
+Update publication and academic research section.  
+Merge Publication and Experience sections into the Research section.
+
 15 Mar 2024  
 Update navigation bar active based on position.  
 Update new theme for sitemap (sidebar) and Logos (compatible for dark theme).  
