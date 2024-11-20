@@ -73,7 +73,7 @@ function About_me(){
     Strong background and interest in Visual Computing (Graphics, Vision) with ML / System related fields.  <br/>
      Various research experience, collaborative compression competition and wide theoretical knowledge.  <br/>
    
-      <HashLink to="/aboutme">MORE ...</HashLink> 
+      {/* <HashLink to="/aboutme">MORE ...</HashLink>  */}
       {/* | <HashLink to="/project">📊<i>PROJECT</i></HashLink> */}
     
 
@@ -124,11 +124,16 @@ function Detail(){
   return(
     <>
     <About_me />
+    <center>
+        <ColBio />   <br/><br/>
+    </center>
     <Education />
     <center>
-        <Sidebar_Notice />
+        {/* <Sidebar_Notice /> */}
+        <ColResearch /> <br/>
+        <ColProject /> <br/><br/>
         <Skill />
-          <Interest_extra />
+        <Interest_extra />
         {/* <embed src="asset/doc/CV_PeterHU.pdf"  width="800px" height="600px" /> */}
     </center>
     </>
@@ -138,19 +143,74 @@ function Detail(){
         <div class="container_main">
         <div class ="left-panel">
             <Education />
-            <Skill />
-            
+            <Skill />      
         </div>
         <div class ="right-panel">
             <About_me />
             <center>
-            <Sidebar_Notice />
+            {/* <Sidebar_Notice /> */}
+
+            {/* split into three cols */}
+            <div class="container_small">
+                <div class="half-panel">
+                      <ColBio />
+                </div>
+                <div class="half-panel">
+                      <ColResearch />
+                </div>
+                <div class="half-panel">
+                      <ColProject />
+                </div>
+            </div>
             <Interest_extra />
             </center>
         </div>
         </div>
       )
 }
+
+
+function ColBio(){
+  return (
+    <>
+        <h3>
+        <HashLink to="/aboutme">Detailed Bio.</HashLink> <br/> 
+        </h3>
+        <HashLink id="teaser_link"  to="/aboutme">
+            <img height="100vh" src="/asset/photo/Logo/Relationship_CV.png" alt="CV" />
+        </HashLink> 
+    </>
+  )
+}
+
+
+function ColResearch(){
+    return (
+    <>
+      <h3>
+      <HashLink to="/research">Research💭</HashLink> |  <HashLink to="/experience">Experience</HashLink> <br/>
+      </h3>
+      <HashLink id="teaser_link"  to="/research">
+          <img height="100vh" src="/asset/photo/pub/1/teaser.png" alt="teaser" />
+      </HashLink> 
+    </>
+  )
+}
+
+function ColProject(){
+
+  return (
+    <>
+      <h3>
+      <HashLink to="/award">Awards🥇</HashLink> |  <HashLink to="/project">Projects🧑‍💻</HashLink> <br/>
+      </h3>
+      <HashLink id="project_link"  to="/project">
+          <img height="100vh" src="asset/photo/Assignment/blog3/Self-similar_fractals.png" alt="project_img" />
+      </HashLink>
+    </>
+  )
+}
+
 
 export function Home() { 
   return (
@@ -208,7 +268,7 @@ function Profile2(){
       <td width="280" text-align="center">
   <h1 id="contact"><i>Peter</i> HU </h1>
    
-  <p> University of Cambridge <br/>Computer Science <br/>Part IB</p> <br/>
+  <p> University of Cambridge <br/>Computer Science <br/>Part II</p> <br/>
   <strong>Contact Details</strong><br/>
 
   <img width= "12vw" src="/asset/photo/Logo/e-mail.png" alt="email"/>

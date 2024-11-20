@@ -31,7 +31,7 @@ export function ExperienceContents(){
   return (
     <div class="content">
         <>   
-      <b>Research Intern (Graphics Algorithm / GPU Architecture) </b><i> <br />
+      <b>Research Intern (Graphics Algorithms / GPU Architecture) </b><i> <br />
         2023.5 - 2024.1</i>  &nbsp;| &nbsp;  <button onClick={() => {setShow(! show)}}>Show Details</button> <br />
   
         <a href="./asset/doc/StarofCambridge.png">Award</a> for new prediction algorithm proposed with joint efforts.
