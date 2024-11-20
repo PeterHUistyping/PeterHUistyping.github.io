@@ -108,7 +108,7 @@ export function ExperienceContents(){
       */}
         <img width="20" height="20" src="./asset/photo/Logo/Huawei.png" alt="Huawei"/> 
         
-        Huawei Research Lab, Cambridge <br />
+        Huawei Research Lab, <a href="https://www.cambridgesciencepark.co.uk/company-directory/hauwei-uk-rd-centre/">Cambridge Science Park</a><br />
         
         <i>Please refer to EXPERIENCE section in <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="./asset/photo/Logo/cv.png" alt="cv"/></a>.</i><br />
       

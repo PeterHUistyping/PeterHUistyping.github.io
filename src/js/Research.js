@@ -28,8 +28,8 @@ export function Research(){
         <>
         {/* Honors_and_awards */}
         <h2 id="academicResearch"><b>Academic Research</b></h2>
-         <i>May, 2024 - Present</i> | <br/>
-        I am privileged to undertake some interesting academic research projects @<a href="https://core-lab.io/">Core Lab</a>, <a href="https://www.cst.cam.ac.uk/">Department of Computer Science and Technology</a>,  <a href="https://www.cam.ac.uk/"><img width="27" height="24" src="./asset/photo/Logo/Cam.png" alt="Cambridge" /></a>.    <br/>
+         <i>May, 2024 - Present</i> | <a href="https://core-lab.io/">Core Lab</a>, <a href="https://www.cst.cam.ac.uk/">Department of Computer Science and Technology</a>, &nbsp; <a href="https://www.cam.ac.uk/"><img width="27" height="24" src="./asset/photo/Logo/Cam.png" alt="Cambridge" /></a> <br/>
+        I am privileged to undertake some interesting academic research explorations @<a href="https://core-lab.io/">Core Lab</a>.    <br/>
         {/* University of Cambridge */}
         
         My undergraduate research is supervised by <a href="https://chenliang-zhou.github.io/">Chenliang Zhou</a> on generative machine learning and Dr. <a href="https://asztr.github.io/">Alejandro Sztrajman</a> on real-world materials, Dr. <a href="https://www.cl.cam.ac.uk/~fz261/">Fangcheng Zhou</a> on Graphics and rendering.<br/>
