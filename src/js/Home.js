@@ -29,14 +29,14 @@ function Education(){
         Undergraduate<br />
         2022.10 - 2025.06</i><br />
         Computer Science | <a href="https://peterhuistyping.github.io/Cambridge_CS_Tripos/">Notes</a><br />
-        <a href="https://en.wikipedia.org/wiki/Jardine_Scholarship">Jardine</a> <a href="./asset/doc/Jardine_Certificate.jpg">Scholarship</a> [fully-funded]. <br />
+        [Fully-funded] <a href="https://en.wikipedia.org/wiki/Jardine_Scholarship">Jardine</a> <a href="./asset/doc/Jardine_Certificate.jpg">Scholarship</a>. <br />
 
     <img width="24" height="24" src="./asset/photo/Logo/xmu.png" alt="XMU"/>
     <b> Xiamen University </b><i> <br />
         First year undergraduate<br /> 
         2021.09 - 2022.06</i> <br />
         Software Engineering<br />
-        GPA: 3.91 / 4.0 (the first term)<br /> 88/100 (whole year)<br />
+        GPA: 3.91 / 4.0 (first term)<br /> 88 / 100 (yearly)<br />
         Class Rep, ACM Team.<br />
 
     <b>Nanyang Model High School </b> <br />
@@ -71,7 +71,7 @@ function About_me(){
     <large> <large><i>About Me 👇</i></large></large> <br/>
     
     Strong background and interest in Visual Computing (Graphics, Vision) with ML / System related fields.  <br/>
-     Various research experience, collaborative compression competition and wide theoretical knowledge.  <br/>
+    Various research experience, collaborative compression competition and wide theoretical knowledge.  <br/>
    
       {/* <HashLink to="/aboutme">MORE ...</HashLink>  */}
       {/* | <HashLink to="/project">📊<i>PROJECT</i></HashLink> */}
@@ -85,7 +85,9 @@ function About_me(){
 function Interest_extra(){
   return(
     <>
-  <br/>  <br/> <large><i>INTEREST AND EXTRACURRICULUM</i></large> <br/>
+  <br/>   
+  <large><i>INTERESTS AND EXTRACURRICULUM</i></large> 
+  <br/>
 
   <HashLink to="/PhotoDisplay">Photography</HashLink>, Music, Swimming, Gym,    etc.  <br />  
   Society: Ethics in Mathematics<br />
@@ -98,7 +100,6 @@ function Skill(){
   return (
     <>
       <br/> <center><large><i  id="skills">SKILLS</i></large>  <br/>
-
       <i>Please refer to <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="/asset/photo/Logo/cv.png" alt="cv"/></a>.</i></center> 
   </>
   )
@@ -106,6 +107,7 @@ function Skill(){
 
            
 function Sidebar_Notice(){
+  // archive funcs
     return(
   <div class ="announcement">
     <h1>
@@ -117,6 +119,8 @@ function Sidebar_Notice(){
   </div>
     )
 }
+
+
 function Detail(){  
   var w = window.innerWidth;
   // mobile
@@ -143,7 +147,6 @@ function Detail(){
         <div class="container_main">
         <div class ="left-panel">
             <Education />
-            <Skill />      
         </div>
         <div class ="right-panel">
             <About_me />
@@ -162,6 +165,7 @@ function Detail(){
                       <ColProject />
                 </div>
             </div>
+            <Skill />      
             <Interest_extra />
             </center>
         </div>
@@ -227,6 +231,7 @@ export function Home() {
       <div class="content">
         <Detail />
       </div>
+      <br/>  <br/>
       <hr width="50%" color="#987cb9" SIZE="1" /> 
       <table class="table_footer">
           <tbody>
