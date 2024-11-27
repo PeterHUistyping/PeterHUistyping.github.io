@@ -14,13 +14,55 @@ export function Experience(){
     <Index_Top/> 
     <Sidebar_Project />
     <h2><b>EXPERIENCE</b></h2>
-    <ExperienceContents />
+    <ExperienceContents showall={true}/>
     <Index_Footer />
     </motion.div>)
 }
 
 
-export function ExperienceContents(){
+export function TalkRayTracing(props){
+  // check if it's in research page
+  if(props.showall == true){
+    return (
+      <>
+      Sharing session of my industry research topic on <i>Ray Tracing (Intersection, Acceleration).</i>  <br />  
+      Presented both internally and at university. &nbsp; | &nbsp;  <a href="./asset/doc/RT_Peter-v6.pdf">Slides</a>   <br /> 
+        <embed src="./asset/doc/RT_Peter-v6.pdf"  width="92%" height="300px"  />
+  
+        <div class="announcement">
+        <b>Talk: </b>
+        Speeding up real-time Ray Tracing @ <a href="https://kudos.chu.cam.ac.uk/talks/about">Churchill College Tech talk</a> | Date:  <i>Nov 1, 2023</i>
+          <br/>
+          <b>Feedback:</b>
+          <i>"You managed to give a very broad overview of a wide range of techniques used to speed up ray tracing."</i>
+          <br />
+          <i>"Very rich and complex concepts that cover graphics pipeline rendering in depth. Discussed design tradeoffs and current directions of research."</i>
+          <br />
+          <i>"Beautiful video to demonstrate why we want ray tracing, useful pictures and diagrams throughout to explain ideas, introduced a lot of steps in the pipeline where I can see some of it being used outside graphics."</i>
+          <br />
+        </div>
+      </>
+    )
+  }
+  else
+    return null;
+}
+
+
+function SchedReview(props){
+    if(props.showall == true){
+      return(
+        <>
+            <embed src="https://peterhuistyping.github.io/CPU_Scheduling_Review/" width="90%" height="300px"  />
+            <br /> 
+        </>
+      )
+    }
+    else
+      return null;
+}
+
+export function ExperienceContents(props){
   const [show , setShow] = useState(false);
   const [show2 , setShow2] = useState(false);
   const [show3 , setShow3] = useState(false);
@@ -31,47 +73,43 @@ export function ExperienceContents(){
   return (
     <div class="content">
         <>   
-      <b>Research Intern (Graphics Algorithms / GPU Architecture) </b><i> <br />
-        2023.5 - 2024.1</i>  &nbsp;| &nbsp;  <button onClick={() => {setShow(! show)}}>Show Details</button> <br />
+      <i>May, 2023 - Jan, 2024</i> | <a href="https://www.hisilicon.com/en/products/Kirin">Kirin chipset group</a>, <img width="20" height="20" src="./asset/photo/Logo/Huawei.png" alt="Huawei"/>   Huawei Research Lab, <a href="https://www.cambridgesciencepark.co.uk/company-directory/hauwei-uk-rd-centre/">Cambridge Science Park, UK</a>.<br />
+      <br/>
+
+      We explore various architectural and algorithmic innovations towards the next-generation mobile or cloud based processors (CPU, GPU, NPU). During these period of time, I am also exposed to other research summits or events hosted, including talks and connections with other academic professors and industry experts. The topics discussed range from the above to more, such as simulation, LLM, compiler and federated learning, which I enjoy the most.
+      
+      <br/>  <br />
+      In particular, I focus on Ray Tracing acceleration via classical graphics and machine learning techniques, under supervision of senior engineers and Mathematics graduates. During which, I maintain and develop a open-source research <a href="https://github.com/knightcrawler25/GLSL-PathTracer">GLSL path renderer</a> in C and GLSL. With the renderer setup, I redesign the underlying BVH algorithms, keeping balance between preprocessing time and real-time intersection complexity. One of our proposed methods are deployed in the product and thus received research-center-wise award.  Besides, we also explore various possibilities of combining AI / machine learning with graphics task, including Ambient Occlusion or Global illumination, which I help integrate the renderer and Pytorch training pipeline, as part of the research explorations.
+      <br />  <br />
+      Aside from that, I also join the CPU team on heterogeneous scheduling, DVFS and dynamic resource management, supervised by Phd graduate in Electrical Engineering and other engineers. I initialize the codebase for the scheduler simulator in Python, from which the team develop the prototype for the next-gen scheduling policies based on the literature review I collected. In general, the difficulty lies in the multi-objective optimization and tradeoff between performance, power consumption, thermal conditions, priorities, fairness and other factors.
+      <br />  <br />
   
-        <a href="./asset/doc/StarofCambridge.png">Award</a> for new prediction algorithm proposed with joint efforts.
+      <i>For details, please click the 'Show Details' button.</i><br />
+      <br /> 
+
+      Research Intern (<b>Graphics Algorithms / GPU Architecture</b>)  &nbsp; &nbsp; &nbsp; <i> 2023.5 - 2024.1</i>  
+      <br/>
+      <button onClick={() => {setShow(! show)}}>Show Details</button>  | <a href="./asset/doc/StarofCambridge.png">Award</a> for new prediction algorithm proposed with joint efforts. |
         {/* &nbsp;| &nbsp;  */}
         <br />    <br />
-      {
-          show &&
-          <>
-          <br/>
-          <img width="722" height="705" src="./asset/photo/Profile/GPU2.png" alt="GPU2" />
-          <br/>
-          {/* <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i> */}
+        {
+            show &&
+            <>
+              <br/>
+              <img width="722" height="705" src="./asset/photo/Profile/GPU2.png" alt="GPU2" />
+              <br/>
+              {/* <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i> */}
+            </>
+        } 
+      
+      <TalkRayTracing showall={props.showall} />
+      <br /> 
 
-          </>
-      } 
-      Sharing Session: <i>Ray Tracing (Intersection, Acceleration)</i> <a href="./asset/doc/RT_Peter-v6.pdf">Slides</a>  &nbsp; <br /> 
-      <embed src="./asset/doc/RT_Peter-v6.pdf"  width="92%" height="300px"  />
+      Research Intern (<b>CPU Architect</b>)  &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <i>2023.6 - 2023.10</i>
+      <br /> 
 
-      <div class="announcement">
-      <b>Talk: </b>
-      Speeding up real-time Ray Tracing @ <a href="https://kudos.chu.cam.ac.uk/talks/about">Churchill College Tech talk</a> | Date:  <i>Nov 1, 2023</i>
-        <br/>
-        <b>Feedback:</b>
-        <i>"You managed to give a very broad overview of a wide range of techniques used to speed up ray tracing."</i>
-        <br />
-        <i>"Very rich and complex concepts that cover graphics pipeline rendering in depth. Discussed design tradeoffs and current directions of research."</i>
-        <br />
-        <i>"Beautiful video to demonstrate why we want ray tracing, useful pictures and diagrams throughout to explain ideas, introduced a lot of steps in the pipeline where I can see some of it being used outside graphics."</i>
-        <br />
-      </div>
-
-        <br /> <br /> 
-        <br /> <br />        
-
-    <b>Research Intern (CPU Architect) </b><i><br /> 
-        2023.6 - 2023.10</i>   &nbsp;| &nbsp; <button onClick={ () => {setShow2(! show2)}}>Show Details</button> <br />
-           
-
-      <a href="https://peterhuistyping.github.io/CPU_Scheduling_Review/">Scheduling, DVFS, Dynamic Resource Management</a> 
-      &nbsp;| &nbsp;
+      <button onClick={ () => {setShow2(! show2)}}>Show Details</button> | <a href="https://peterhuistyping.github.io/CPU_Scheduling_Review/">Literature Review: Scheduling, DVFS, Dynamic Resource Management</a> 
+      &nbsp;|  
      
       {
           show2 &&
@@ -83,8 +121,9 @@ export function ExperienceContents(){
 
           </>
       }<br /> 
-        <embed src="https://peterhuistyping.github.io/CPU_Scheduling_Review/" width="90%" height="300px"  />
-        <br /> 
+      
+      <SchedReview showall={props.showall} />
+      
 
       {/* &nbsp;| &nbsp; */}
       {/* <h2><b>WORK EXPERIENCE</b></h2>
@@ -105,14 +144,10 @@ export function ExperienceContents(){
 
       </>
     }<br />  
-      */}
-        <img width="20" height="20" src="./asset/photo/Logo/Huawei.png" alt="Huawei"/> 
-        
-        Huawei Research Lab, <a href="https://www.cambridgesciencepark.co.uk/company-directory/hauwei-uk-rd-centre/">Cambridge Science Park</a><br />
-        
+      */}   
         <i>Please refer to EXPERIENCE section in <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="./asset/photo/Logo/cv.png" alt="cv"/></a>.</i><br />
       
-        <br />  <br />  <br />  <br />  <br />  <br />  <br />  
+        <br />  <br />  <br />  <br />  
         </>
     </div>
 
