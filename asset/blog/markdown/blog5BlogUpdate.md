@@ -15,11 +15,14 @@ Main idea: Using table to sort things up, achieving better display on mobile dev
 Update homepage layout and publication and academic research section.
 Merge Publication and Experience sections into the Research section.
 
+![Home_Nov2024](asset/photo/Assignment/5/Home_Nov2024.png "Home Page v2 Nov 24")
+
 15 Mar 2024
-Update navigation bar active based on position.
+Update navigation bar active based on position. [Home_Mar2024](asset/photo/Assignment/5/Home_Mar2024.png "Home Page v2 Mar 24")  
 Update new theme for sitemap (sidebar) and Logos (compatible for dark theme).
 Add a separate Contact Page, highlighting main profile and contact details.
-![Home_Mar2024](asset/photo/Assignment/5/Home_Mar2024.png "Home Page v2 Mar 24")
+
+
 
 1 Jan 2024
 Continuation of ©
@@ -106,17 +109,17 @@ Removing legacy version (2022.9.18 Music for Blog: Using frame and iframe to sup
 
 ## Legacy Display
 
-\--- [Blog3.0_Mar23](asset/photo/Assignment/5/BlogMar23.png "Blog3.0_Mar23") Design ---
+\--- Blog3.0 Design --- [Mar23.png](asset/photo/Assignment/5/BlogMar23.png "Blog3.0_Mar23")
 
-\--- [Blog2.0](/asset/blog/blog_directory_Storting.html) Design ---
+\--- Blog2.0 Design --- [html](/asset/blog/blog_directory_Storting.html) | [png](asset/photo/Assignment/5/blog2.0.png "Blog2.0")
 
 Updated new feature: ⬇ _Sort Data on Header Click_
 2022.9.27
       Using JavaScript to support table display and sorting
 (2023.2.16 Table sorting is no longer supported in react version. )
 
-[Blog2.0](asset/photo/Assignment/5/blog2.0.png "Blog2.0")
 
-\--- [Blog1.0](/asset/blog/blog_directory.html) Design ---
 
-[Blog1.0](asset/photo/Assignment/5/blog.png "Blog1.0")
+\--- Blog1.0 Design --- [html](/asset/blog/blog_directory.html) | [png](asset/photo/Assignment/5/blog.png "Blog1.0")
+
+
