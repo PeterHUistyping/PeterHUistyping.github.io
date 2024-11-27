@@ -1,39 +1,40 @@
 /* All rights reserved. 2022-2024 (c) Peter HU */
 
-
 import All_table from './helper/tableCommon';
 import Computer_System from '../asset/data/Computer_System.json';
 import Machine_Learning from '../asset/data/Machine_Learning.json';
 import Visual_Computing from '../asset/data/Visual_Computing.json';
+import { HashLink } from 'react-router-hash-link';
 
- 
 
 export default function PrAs_table(){
    return (
        <div>
-     <p id="Visual_Computing"><b> <font size="+1"><center>Visual Computing</center></font></b></p> 
+     <center>
+        <p id="Visual_Computing"><b> <font size="+1" color="green">Visual Computing</font></b></p> 
+        <a href="https://peterhuistyping.github.io/Visual_Computing">🌐 web</a>   |  <a href="https://github.com/PeterHUistyping/Visual_Computing">👨‍💻 github</a>
+     </center>
+     <br></br>
        <All_table resource={Visual_Computing}/> 
-       <center>
+       {/* <center>
           See more → &nbsp;
-            <a href="https://peterhuistyping.github.io/Visual_Computing">🌐 Projects</a>   |   
-            <a href="https://github.com/PeterHUistyping/Visual_Computing">👨‍💻 Github</a>  <br></br>
-       </center>
-
-       <p id="Machine_Learning"><b><font size="+1"><center>Machine Learning</center></font></b></p>
+       </center> */}
+      
+     <center>
+        <p id="Machine_Learning"><b><font size="+1" color="#3824BD">Machine Learning</font></b></p>
+        <a href="https://peterhuistyping.github.io/Machine_Learning_Guidance">🌐 web</a> | <a href="https://github.com/PeterHUistyping/Machine_Learning_Guidance">👨‍💻 github</a>
+      </center>
+      <br></br>
        <All_table resource={Machine_Learning}/> 
-       <center>
-          See more → &nbsp;
-            <a href="https://peterhuistyping.github.io/Machine_Learning_Guidance">🌐 Projects</a>  |  
-            <a href="https://github.com/PeterHUistyping/Machine_Learning_Guidance">👨‍💻 Github</a>   <br></br>
-       </center>
-
-       <p id="Computer_System"><b> <font size="+1"><center>Computer System Design</center></font></b></p>        
+      
+      <center>
+        <p id="Computer_System"><b> <font size="+1" color='#8D6F64'>Computer System Design</font></b></p>        
+        <a href="https://peterhuistyping.github.io/Computer_System_Guidance">🌐 web</a>   |   <a href="https://github.com/PeterHUistyping/Computer_System_Guidance">👨‍💻 github</a>
+      </center>
        <All_table resource={Computer_System}/> 
-       <center>
-          See more → &nbsp;
-            <a href="https://peterhuistyping.github.io/Computer_System_Guidance">🌐 Projects</a>   |   
-            <a href="https://github.com/PeterHUistyping/Computer_System_Guidance">👨‍💻 Github</a>  <br></br>
-       </center>
+    
+       <p id="Others_mainpage"> <b> <font size="+1"><center><HashLink to="/project/others">Other Projects</HashLink></center></font></b></p>  
 
-       </div>)
+       </div>
+      )
 }

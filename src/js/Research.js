@@ -32,7 +32,8 @@ export function Research(){
         I am privileged to undertake some interesting academic research explorations @<a href="https://core-lab.io/">Core Lab</a>.    <br/>
         {/* University of Cambridge */}
         
-        My undergraduate research is supervised by <a href="https://chenliang-zhou.github.io/">Chenliang Zhou</a> on generative machine learning and Dr. <a href="https://asztr.github.io/">Alejandro Sztrajman</a> on real-world materials; Dr. <a href="https://www.cl.cam.ac.uk/~fz261/">Fangcheng Zhou</a> on Graphics and rendering.<br/>
+        My undergraduate research is supervised by <a href="https://chenliang-zhou.github.io/">Chenliang Zhou</a> on generative machine learning and Dr. <a href="https://asztr.github.io/">Alejandro Sztrajman</a> on real-world materials; mentored by
+        Dr. <a href="https://www.cl.cam.ac.uk/~fz261/">Fangcheng Zhou</a> on Graphics (geometry representations and rendering).<br/>
 
         <br/> <br/> 
         <br/> 

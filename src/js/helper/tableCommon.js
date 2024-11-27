@@ -1,5 +1,5 @@
 /* All rights reserved. 2022-2024 (c) Peter HU */
-
+import React from 'react';
 
 // large screen
 function Pic_Large(props){
@@ -55,6 +55,7 @@ function Pic(props){
 )
 }
 
+
 function Intro_Des(props){
     if(props.line==4)
     return(
@@ -82,18 +83,22 @@ function Intro_Des(props){
        </div>
     )
 }
+
+
 function Italic_Intro(props){
     if(props.Italic)
         return(
             <div><i>{props.Italic}</i><br/></div>
         )
 }
+
+
 function Blog_link(props){
     if(props.link){
-        return (<a href={"/#/"+props.link}>📝Blog</a>)
+        return (<a href={"/#/"+props.link}>📝 blog</a>)
     }
     else{
-        return (<a href={props.link}>📝Blog</a>)
+        return (<a href={props.link}>📝 blog</a>)
     }
 }
 
@@ -109,11 +114,37 @@ function GetCategory(props){
 }
 
 
+function HightlightAuthor(props){
+    // check if substring contain "Zheyuan Hu" and highlight this substring to bold
+    if(props.author.includes("Zheyuan Hu")){
+        const parts = props.author.split("Zheyuan Hu");
+        return (
+      <>
+        {parts.map((part, index) => (
+          <>
+            {index > 0 && <strong>Zheyuan Hu</strong>} 
+            {/* Add bold only before the second and subsequent parts */}
+            {part}
+          </>
+        ))}
+      </>
+    );
+    }
+    else{
+        return(
+            <>
+            {props.author}
+            </>
+        )
+    }
+}
+
+
 function Intro(props){
-    
     return(
         <td class="width: 600px;" rowspan="2">
             <strong>{props.Title}  <GetCategory Category={props.Category}/><br/></strong>
+            {props.author && <> <HightlightAuthor author={props.author}/>  <br/> </>}  
             <Intro_Des 
             line={props.line}
             Des1={props.Des1}
@@ -122,12 +153,22 @@ function Intro(props){
             Des4={props.Des4}/>
             <Italic_Intro Italic={props.Italic}/>
             {props.Time}<br/>
-            <a href={props.Github}><img width= "13vw" src="/asset/photo/Logo/github.svg" alt="github"/> Project </a>
-            | <Blog_link link={props.Blog}/> | <a href={props.PDF}>PDF</a> | <a href={props.Video}>Video</a>  | <a href={props.More}>More</a> <br/> 
+
+            {props.Arxiv && <> | <a href={props.Arxiv}>arXiv</a>  </>}
+            {props.Github && <> | <a href={props.Github}><img width= "13vw" src="/asset/photo/Logo/github.svg" alt="github"/> code</a> </>}
+            {props.Blog && <> | <Blog_link link={props.Blog}/></> } 
+            {props.PDF && <> |  <a href={props.PDF}>pdf</a> </> }
+            {props.Video && <> | <a href={props.Video}>video</a>  </> } 
+            {props.More && <> |  <a href={props.More}>more</a> </>}
+            {/* ending mark if there's at least one attribute. */}
+            {(props.Arxiv || props.Github || props.Blog || props.PDF || props.Video || props.More) && <> | </> }
+
+            <br/>
         </td>
     )
 }
  
+
 function PicIntro_table(proxy){
     return(
         <tr>
@@ -154,24 +195,35 @@ function PicIntro_table(proxy){
             PDF={proxy.resource[proxy.id].PDF}
             Video={proxy.resource[proxy.id].Video}
             More={proxy.resource[proxy.id].More}
+            // research
+            author={proxy.resource[proxy.id].author}
+            Arxiv={proxy.resource[proxy.id].Arxiv}
             />      
         </tr>
     )
 }
+
+
 function Tbody(props){
+    if (props.display_type === 'research') return (
+        <PicIntro_table id={props.id} resource={props.resource}/>
+    )
+    else
     return(
     <tbody>
         <PicIntro_table id={props.id} resource={props.resource}/> 
     </tbody>
     )
 }
+
+
 export default function All_table(props){
     //const keys = [...Array(resource.length).keys()];
     const keys = [...Array(props.resource.length).keys()];
     return(
     <table class="table_project">
         {keys.map((item)=>(
-            <Tbody id={item} resource={props.resource}/>
+            <Tbody id={item} resource={props.resource} display_type={props.display_type}/>
         ))}  
     </table> 
     )
