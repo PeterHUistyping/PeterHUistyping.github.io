@@ -42,7 +42,7 @@ export function Blogref(){
                 <a href="https://github.com/PeterHUistyping/Computer_System_Guidance"> 👨‍💻 </a>    
             </center>
                 <br/>
-                and many other projects scattered in Repo waited to be explored:)<br/>
+                and many other projects scattered in repo waited to be explored:)<br/>
 
                 <br></br>   
 
