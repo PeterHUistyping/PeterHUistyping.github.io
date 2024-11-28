@@ -34,7 +34,7 @@ export function Research(){
         <br/>
         I am privileged to undertake some interesting academic research explorations @<a href="https://core-lab.io/">Core Lab</a> at the intersection of Computer Graphics, Computer Vision and Machine Learning. During this period, I explore the neural representations of materials, physical accuracy, real-world material synthesis, evaluation of generation models and many other.  <br/>
                 
-        My undergraduate research is supervised by <a href="https://chenliang-zhou.github.io/">Chenliang Zhou</a> on generative machine learning and Dr. <a href="https://asztr.github.io/">Alejandro Sztrajman</a> on real-world materials; mentored by
+        My undergraduate research is supervised by <a href="https://chenliang-zhou.github.io/">Chenliang Zhou</a> on generative machine learning and Dr. <a href="https://asztr.github.io/">Alejandro Sztrajman</a> on real-world materials and <a href="https://en.wikipedia.org/wiki/Bidirectional_reflectance_distribution_function">Bidirectional Reflectance Distribution Function (BRDF)</a>; mentored by
         Dr. <a href="https://www.cl.cam.ac.uk/~fz261/">Fangcheng Zhou</a> on Graphics (geometry representations and rendering).<br/> <br/>
         
         <p><b>ABOUT</b> my first paper: Neural Material Synthesis via Hyperdiffusion ... </p>
