@@ -298,7 +298,7 @@ function Profile2(){
 
    <a href="https://www.kaggle.com/peterhu2022"> <img width= "16vw" src="/asset/photo/Logo/kaggle.svg" alt="linkedin"/></a> |
   
-   <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="/asset/photo/Logo/cv.png" alt="cv"/></a> 
+   <a href="./asset/doc/CV_PeterHU.pdf"><img width= "16vw" src="/asset/photo/Logo/cv.png" alt="cv"/>CV</a> 
 
   <br/>
 
