@@ -1,6 +1,6 @@
 # Top 2 Team in Mercuria Hackathon 2022
 
-[GitHub](https://github.com/PeterHUistyping/Mercuria_Hackathon2022)
+[GitHub](https://github.com/PeterHUistyping/Mercuria_Hackathon2022) | [Mercuria Hackathon](https://hackathon.mercuria.com/)
 
 Using technology to accelerate the energy transition and reduce the carbon emissions of the maritime industry  
 ![Intro](/asset/photo/Assignment/7/Intro.png) ![All_Members](/asset/photo/Assignment/7/Members.JPG)  
