@@ -35,7 +35,8 @@ function Education(){
     <a href="https://en.xmu.edu.cn/main.htm">
     <img width="24" height="24" src="./asset/photo/Logo/xmu.png" alt="XMU"/>
     </a>
-    <b> Xiamen University </b><i> <br />
+    <b> Universitas Amoiensis </b><i> <br />
+    {/* Xiamen University  */}
         First year undergraduate<br /> 
         2021.09 - 2022.06</i> <br />
         Software Engineering<br />
