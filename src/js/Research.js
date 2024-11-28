@@ -30,7 +30,7 @@ export function Research(){
         {/* Honors_and_awards */}
         <h2 id="academicResearch"><b>Academic Research</b></h2> 
         {/* University of Cambridge */}
-        <i>May, 2024 - Present</i> | <a href="https://core-lab.io/">Core Lab</a>, <a href="https://www.cst.cam.ac.uk/">Department of Computer Science and Technology</a>, &nbsp; <a href="https://www.cam.ac.uk/"><img width="27" height="24" src="./asset/photo/Logo/Cam.png" alt="Cambridge" /></a> <br/>
+        <i>May, 2024 - Present</i> | <a href="https://core-lab.io/">Cambridge Open Reality and Visual AI (CORE) Lab</a> (<a href="https://www.cl.cam.ac.uk/~aco41/">Prof Cengiz Öztireli</a>), <a href="https://www.cst.cam.ac.uk/">Dept. of Computer Science and Technology</a>, &nbsp; <a href="https://www.cam.ac.uk/"><img width="27" height="24" src="./asset/photo/Logo/Cam.png" alt="Cambridge" /></a> <br/>
         <br/>
         I am privileged to undertake some interesting academic research explorations @<a href="https://core-lab.io/">Core Lab</a> at the intersection of Computer Graphics, Computer Vision and Machine Learning. During this period, I explore the neural representations of materials, physical accuracy, real-world material synthesis, evaluation of generation models and many other.  <br/>
                 

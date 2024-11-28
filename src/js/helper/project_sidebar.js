@@ -4,6 +4,7 @@
 import { NavLink } from "react-router-dom"; 
 import { HashLink } from 'react-router-hash-link';
 import React from "react";
+import { useState, useRef} from "react";
 
 
 function SidebarProject(){
@@ -40,12 +41,16 @@ function SidebarResearch(){
 
 
 export default function Sidebar_Project(){
+    const [show, setShow] = useState(true);
     return (
     <div id="nav" class="sidebar_main">
         {/* Navigation  */}
-        &nbsp; ☰<i>Sitemap</i>☰ 
+        <button className={`button ${show ? "button_sitemapon" : "button_sitemapoff"}`}  onClick={() => {setShow(! show)}}>{show ? '☰sitemap' : '📦'}</button>
+        
+        {/* &nbsp; ☰<i>Sitemap</i>☰  */}
+        {/* <br></br> */}
         <br></br>
-        <br></br>
+        {show && 
         <nav>
            <NavLink id="sidebar_home" exact activeClassName='is-active' to="/">▸HOME</NavLink>  
            {/* <center>
@@ -57,6 +62,7 @@ export default function Sidebar_Project(){
                 <SidebarProject/>
             {/* <small><NavLink id="sidebar_exp" exact activeClassName='is-active' to="/experience">▸EXPERIENCE</NavLink></small>  */}
         </nav> 
+        }
     </div>     
     )
 }
