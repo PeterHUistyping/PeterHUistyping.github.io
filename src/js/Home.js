@@ -97,7 +97,7 @@ function Interest_extra(){
   <br/>
 
   <HashLink to="/PhotoDisplay">Photography</HashLink>, Music, Swimming, Gym,    etc.  <br />  
-  Society: Ethics in Mathematics<br />
+  Society: <a href="https://www.ethics-in-mathematics.com/">Ethics in Mathematics</a><br />
   <i>Economics Related Topics: </i> Macro & Micro, Money Banking<br />
     </>
   )
