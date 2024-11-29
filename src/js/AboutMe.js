@@ -23,18 +23,21 @@ export function AboutMe(){
     <large>  <i onClick={() => {popup()}}>About Me 👇</i></large> 
     </center>
     <div class="aboutMeContainer">
-        Strong background and interest in Visual Computing (Graphics, Vision) with ML / System related fields.  <br/>
+    
+        Strong background and interest in <font color="green">Visual Computing (Graphics, Vision)</font> with <font color="#3824BD">ML</font> / <font color='#8D6F64'>System</font>.  <br/>
         
         &emsp; &nbsp;&nbsp;
         <b>Conducted long-term collaborative research in academic and industry lab</b> on  <br/>
-        - Visual Computing (Graphics, Vision, Image Processing) + AI/ML; <br/>
+        - <font color="green">Visual Computing (Graphics, Vision, Image Processing)</font> + <font color="#3824BD">AI/ML</font>, <br/>
 
+        &emsp; &nbsp;&nbsp;
+        covering ray tracing, materials, synthesis, BRDF, hair modeling, geometry representations, etc. The tasks taken include synthesis, reconstruction, etc. In the past few years, I have developed or maintained several renderers in multiple languages (C++, Python, GLSL). I also present multiple knowledge sharing sessions about my research topics both internally during internship and in university. <br/> 
         <center>
         {/* 1568 1340 = 1.17 */}
         <img height="200vw" src="/asset/photo/Logo/Relationship_CV.png" alt="CV" />
         </center>
 
-        - System-related (Scheduling, CPU), <br/>
+        - <font color='#8D6F64'>System</font>-related (Scheduling, CPU), <br/>
 
         &emsp; &nbsp;&nbsp;
         ranging from high-level architecture design to low-level algorithm implementation. 

@@ -26,19 +26,19 @@ export function Blogref(){
               
 
             <center>
-
-                <strong>Visual Computing:</strong> <a href="https://peterhuistyping.github.io/Visual_Computing"> 🌐 </a>  | 
+                
+                <strong><font color="green">Visual Computing</font>:</strong> <a href="https://peterhuistyping.github.io/Visual_Computing"> 🌐 </a>  | 
                 <a href="https://github.com/PeterHUistyping/Visual_Computing"> 👨‍💻 </a>
 
                 &ensp;&ensp;&ensp;   &ensp;&ensp;&ensp;
                 
-                <strong>Machine Learning:</strong> <a href="https://peterhuistyping.github.io/Machine_Learning_Guidance"> 🌐 </a>  |  
+                <strong><font color="#3824BD">Machine Learning</font>:</strong> <a href="https://peterhuistyping.github.io/Machine_Learning_Guidance"> 🌐 </a>  |  
                 <a href="https://github.com/PeterHUistyping/Machine_Learning_Guidance"> 👨‍💻 </a>     
 
                 &ensp;&ensp;&ensp;  &ensp;&ensp;&ensp;
                 
                 
-                <strong>Computer System:</strong> <a href="https://peterhuistyping.github.io/Computer_System_Guidance"> 🌐 </a>   |   
+                <strong><font color="#8D6F64">Computer System</font>:</strong> <a href="https://peterhuistyping.github.io/Computer_System_Guidance"> 🌐 </a>   |   
                 <a href="https://github.com/PeterHUistyping/Computer_System_Guidance"> 👨‍💻 </a>    
             </center>
                 <br/>

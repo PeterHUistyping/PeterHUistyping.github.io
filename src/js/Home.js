@@ -77,7 +77,7 @@ function About_me(){
     <center>
     <large> <large><i>About Me 👇</i></large></large> <br/>
     
-    Strong background and interest in Visual Computing (Graphics, Vision) with ML / System related fields.  <br/>
+    Strong background and interest in <font color="green">Visual Computing (Graphics, Vision)</font> with <font color="#3824BD">ML</font> / <font color='#8D6F64'>System</font> related fields.  <br/>
     Various research experience, collaborative compression competition and wide theoretical knowledge.  <br/>
    
       {/* <HashLink to="/aboutme">MORE ...</HashLink>  */}
