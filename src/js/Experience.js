@@ -73,7 +73,7 @@ export function ExperienceContents(props){
   return (
     <div class="content">
         <>   
-      <i>May, 2023 - Jan, 2024</i> | <img width="34" height="20" src="./asset/photo/Logo/Hisilicon.png" alt="Hisilicon"/>  <a href="https://www.hisilicon.com/en/products/Kirin">Kirin chipset group</a>, <img width="20" height="20" src="./asset/photo/Logo/Huawei.png" alt="Huawei"/>   Huawei Research Lab, <a href="https://www.cambridgesciencepark.co.uk/company-directory/hauwei-uk-rd-centre/">Cambridge Science Park, UK</a>.<br />
+      <i>May, 2023 - Jan, 2024</i> | <img width="34" height="20" src="./asset/photo/Logo/Hisilicon.png" alt="Hisilicon"/>  <a href="https://www.hisilicon.com/en/products/Kirin">Kirin chipset group</a>, <img width="20" height="20" src="./asset/photo/Logo/Huawei.png" alt="Huawei"/>   <a href="https://www.cambridgesciencepark.co.uk/company-directory/hauwei-uk-rd-centre/">Huawei Research center, Cambridge Science Park</a>, UK.<br />
       <br/>
 
       We explore various architectural and algorithmic innovations towards the next-generation mobile or cloud based processors (CPU, GPU, NPU). During these period of time, I am also exposed to other research summits or events hosted, including talks and connections with other academic professors and industry experts. The topics discussed range from the above to more, such as simulation, LLM, compiler and federated learning, which I enjoy the most.

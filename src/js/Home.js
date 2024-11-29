@@ -45,7 +45,8 @@ function Education(){
     <a href="https://en.wikipedia.org/wiki/Shanghai_Nanyang_Model_High_School">
     <img width="28" height="24" src="./asset/photo/Logo/NanyangHigh.png" alt="Nanyang"/>
     </a>
-    <b>Nanyang Model High School </b> <br />
+    <b>Nanyang Model High School </b> &nbsp;
+    {/* <br /> */}
         <i> 2018.09 - 2021.06</i><br />
         {/* High School Diploma<br /> */}
         Physics Rep, research project leader, 
