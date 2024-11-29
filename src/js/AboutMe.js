@@ -31,7 +31,7 @@ export function AboutMe(){
         - <font color="green">Visual Computing (Graphics, Vision, Image Processing)</font> + <font color="#3824BD">AI/ML</font>, <br/>
 
         &emsp; &nbsp;&nbsp;
-        covering ray tracing, materials, synthesis, BRDF, hair modeling, geometry representations, etc. The tasks taken include rendering, synthesis, reconstruction, classification, etc. In the past few years, I have developed or maintained several renderers in multiple languages (C++, Python, GLSL). I also present multiple knowledge sharing sessions about my research topics both internally during internship and in university. <br/> 
+        covering ray tracing, appearance modeling (materials, BRDF), hair modeling, geometry representations, etc. The tasks taken include rendering, synthesis, reconstruction, classification, etc. In the past few years, I have developed or maintained several renderers in multiple languages (C++, Python, GLSL). I also present multiple knowledge sharing sessions about my research topics both internally during internship and in university. <br/> 
         <center>
         {/* 1568 1340 = 1.17 */}
         <img height="200vw" src="/asset/photo/Logo/Relationship_CV.png" alt="CV" />
