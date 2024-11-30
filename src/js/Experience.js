@@ -93,10 +93,10 @@ export function ExperienceContents(props){
       <a href="https://www.intel.com/content/www/us/en/developer/topic-technology/graphics-research/samples.html">Sponza scene</a> from adapted <a href="https://github.com/knightcrawler25/GLSL-PathTracer">GLSL path renderer</a>, forming <a href="https://en.wikipedia.org/wiki/Deferred_shading">GBuffer</a> for further explorations. 
       </center>
 
+      <br />  
+      Aside from that, I also join the CPU team on heterogeneous scheduling, DVFS and dynamic resource management, supervised by PhD graduate in Electrical Engineering and other engineers. I initialize the codebase for the scheduler simulator in Python, from which the team develop the prototype for the next-gen scheduling policies based on the literature review I collected. In general, the difficulty lies in the multi-objective optimization and tradeoff between performance, power consumption, thermal conditions, priorities, fairness and other factors.
       <br />  <br />
-      Aside from that, I also join the CPU team on heterogeneous scheduling, DVFS and dynamic resource management, supervised by Phd graduate in Electrical Engineering and other engineers. I initialize the codebase for the scheduler simulator in Python, from which the team develop the prototype for the next-gen scheduling policies based on the literature review I collected. In general, the difficulty lies in the multi-objective optimization and tradeoff between performance, power consumption, thermal conditions, priorities, fairness and other factors.
-      <br />  <br />
-  
+
       <i>For details, please click the 'Show Details' button.</i><br />
       <br /> 
 
