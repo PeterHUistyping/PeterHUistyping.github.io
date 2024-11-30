@@ -80,6 +80,19 @@ export function ExperienceContents(props){
       
       <br/>  <br />
       In particular, I focus on Ray Tracing acceleration via classical graphics and machine learning techniques, under supervision of senior engineers and Mathematics graduates. During which, I maintain and develop a open-source research <a href="https://github.com/knightcrawler25/GLSL-PathTracer">GLSL path renderer</a> in C and GLSL. With the renderer setup, I redesign the underlying BVH algorithms, keeping balance between preprocessing time and real-time intersection complexity. One of our proposed methods are deployed in the product and thus received research-center-wise award.  Besides, we also explore various possibilities of combining AI / machine learning with graphics task, including Ambient Occlusion or Global illumination, which I help integrate the renderer and Pytorch training pipeline, as part of the research explorations.
+      <br />
+      <br />
+      <center>
+      <img width="120vw" src="asset/photo/experience/RT/AO_64spp.png" alt="AO-64spp" title="AO-64spp" />
+      <img width="120vw" src="asset/photo/experience/RT/baryMap.png" alt="baryCenter" title="baryCenter"/>
+      <img width="120vw" src="asset/photo/experience/RT/colorMap.png" alt="color" title="color"/>
+      <img width="120vw" src="asset/photo/experience/RT/depthMap.png" alt="depth" title="depth"/>
+      <img width="120vw" src="asset/photo/experience/RT/normalMap.png" alt="normal" title="normal"/>
+      <img width="120vw" src="asset/photo/experience/RT/posMap.png" alt="position" title="position"/>
+      <br />
+      <a href="https://www.intel.com/content/www/us/en/developer/topic-technology/graphics-research/samples.html">Sponza scene</a> from adapted <a href="https://github.com/knightcrawler25/GLSL-PathTracer">GLSL path renderer</a>, forming <a href="https://en.wikipedia.org/wiki/Deferred_shading">GBuffer</a> for further explorations. 
+      </center>
+
       <br />  <br />
       Aside from that, I also join the CPU team on heterogeneous scheduling, DVFS and dynamic resource management, supervised by Phd graduate in Electrical Engineering and other engineers. I initialize the codebase for the scheduler simulator in Python, from which the team develop the prototype for the next-gen scheduling policies based on the literature review I collected. In general, the difficulty lies in the multi-objective optimization and tradeoff between performance, power consumption, thermal conditions, priorities, fairness and other factors.
       <br />  <br />
@@ -104,6 +117,10 @@ export function ExperienceContents(props){
       
       <TalkRayTracing showall={props.showall} />
       <br /> 
+
+      <br />
+      <br />
+
 
       Research Intern (<b>CPU Architect</b>)  &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <i>2023.6 - 2023.10</i>
       <br /> 
