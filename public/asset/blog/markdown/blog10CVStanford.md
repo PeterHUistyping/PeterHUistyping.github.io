@@ -52,15 +52,15 @@ Training labels shape:  (50000,)
 
 Q1 [k-Nearest Neighbor classifier](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment1/knn.ipynb)
 
-
-
 - **Training**: take the training data (num_train, D) and simply remembers it.
 - **Testing**:  classify every test image by comparing to all training images and transferring the labels of the k most similar training examples.
 
   - compute the distance matrix between each test point in X and each training point  shape = **$N_{te} \times N_{tr}$**
     ![DistanceMatrix](asset/photo/Assignment/10/DistanceMatrix.png)
-  - L1, L2 distances, np.linalg.norm() 
-      -   $$||X|| = \sqrt{|\sum_{i,j} x_{i,j}^2|}$$
+  - L1, L2 distances, np.linalg.norm()
+    - $$
+      ||X|| = \sqrt{|\sum_{i,j} x_{i,j}^2|}
+      $$
   - Prediction
 
   ```Python
@@ -189,7 +189,7 @@ See more at Lecture 4 and related reading.
 
 Q4 [Two-Layer Neural Network](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment1/two_layer_net.ipynb)
 
-The architecture is 
+The architecture is
 
 affine - relu - affine - softmax.
 
@@ -365,3 +365,67 @@ nn.init.kaiming_normal_(self.fc.weight)
     $$
 
 Q6: [Network Visualization: Saliency Maps, Class Visualization, and Fooling Images](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment2/Network_Visualization.ipynb)
+
+**Saliency Maps.** tell which part of the image influenced the classification decision made by the network.
+
+![Saliency Maps](asset/photo/Assignment/10/saliency_map.png)
+
+**Fooling Images.** perturb an input image so that it appears the same to humans but will be misclassified by the pre-trained network.
+
+![fooling image](asset/photo/Assignment/10/fooling_image.png)
+
+**Class Visualization.** synthesize an image to maximize the classification score of a particular class; this can give us some sense of what the network is looking for when it classifies images of that class.
+
+![Class Visualization](asset/photo/Assignment/10/class_visualization.png)
+
+```python
+s.gather(1, y.view(-1, 1)).squeeze() # Numpy of s[np.arange(N), y] in PyTorch
+```
+
+## Assignment 3: Image Captioning, GAN, Transformer, LSTM
+
+Q1: [Image Captioning with Vanilla RNNs](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment3/RNN_Captioning.ipynb)
+
+*Dataset*: 2014 [COCO dataset](https://cocodataset.org/), a standard testbed for image captioning.
+
+**Image Captioning**, define hidden state as $h$.
+
+> Image feature                             --- *affine_forward* $\rightarrow$ initial $h_0$ state
+>
+> Captions $x\in (N×T×Z^+)$ --- *word_embedding* $\rightarrow$ $x \in (N×T×R^D)$
+
+For $N$ batches, the input sequences are encoded from $\mathbb{R}^{T \times Z^+}$ to $\mathbb{R}^{T \times D}$, where each sequence is composed of $T$ vectors, each of dimension $D$.
+
+**RNN**, for each step $t \in T$, do $h_t = f_W(h_{t-1}+x_t)$, specifically,
+
+$$
+h_t = tanh( x \cdot W_x + h_{t-1} \cdot W_h + b )
+$$
+
+> $h_n$ --- *temporal_affine_forward* $\rightarrow$ Score in the $Vocabulary$ $\rightarrow$ Predicted Word $y_{pred}$
+
+$$
+loss  = \text{temporal-softmax-loss}  (y_{pred}, y_{GT})
+$$
+
+Q2: [Image Captioning with Transformers](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment3/Transformer_Captioning.ipynb)
+
+**Multi-head attention** $Y \in \mathbb{R}^{N\times S \times E}= [Y_1;\dots;Y_h] A$ 
+
+For $N$ batches, $S$ is the source sequence length, $T$ is the target sequence length, and $E$ is the embedding dimension. With input data $X_Q\in \mathbb{R}^{N\times S \times E}$, $X_K\in \mathbb{R}^{N\times T \times E}$, $X_V\in \mathbb{R}^{N\times T \times E}$, and weight matrices $A, Q, K, V$,
+
+$$
+\begin{equation} 
+Y_i = \text{softmax}\bigg(\frac{(XQ_i)(XK_i)^\top}{\sqrt{d/h}}\bigg)(XV_i)
+\end{equation}
+$$
+
+**Positional encoding** $X+f_p(cos,sin)$
+
+Q3: [Generative Adversarial Networks](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment3/Generative_Adversarial_Networks.ipynb)
+
+*Dataset*: [MNIST dataset](https://pytorch.org/vision/main/generated/torchvision.datasets.MNIST.html) (Modified National Institute of Standards and Technology), a large database of handwritten digits that is commonly used for training various image processing systems
+
+Q4: [Self-Supervised Learning for Image Classification](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment3/Self_Supervised_Learning.ipynb)
+
+Extra Credit: [Image Captioning with LSTMs](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment3/LSTM_Captioning.ipynb)
