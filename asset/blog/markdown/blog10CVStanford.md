@@ -1,4 +1,4 @@
-## Stanford CS231n Computer Vision (2022)
+# Stanford CS231n Computer Vision (2022)
 
 [GitHub](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision)
 
