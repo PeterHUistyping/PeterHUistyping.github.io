@@ -410,7 +410,7 @@ $$
 
 Q2: [Image Captioning with Transformers](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment3/Transformer_Captioning.ipynb)
 
-**Multi-head attention** $Y \in \mathbb{R}^{N\times S \times E}= [Y_1;\dots;Y_h] A$ 
+**Multi-head attention** $Y \in \mathbb{R}^{N\times S \times E}= [Y_1;\dots;Y_h] A$
 
 For $N$ batches, $S$ is the source sequence length, $T$ is the target sequence length, and $E$ is the embedding dimension. With input data $X_Q\in \mathbb{R}^{N\times S \times E}$, $X_K\in \mathbb{R}^{N\times T \times E}$, $X_V\in \mathbb{R}^{N\times T \times E}$, and weight matrices $A, Q, K, V$,
 
@@ -426,6 +426,14 @@ Q3: [Generative Adversarial Networks](https://github.com/PeterHUistyping/Stanfor
 
 *Dataset*: [MNIST dataset](https://pytorch.org/vision/main/generated/torchvision.datasets.MNIST.html) (Modified National Institute of Standards and Technology), a large database of handwritten digits that is commonly used for training various image processing systems
 
+It's a back and forth process of the generator ($G$) trying to fool the discriminator ($D$) and the discriminator trying to correctly classify real vs. fake as a minimax game:
+
+$$
+\underset{G}{\text{minimize}}\; \underset{D}{\text{maximize}}\; \mathbb{E}_{x \sim p_\text{data}}\left[\log D(x)\right] + \mathbb{E}_{z \sim p(z)}\left[\log \left(1-D(G(z))\right)\right]
+$$
+
+, where $z \sim p(z)$ are the random noise samples, $G(z)$ are the generated images using the neural network generator $G$, and $D$ is the output of the discriminator, specifying the probability of an input being real.
+
 Q4: [Self-Supervised Learning for Image Classification](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment3/Self_Supervised_Learning.ipynb)
 
 Q5: Extra Credit [Image Captioning with LSTMs](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment3/LSTM_Captioning.ipynb)
@@ -438,9 +446,9 @@ $$
 a \in \mathbb{R}^{4H} = W_x \cdot x_t + W_h \cdot h_{t-1}+b
 $$
 
-, where learnable parameters of the LSTM are an *input-to-hidden* matrix $W_x\in\mathbb{R}^{4H\times D}$, a *hidden-to-hidden* matrix $W_h\in\mathbb{R}^{4H\times H}$ and a *bias vector* $b\in\mathbb{R}^{4H}$. 
+, where learnable parameters of the LSTM are an *input-to-hidden* matrix $W_x\in\mathbb{R}^{4H\times D}$, a *hidden-to-hidden* matrix $W_h\in\mathbb{R}^{4H\times H}$ and a *bias vector* $b\in\mathbb{R}^{4H}$.
 
-We then divide this into four vectors $a_i,a_f,a_o,a_g\in\mathbb{R}^H$ where $a_i$ consists of the first $H$ elements of $a$, $a_f$ is the next $H$ elements of $a$, etc. 
+We then divide this into four vectors $a_i,a_f,a_o,a_g\in\mathbb{R}^H$ where $a_i$ consists of the first $H$ elements of $a$, $a_f$ is the next $H$ elements of $a$, etc.
 
 The *input gate* $g\in\mathbb{R}^H$, *forget gate* $f\in\mathbb{R}^H$, *output gate* $o\in\mathbb{R}^H$ and *block input* $g\in\mathbb{R}^H$ as
 
