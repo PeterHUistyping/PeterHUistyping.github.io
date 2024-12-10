@@ -434,7 +434,15 @@ $$
 
 , where $z \sim p(z)$ are the random noise samples, $G(z)$ are the generated images using the neural network generator $G$, and $D$ is the output of the discriminator, specifying the probability of an input being real.
 
+Extension: Least squares GAN (LSGAN), Deeply Convolution GAN.
+
 Q4: [Self-Supervised Learning for Image Classification](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment3/Self_Supervised_Learning.ipynb)
+
+
+Self-supervised learning (SSL) allows models to automatically learn a "good" representation space using the data in a given dataset without the need for their labels.
+
+Contrastive learning aims to learn similar representations for similar images and different representations for different images.
+
 
 Q5: Extra Credit [Image Captioning with LSTMs](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/blob/master/MyProject22/assignment3/LSTM_Captioning.ipynb)
 
