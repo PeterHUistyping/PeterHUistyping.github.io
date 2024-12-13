@@ -269,7 +269,7 @@ function Profile1(){
   return(
       <td width="280" rowspan="1" height="200">
           <div> 
-                  <img class="img_profile" src="./asset/photo/Peter_Hu.jpg" alt="Profile Photo"/>
+                  <a href="https://peterhuistyping.github.io/"><img class="img_profile" src="./asset/photo/Peter_Hu.jpg" alt="Profile Photo"/></a>
           </div>
       </td>
   )
