@@ -27,11 +27,11 @@ function Education(){
     <a href="https://www.cam.ac.uk/">
     <img width="27" height="24" src="./asset/photo/Logo/Cam.png" alt="Cambridge" /> 
     </a>
-    <b> University of Cambridge </b><i> <br />
-        Undergraduate<br />
-        2022.10 - 2025.06</i><br />
-        Computer Science | <a href="https://peterhuistyping.github.io/Cambridge_CS_Tripos/">Notes</a><br />
-        [Fully-funded] <a href="https://en.wikipedia.org/wiki/Jardine_Scholarship">Jardine</a> <a href="./asset/doc/Jardine_Certificate.jpg">Scholarship</a>. <br />
+    <b> University of Cambridge </b> <br />
+     <i> Undergraduate<br />
+     2022.10 - 2025.06</i><br />
+    <a href="https://www.cst.cam.ac.uk/">Computer Science</a> | <a href="https://peterhuistyping.github.io/Cambridge_CS_Tripos/">notes</a><br />
+    [Fully-funded] <a href="https://en.wikipedia.org/wiki/Jardine_Scholarship">Jardine</a> <a href="./asset/doc/Jardine_Certificate.jpg">Scholarship</a>. <br />
     <a href="https://en.xmu.edu.cn/main.htm">
     <img width="24" height="24" src="./asset/photo/Logo/xmu.png" alt="XMU"/>
     </a>
@@ -107,7 +107,7 @@ function Skill(){
   return (
     <>
       <br/> <center><large><i  id="skills">SKILLS</i></large>  <br/>
-      <i>Please refer to <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="/asset/photo/Logo/cv.png" alt="cv"/></a>.</i></center> 
+      <i>Please refer to <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="/asset/photo/Logo/cv-blue.png" alt="cv"/></a>.</i></center> 
   </>
   )
 }
@@ -279,31 +279,41 @@ function Profile2(){
   return(
       <td width="280" text-align="center">
   <h1 id="contact"><i>Peter</i> HU </h1>
-   
-  <p> University of Cambridge <br/>Computer Science <br/>Part II</p> <br/>
-  <strong>Contact Details</strong><br/>
+  {/* <p> University of Cambridge <br/>Computer Science <br/></p>   */}
 
+  <div style={{border: "1px dashed  #987cb988", padding: "4px", borderRadius: "15px"}}>
+
+  <a href="https://github.com/PeterHUistyping"> <img width= "18vw" src="/asset/photo/Logo/github.svg" alt="github"/></a> 
+  
+  &thinsp;&thinsp;
+  {/* &thinsp; |  &thinsp; */}
+
+  {/* <a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "16vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a> | */}
+
+  <a href="https://scholar.google.com/citations?user=M3jgt3QAAAAJ"><img width= "18vw" src="/asset/photo/Logo/goggle_scholar.png" alt="google_scholar"/></a> 
+  
+  &thinsp; 
+  {/* &thinsp; |  &thinsp; */}
+  
+  <a href="https://www.kaggle.com/peterhu2022"><img width= "18vw" src="/asset/photo/Logo/kaggle.svg" alt="kaggle"/></a> 
+  
+  &thinsp; 
+  {/* &thinsp; |  &thinsp; */}
+ 
+  <a href="./asset/doc/CV_PeterHU.pdf"><img width= "20vw" src="/asset/photo/Logo/cv-blue.png" alt="cv"/></a> 
+  <br/>
+  {/* <strong>Contact Details</strong><br/> */}
   <img width= "12vw" src="/asset/photo/Logo/e-mail.png" alt="email"/>
-  <a href="mailto:zh369@cam.ac.uk" >Email</a>   &nbsp; 
-      {/* zh369@cam.ac.uk  */}
+  <a href="mailto:zh369@cam.ac.uk" >Eml.</a>   &nbsp; 
+  
+  {/* zh369@cam.ac.uk  */}
   <img width= "12vw" src="/asset/photo/Logo/phone.png" alt="phone"/> 
-  <a href="tel:4407990719841">Tel</a>
+  <a href="tel:4407990719841">Tel.</a>
   {/* (+44) 07990 719841 */}
   {/* |  More  */}
 
-  <br/>
+  </div>
 
-  <a href="https://github.com/PeterHUistyping"> <img width= "18vw" src="/asset/photo/Logo/github.svg" alt="github"/></a> | 
-  
-   {/* <a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "16vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a> | */}
-
-   <a href="https://www.kaggle.com/peterhu2022"> <img width= "16vw" src="/asset/photo/Logo/kaggle.svg" alt="linkedin"/></a> |
-  
-   <a href="./asset/doc/CV_PeterHU.pdf"><img width= "16vw" src="/asset/photo/Logo/cv.png" alt="cv"/>CV</a> 
-
-  <br/>
-
-       
 </td>
     
   )

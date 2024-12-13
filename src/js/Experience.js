@@ -162,7 +162,7 @@ export function ExperienceContents(props){
       </>
     }<br />  
       */}   
-        <i>Please refer to EXPERIENCE section in <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="./asset/photo/Logo/cv.png" alt="cv"/></a>.</i><br />
+        <i>Please refer to EXPERIENCE section in <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="./asset/photo/Logo/cv-blue.png" alt="cv"/></a>.</i><br />
       
         <br />  <br />  <br />  <br />  
         </>
