@@ -11,6 +11,9 @@ Main idea: Using table to sort things up, achieving better display on mobile dev
 
 **More update coming soon...**
 
+15 Dec 2024
+Update homepage Contact section with a compact layout.
+
 20 Nov 2024
 Update homepage layout and publication and academic research section.
 Merge Publication and Experience sections into the Research section.
