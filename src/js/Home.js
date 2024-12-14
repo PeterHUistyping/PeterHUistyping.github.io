@@ -76,7 +76,7 @@ function About_me(){
     <>
     <center>
     <large> <large><i>About Me 👇</i></large></large> <br/>
-    
+    Hi! Thanks for dropping by~ I'm (<HashLink to="/aboutme">bio.</HashLink>) an undergraduate at <a href="https://www.cst.cam.ac.uk/">University of Cambridge</a>.  <br/>
     Strong background and interest in <font color="green">Visual Computing (Graphics, Vision)</font> with <font color="#3824BD">ML</font> / <font color='#8D6F64'>System</font> related fields.  <br/>
     Various research experience, collaborative compression competition and wide theoretical knowledge.  <br/>
    
