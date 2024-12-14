@@ -4,7 +4,7 @@
 import { NavLink } from "react-router-dom"; 
 import { HashLink } from 'react-router-hash-link';
 import React from "react";
-import { useState, useRef} from "react";
+import { useState, useEffect} from "react";
 
 
 function SidebarProject(){
@@ -22,6 +22,7 @@ function SidebarProject(){
         </>
     )
 }
+
 
 function SidebarResearch(){
     // check if the current page is research
@@ -42,10 +43,27 @@ function SidebarResearch(){
 
 export default function Sidebar_Project(){
     const [show, setShow] = useState(true);
+
+    // Set initial state based on window width
+    useEffect(() => {
+    const handleResize = () => {
+      const w = window.innerWidth;
+      if (w < 800) {
+        setShow(false); // Collapse sidebar on smaller screens
+      } else {
+        setShow(true); // Expand sidebar on larger screens
+      }
+    };
+    // Call handleResize to set initial state
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     return (
     <div id="nav" class="sidebar_main">
         {/* Navigation  */}
-        <button className={`button ${show ? "button_sitemapon" : "button_sitemapoff"}`}  onClick={() => {setShow(! show)}}>{show ? '☰sitemap' : '📦'}</button>
+        <button className={`button ${show ? "button_sitemapon" : "button_sitemapoff"}`}  onClick={() => {setShow(! show)}}>{show ? '☰sitemap' : <span style={{ fontSize: '10px' }}>▸map</span>}</button>
         
         {/* &nbsp; ☰<i>Sitemap</i>☰  */}
         {/* <br></br> */}
