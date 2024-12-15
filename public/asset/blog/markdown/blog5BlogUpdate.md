@@ -12,7 +12,8 @@ Main idea: Using table to sort things up, achieving better display on mobile dev
 **More update coming soon...**
 
 15 Dec 2024
-Update homepage Contact section with a compact layout.
+Update homepage Contact section with a compact layout. 
+Collapse mobile sidebar by default.
 
 20 Nov 2024
 Update homepage layout and publication and academic research section.
@@ -21,11 +22,9 @@ Merge Publication and Experience sections into the Research section.
 ![Home_Nov2024](asset/photo/Assignment/5/Home_Nov2024.png "Home Page v2 Nov 24")
 
 15 Mar 2024
-Update navigation bar active based on position. [Home_Mar2024](asset/photo/Assignment/5/Home_Mar2024.png "Home Page v2 Mar 24")  
+Update navigation bar active based on position. [Home_Mar2024](asset/photo/Assignment/5/Home_Mar2024.png "Home Page v2 Mar 24")
 Update new theme for sitemap (sidebar) and Logos (compatible for dark theme).
 Add a separate Contact Page, highlighting main profile and contact details.
-
-
 
 1 Jan 2024
 Continuation of ©
@@ -121,8 +120,4 @@ Updated new feature: ⬇ _Sort Data on Header Click_
       Using JavaScript to support table display and sorting
 (2023.2.16 Table sorting is no longer supported in react version. )
 
-
-
 \--- Blog1.0 Design --- [html](/asset/blog/blog_directory.html) | [png](asset/photo/Assignment/5/blog.png "Blog1.0")
-
-
