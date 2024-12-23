@@ -1,4 +1,4 @@
-/* All rights reserved. 2022-2024 (c) Peter HU */
+/* All rights reserved. 2022-2025 (c) Peter HU */
 
 export default function resource(props){
     var len=props.resource.length;

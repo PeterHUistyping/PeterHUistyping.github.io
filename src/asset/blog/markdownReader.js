@@ -1,4 +1,4 @@
-/* All rights reserved. 2022-2024 (c) Peter HU */
+/* All rights reserved. 2022-2025 (c) Peter HU */
 
 import ScrollToTop from "../../js/helper/ScrollToTop";
 import Blog_Footer from "../../js/helper/blog_footer";
