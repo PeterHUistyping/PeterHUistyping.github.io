@@ -20,9 +20,17 @@ export function PhotoDisplay(){
     <h2>Moments</h2>
     <i>The best and most beautiful things in the world cannot be seen or even touched.<br/>
          They must be felt with the heart. - Helen Keller</i> <br/><br/>
+
+    24 Dec <br></br>
+    <img height="275" src="/asset/photo/Display/2024/241224-1.png" alt="241224-1" />
+    <img height="275" src="/asset/photo/Display/2024/241224-2.png" alt="241224-2"/>
+    <img height="275" src="/asset/photo/Display/2024/241224-3.png" alt="241224-3" />
+
+    <br/><br/>
+
     Nov during Supo | Sep New Dorm<br/>
-    <img height="300" src="/asset/photo/Display/2023/231106.png" alt="231106" />
-    <img height="300" src="/asset/photo/Display/2023/230925.png" alt="230925" />
+    <img height="280" src="/asset/photo/Display/2023/231106.png" alt="231106" />
+    <img height="280" src="/asset/photo/Display/2023/230925.png" alt="230925" />
 
     <br/><br/>
 
