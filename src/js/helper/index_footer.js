@@ -6,7 +6,8 @@ export default function Index_Footer(){
     return(
     <>
     <br/>
-    <hr width="50%" color="#987cb9" SIZE="1" /> 
+    <hr width="50%" color="#C0C0C0" SIZE="1" />  
+    {/* #987cb9 */}
     <table class="table_footer">
     <tbody>
         <td >

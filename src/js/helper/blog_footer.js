@@ -12,18 +12,19 @@ export default function Blog_Footer(){
             <li><a href="/#/Blog_Sorting">🔙 Blog 📝</a></li>
         </ul>
     </div>
-    <hr width="50%" color="#987cb9" SIZE="1" />
+    <hr width="50%" color="#C0C0C0" SIZE="1" />  
+    {/* #987cb9 */}
         
         <table class="table_footer">
             <tbody>
                 <td>
-                    Blogs<i>3.0</i> - Artistic, Better, Convenient Platform  &nbsp;
-                    <button class="button button_blogs" onClick={() => {popup()}}> Details </button>
+                    <div className="footerDisclaimer">
+                    <button class="button button_blogs" onClick={() => {popup()}}>Blogs<i>3.0</i></button> - Artistic, Better, Convenient Platform
                     &nbsp;
                     <a href="/#/blog5"> 
-                     <button class="button button_blogs">Update Log</button>  
+                     <button class="button button_blogs">update logs</button>  
                      </a> 
-                     <br/>
+                    </div>
                     {/* Originally written in Markdown(.md) <br/>Convert Markdown to HTML via <a
                         href="https://showdownjs.com/">Showdown</a><br/> */}
                    <FooterCommon />
@@ -35,11 +36,13 @@ export default function Blog_Footer(){
 }
 
 function popup() {
-    alert("Warm Welcome!\n\
-    \n---Version: Blogs3.0 Platform---\n---Music: Town of Windmill---\n \n ----------More Info----------\n \
+    alert("Warm Welcome to my blogs!\n\
+    \n- Version: Blogs3.0\n- Music: Town of Windmill\n \n ----------More Info----------\n \
     Originally written in Markdown(.md) \n \
     Convert to HTML via React-Markdown. \n \
-    Please press the below button to Exit. Thank you! ⬇️")
+    Please press the ⬇️below button to Exit. \n \
+    \n \
+    Thank you! ")
 
     // Showdown https://showdownjs.com/ \n  \n \
     

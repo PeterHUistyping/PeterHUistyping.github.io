@@ -8,11 +8,10 @@ export default function FooterCommon(){
         {dateStyle: 'full',timeStyle: 'long',timeZone: 'Europe/London'}
     ).format(myDate).replace(/\./g, '-');
     return (
-        <>
-        © Copyright 2022-2025 PeterHU. Hosted by <a href="https://pages.github.com/">GitHub Pages</a> and <a href="https://reactjs.org">React App</a>.<br/>
-            Last updated: 
-            {myNewDate.toString()}
-        </>
+        <div className="footerDisclaimer">
+        © Copyright 2022-2025 Peter HU. Hosted by <a href="https://pages.github.com/" >GitHub Pages</a> and <a href="https://reactjs.org">React App</a>.<br/>
+            Last updated:   {myNewDate.toString()}
+        </div>
     )
 }
  

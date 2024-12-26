@@ -456,3 +456,12 @@ iframe{
   width: 80%;
   height: 90%;
 }
+
+
+.footerDisclaimer{
+  color:grey;
+}
+
+.footerDisclaimer a {
+  color: #C0C0C0;
+}
