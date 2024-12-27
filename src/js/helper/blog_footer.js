@@ -22,7 +22,7 @@ export default function Blog_Footer(){
                     <button class="button button_blogs" onClick={() => {popup()}}>Blogs<i>3.0</i></button> - Artistic, Better, Convenient Platform
                     &nbsp;
                     <a href="/#/blog5"> 
-                     <button class="button button_blogs">update logs</button>  
+                     <button class="button button_blogs">updatelog</button>  
                      </a> 
                     </div>
                     {/* Originally written in Markdown(.md) <br/>Convert Markdown to HTML via <a
