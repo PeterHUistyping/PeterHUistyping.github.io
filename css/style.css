@@ -1,4 +1,4 @@
- /* All rights reserved. 2022-2024 (c) Peter HU */
+ /* All rights reserved. 2022-2025 (c) Peter HU */
 .top {
   height: auto;
   width: 100vw;
@@ -455,4 +455,13 @@ h3 {
 iframe{
   width: 80%;
   height: 90%;
+}
+
+
+.footerDisclaimer{
+  color:grey;
+}
+
+.footerDisclaimer a {
+  color: #C0C0C0;
 }

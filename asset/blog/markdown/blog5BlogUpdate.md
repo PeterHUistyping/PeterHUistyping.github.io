@@ -11,6 +11,8 @@ Main idea: Using table to sort things up, achieving better display on mobile dev
 
 **More update coming soon...**
 
+1 Jan 2025 Continuation of ©
+
 15 Dec 2024
 Update homepage Contact section with a compact layout. 
 Collapse mobile sidebar by default.
@@ -27,7 +29,7 @@ Update new theme for sitemap (sidebar) and Logos (compatible for dark theme).
 Add a separate Contact Page, highlighting main profile and contact details.
 
 1 Jan 2024
-Continuation of ©
+Continuation of ©.
 [Home_Dec2023](asset/photo/Assignment/5/Home_Dec2023.png "Home Page v2 Dec 23")
 
 12 Nov 2023
