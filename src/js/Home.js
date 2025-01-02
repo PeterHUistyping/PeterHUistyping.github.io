@@ -291,6 +291,11 @@ function Profile2(){
 
   {/* <a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "16vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a> | */}
 
+  <a href="https://orcid.org/0009-0004-4687-6945"><img width= "18vw" src="/asset/photo/Logo/ORCiD.png" alt="ORCiD"/></a> 
+  
+  &thinsp; 
+  {/* &thinsp; |  &thinsp; */}
+
   <a href="https://scholar.google.com/citations?user=M3jgt3QAAAAJ"><img width= "18vw" src="/asset/photo/Logo/goggle_scholar.png" alt="google_scholar"/></a> 
   
   &thinsp; 
@@ -298,18 +303,20 @@ function Profile2(){
   
   <a href="https://www.kaggle.com/peterhu2022"><img width= "18vw" src="/asset/photo/Logo/kaggle.svg" alt="kaggle"/></a> 
   
-  &thinsp; 
+  {/* &thinsp;  */}
   {/* &thinsp; |  &thinsp; */}
  
-  <a href="./asset/doc/CV_PeterHU.pdf"><img width= "20vw" src="/asset/photo/Logo/cv-blue.png" alt="cv"/></a> 
   <br/>
+
+  <a href="./asset/doc/CV_PeterHU.pdf"><img width= "20vw" src="/asset/photo/Logo/cv-blue.png" alt="cv"/></a>   &nbsp; 
+
   {/* <strong>Contact Details</strong><br/> */}
   <img width= "12vw" src="/asset/photo/Logo/e-mail.png" alt="email"/>
-  <a href="mailto:zh369@cam.ac.uk" >Eml.</a>   &nbsp; 
+  <a href="mailto:zh369@cam.ac.uk" >Email</a>   &nbsp; 
   
   {/* zh369@cam.ac.uk  */}
-  <img width= "12vw" src="/asset/photo/Logo/phone.png" alt="phone"/> 
-  <a href="tel:4407990719841">Tel.</a>
+  {/* <img width= "12vw" src="/asset/photo/Logo/phone.png" alt="phone"/> 
+  <a href="tel:4407990719841">Tel.</a> */}
   {/* (+44) 07990 719841 */}
   {/* |  More  */}
 
