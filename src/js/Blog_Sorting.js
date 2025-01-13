@@ -10,7 +10,7 @@ import Machine_Learning from '../asset/data/Machine_Learning.json';
 import Visual_Computing from '../asset/data/Visual_Computing.json';
 import { HashLink } from 'react-router-hash-link';
 import Blog_Footer from "./helper/blog_footer";
-import FooterCommon from "./helper/footerCommom"
+import FooterCommon from "./helper/footerCommon"
 
 import Blog_Top from "./helper/blog_top";
 import $ from "jquery";

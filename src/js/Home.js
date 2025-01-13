@@ -6,7 +6,7 @@ import Index_Top from "./helper/index_top";
 import { motion } from 'framer-motion'
 import { HashLink } from 'react-router-hash-link';
 import Sidebar_Project from "./helper/project_sidebar"
-import FooterCommon from "./helper/footerCommom"
+import FooterCommon from "./helper/footerCommon"
 
 import React, { useEffect, useState } from "react";
 
@@ -280,6 +280,7 @@ function Profile2(){
   return(
       <td width="280" text-align="center">
   <h2 id="contact"><i><large>Peter</large></i>/Zheyuan HU </h2>
+  <br/>
   {/* <p> University of Cambridge <br/>Computer Science <br/></p>   */}
 
   <div style={{border: "1px dashed  #987cb988", padding: "4px", borderRadius: "15px"}}>
