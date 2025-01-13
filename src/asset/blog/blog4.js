@@ -4,6 +4,7 @@ import ScrollToTop from "../../js/helper/ScrollToTop";
 import Blog_Footer from "../../js/helper/blog_footer";
 import Blog_Top from "../../js/helper/blog_top";
 import React from "react";
+import PreNextBlog from "../../js/helper/blog_pre_next";
  
 // import Giscus from '@giscus/react';
 
@@ -53,8 +54,10 @@ export function Blog4(){
     <ScrollToTop> 
     <div>
         <Blog_Top/>
+        <PreNextBlog currentID={4}/>
+        
             <>
-            <h1 id="project_database">Database Management System Design Project (C++)</h1>
+    <h1 id="project_database">Database Management System Design Project (C++)</h1>
 
             
     <h1 id="cmu15445_database">CMU15-445 <em>Database</em> Project</h1>
@@ -73,7 +76,7 @@ export function Blog4(){
     <br/>
     <a href="https://github.com/PeterHUistyping/CMU15-445_Database_Management_System">See More on GitHub</a>
             </>
-
+        <PreNextBlog currentID={4}/>
         <Blog_Footer />
     </div> 
     </ScrollToTop>

@@ -206,7 +206,7 @@ Solution:
         │   │   ├── ScrollToTop.jsx
         │   │   ├── blog_footer.js
         │   │   ├── blog_top.js
-        │   │   ├── footerCommom.js
+        │   │   ├── footerCommon.js
         │   │   ├── index_footer.js
         │   │   ├── index_top.js
         │   │   ├── readJson.js

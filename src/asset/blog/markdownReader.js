@@ -9,8 +9,8 @@ import rehypeKatex from 'rehype-katex'
 import { useEffect, useState } from "react";
 import 'katex/dist/katex.min.css'
 import remarkGfm from 'remark-gfm'
+import PreNextBlog from "../../js/helper/blog_pre_next";
 // import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-
 
 export function Blog(props){
 
@@ -26,15 +26,18 @@ export function Blog(props){
     <ScrollToTop> 
     <div>
         <Blog_Top/>
-            <div
-            style={{
-                border: 'hidden',
-                borderRadius: '2vw',
-                marginLeft: '5vw',
-                marginTop: 50,
-                width: '90vw',
-            }}
+
+        <PreNextBlog currentID={props.id}/>
+
+        <div style={{
+            border: 'hidden',
+            borderRadius: '2vw',
+            marginLeft: '5vw',
+            marginTop: 50,
+            width: '90vw',
+        }}
         > 
+        
         {/* <SyntaxHighlighter language="c"  showLineNumbers> */}
                 <ReactMarkdown 
                 remarkPlugins={[remarkMath, remarkGfm]} 
@@ -45,6 +48,8 @@ export function Blog(props){
 
             {/* </SyntaxHighlighter> */}
            </div>
+        <PreNextBlog currentID={props.id}/>
+
         <Blog_Footer />
     </div> 
     </ScrollToTop>
