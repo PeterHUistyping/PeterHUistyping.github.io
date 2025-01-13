@@ -125,7 +125,7 @@ function HightlightAuthor(props){
     );
     }
     else{
-        var authorUrl = AUTHOR_URLS[props.trimmedPart] || "";
+        var authorUrl = AUTHOR_URLS[0][props.trimmedPart] || "";
         return(
             <>
                  <a href={authorUrl} target="_blank" rel="noopener noreferrer">
