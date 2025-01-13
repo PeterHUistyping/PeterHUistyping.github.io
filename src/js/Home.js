@@ -279,14 +279,14 @@ function Profile1(){
 function Profile2(){
   return(
       <td width="280" text-align="center">
-  <h1 id="contact"><i>Peter</i> HU </h1>
+  <h2 id="contact"><i><large>Peter</large></i>/Zheyuan HU </h2>
   {/* <p> University of Cambridge <br/>Computer Science <br/></p>   */}
 
   <div style={{border: "1px dashed  #987cb988", padding: "4px", borderRadius: "15px"}}>
 
   <a href="https://github.com/PeterHUistyping"> <img width= "18vw" src="/asset/photo/Logo/github.svg" alt="github"/></a> 
   
-  &thinsp;&thinsp;
+  &thinsp;
   {/* &thinsp; |  &thinsp; */}
 
   {/* <a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "16vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a> | */}

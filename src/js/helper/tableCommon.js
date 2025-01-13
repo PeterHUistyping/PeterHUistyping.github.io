@@ -1,5 +1,6 @@
 /* All rights reserved. 2022-2025 (c) Peter HU */
 import React from 'react';
+import AUTHOR_URLS from "../../asset/data/AuthorsURL.json";
 
 // large screen
 function Pic_Large(props){
@@ -115,18 +116,44 @@ function GetCategory(props){
 
 
 function HightlightAuthor(props){
-    // check if substring contain "Zheyuan Hu" and highlight this substring to bold
+    // check if string contains "Zheyuan Hu" and highlight this substring to bold
+    if(props.trimmedPart.includes("Zheyuan Hu")){
+        return (
+            <>
+                <b>Zheyuan Hu</b>
+            </>
+    );
+    }
+    else{
+        var authorUrl = AUTHOR_URLS[props.trimmedPart] || "";
+        return(
+            <>
+                 <a href={authorUrl} target="_blank" rel="noopener noreferrer">
+                  {props.part}
+                </a>
+            </>
+        )
+    }
+}
+
+
+function HightlightAuthorsURL(props){
+    // create a mapping between author name and link
+  
     if(props.author.includes("Zheyuan Hu")){
-        const parts = props.author.split("Zheyuan Hu");
+        // const parts = props.author.split("Zheyuan Hu");
+        const parts = props.author.split(",");
         return (
       <>
-        {parts.map((part, index) => (
+        {parts.map((part, index) => {
+            var trimmedPart = part.trim();
+            return (
           <>
-            {index > 0 && <strong>Zheyuan Hu</strong>} 
-            {/* Add bold only before the second and subsequent parts */}
-            {part}
+            <HightlightAuthor part={part} trimmedPart={trimmedPart}/>
+            {index < parts.length - 1 && ", "}
           </>
-        ))}
+        )
+        })}
       </>
     );
     }
@@ -144,7 +171,7 @@ function Intro(props){
     return(
         <td class="width: 600px;" rowspan="2">
             <strong>{props.Title}  <GetCategory Category={props.Category}/><br/></strong>
-            {props.author && <> <HightlightAuthor author={props.author}/>  <br/> </>}  
+            {props.author && <> <HightlightAuthorsURL author={props.author}/>  <br/> </>}  
             <Intro_Des 
             line={props.line}
             Des1={props.Des1}
