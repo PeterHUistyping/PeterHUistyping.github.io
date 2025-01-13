@@ -29,6 +29,8 @@ const navLinkSTARTEND = {
 export default function PreNextBlog(props){
 
     var currentBlogIndex = parseInt(props.currentID);
+    var startBlogID = 1;
+    var endBlogID = 10;
     return(
         <>
         <br/>
@@ -42,14 +44,15 @@ export default function PreNextBlog(props){
             {currentBlogIndex > 1 && (
                 <NavLink to={`/blog${currentBlogIndex - 1}`}  style={navLinkStyle}>... previous</NavLink>
             )}
+            {/* {`/Blog_Sorting`} */}
             
-            {currentBlogIndex <= 1 && <NavLink to={`/Blog_Sorting`} style={navLinkSTARTEND}>Beginning ...</NavLink>}
+            {currentBlogIndex <= startBlogID && <NavLink to={`/blog${endBlogID}`} style={navLinkSTARTEND}>Beginning ...</NavLink>}
             
-            {currentBlogIndex < 10 && (
+            {currentBlogIndex < endBlogID && (
                 <NavLink to={`/blog${currentBlogIndex + 1}`}  style={navLinkStyle}>NEXT ...</NavLink>
             )}
 
-            {currentBlogIndex >= 10 && <NavLink to={`/Blog_Sorting`} style={navLinkSTARTEND}>End.</NavLink>}
+            {currentBlogIndex >= endBlogID && <NavLink to={`/blog${startBlogID}`} style={navLinkSTARTEND}>End.</NavLink>}
         </div>
         </>
     )
