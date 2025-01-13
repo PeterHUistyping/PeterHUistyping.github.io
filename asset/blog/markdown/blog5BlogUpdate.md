@@ -71,6 +71,9 @@ Reuse: the same part in the HTML / using JavaScript to encapsulate the header an
 
 **More update coming soon...**
 
+Jan 2025
+No news is good news: update previous and NEXT blog functionality.
+
 Dec 2023
 Update the layout and footer of the Blog main page.
 
