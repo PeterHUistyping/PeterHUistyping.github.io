@@ -13,7 +13,6 @@ import { HashLink } from 'react-router-hash-link';
 export function Publication(){
     return (
         <>
-        <h2 id="pub"><b>Publication</b></h2>
         <Pub_table />
         </>
     )
@@ -55,7 +54,7 @@ export function Research(){
 
         <br/> <br/> 
         <br/> 
-
+        <h2 id="pub"><b>Publications</b></h2>
         <Publication/>
         
         <br/> <br/> 

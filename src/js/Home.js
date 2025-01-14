@@ -53,7 +53,7 @@ function Education(){
         awarded <a href="https://en.wikipedia.org/wiki/Shuping_Scholarship">ShuPing Scholarship</a> twice.<br />
         
     {/* <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i> */}
-    &emsp;&emsp;
+    {/* &emsp;&emsp; */}
     
     <button onClick={() => {setShow4(! show4)}}>Show Details</button>
     {
@@ -75,7 +75,7 @@ function About_me(){
   return (
     <>
     <center>
-    <large> <large><i>About Me 👇</i></large></large> <br/>
+    <large> <large><i>About ME 👇</i></large></large> <br/>
     Hi! Thanks for dropping by~ I'm (<HashLink to="/aboutme">bio.</HashLink>) an undergraduate at <a href="https://www.cst.cam.ac.uk/">University of Cambridge</a>.  <br/>
     Strong background and interest in <font color="green">Visual Computing (Graphics, Vision)</font> with <font color="#3824BD">ML</font> / <font color='#8D6F64'>System</font> related fields.  <br/>
     Various research experience, collaborative compression competition and wide theoretical knowledge.  <br/>
@@ -136,15 +136,15 @@ function Detail(){
     <>
     <About_me /> 
     <center>
-        <ColBio />   <br/><br/>
+        <ColBio />   <br/> 
     </center>
     <Education />
     <center>
         {/* <Sidebar_Notice /> */}
         <ColResearch /> <br/>
-        <ColProject /> <br/><br/>
+        <ColProject /> <br/>
         {/* <Skill /> */}
-        <Interest_extra />
+        <Interest_extra /> <br/>
         {/* <embed src="asset/doc/CV_PeterHU.pdf"  width="800px" height="600px" /> */}
     </center>
     </>
@@ -176,22 +176,24 @@ function Detail(){
             {/* <Skill />       */}
             <br/>
             <Interest_extra />
+            <br/>
+            <br/>
             </center>
         </div>
         </div>
       )
 }
 
-const HomeNavButtonStyle = {
-  display: 'inline-block', 
-  padding: '1px 2px', 
-  backgroundColor: 'green', 
-  border: '1px solid #ccc', 
-  borderRadius: '10px', 
-  textDecoration: 'none', 
-  color: '#f0f0f0',
-  fontWeight: 'bold'
-};
+// const HomeNavButtonStyle = {
+//   display: 'inline-block', 
+//   padding: '1px 2px', 
+//   backgroundColor: 'green', 
+//   border: '1px solid #ccc', 
+//   borderRadius: '10px', 
+//   textDecoration: 'none', 
+//   color: '#f0f0f0',
+//   fontWeight: 'bold'
+// };
 
 
 function ColBio(){
@@ -206,7 +208,6 @@ function ColBio(){
         <HashLink to="/aboutme"> Biography 》</HashLink> <br/> 
         </b>
         {/* </font> */}
-
     </>
   )
 }
@@ -261,9 +262,12 @@ export function Home() {
       <Sidebar_Project />
       <div class="content">
         <Detail />
-        <Publication />
+        <center>
+          <h1 style={{"font-family":"Brush Script MT"}}>List of Publications</h1>
+          <Publication />
+        </center>
       </div>
-      <br/>  <br/>
+      {/* <br/> */}
       <hr width="50%" color="#C0C0C0" SIZE="1" />  
        {/* #987cb9 */}
       <table class="table_footer">
