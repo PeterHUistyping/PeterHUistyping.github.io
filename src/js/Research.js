@@ -10,6 +10,16 @@ import {ExperienceContents, TalkRayTracing} from "./Experience";
 import { HashLink } from 'react-router-hash-link';
 
 
+export function Publication(){
+    return (
+        <>
+        <h2 id="pub"><b>Publication</b></h2>
+        <Pub_table />
+        </>
+    )
+
+}
+
 export function Research(){
     const [show , setShow] = useState(false);
     const [show2 , setShow2] = useState(false);
@@ -46,19 +56,15 @@ export function Research(){
         <br/> <br/> 
         <br/> 
 
-        <h2 id="pub"><b>Publication</b></h2>
-        <br/>
-        <Pub_table />
+        <Publication/>
         
         <br/> <br/> 
         
         <h2 id="talk"><b>Talk</b></h2>
-        <br/>
         <TalkRayTracing showall={true}/>
         <br/> <br/> 
 
         <h2 id="industryResearch"><b>Industry Research</b></h2>
-        <br/>
         </>
     </div>
     <ExperienceContents showall={false}/>

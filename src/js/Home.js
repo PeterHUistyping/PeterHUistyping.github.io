@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 import { HashLink } from 'react-router-hash-link';
 import Sidebar_Project from "./helper/project_sidebar"
 import FooterCommon from "./helper/footerCommon"
-
+import {Publication} from "./Research"
 import React, { useEffect, useState } from "react";
 
 
@@ -261,6 +261,7 @@ export function Home() {
       <Sidebar_Project />
       <div class="content">
         <Detail />
+        <Publication />
       </div>
       <br/>  <br/>
       <hr width="50%" color="#C0C0C0" SIZE="1" />  
