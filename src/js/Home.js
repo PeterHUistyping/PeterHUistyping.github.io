@@ -134,7 +134,7 @@ function Detail(){
   if (w<800)
   return(
     <>
-    <About_me />
+    <About_me /> 
     <center>
         <ColBio />   <br/><br/>
     </center>
@@ -143,7 +143,7 @@ function Detail(){
         {/* <Sidebar_Notice /> */}
         <ColResearch /> <br/>
         <ColProject /> <br/><br/>
-        <Skill />
+        {/* <Skill /> */}
         <Interest_extra />
         {/* <embed src="asset/doc/CV_PeterHU.pdf"  width="800px" height="600px" /> */}
     </center>
@@ -157,6 +157,7 @@ function Detail(){
         </div>
         <div class ="right-panel">
             <About_me />
+            <br/> 
             <center>
             {/* <Sidebar_Notice /> */}
 
@@ -172,7 +173,8 @@ function Detail(){
                       <ColProject />
                 </div>
             </div>
-            <Skill />      
+            {/* <Skill />       */}
+            <br/>
             <Interest_extra />
             </center>
         </div>
@@ -180,16 +182,31 @@ function Detail(){
       )
 }
 
+const HomeNavButtonStyle = {
+  display: 'inline-block', 
+  padding: '1px 2px', 
+  backgroundColor: 'green', 
+  border: '1px solid #ccc', 
+  borderRadius: '10px', 
+  textDecoration: 'none', 
+  color: '#f0f0f0',
+  fontWeight: 'bold'
+};
+
 
 function ColBio(){
   return (
     <>
-        <h3>
-        <HashLink to="/aboutme">Detailed Bio.</HashLink> <br/> 
-        </h3>
         <HashLink id="teaser_link"  to="/aboutme">
             <img height="100vh" src="/asset/photo/Logo/Relationship_CV.png" alt="CV" />
         </HashLink> 
+        <br/>
+        {/* <font size="+1"> */}
+        <b>
+        <HashLink to="/aboutme"> Biography 》</HashLink> <br/> 
+        </b>
+        {/* </font> */}
+
     </>
   )
 }
@@ -198,12 +215,16 @@ function ColBio(){
 function ColResearch(){
     return (
     <>
-      <h3>
-      <HashLink to="/research">Research💭</HashLink> |  <HashLink to="/experience">Experience</HashLink> <br/>
-      </h3>
       <HashLink id="teaser_link"  to="/research">
           <img height="100vh" src="/asset/photo/pub/1/teaser.png" alt="teaser" />
       </HashLink> 
+      <br/>
+      
+      {/* <font size="+1"> */}
+      <b>
+      <HashLink to="/research">Research 》</HashLink> |  <HashLink to="/experience">Experience 》</HashLink> <br/>
+      </b>
+      {/* </font> */}
     </>
   )
 }
@@ -212,12 +233,15 @@ function ColProject(){
 
   return (
     <>
-      <h3>
-      <HashLink to="/award">Awards🥇</HashLink> |  <HashLink to="/project">Projects🧑‍💻</HashLink> <br/>
-      </h3>
       <HashLink id="project_link"  to="/project">
           <img height="100vh" src="asset/photo/Assignment/blog3/Self-similar_fractals.png" alt="project_img" />
       </HashLink>
+      <br/>
+      {/* <font size="+1"> */}
+      <b>
+      <HashLink to="/award">Awards 》</HashLink> |  <HashLink to="/project">Projects 》</HashLink> <br/>
+      </b>
+      {/* </font> */}
     </>
   )
 }
