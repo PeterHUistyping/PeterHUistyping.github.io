@@ -163,12 +163,19 @@ h3 {
 .container_small {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 10px;
+  grid-column-gap: 15px;
 }
 
 .half-panel {
   /* debugging */
-  /* border: 1px solid grey; */
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: 1px dashed grey; /* Changed from solid to dashed */
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
 }
 
 .container {
