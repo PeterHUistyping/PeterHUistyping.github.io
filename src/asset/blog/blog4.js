@@ -1,5 +1,6 @@
 /* All rights reserved. 2022-2025 (c) Peter HU */
 
+import { useEffect } from "react";
 import ScrollToTop from "../../js/helper/ScrollToTop";
 import Blog_Footer from "../../js/helper/blog_footer";
 import Blog_Top from "../../js/helper/blog_top";
@@ -50,6 +51,9 @@ import PreNextBlog from "../../js/helper/blog_pre_next";
 // }
 
 export function Blog4(){
+    useEffect(() => {
+        document.title = 'Blog: DBMS - Peter HU';
+    }, []);
     return(
     <ScrollToTop> 
     <div>

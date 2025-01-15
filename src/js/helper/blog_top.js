@@ -43,8 +43,8 @@ function Blog_top(){
 
           {/* <li><a href="https://github.com/PeterHUistyping">🖥️Github</a></li> */}
           <li>
-            <NavLink id="top_blog" exact activeClassName='is-active' to="/Blog_Sorting">📝Blog▾</NavLink>  
-            {/* <a href="/#/Blog_Sorting/">📝Blog▾</a>  */}
+            <NavLink id="top_blog" exact activeClassName='is-active' to="/Blog_Sorting">📝Blogs▾</NavLink>  
+            {/* <a href="/#/Blog_Sorting/">📝Blogs▾</a>  */}
               <ul>
                   <li> 
                     <NavLink id="top_ref" exact activeClassName='is-active' to="/ref">📚Ref</NavLink>  
