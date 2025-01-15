@@ -1,6 +1,6 @@
 /* All rights reserved. 2022-2025 (c) Peter HU */
 
-
+import { useEffect } from "react";
 import { HashLink } from 'react-router-hash-link';
 import Index_Footer from "./helper/index_footer";
 import Index_Top from "./helper/index_top";
@@ -10,6 +10,9 @@ function popup() {
     alert("What I really enjoy is the beauty of science and how it can be applied in nearly all fields of life.\nI am open to new fields of area and enjoy exploring unknown features.\n")
   }
 export function AboutMe(){
+    useEffect(() => {
+        document.title = 'Biography - Peter HU';
+        }, []);
     return (
     <motion.div> 
     <Index_Top/> 

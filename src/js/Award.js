@@ -6,8 +6,12 @@ import Index_Footer from "./helper/index_footer";
 import Index_Top from "./helper/index_top";
 import { motion } from 'framer-motion'
 import Sidebar_Project from "./helper/project_sidebar"
+import { useEffect } from "react";
 
 export function Award(){
+    useEffect(() => {
+        document.title = 'Awards - Peter HU';
+    }, []);
     return (
     <motion.div> 
     <Index_Top/> 

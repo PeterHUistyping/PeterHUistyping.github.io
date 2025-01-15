@@ -1,5 +1,6 @@
 /* All rights reserved. 2022-2025 (c) Peter HU */
 
+import { useEffect } from "react";
 import ScrollToTop from "../../../js/helper/ScrollToTop";
 import Blog_Footer from "../../../js/helper/blog_footer";
 import Blog_Top from "../../../js/helper/blog_top";
@@ -10,6 +11,9 @@ import { HashLink } from 'react-router-hash-link';
 import { NavLink } from "react-router-dom"; 
 
 export function Blogref(){
+    useEffect(() => {
+            document.title = 'Reference - Peter HU';
+    }, []);
     return(
     <ScrollToTop> 
     <div>

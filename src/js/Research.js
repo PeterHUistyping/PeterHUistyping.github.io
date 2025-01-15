@@ -5,7 +5,7 @@ import Index_Footer from "./helper/index_footer";
 import Index_Top from "./helper/index_top";
 import { motion } from 'framer-motion'
 import Sidebar_Project from "./helper/project_sidebar"
-import React, {useState } from "react";
+import React, {useState, useEffect } from "react";
 import {ExperienceContents, TalkRayTracing} from "./Experience";
 import { HashLink } from 'react-router-hash-link';
 
@@ -20,6 +20,10 @@ export function Publication(){
 }
 
 export function Research(){
+    useEffect(() => {
+            document.title = 'Research - Peter HU';
+    }, []);
+
     const [show , setShow] = useState(false);
     const [show2 , setShow2] = useState(false);
     const [show3 , setShow3] = useState(false);

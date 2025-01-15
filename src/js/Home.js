@@ -249,6 +249,9 @@ function ColProject(){
 
 
 export function Home() { 
+  useEffect(() => {
+    document.title = 'Homepage - Peter HU';
+  }, []);
   return (
     <motion.div> 
     <Index_Top/> 

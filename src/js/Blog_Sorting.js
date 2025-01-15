@@ -1,6 +1,6 @@
 /* All rights reserved. 2022-2025 (c) Peter HU */
 
-
+import { useEffect } from "react";
 import "../index.css";
 import Hr_Award from '../asset/data/Hr_Award.json';
 import Ongoing from '../asset/data/Ongoing_PrAs.json';
@@ -24,6 +24,9 @@ resource=resource.concat(Visual_Computing);
 resource=resource.concat(Past); 
 
 export function Blog_Sorting(){
+    useEffect(() => {
+            document.title = 'Blogs - Peter HU';
+    }, []);
     return(   
         <motion.div   
         initial={{ opacity: 0 }}

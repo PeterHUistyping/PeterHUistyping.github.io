@@ -1,6 +1,6 @@
 /* All rights reserved. 2022-2025 (c) Peter HU */
 
-
+import { useEffect } from "react";
 import PrAs_table from "./PrAs_Table";
 import Sidebar_Project from "./helper/project_sidebar"
 
@@ -9,6 +9,9 @@ import Index_Top from "./helper/index_top";
 import { motion } from 'framer-motion'
  
 export function Project(){
+    useEffect(() => {
+            document.title = 'Projects - Peter HU';
+    }, []);
     return (
     <motion.div> 
     <Index_Top/> 

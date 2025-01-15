@@ -9,6 +9,9 @@ import { motion } from 'framer-motion'
 import React, { useEffect, useState } from "react";
  
 export function Experience(){
+  useEffect(() => {
+    document.title = 'Experience - Peter HU';
+  }, []);
     return (
     <motion.div> 
     <Index_Top/> 
