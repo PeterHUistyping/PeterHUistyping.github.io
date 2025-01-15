@@ -473,3 +473,10 @@ iframe{
   color: #C0C0C0;
 }
 
+
+@font-face {
+  font-family: 'BrushScriptMT-embed';
+  src: url('/asset/font/Brush-Script-MT/BRUSHSCI.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

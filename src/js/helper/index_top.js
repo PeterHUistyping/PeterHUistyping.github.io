@@ -11,7 +11,7 @@ function Index_top(){
         <div class="top">
             <ul>
                 <li> 
-                    <HashLink style={{ color: 'black' }} to="https://peterhuistyping.github.io/"><i>Peter </i>HU's Website</HashLink>
+                    <HashLink style={{ color: 'black' }} to="https://peterhuistyping.github.io/"><b style={{"font-family":"BrushScriptMT-embed"}}>Peter </b>HU's Website</HashLink>
                 </li>
                 <li>
                     <NavLink id="top_home" exact activeClassName='is-active' to="/">🏠HOME</NavLink>  

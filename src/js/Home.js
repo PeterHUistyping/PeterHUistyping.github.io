@@ -263,7 +263,7 @@ export function Home() {
       <div class="content">
         <Detail />
         <center>
-          <h1 style={{"font-family":"Brush Script MT"}}>List of Publications</h1>
+          <h1 style={{"font-family":"BrushScriptMT-embed"}}>List of Publications</h1>
           <Publication />
         </center>
       </div>
