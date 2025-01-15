@@ -11,7 +11,7 @@ Main idea: Using table to sort things up, achieving better display on mobile dev
 
 **More update coming soon...**
 
-15 Jan 2025 Update calligraphy font for homepage, html title based on page.
+15 Jan 2025 Update calligraphy font for homepage, dynamic HTML title based on page.
 
 1 Jan 2025 Continuation of ©
 
