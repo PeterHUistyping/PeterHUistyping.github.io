@@ -96,10 +96,10 @@ function Italic_Intro(props){
 
 function Blog_link(props){
     if(props.link){
-        return (<a href={"/#/"+props.link}>📝 blog</a>)
+        return (<a href={"/#/"+props.link} class="project-link">📝 blog</a>)
     }
     else{
-        return (<a href={props.link}>📝 blog</a>)
+        return (<a href={props.link} class="project-link">📝 blog</a>)
     }
 }
 
@@ -181,14 +181,16 @@ function Intro(props){
             <Italic_Intro Italic={props.Italic}/>
             {props.Time}<br/>
 
-            {props.Arxiv && <> | <a href={props.Arxiv}>arXiv</a>  </>}
-            {props.Github && <> | <a href={props.Github}><img width= "13vw" src="/asset/photo/Logo/github.svg" alt="github"/> code</a> </>}
+            {props.Project && <> |  <a href={props.Project} class="project-link">project</a> </> }
+            {props.Arxiv && <> | <a href={props.Arxiv} class="project-link">arXiv</a>  </>}
+            {props.PDF && <> |  <a href={props.PDF} class="project-link">pdf</a> </> }
+            {props.Github && <> | <a href={props.Github} class="project-link"><img width= "13vw" src="/asset/photo/Logo/github.svg" alt="github"/> code</a> </>}
             {props.Blog && <> | <Blog_link link={props.Blog}/></> } 
-            {props.PDF && <> |  <a href={props.PDF}>pdf</a> </> }
-            {props.Video && <> | <a href={props.Video}>video</a>  </> } 
-            {props.More && <> |  <a href={props.More}>more</a> </>}
+            {props.Dataset && <> | <a href={props.Dataset} class="project-link">dataset</a>  </>}
+            {props.Video && <> | <a href={props.Video} class="project-link">video</a>  </> } 
+            {props.More && <> |  <a href={props.More} class="project-link">more</a> </>}
             {/* ending mark if there's at least one attribute. */}
-            {(props.Arxiv || props.Github || props.Blog || props.PDF || props.Video || props.More) && <> | </> }
+            {(props.Arxiv || props.Github || props.Blog || props.PDF || props.Video || props.More || props.Dataset || props.Project ) && <> | </> }
 
             <br/>
         </td>
@@ -225,6 +227,8 @@ function PicIntro_table(proxy){
             // research
             author={proxy.resource[proxy.id].author}
             Arxiv={proxy.resource[proxy.id].Arxiv}
+            Dataset={proxy.resource[proxy.id].Dataset}
+            Project={proxy.resource[proxy.id].Project}
             />      
         </tr>
     )

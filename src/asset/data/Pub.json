@@ -8,6 +8,10 @@
     "line":0,
     "Italic":"Computer Graphics (real-world materials), Vision (generation via PCA, VAE, diffusion)",
     "Time":"2024.11",
-    "Arxiv":"https://arxiv.org/abs/2411.12015"
+    "Project":"https://github.com/peterhuistyping.github.io/NeuMaDiff/",
+    "Arxiv":"https://arxiv.org/abs/2411.12015",
+    "PDF":"https://arxiv.org/pdf/2411.12015",
+    "Github":"https://github.com/PeterHUistyping/NeuMaDiff",
+    "Dataset":"https://huggingface.co/datasets/Peter2023HuggingFace/NeuMERL"
     }
 ]
