@@ -480,3 +480,28 @@ iframe{
   font-weight: normal;
   font-style: normal;
 }
+
+a.project-link {
+  text-decoration: none;
+  color: blue;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+a.project-link:visited {
+  color: blue; /* Color after clicking */
+}
+
+a.project-link:hover,
+a.project-link:focus {
+  background-color: #4a90e2;
+  color: white;
+  text-decoration: none;
+}
+
+a.project-link:active {
+  background-color: blue;
+  color: white;
+}
