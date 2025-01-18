@@ -12,7 +12,7 @@ export default function PrAs_table(){
        <div>
      <center>
         <p id="Visual_Computing"><b> <font size="+1" color="green">Visual Computing</font></b></p> 
-        <a href="https://peterhuistyping.github.io/Visual_Computing">🌐 web</a>   |  <a href="https://github.com/PeterHUistyping/Visual_Computing">👨‍💻 github</a>
+        <a href="https://peterhuistyping.github.io/Visual_Computing" class="project-link">🌐 web</a>   |  <a href="https://github.com/PeterHUistyping/Visual_Computing" class="project-link">👨‍💻 github</a>
      </center>
      <br></br>
        <All_table resource={Visual_Computing}/> 
@@ -22,14 +22,14 @@ export default function PrAs_table(){
       
      <center>
         <p id="Machine_Learning"><b><font size="+1" color="#3824BD">Machine Learning</font></b></p>
-        <a href="https://peterhuistyping.github.io/Machine_Learning_Guidance">🌐 web</a> | <a href="https://github.com/PeterHUistyping/Machine_Learning_Guidance">👨‍💻 github</a>
+        <a href="https://peterhuistyping.github.io/Machine_Learning_Guidance" class="project-link">🌐 web</a> | <a href="https://github.com/PeterHUistyping/Machine_Learning_Guidance" class="project-link">👨‍💻 github</a>
       </center>
       <br></br>
        <All_table resource={Machine_Learning}/> 
       
       <center>
         <p id="Computer_System"><b> <font size="+1" color='#8D6F64'>Computer System Design</font></b></p>        
-        <a href="https://peterhuistyping.github.io/Computer_System_Guidance">🌐 web</a>   |   <a href="https://github.com/PeterHUistyping/Computer_System_Guidance">👨‍💻 github</a>
+        <a href="https://peterhuistyping.github.io/Computer_System_Guidance" class="project-link">🌐 web</a>   |   <a href="https://github.com/PeterHUistyping/Computer_System_Guidance" class="project-link">👨‍💻 github</a>
       </center>
        <All_table resource={Computer_System}/> 
     

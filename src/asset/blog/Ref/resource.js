@@ -8,7 +8,7 @@ export default function resource(props){
         <>
         {keys.map((item, index)=>(
             <>
-            {index+1}. <a href={props.resource[item].link}>{props.resource[item].description}</a>
+            {index+1}. <a href={props.resource[item].link}>{props.resource[item].description} </a>
             <br/>
             Author: <i>{props.resource[item].author}</i>
             <br/> <br/>

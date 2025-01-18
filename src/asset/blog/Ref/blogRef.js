@@ -31,19 +31,19 @@ export function Blogref(){
 
             <center>
                 
-                <strong><font color="green">Visual Computing</font>:</strong> <a href="https://peterhuistyping.github.io/Visual_Computing"> 🌐 </a>  | 
-                <a href="https://github.com/PeterHUistyping/Visual_Computing"> 👨‍💻 </a>
+                <strong><font color="green">Visual Computing</font>:</strong> <a href="https://peterhuistyping.github.io/Visual_Computing" class="project-link"> 🌐 </a>  | 
+                <a href="https://github.com/PeterHUistyping/Visual_Computing" class="project-link"> 👨‍💻 </a>
 
                 &ensp;&ensp;&ensp;   &ensp;&ensp;&ensp;
                 
-                <strong><font color="#3824BD">Machine Learning</font>:</strong> <a href="https://peterhuistyping.github.io/Machine_Learning_Guidance"> 🌐 </a>  |  
-                <a href="https://github.com/PeterHUistyping/Machine_Learning_Guidance"> 👨‍💻 </a>     
+                <strong><font color="#3824BD">Machine Learning</font>:</strong> <a href="https://peterhuistyping.github.io/Machine_Learning_Guidance" class="project-link"> 🌐 </a>  |  
+                <a href="https://github.com/PeterHUistyping/Machine_Learning_Guidance" class="project-link"> 👨‍💻 </a>     
 
                 &ensp;&ensp;&ensp;  &ensp;&ensp;&ensp;
                 
                 
-                <strong><font color="#8D6F64">Computer System</font>:</strong> <a href="https://peterhuistyping.github.io/Computer_System_Guidance"> 🌐 </a>   |   
-                <a href="https://github.com/PeterHUistyping/Computer_System_Guidance"> 👨‍💻 </a>    
+                <strong><font color="#8D6F64">Computer System</font>:</strong> <a href="https://peterhuistyping.github.io/Computer_System_Guidance" class="project-link"> 🌐 </a>   |   
+                <a href="https://github.com/PeterHUistyping/Computer_System_Guidance" class="project-link"> 👨‍💻 </a>    
             </center>
                 <br/>
                 and many other projects scattered in repo waited to be explored:)<br/>
