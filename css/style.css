@@ -484,7 +484,6 @@ iframe{
 a.project-link {
   text-decoration: none;
   color: blue;
-  background-color: white;
   padding: 5px 10px;
   border-radius: 3px;
   transition: all 0.3s ease;
