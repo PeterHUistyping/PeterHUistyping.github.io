@@ -128,7 +128,7 @@ function HightlightAuthor(props){
         var authorUrl = AUTHOR_URLS[0][props.trimmedPart] || "";
         return(
             <>
-                 <a href={authorUrl} target="_blank" rel="noopener noreferrer">
+                 <a href={authorUrl} target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
                   {props.part}
                 </a>
             </>
