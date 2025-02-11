@@ -10,12 +10,13 @@ import Ongoing from '../asset/data/Ongoing_PrAs.json';
 import past from '../asset/data/Past_PrAs.json';
 import All_table from './helper/tableCommon';
  
-function Ongoing_label(){
+export function Ongoing_label(){
    return(
        <p id="ongoing_project"><b><i><center>--- Ongoing ---</center></i></b></p>
    )
 }
-function Past_label(){
+
+export function Past_label(){
    return(
        <p id="previous_project"><b><i><center>--- Previous ---</center></i></b></p>
    )

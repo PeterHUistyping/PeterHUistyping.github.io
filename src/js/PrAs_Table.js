@@ -5,7 +5,9 @@ import Computer_System from '../asset/data/Computer_System.json';
 import Machine_Learning from '../asset/data/Machine_Learning.json';
 import Visual_Computing from '../asset/data/Visual_Computing.json';
 import { HashLink } from 'react-router-hash-link';
-
+import Ongoing from '../asset/data/Ongoing_PrAs.json';
+import past from '../asset/data/Past_PrAs.json';
+import {Ongoing_label, Past_label} from './Project_Others';
 
 export default function PrAs_table(){
    return (
@@ -34,6 +36,11 @@ export default function PrAs_table(){
        <All_table resource={Computer_System}/> 
     
        <p id="Others_mainpage"> <b> <font size="+1"><center><HashLink to="/project/others">Other Projects</HashLink></center></font></b></p>  
+        
+        <Ongoing_label />
+        <All_table resource={Ongoing}/> 
+        <Past_label />
+        <All_table resource={past}/>
 
        </div>
       )
