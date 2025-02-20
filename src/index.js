@@ -59,6 +59,8 @@ function App() {
             <Route path="/blog8" element={<Blog id="8" name="MLRD" />}/>
             <Route path="/blog9" element={<Blog id="9" name="Priest-Beneath" />}/>
             <Route path="/blog10" element={<Blog id="10" name="CVStanford" />}/>
+            <Route path="/blog11" element={<Blog id="11" name="ARBlockTower" />}/>
+
         
             <Route path='/*' element={<NotFound />}/>
           </Routes> 

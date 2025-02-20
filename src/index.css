@@ -34,6 +34,11 @@
     cursor: pointer;
 }
 
+/* hover */
+.blog_sorting th:hover {
+    background-color: rgb(189, 170, 229);
+}
+
 .sequence {
     text-align: center;
 }

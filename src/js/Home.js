@@ -9,14 +9,13 @@ import Sidebar_Project from "./helper/project_sidebar"
 import FooterCommon from "./helper/footerCommon"
 import {Publication} from "./Research"
 import React, { useEffect, useState } from "react";
-
+import {Slideshow} from "./helper/slideShow"
 
 function Education(){
   const [show , setShow] = useState(false);
-  const [show4 , setShow4] = useState(false);
 
   const handleOnClick = () => {
-        setShow(! show4);
+        setShow(! show);
   }
  
   return(
@@ -55,9 +54,9 @@ function Education(){
     {/* <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i> */}
     {/* &emsp;&emsp; */}
     
-    <button onClick={() => {setShow4(! show4)}}>Show Details</button>
+    <button onClick={() => {setShow(! show)}}>Show Details</button>
     {
-        show4 &&
+        show &&
         <>
         <br/>
         <img width="671" height="386 " src="./asset/photo/Profile/Cam.png" alt="Cam" />
@@ -205,7 +204,7 @@ function ColBio(){
         <br/>
         {/* <font size="+1"> */}
         <b>
-        <HashLink to="/aboutme"> Biography 》</HashLink> <br/> 
+        <HashLink to="/aboutme">Biography》</HashLink> <br/> 
         </b>
         {/* </font> */}
     </>
@@ -214,16 +213,24 @@ function ColBio(){
 
 
 function ColResearch(){
+    const images = [
+      "asset/photo/pub/1/teaser.png",
+      "asset/photo/pub/1/diagram.png",
+      'asset/photo/experience/RT/depthMap.png',
+      'asset/photo/experience/RT/posMap.png',
+      'asset/photo/experience/RT/normalMap.png',
+      'asset/photo/experience/RT/AO_64spp.png',
+
+    ];
     return (
     <>
       <HashLink id="teaser_link"  to="/research">
-          <img height="100vh" src="/asset/photo/pub/1/teaser.png" alt="teaser" />
+          {/* <img height="100vh" src="/asset/photo/pub/1/teaser.png" alt="teaser" /> */}
+          <Slideshow images={images} />
       </HashLink> 
-      <br/>
-      
       {/* <font size="+1"> */}
       <b>
-      <HashLink to="/research">Research 》</HashLink> |  <HashLink to="/experience">Experience 》</HashLink> <br/>
+      <HashLink to="/research">Research》</HashLink>|<HashLink to="/experience">Experience》</HashLink> <br/>
       </b>
       {/* </font> */}
     </>
@@ -231,16 +238,25 @@ function ColResearch(){
 }
 
 function ColProject(){
+  const images = [
+    "asset/photo/Assignment/11/wiHumanOcclusion.PNG",
+    "asset/photo/Assignment/11/conclusion.png",
+    "asset/photo/Assignment/blog3/MyProject/assignment4_Ray-Tracer/RayTracer.png",
+    "asset/photo/Assignment/blog3/Self-similar_fractals.png",
+    "asset/photo/Assignment/7/Team_Member.png",
+    "asset/photo/Assignment/6/1.JPG",
+    "asset/photo/Assignment/9/Frozen.png"
+  ];
 
   return (
     <>
       <HashLink id="project_link"  to="/project">
-          <img height="100vh" src="asset/photo/Assignment/blog3/Self-similar_fractals.png" alt="project_img" />
+          {/* <img height="100vh" src="asset/photo/Assignment/blog3/Self-similar_fractals.png" alt="project_img" /> */}
+          <Slideshow images={images} />
       </HashLink>
-      <br/>
       {/* <font size="+1"> */}
       <b>
-      <HashLink to="/award">Awards 》</HashLink> |  <HashLink to="/project">Projects 》</HashLink> <br/>
+      <HashLink to="/award">Awards》</HashLink>|<HashLink to="/project">Projects》</HashLink> <br/>
       </b>
       {/* </font> */}
     </>

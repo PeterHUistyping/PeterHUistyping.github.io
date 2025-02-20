@@ -30,7 +30,8 @@ export default function PreNextBlog(props){
 
     var currentBlogIndex = parseInt(props.currentID);
     var startBlogID = 1;
-    var endBlogID = 10;
+    // update me for the last blog ID
+    var endBlogID = 11;  
     return(
         <>
         <br/>

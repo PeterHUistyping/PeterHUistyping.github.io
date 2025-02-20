@@ -1,19 +1,5 @@
 [
     {
-        "pic1_src":"",
-        "pic1_alt":"TODO",
-        "pic2_src":"",
-        "pic2_alt":"TODO",
-        "Title":"Interactive AR block tower",
-        "Category":"Unity, AR foundation, C#",
-        "line":2,
-        "Des1":"Extended Reality course project",
-        "Des2": "Unity video based AR app",
-        "Time":"2025.1.20-2025.3.20",
-        "Github":"https://github.com/PeterHUistyping/AR-block-tower/",
-        "More":"https://peterhuistyping.github.io/AR-block-tower/"
-    },
-    {
         "pic1_src":"./asset/photo/Assignment/9/Web.png",
         "pic1_alt":"Web Game",
         "pic2_src":"./asset/photo/Assignment/9/Frozen.png",
@@ -33,7 +19,7 @@
         "pic1_alt":"DB",
         "pic2_src":"./asset/photo/Assignment/3/DB2.png",
         "pic2_alt":"Database",
-        "Title":" Database SQL",
+        "Title":"Database SQL",
         "Category":"SQL",
         "line":1,
         "Des1": "Operate on schema of 6 tables. Use of CTEs (With .. AS)",
