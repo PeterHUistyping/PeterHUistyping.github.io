@@ -73,6 +73,9 @@ Reuse: the same part in the HTML / using JavaScript to encapsulate the header an
 
 **More update coming soon...**
 
+Feb 2025
+Fix the main Blog page's table sorting feature via React~
+
 Jan 2025
 No news is good news: update previous and NEXT blog functionality.
 
