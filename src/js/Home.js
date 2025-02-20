@@ -220,7 +220,6 @@ function ColResearch(){
       'asset/photo/experience/RT/posMap.png',
       'asset/photo/experience/RT/normalMap.png',
       'asset/photo/experience/RT/AO_64spp.png',
-
     ];
     return (
     <>

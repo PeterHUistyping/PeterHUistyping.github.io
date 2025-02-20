@@ -169,7 +169,7 @@ function HightlightAuthorsURL(props){
 
 function Intro(props){
     return(
-        <td class="width: 600px;" rowspan="2">
+        <td rowspan="2">
             <strong>{props.Title}  <GetCategory Category={props.Category}/><br/></strong>
             {props.author && <> <HightlightAuthorsURL author={props.author}/>  <br/> </>}  
             <Intro_Des 
@@ -191,7 +191,6 @@ function Intro(props){
             {props.More && <> |  <a href={props.More} class="project-link">more</a> </>}
             {/* ending mark if there's at least one attribute. */}
             {(props.Arxiv || props.Github || props.Blog || props.PDF || props.Video || props.More || props.Dataset || props.Project ) && <> | </> }
-
             <br/>
         </td>
     )
