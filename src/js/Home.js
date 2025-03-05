@@ -332,35 +332,41 @@ function Profile2(){
 
   <div style={{border: "1px dashed  #987cb988", padding: "4px", borderRadius: "15px"}}>
 
-  <a href="https://github.com/PeterHUistyping"> <img width= "18vw" src="/asset/photo/Logo/github.svg" alt="github"/></a> 
+  <a href="https://github.com/PeterHUistyping"> <img width= "18vw" src="/asset/photo/Logo/github.svg" alt="github" title="GitHub"/></a>
   
   &thinsp;
   {/* &thinsp; |  &thinsp; */}
 
   {/* <a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "16vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a> | */}
 
-  <a href="https://orcid.org/0009-0004-4687-6945"><img width= "18vw" src="/asset/photo/Logo/ORCiD.png" alt="ORCiD"/></a> 
+  <a href="https://orcid.org/0009-0004-4687-6945"><img width= "18vw" src="/asset/photo/Logo/ORCiD.png" alt="ORCiD" title="ORCiD"/></a>
   
   &thinsp; 
   {/* &thinsp; |  &thinsp; */}
 
-  <a href="https://scholar.google.com/citations?user=M3jgt3QAAAAJ"><img width= "18vw" src="/asset/photo/Logo/goggle_scholar.png" alt="google_scholar"/></a> 
+
+  <a href="https://scholar.google.com/citations?user=M3jgt3QAAAAJ"><img width= "18vw" src="/asset/photo/Logo/goggle_scholar.png" alt="google_scholar" title="Google Scholar"/></a>
+  
+  &thinsp; 
+  {/* &thinsp; |  &thinsp; */}
+
+  <a href="https://dblp.org/pid/270/0713-6"><img width= "18vw" src="/asset/photo/Logo/dblp.webp" alt="dblp" title="DBLP"/></a>
   
   &thinsp; 
   {/* &thinsp; |  &thinsp; */}
   
-  <a href="https://www.kaggle.com/peterhu2022"><img width= "18vw" src="/asset/photo/Logo/kaggle.svg" alt="kaggle"/></a> 
+  <a href="https://www.kaggle.com/peterhu2022"><img width= "18vw" src="/asset/photo/Logo/kaggle.svg" alt="kaggle" title="Kaggle"/></a>
   
   {/* &thinsp;  */}
   {/* &thinsp; |  &thinsp; */}
  
   <br/>
 
-  <a href="./asset/doc/CV_PeterHU.pdf"><img width= "20vw" src="/asset/photo/Logo/cv-blue.png" alt="cv"/></a>   &nbsp; 
+  <a href="./asset/doc/CV_PeterHU.pdf"><img width= "20vw" src="/asset/photo/Logo/cv-blue.png" alt="cv" title="CV"/></a>
 
   {/* <strong>Contact Details</strong><br/> */}
   <img width= "12vw" src="/asset/photo/Logo/e-mail.png" alt="email"/>
-  <a href="mailto:zh369@cam.ac.uk" >Email</a>   &nbsp; 
+  <a href="mailto:zh369@cam.ac.uk" title="Email">Email</a>
   
   {/* zh369@cam.ac.uk  */}
   {/* <img width= "12vw" src="/asset/photo/Logo/phone.png" alt="phone"/> 
