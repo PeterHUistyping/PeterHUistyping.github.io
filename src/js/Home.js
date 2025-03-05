@@ -199,7 +199,7 @@ function ColBio(){
   return (
     <>
         <HashLink id="teaser_link"  to="/aboutme">
-            <img height="100vh" src="/asset/photo/Logo/Relationship_CV.png" alt="CV" />
+          <img height="100vh" src="/asset/photo/Logo/Relationship_CV.png" alt="Bio." title="Bio." />
         </HashLink> 
         <br/>
         {/* <font size="+1"> */}
@@ -225,7 +225,7 @@ function ColResearch(){
     <>
       <HashLink id="teaser_link"  to="/research">
           {/* <img height="100vh" src="/asset/photo/pub/1/teaser.png" alt="teaser" /> */}
-          <Slideshow images={images} />
+          <Slideshow images={images} type="Research"/>
       </HashLink> 
       {/* <font size="+1"> */}
       <b>
@@ -251,7 +251,7 @@ function ColProject(){
     <>
       <HashLink id="project_link"  to="/project">
           {/* <img height="100vh" src="asset/photo/Assignment/blog3/Self-similar_fractals.png" alt="project_img" /> */}
-          <Slideshow images={images} />
+          <Slideshow images={images} type="Projects"/>
       </HashLink>
       {/* <font size="+1"> */}
       <b>

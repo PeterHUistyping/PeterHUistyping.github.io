@@ -3,6 +3,7 @@ import React from 'react';
 
 export function Slideshow(props) {
   const images = props.images;
+  const type = props.type;
   const [currentIndex, setCurrentIndex] = React.useState(0);
 
 
@@ -22,7 +23,7 @@ export function Slideshow(props) {
 
   return (
     <div>
-      <img src={images[currentIndex]} alt={`Image ${currentIndex}`} height="100vh" />
+      <img src={images[currentIndex]} alt={`Image ${currentIndex}`} height="100vh" title={type}></img>
     </div>
   );
 }
