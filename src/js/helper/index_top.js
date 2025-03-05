@@ -58,8 +58,8 @@ function Index_top(){
                     {/* <HashLink to="/#contact">📬Contact▾</HashLink> */}
                     <NavLink id="top_contact" exact activeClassName='is-active' to="/contact">📬Contact▾</NavLink>
                 <ul>
-                    <li><a href="./asset/doc/CV_PeterHU.pdf"><img width= "20vw" src="/asset/photo/Logo/cv-blue.png" alt="cv"/></a></li>
-                    <li><a href="https://github.com/PeterHUistyping"> <img width= "22vw" src="/asset/photo/Logo/github.svg" alt="github"/></a></li>
+                    <li><a href="./asset/doc/CV_PeterHU.pdf"><img width= "20vw" src="/asset/photo/Logo/cv-blue.png" alt="cv" title="CV"/></a></li>
+                    <li><a href="https://github.com/PeterHUistyping"> <img width= "22vw" src="/asset/photo/Logo/github.svg" alt="github" title="Github"/></a></li>
                     {/* <li><a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "22vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a></li> */}
                 </ul>
                 </li>
