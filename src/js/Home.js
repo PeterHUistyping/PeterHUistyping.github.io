@@ -356,17 +356,18 @@ function Profile2(){
   {/* &thinsp; |  &thinsp; */}
   
   <a href="https://www.kaggle.com/peterhu2022"><img width= "18vw" src="/asset/photo/Logo/kaggle.svg" alt="kaggle" title="Kaggle"/></a>
-  
-  {/* &thinsp;  */}
-  {/* &thinsp; |  &thinsp; */}
- 
+
   <br/>
 
   <a href="./asset/doc/CV_PeterHU.pdf"><img width= "20vw" src="/asset/photo/Logo/cv-blue.png" alt="cv" title="CV"/></a>
 
+  &emsp;
+  {/* &thinsp; |  &thinsp; */}
+
   {/* <strong>Contact Details</strong><br/> */}
-  <img width= "12vw" src="/asset/photo/Logo/e-mail.png" alt="email"/>
-  <a href="mailto:zh369@cam.ac.uk" title="Email">Email</a>
+  <a href="mailto:zh369@cam.ac.uk" title="Email">
+      <img width= "20vw" src="/asset/photo/Logo/e-mail.png" alt="email" title="Email"/>
+  </a>
   
   {/* zh369@cam.ac.uk  */}
   {/* <img width= "12vw" src="/asset/photo/Logo/phone.png" alt="phone"/> 
