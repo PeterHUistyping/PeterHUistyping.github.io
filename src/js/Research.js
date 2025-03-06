@@ -58,7 +58,7 @@ export function Research(){
 
         <br/> <br/> 
         <br/> 
-        <h2 id="pub"><b>Publications</b></h2>
+        <h2 id="pub"><b>List of Publications</b></h2>
         <Publication/>
         
         <br/> <br/> 

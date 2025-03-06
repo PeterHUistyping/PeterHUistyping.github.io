@@ -14,12 +14,25 @@ function Index_top(){
                     <HashLink style={{ color: 'black' }} to="https://peterhuistyping.github.io/"><b style={{"font-family":"BrushScriptMT-embed"}}>Peter </b>HU's Website</HashLink>
                 </li>
                 <li>
-                    <NavLink id="top_home" exact activeClassName='is-active' to="/">🏠HOME</NavLink>  
+                    <NavLink id="top_home" exact activeClassName='is-active' to="/">🏠HOME▾</NavLink>  
                     {/* <a href="/#">🏠HOME</a> */}
+                    <ul>
+                        <li>
+                            <NavLink id="top_bio" exact activeClassName='is-active' to="/aboutme">👨‍💼Bio. </NavLink>
+                        </li>
+                    </ul>
                 </li>
 
                 <li>
-                <NavLink id="top_res" exact activeClassName='is-active' to="/research">💭Research</NavLink> 
+                <NavLink id="top_res" exact activeClassName='is-active' to="/research">💭Research▾</NavLink> 
+                    <ul>
+                        <li>
+                            <HashLink id="top_academia" exact activeClassName='is-active' to="/research/#academicResearch">academia </HashLink>
+                        </li>
+                        <li>
+                            <HashLink id="top_industry" exact activeClassName='is-active' to="/research/#industryResearch">industry</HashLink>
+                        </li>
+                    </ul>
                 </li>
 
                 <li>
@@ -45,11 +58,11 @@ function Index_top(){
                     {/* <a href="/#/Blog_Sorting/">📝Blogs▾</a> */}
                     <ul>
                         <li> 
-                            <NavLink id="top_ref" exact activeClassName='is-active' to="/ref">📚Ref</NavLink>  
+                            <NavLink id="top_ref" exact activeClassName='is-active' to="/ref">📚ref</NavLink>  
                             {/* <a href="/#/ref">📚Ref</a> */}
                         </li>
                         <li> 
-                            <NavLink id="top_blog5" exact activeClassName='is-active' to="/blog5">⛵Log</NavLink>  
+                            <NavLink id="top_blog5" exact activeClassName='is-active' to="/blog5">⛵log</NavLink>  
                             {/* <a href="/#/blog5">⛵Update</a> */}
                         </li>
                     </ul>

@@ -10,80 +10,21 @@ import FooterCommon from "./helper/footerCommon"
 import {Publication} from "./Research"
 import React, { useEffect, useState } from "react";
 import {Slideshow} from "./helper/slideShow"
+import {Education, Skill} from "./EduSkill"
 
-function Education(){
-  const [show , setShow] = useState(false);
-
-  const handleOnClick = () => {
-        setShow(! show);
-  }
- 
-  return(
-    <>
-    <center>
-    <large><i>EDUCATION</i></large>
-    </center>
-    <a href="https://www.cam.ac.uk/">
-    <img width="27" height="24" src="./asset/photo/Logo/Cam.png" alt="Cambridge" /> 
-    </a>
-    <b> University of Cambridge </b> <br />
-     <i> Undergraduate<br />
-     2022.10 - 2025.06</i><br />
-    <a href="https://www.cst.cam.ac.uk/">Computer Science</a> | <a href="https://peterhuistyping.github.io/Cambridge_CS_Tripos/">notes</a><br />
-    [Fully-funded] <a href="https://en.wikipedia.org/wiki/Jardine_Scholarship">Jardine</a> <a href="./asset/doc/Jardine_Certificate.jpg">Scholarship</a>. <br />
-    <a href="https://en.xmu.edu.cn/main.htm">
-    <img width="24" height="24" src="./asset/photo/Logo/xmu.png" alt="XMU"/>
-    </a>
-    <b> Universitas Amoiensis </b><i> <br />
-    {/* Xiamen University  */}
-        First year undergraduate<br /> 
-        2021.09 - 2022.06</i> <br />
-        Software Engineering<br />
-        GPA: 3.91 / 4.0 (first term)<br /> 88 / 100 (yearly)<br />
-        Class Rep, ACM Team.<br />
-    <a href="https://en.wikipedia.org/wiki/Shanghai_Nanyang_Model_High_School">
-    <img width="28" height="24" src="./asset/photo/Logo/NanyangHigh.png" alt="Nanyang"/>
-    </a>
-    <b>Nanyang Model High School </b> &nbsp;
-    {/* <br /> */}
-        <i> 2018.09 - 2021.06</i><br />
-        {/* High School Diploma<br /> */}
-        Physics Rep, research project leader, 
-        awarded <a href="https://en.wikipedia.org/wiki/Shuping_Scholarship">ShuPing Scholarship</a> twice.<br />
-        
-    {/* <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i> */}
-    {/* &emsp;&emsp; */}
-    
-    <button onClick={() => {setShow(! show)}}>Show Details</button>
-    {
-        show &&
-        <>
-        <br/>
-        <img width="671" height="386 " src="./asset/photo/Profile/Cam.png" alt="Cam" />
-        <br/>
-        <img width="671" height="318 " src="./asset/photo/Profile/XMU.png" alt="XMU" />
-        <br/>
-        </>
-    }
-    <br/>
-    </>
-  )
-}
 
 function About_me(){
   return (
     <>
-    <center>
-    <large> <large><i>About ME 👇</i></large></large> <br/>
-    Hi! Thanks for dropping by~ I'm (<HashLink to="/aboutme">bio.</HashLink>) an undergraduate at <a href="https://www.cst.cam.ac.uk/">University of Cambridge</a>.  <br/>
-    Strong background and interest in <font color="green">Visual Computing (Graphics, Vision)</font> with <font color="#3824BD">ML</font> / <font color='#8D6F64'>System</font> related fields.  <br/>
-    Various research experience, collaborative compression competition and wide theoretical knowledge.  <br/>
-   
+    {/* <center>
+    <large> <large><i>About</i> ME 👇</large></large> <br/>
+    </center> */}
+    <div style={{"margin-left":"20%", "margin-right":"20%"}}>
+    <i>Hi, thanks for dropping by~</i> I'm (<HashLink to="/aboutme">bio.</HashLink>) an undergraduate at <a href="https://www.cst.cam.ac.uk/">University of Cambridge</a>. My interests lie in the fields of <font color="green">Visual Computing (Graphics, Vision)</font> with <font color="#3824BD">ML</font> / <font color='#8D6F64'>System</font>. Besides, I have been engaged with exciting hackathons, research projects, and internships in the past few years.
+    </div>
+    {/* Various research experience, collaborative compression competition and wide theoretical knowledge.  <br/> */}
       {/* <HashLink to="/aboutme">MORE ...</HashLink>  */}
       {/* | <HashLink to="/project">📊<i>PROJECT</i></HashLink> */}
-    
-
-    </center>
     </>
   )
 }
@@ -99,15 +40,6 @@ function Interest_extra(){
   Society: <a href="https://www.ethics-in-mathematics.com/">Ethics in Mathematics</a><br />
   <i>Economics Related Topics: </i> Macro & Micro, Money Banking<br />
     </>
-  )
-}
-
-function Skill(){
-  return (
-    <>
-      <br/> <center><large><i  id="skills">SKILLS</i></large>  <br/>
-      <i>Please refer to <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="/asset/photo/Logo/cv-blue.png" alt="cv"/></a>.</i></center> 
-  </>
   )
 }
 
@@ -127,61 +59,48 @@ function Sidebar_Notice(){
 }
 
 
-function Detail(){  
-  var w = window.innerWidth;
-  // mobile
-  if (w<800)
-  return(
-    <>
-    <About_me /> 
-    <center>
-        <ColBio />   <br/> 
-    </center>
-    <Education />
-    <center>
-        {/* <Sidebar_Notice /> */}
-        <ColResearch /> <br/>
-        <ColProject /> <br/>
-        {/* <Skill /> */}
+function Detail(){
+    var w = window.innerWidth;  
+    // depending on the width, the classname is different
+    var teaser_layout_class = "";
+    if (w<800){
+      teaser_layout_class = "";
+    }
+    else{
+      teaser_layout_class = "container_small";
+    }
+
+    return(
+      <>
+      <About_me /> 
+      <br/>
+      <center>
+        {/* split into main two cols */}
+        {/* <div class ="left-panel"> */}
+        {/* <div class ="right-panel"> */}
+        {/* split into three cols */}
+        <div class={teaser_layout_class}>
+            <div class="half-panel">
+                  <ColBio />
+            </div>
+            <div class="half-panel">
+                  <ColResearch />
+            </div>
+            <div class="half-panel">
+                  <ColProject />
+            </div>
+        </div>
+        <center>
+          <h1 style={{"font-family":"BrushScriptMT-embed"}}>List of Publications</h1>
+          <Publication />
+        </center>
         <Interest_extra /> <br/>
         {/* <embed src="asset/doc/CV_PeterHU.pdf"  width="800px" height="600px" /> */}
-    </center>
-    </>
-    )
-    else // PC
-    return (
-        <div class="container_main">
-        <div class ="left-panel">
-            <Education />
-        </div>
-        <div class ="right-panel">
-            <About_me />
-            <br/> 
-            <center>
-            {/* <Sidebar_Notice /> */}
-
-            {/* split into three cols */}
-            <div class="container_small">
-                <div class="half-panel">
-                      <ColBio />
-                </div>
-                <div class="half-panel">
-                      <ColResearch />
-                </div>
-                <div class="half-panel">
-                      <ColProject />
-                </div>
-            </div>
-            {/* <Skill />       */}
-            <br/>
-            <Interest_extra />
-            <br/>
-            <br/>
-            </center>
-        </div>
-        </div>
+      </center>
+      </>
       )
-}
+  }
+
 
 // const HomeNavButtonStyle = {
 //   display: 'inline-block', 
@@ -280,10 +199,6 @@ export function Home() {
       <Sidebar_Project />
       <div class="content">
         <Detail />
-        <center>
-          <h1 style={{"font-family":"BrushScriptMT-embed"}}>List of Publications</h1>
-          <Publication />
-        </center>
       </div>
       {/* <br/> */}
       <hr width="50%" color="#C0C0C0" SIZE="1" />  
@@ -382,3 +297,61 @@ function Profile2(){
   )
  
 }
+
+
+// legacy two cols
+// function Detail(){  
+//   var w = window.innerWidth;
+//   // mobile
+//   if (w<800)
+//   return(
+//     <>
+//     <About_me /> 
+//     <center>
+//         <ColBio />   <br/> 
+//     </center>
+//     <Education />
+//     <center>
+//         {/* <Sidebar_Notice /> */}
+//         <ColResearch /> <br/>
+//         <ColProject /> <br/>
+//         {/* <Skill /> */}
+//         <Interest_extra /> <br/>
+//         {/* <embed src="asset/doc/CV_PeterHU.pdf"  width="800px" height="600px" /> */}
+//     </center>
+//     </>
+//     )
+//     else // PC
+//     return (
+//         <div class="container_main">
+//         <div class ="left-panel">
+//             <Education />
+//         </div>
+//         <div class ="right-panel">
+//             <About_me />
+//             <br/> 
+//             <center>
+//             {/* <Sidebar_Notice /> */}
+
+//             {/* split into three cols */}
+//             <div class="container_small">
+//                 <div class="half-panel">
+//                       <ColBio />
+//                 </div>
+//                 <div class="half-panel">
+//                       <ColResearch />
+//                 </div>
+//                 <div class="half-panel">
+//                       <ColProject />
+//                 </div>
+//             </div>
+//             {/* <Skill />       */}
+//             <br/>
+//             <Interest_extra />
+//             <br/>
+//             <br/>
+//             </center>
+//         </div>
+//         </div>
+//       )
+// }

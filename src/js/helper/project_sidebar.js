@@ -32,7 +32,7 @@ function SidebarResearch(){
     else
     return (
         <>
-            <HashLink id="sidebar_academic" to="/research/#academicResearch"><i>&nbsp;&nbsp;&nbsp;academic</i></HashLink> 
+            <HashLink id="sidebar_academia" to="/research/#academicResearch"><i>&nbsp;&nbsp;&nbsp;academia</i></HashLink> 
             <HashLink id="sidebar_publication" to="/research/#pub"><i>&nbsp;&nbsp;&nbsp;publication</i></HashLink> 
             <HashLink id="sidebar_talk" to="/research/#talk"><i>&nbsp;&nbsp;&nbsp;talk</i></HashLink>
             <HashLink id="sidebar_industry" to="/research/#industryResearch"><i>&nbsp;&nbsp;&nbsp;industry</i></HashLink> 
@@ -70,14 +70,13 @@ export default function Sidebar_Project(){
         <br></br>
         {show && 
         <nav>
-           <NavLink id="sidebar_home" exact activeClassName='is-active' to="/">▸HOME</NavLink>  
-           {/* <center>
-                    <HashLink id="sidebar_system"  to="/aboutme">&nbsp;AboutMe</HashLink> </center> */}
+            <NavLink id="sidebar_home" exact activeClassName='is-active' to="/">▸HOME</NavLink>  
+            <NavLink id="sidebar_bio" exact activeClassName='is-active' to="/aboutme">▸Bio.</NavLink> 
             <NavLink id="sidebar_pub" exact activeClassName='is-active' to="/research">▸Research</NavLink>
                 <SidebarResearch/>  
             <NavLink id="sidebar_award" exact activeClassName='is-active' to="/award">▸Awards</NavLink>  
             <NavLink id="sidebar_project" exact activeClassName='is-active'  to="/project">▸Projects</NavLink> 
-                <SidebarProject/>
+            <SidebarProject/>
             {/* <small><NavLink id="sidebar_exp" exact activeClassName='is-active' to="/experience">▸EXPERIENCE</NavLink></small>  */}
         </nav> 
         }

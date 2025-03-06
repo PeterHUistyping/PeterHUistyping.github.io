@@ -6,9 +6,14 @@ import Index_Footer from "./helper/index_footer";
 import Index_Top from "./helper/index_top";
 import { motion } from 'framer-motion'
 import Sidebar_Project from "./helper/project_sidebar"
+import {Education, Skill} from "./EduSkill"
+
+
 function popup() {
     alert("What I really enjoy is the beauty of science and how it can be applied in nearly all fields of life.\nI am open to new fields of area and enjoy exploring unknown features.\n")
   }
+
+
 export function AboutMe(){
     useEffect(() => {
         document.title = 'Biography - Peter HU';
@@ -23,7 +28,7 @@ export function AboutMe(){
  
     
     <center>
-    <large>  <i onClick={() => {popup()}}>About Me 👇</i></large> 
+        <large onClick={() => {popup()}}><i >About</i> Me 👇</large> 
     </center>
     <div class="aboutMeContainer">
     
@@ -57,6 +62,14 @@ export function AboutMe(){
 
         &emsp; &nbsp;&nbsp;
         Exploring areas in Graphics + AI/ML with GPU, CV / System-related topics, etc and open to new opportunities and fields.       <br/>
+        
+        <br/>
+        <Education />
+        <br/>
+
+        <Skill />
+        <br/>
+        
         <center> 
         <div class ="announcement">
             👈 Please click the left Sidebar for relevant sections. <br/>
