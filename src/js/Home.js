@@ -10,7 +10,7 @@ import FooterCommon from "./helper/footerCommon"
 import {Publication} from "./Research"
 import React, { useEffect, useState } from "react";
 import {Slideshow} from "./helper/slideShow"
-import {Education, Skill} from "./EduSkill"
+import {Education, Skill, Interest_extra} from "./EduSkill"
 
 
 function About_me(){
@@ -25,20 +25,6 @@ function About_me(){
     {/* Various research experience, collaborative compression competition and wide theoretical knowledge.  <br/> */}
       {/* <HashLink to="/aboutme">MORE ...</HashLink>  */}
       {/* | <HashLink to="/project">📊<i>PROJECT</i></HashLink> */}
-    </>
-  )
-}
-
-function Interest_extra(){
-  return(
-    <>
-  <br/>   
-  <large><i>INTERESTS AND EXTRACURRICULUM</i></large> 
-  <br/>
-
-  <HashLink to="/PhotoDisplay">Photography</HashLink>, Music, Swimming, Gym,    etc.  <br />  
-  Society: <a href="https://www.ethics-in-mathematics.com/">Ethics in Mathematics</a><br />
-  <i>Economics Related Topics: </i> Macro & Micro, Money Banking<br />
     </>
   )
 }
@@ -94,9 +80,11 @@ function Detail(){
           <h1 style={{"font-family":"BrushScriptMT-embed"}}>List of Publications</h1>
           <Publication />
         </center>
-        <Interest_extra /> <br/>
+        {/* <Interest_extra /> <br/> */}
         {/* <embed src="asset/doc/CV_PeterHU.pdf"  width="800px" height="600px" /> */}
       </center>
+      <br/> 
+      <br/> 
       </>
       )
   }

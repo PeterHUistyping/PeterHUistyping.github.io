@@ -6,7 +6,7 @@ import Index_Footer from "./helper/index_footer";
 import Index_Top from "./helper/index_top";
 import { motion } from 'framer-motion'
 import Sidebar_Project from "./helper/project_sidebar"
-import {Education, Skill} from "./EduSkill"
+import {Education, Skill, Interest_extra} from "./EduSkill"
 
 
 function popup() {
@@ -64,13 +64,15 @@ export function AboutMe(){
         Exploring areas in Graphics + AI/ML with GPU, CV / System-related topics, etc and open to new opportunities and fields.       <br/>
         
         <br/>
-        <Education />
-        <br/>
 
-        <Skill />
-        <br/>
-        
+        <Education />   <br/>
+
+        <Skill />   <br/>
+
         <center> 
+            
+        <Interest_extra /> <br/>
+        
         <div class ="announcement">
             👈 Please click the left Sidebar for relevant sections. <br/>
         <HashLink to="/">🏠 Home</HashLink> <br/>
