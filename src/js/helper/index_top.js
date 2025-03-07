@@ -1,5 +1,6 @@
 /* All rights reserved. 2022-2025 (c) Peter HU */
-import { React, useRef } from "react";
+import React from 'react';
+import { useRef } from "react";
 import { NavLink } from "react-router-dom"; 
 import { HashLink } from 'react-router-hash-link';
 import { useState } from "react";
