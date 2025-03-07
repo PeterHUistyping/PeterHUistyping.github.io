@@ -96,25 +96,37 @@ function Index_top(props){
                     <li><a href="#">Frame</a></li>
                     </ul>
                 </li> */}
+
                 {/* <li>
                     <Button onClick={sayHello}>Settings</Button>
                 </li>      */}
+
+                <li>
+                    <NavLink id="top_photography" exact activeClassName='is-active' to="/PhotoDisplay">📷</NavLink>  
+                </li>
+
+                <li>    
+                    <DisableAfterClick />
+                </li>
+
                 {isBlog && 
                     <>
-                    <li><a href={window.location.href}>🏷️Settings▾</a>
-                    {/* 🛠️<large>⚙️</large> */}
+                    <li><a href={window.location.href}>⋮</a>
+                        {/* 🛠️<large>⚙️</large> */}
+                        {/* 🏷️Settings */}
                         <ul>
                             <li><Bg_color /></li>
-                            <li>    
-                                {/* <a href="/asset/blog/blog.html">   
-                                <button class="button button_settings" onClick={() => setDisable(true)}>🎶</button>      
-                                </a> */}
+                            {/* <li>    
                                 <DisableAfterClick />
-                            </li>
+                            </li> */}
+                             {/* <a href="/asset/blog/blog.html">   
+                                <button class="button button_settings" onClick={() => setDisable(true)}>🎶</button>      
+                            </a> */}
                         </ul>
                     </li>
                     </>
                 }
+
             </ul>
         </div>
         <br /><br />
@@ -143,9 +155,11 @@ export default function Index_Top(props){
 }
 
 
+let audio = new Audio("/asset/audio/Town_of_Windmill.mp3");
+let music_state=true;
+
+
 function DisableAfterClick() {
-    let audio = new Audio("/asset/audio/Town_of_Windmill.mp3");
-    let music_state=true;
     const [btnState, setBtnState] = useState(false);
     let btnRef = useRef();
     const onBtnClick = (e) => {
