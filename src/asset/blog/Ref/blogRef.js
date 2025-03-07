@@ -3,7 +3,8 @@
 import { useEffect } from "react";
 import ScrollToTop from "../../../js/helper/ScrollToTop";
 import Blog_Footer from "../../../js/helper/blog_footer";
-import Blog_Top from "../../../js/helper/blog_top";
+// import Blog_Top from "../../../js/helper/blog_top";
+import Index_Top from "../../../js/helper/index_top";
 import Resource  from "./resource";
 import ref from "../../../asset/data/Resource.json"
 import camUn from "../../../asset/data/Resource_CamUn.json"
@@ -17,7 +18,8 @@ export function Blogref(){
     return(
     <ScrollToTop> 
     <div>
-        <Blog_Top/>
+        {/* <Blog_Top/> */}
+        <Index_Top type="blog"/>
             <>
             <p id="resource"><strong><font size="+2"> Useful Resource and Reference for Computer Science📚</font></strong></p>
             <div class="sidebar">

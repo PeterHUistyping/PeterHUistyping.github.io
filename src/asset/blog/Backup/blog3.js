@@ -2,12 +2,16 @@
 
 import ScrollToTop from "../../js/helper/ScrollToTop";
 import Blog_Footer from "../../js/helper/blog_footer";
-import Blog_Top from "../../js/helper/blog_top";
+// import Blog_Top from "../../js/helper/blog_top";
+import Index_Top from "../../../js/helper/index_top";
+
 export function Blog3(){
     return(
     <ScrollToTop> 
     <div>
-        <Blog_Top/>
+        {/* <Blog_Top/> */}
+        <Index_Top type="blog"/>
+        
             <>
 
             <h1 id="mit6837cgfall2004assignment">MIT6.837 Computer Graphics Assignment</h1>

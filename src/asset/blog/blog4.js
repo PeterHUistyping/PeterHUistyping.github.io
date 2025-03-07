@@ -3,7 +3,8 @@
 import { useEffect } from "react";
 import ScrollToTop from "../../js/helper/ScrollToTop";
 import Blog_Footer from "../../js/helper/blog_footer";
-import Blog_Top from "../../js/helper/blog_top";
+// import Blog_Top from "../../js/helper/blog_top";
+import Index_Top from "../../js/helper/index_top";
 import React from "react";
 import PreNextBlog from "../../js/helper/blog_pre_next";
  
@@ -57,10 +58,9 @@ export function Blog4(){
     return(
     <ScrollToTop> 
     <div>
-        <Blog_Top/>
+        <Index_Top type="blog"/>
         <PreNextBlog currentID={4}/>
-        
-            <>
+        <>
     <h1 id="project_database">Database Management System Design Project (C++)</h1>
 
             

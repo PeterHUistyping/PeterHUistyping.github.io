@@ -2,12 +2,16 @@
 
 import ScrollToTop from "../../js/helper/ScrollToTop";
 import Blog_Footer from "../../js/helper/blog_footer";
-import Blog_Top from "../../js/helper/blog_top";
+// import Blog_Top from "../../js/helper/blog_top";
+import Index_Top from "../../../js/helper/index_top";
+
+
 export function Blog7(){
     return(
     <ScrollToTop> 
     <div>
-        <Blog_Top/>
+        {/* <Blog_Top/> */}
+        <Index_Top type="blog"/>
             <>
             <h1 id="mercuriahackathon2022">Top 2 Team in Mercuria Hackathon 2022</h1>
     <p>Using technology to accelerate the energy transition and reduce the carbon emissions of the maritime industry<br/>

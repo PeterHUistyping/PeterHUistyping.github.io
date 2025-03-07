@@ -12,11 +12,12 @@ import { HashLink } from 'react-router-hash-link';
 import Blog_Footer from "./helper/blog_footer";
 import FooterCommon from "./helper/footerCommon"
 
-import Blog_Top from "./helper/blog_top";
+// import Blog_Top from "./helper/blog_top";
+import Index_Top from "./helper/index_top";
 import $ from "jquery";
 import ScrollToTop from "./helper/ScrollToTop";
 import { motion } from 'framer-motion';
-import {ChangeBodyColor} from "./helper/blog_top";
+import {ChangeBodyColor} from "./helper/index_top";
 var resource=Ongoing.concat(Hr_Award);
 resource=resource.concat(Computer_System); 
 resource=resource.concat(Machine_Learning); 
@@ -50,7 +51,8 @@ export function Blog_Sorting(){
         > 
     <ScrollToTop> 
         <div>
-        <Blog_Top/>
+        {/* <Blog_Top/> */}
+        <Index_Top type="blog"/>
         <div class="blogHeader">
          <br />  
             <center>

@@ -2,7 +2,8 @@
 
 import ScrollToTop from "../../js/helper/ScrollToTop";
 import Blog_Footer from "../../js/helper/blog_footer";
-import Blog_Top from "../../js/helper/blog_top";
+// import Blog_Top from "../../js/helper/blog_top";
+import Index_Top from "../../js/helper/index_top";
 import ReactMarkdown from 'react-markdown'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
@@ -28,7 +29,8 @@ export function Blog(props){
     return(
     <ScrollToTop> 
     <div>
-        <Blog_Top/>
+        {/* <Blog_Top/> */}
+        <Index_Top type="blog"/>
 
         <PreNextBlog currentID={props.id}/>
 

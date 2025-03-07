@@ -2,12 +2,16 @@
 
 import ScrollToTop from "../../js/helper/ScrollToTop";
 import Blog_Footer from "../../js/helper/blog_footer";
-import Blog_Top from "../../js/helper/blog_top";
+// import Blog_Top from "../../js/helper/blog_top";
+import Index_Top from "../../../js/helper/index_top";
+
+
 export function Blog8(){
     return(
     <ScrollToTop> 
     <div>
-        <Blog_Top/>
+        {/* <Blog_Top/> */}
+        <Index_Top type="blog"/>
             <>
             <h1 id="machinelearningandrealworlddata">Machine Learning and Real World data</h1>
     <p><a href="https://www.cl.cam.ac.uk/teaching/2122/MLRD/">Course Website</a> https://www.cl.cam.ac.uk/teaching/2122/MLRD/<br/>

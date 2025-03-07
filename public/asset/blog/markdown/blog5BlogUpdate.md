@@ -11,6 +11,11 @@ Main idea: Using table to sort things up, achieving better display on mobile dev
 
 **More update coming soon...**
 
+6 Mar 2025 Tidy the homepage and add the Bio. to the navigation bar.
+
+![Home_Mar2025](asset/photo/Assignment/5/Home_Mar2025.png "Home Page Mar 25")
+
+
 15 Jan 2025 Update calligraphy font for homepage, dynamic HTML title based on page.
 
 1 Jan 2025 Continuation of ©
@@ -23,7 +28,7 @@ Collapse mobile sidebar by default.
 Update homepage layout and publication and academic research section.
 Merge Publication and Experience sections into the Research section.
 
-![Home_Nov2024](asset/photo/Assignment/5/Home_Nov2024.png "Home Page v2 Nov 24")
+[Home_Nov2024](asset/photo/Assignment/5/Home_Nov2024.png "Home Page v2 Nov 24")
 
 15 Mar 2024
 Update navigation bar active based on position. [Home_Mar2024](asset/photo/Assignment/5/Home_Mar2024.png "Home Page v2 Mar 24")
@@ -72,6 +77,9 @@ Reuse: the same part in the HTML / using JavaScript to encapsulate the header an
 \---Music: Town of Windmill---
 
 **More update coming soon...**
+
+Mar 2025
+Merge the navigation bars of Main website and Blog system into a single function, for better maintainability.
 
 Feb 2025
 Fix the main Blog page's table sorting feature via React~
