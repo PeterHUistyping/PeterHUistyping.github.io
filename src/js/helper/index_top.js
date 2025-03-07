@@ -1,7 +1,7 @@
 /* All rights reserved. 2022-2025 (c) Peter HU */
+import { useState, useRef } from "react";
 import { NavLink } from "react-router-dom"; 
 import { HashLink } from 'react-router-hash-link';
-import { useState, useRef } from "react";
 
 
 function Index_top(props){
@@ -9,12 +9,11 @@ function Index_top(props){
     var main_page_link = "https://peterhuistyping.github.io/";
     var main_page_suffix = "Website";
     // use state to change the main page link
-    const [isBlog , setBlog] = useState(false);
+    const [isBlog, setBlog] = useState(type === "blog" ? true : false);
 
     if(type === "blog"){
         main_page_link = "/Blog_Sorting";
         main_page_suffix = "Blogs";
-        setBlog(true);
     }
 
     return (
@@ -101,20 +100,21 @@ function Index_top(props){
                 {/* <li>
                     <Button onClick={sayHello}>Settings</Button>
                 </li>      */}
-                {isBlog &&
-                <li><a href={window.location.href}>🏷️Settings▾</a>
-                {/* 🛠️<large>⚙️</large> */}
-                    <ul>
-                        <li><Bg_color /></li>
-                        <li>    
-                            {/* <a href="/asset/blog/blog.html">   
-                            <button class="button button_settings" onClick={() => setDisable(true)}>🎶</button>      
-                            </a> */}
-                            <DisableAfterClick />
-                        </li>
-                        
-                    </ul>
-                </li>
+                {isBlog && 
+                    <>
+                    <li><a href={window.location.href}>🏷️Settings▾</a>
+                    {/* 🛠️<large>⚙️</large> */}
+                        <ul>
+                            <li><Bg_color /></li>
+                            <li>    
+                                {/* <a href="/asset/blog/blog.html">   
+                                <button class="button button_settings" onClick={() => setDisable(true)}>🎶</button>      
+                                </a> */}
+                                <DisableAfterClick />
+                            </li>
+                        </ul>
+                    </li>
+                    </>
                 }
             </ul>
         </div>
