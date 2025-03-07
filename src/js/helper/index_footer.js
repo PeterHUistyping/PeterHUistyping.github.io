@@ -1,10 +1,12 @@
 /* All rights reserved. 2022-2025 (c) Peter HU */
 
-
 import FooterCommon from "./footerCommon"
+import { NavigationNotice } from "./navigation_footer"
+
 export default function Index_Footer(){
     return(
     <>
+    <NavigationNotice />
     <br/>
     <hr width="50%" color="#C0C0C0" size="1" />  
     {/* #987cb9 */}

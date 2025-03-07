@@ -6,12 +6,11 @@ import Index_Top from "./helper/index_top";
 import { motion } from 'framer-motion'
 import { HashLink } from 'react-router-hash-link';
 import Sidebar_Project from "./helper/project_sidebar"
-import FooterCommon from "./helper/footerCommon"
+// import FooterCommon from "./helper/footerCommon"
 import {Publication} from "./Research"
 import React, { useEffect, useState } from "react";
 import {Slideshow} from "./helper/slideShow"
 import {Education, Skill, Interest_extra} from "./EduSkill"
-import {NavigationNotice} from "./AboutMe"
 
 function About_me(){
   return (
@@ -81,7 +80,6 @@ function Detail(){
           <Publication />
         </center>
         <br/>
-        <NavigationNotice />
         {/* <Interest_extra /> <br/> */}
         {/* <embed src="asset/doc/CV_PeterHU.pdf"  width="800px" height="600px" /> */}
       </center>
@@ -110,9 +108,7 @@ function ColBio(){
         </HashLink> 
         <br/>
         {/* <font size="+1"> */}
-        <b>
         <HashLink to="/aboutme" className="project-link">Biography》</HashLink> <br/> 
-        </b>
         {/* </font> */}
     </>
   )
@@ -135,13 +131,11 @@ function ColResearch(){
           <Slideshow images={images} type="Research"/>
       </HashLink> 
       {/* <font size="+1"> */}
-      <b>
       <HashLink to="/research"
         className="project-link"
       >Research》</HashLink>|<HashLink to="/experience"
         className="project-link"
       >Experience》</HashLink> <br/>
-      </b>
       {/* </font> */}
     </>
   )
@@ -165,13 +159,11 @@ function ColProject(){
           <Slideshow images={images} type="Projects"/>
       </HashLink>
       {/* <font size="+1"> */}
-      <b>
       <HashLink to="/award"
         className="project-link"
       >Awards》</HashLink>|<HashLink to="/project"
         className="project-link"
       >Projects》</HashLink> <br/>
-      </b>
       {/* </font> */}
     </>
   )
@@ -197,15 +189,15 @@ export function Home() {
         <Detail />
       </div>
       {/* <br/> */}
-      <hr width="50%" color="#C0C0C0" size="1" />  
-       {/* #987cb9 */}
+      <Index_Footer />
+      {/* <hr width="50%" color="#C0C0C0" size="1" />  
       <table class="table_footer">
           <tbody>
                 <td>
                   <FooterCommon />
                 </td>
           </tbody>
-      </table>
+      </table> */}
     </div>
     </motion.div>
   );
