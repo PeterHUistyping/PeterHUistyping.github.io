@@ -9,7 +9,6 @@
 // function Blog_top(){
 //     return (
 //       <>
-//       <body_>
 //       <div class="top" >
 //       <ul>
 //           <li>
@@ -106,7 +105,6 @@
         
 //       </ul>
 //   </div>
-//   </body_>
 //   <br /><br /> 
 //   </>
 //   )
