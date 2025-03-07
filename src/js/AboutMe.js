@@ -32,20 +32,24 @@ export function AboutMe(){
     </center>
     <div class="aboutMeContainer">
     
-        Strong background and interest in <font color="green">Visual Computing (Graphics, Vision)</font> with <font color="#3824BD">ML</font> / <font color='#8D6F64'>System</font>.  <br/>
+        {/* Strong background and interest in <font color="green">Visual Computing (Graphics, Vision)</font> with <font color="#3824BD">ML</font> / <font color='#8D6F64'>System</font>.  <br/> */}
         
-        &emsp; &nbsp;&nbsp;
-        <b>Conducted long-term collaborative research in academic and industry lab</b> on  <br/>
-        - <font color="green">Visual Computing (Graphics, Vision, Image Processing)</font> + <font color="#3824BD">AI/ML</font>, <br/>
+        {/* &emsp; &nbsp;&nbsp; */}
+        <b>Engage in long-term collaborative <HashLink to="/research">academic and industry research</HashLink></b>. <br/>
+        <center>
+            <font color="green">Visual Computing (Graphics, Vision, Image Processing)</font> + <font color="#3824BD">AI/ML</font>
+        </center>
 
         &emsp; &nbsp;&nbsp;
-        covering ray tracing, appearance modeling (materials, BRDF), hair modeling, geometry representations, etc. The tasks taken include rendering, synthesis, reconstruction, classification, etc. In the past few years, I have developed or maintained several renderers in multiple languages (C++, Python, GLSL). I also present multiple knowledge sharing sessions about my research topics both internally during internship and in university. <br/> 
+        covering rendering (ray tracing, volume rendering, neural rendering), appearance modeling (materials, BRDF), modeling and geometry representations (hair), etc. The tasks taken include synthesis, reconstruction, classification, etc. In the past few years, I have developed or maintained several renderers in multiple languages (C++, Python, GLSL). I also present multiple knowledge sharing sessions about my research topics both internally during internship and in university. <br/> 
         <center>
         {/* 1568 1340 = 1.17 */}
         <img height="200vw" src="/asset/photo/Logo/Relationship_CV.png" alt="CV" />
         </center>
-
-        - <font color='#8D6F64'>System</font>-related (Scheduling, CPU), <br/>
+        
+        <center>
+            <font color='#8D6F64'>System</font>-related (Scheduling, CPU, Security)
+        </center>
 
         &emsp; &nbsp;&nbsp;
         ranging from high-level architecture design to low-level algorithm implementation. 
@@ -53,15 +57,15 @@ export function AboutMe(){
 
 
         &emsp; &nbsp;&nbsp;
-        <b>Enjoy most of the elegant and crazy ideas raised in Computer Science</b>, mathematic principles as well as engineering techniques. It includes courses from Cambridge, MIT/CMU OpenCourseWare.   <br/>
+        <b>Enjoy most of the elegant or crazy ideas raised in Mathematic, Technology and Science</b>. It includes courses, as well as <HashLink to="/project">projects</HashLink>, from Cambridge, MIT/CMU OpenCourseWare.   <br/>
 
 
         &emsp; &nbsp;&nbsp;
-        <b>Past group competition experience in compression</b> implemented in C and C++, where new ideas on LZSS and complete pipeline come up from our team. It achieves a lossless compression with overall better compression rate and processing speed compared with google Draco for the given 3D graphics data input. <br/>
+        <b>Past <HashLink to="/blog6">group competition</HashLink> experience in compression</b> implemented in C and C++, where new ideas on LZSS and complete pipeline come up from our team. It achieves a lossless compression with overall better compression rate and processing speed compared with google Draco for the given 3D graphics data input. <br/>
 
 
-        &emsp; &nbsp;&nbsp;
-        Exploring areas in Graphics + AI/ML with GPU, CV / System-related topics, etc and open to new opportunities and fields.       <br/>
+        {/* &emsp; &nbsp;&nbsp; */}
+        {/* Exploring areas in Graphics + AI/ML with GPU, CV / System-related topics, etc and open to new opportunities and fields.       <br/> */}
         
         <br/>
 

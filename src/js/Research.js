@@ -25,8 +25,8 @@ export function Research(){
     }, []);
 
     const [show , setShow] = useState(false);
-    const [show2 , setShow2] = useState(false);
-    const [show3 , setShow3] = useState(false);
+    // const [show2 , setShow2] = useState(false);
+    // const [show3 , setShow3] = useState(false);
   
     const handleOnClick = () => {
           setShow(! show);
@@ -45,10 +45,10 @@ export function Research(){
         {/* University of Cambridge */}
         <i>May, 2024 - Present</i> | <a href="https://www.cam.ac.uk/"><img width="27" height="24" src="./asset/photo/Logo/Cam.png" alt="Cambridge" /></a> <a href="https://core-lab.io/">Cambridge Open Reality and Visual AI (CORE) Lab</a> (<a href="https://www.cl.cam.ac.uk/~aco41/">Prof Cengiz Öztireli</a>), <a href="https://www.cst.cam.ac.uk/">Dept. of Computer Science and Technology</a>  <br/>
         <br/>
-        I am privileged to undertake some interesting academic research explorations @<a href="https://core-lab.io/">Core Lab</a> at the intersection of Computer Graphics, Computer Vision and Machine Learning. During this period, I explore the neural representations of materials, physical accuracy, real-world material synthesis, evaluation of generation models and many other. <br/>
+        I am privileged to undertake some interesting academic research explorations @<a href="https://core-lab.io/">Core Lab</a> at the intersection of Computer Graphics, Computer Vision and Machine Learning. During this period, I explore the neural representations of materials, physical accuracy, generation models with evaluation, real-world material synthesis, and many other. <br/>
                 
         My undergraduate research is supervised by <a href="https://chenliang-zhou.github.io/">Chenliang Zhou</a> on generative machine learning and Dr <a href="https://asztr.github.io/">Alejandro Sztrajman</a> on real-world materials and <a href="https://en.wikipedia.org/wiki/Bidirectional_reflectance_distribution_function">Bidirectional Reflectance Distribution Function (BRDF)</a>; mentored by
-        Dr <a href="https://www.cl.cam.ac.uk/~fz261/">Fangcheng Zhou</a> on Graphics (geometry representations and rendering).<br/> <br/>
+        Dr <a href="https://www.cl.cam.ac.uk/~fz261/">Fangcheng Zhou</a> on Graphics (geometry representations and rendering), indoor layout synthesis.<br/> <br/>
         
         <p><b>ABOUT my first paper</b> <i>NeuMaDiff: Neural Material Synthesis via Hyperdiffusion</i> ... </p>
         Coauthored with my supervisors <a href="https://chenliang-zhou.github.io/">Chenliang Zhou</a> and Dr <a href="https://asztr.github.io/">Alejandro Sztrajman</a>, we together propose different aspects to the novel architecture, where I draw the network architecture via LaTeX <a href="https://github.com/pgf-tikz/pgf">TikZ</a>. Our methods support the unconditional, statistically constrained and multi-modal generation of materials. With my experiments on PCA, VAE taking in either original or neural materials, we found out that hyperdiffusion has superiority in generating materials with high fidelity and diversity. <br/>
