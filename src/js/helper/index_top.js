@@ -18,7 +18,6 @@ function Index_top(props){
 
     return (
         <>
-        <body_>   
         <div class="top">
             <ul>
                 <li> 
@@ -119,7 +118,6 @@ function Index_top(props){
             </ul>
         </div>
         <br /><br />
-    </body_>
     </>
     )
 }

@@ -188,16 +188,16 @@ function Table(props){
     <table id="tableSort">
         <thead>
             <tr>
-                <th type="number"
+                <th  
                 onClick={() => handleSort(0, 'number')}
                 >No. {renderSortTriangle(0)}</th>
-                <th type="string" 
+                <th  
                 onClick={() => handleSort(1, 'string')}
                 > 🔗Blog  {renderSortTriangle(1)}</th>
-                <th type="number"
+                <th  
                 onClick={() => handleSort(2, 'string')}
                 >🗓️Date  {renderSortTriangle(2)}</th>
-                <th type="string"
+                <th 
                 onClick={() => handleSort(3, 'string')}
                 >🏷️Tags {renderSortTriangle(3)} </th>
             </tr>

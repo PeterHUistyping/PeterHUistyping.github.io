@@ -12,7 +12,7 @@ export default function Blog_Footer(){
             <li><a href="/#/Blog_Sorting">🔙 Blog 📝</a></li>
         </ul>
     </div>
-    <hr width="50%" color="#C0C0C0" SIZE="1" />  
+    <hr width="50%" color="#C0C0C0" size="1" />  
     {/* #987cb9 */}
         
         <table class="table_footer">
