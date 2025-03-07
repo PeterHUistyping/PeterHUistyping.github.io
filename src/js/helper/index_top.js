@@ -1,9 +1,8 @@
 /* All rights reserved. 2022-2025 (c) Peter HU */
-import React from 'react';
-import { useRef } from "react";
 import { NavLink } from "react-router-dom"; 
 import { HashLink } from 'react-router-hash-link';
-import { useState } from "react";
+import { useState, useRef } from "react";
+
 
 function Index_top(props){
     var type = props.type;
@@ -149,7 +148,7 @@ export default function Index_Top(props){
 function DisableAfterClick() {
     let audio = new Audio("/asset/audio/Town_of_Windmill.mp3");
     let music_state=true;
-    const [btnState, setBtnState] = React.useState(false);
+    const [btnState, setBtnState] = useState(false);
     let btnRef = useRef();
     const onBtnClick = (e) => {
     if (btnRef.current) {
@@ -172,7 +171,8 @@ function DisableAfterClick() {
 };
 
 
-export const colors = ["#f9e5f7", "#eedcd0","#d9f2d9", "#ddd9f5","#def5f1" ];
+// add color to the background
+const colors = ["#f9e5f7", "#eedcd0","#d9f2d9", "#ddd9f5","#def5f1" ];
 
 
 export function ChangeBodyColor(c){
@@ -180,8 +180,9 @@ export function ChangeBodyColor(c){
 };
 
 
-export function Bg_color() {
-  const [backgroundColor, setBackgroundColor] = React.useState("");
+function Bg_color() {
+  // change background color   
+  const [backgroundColor, setBackgroundColor] = useState("");
   return (
     <div
       style={{
