@@ -533,3 +533,12 @@ a.project-link:active {
   /* border-radius: 40px; */
   /* border: 1px solid #0a0a0a; */
 }
+
+.button_collapsable{
+  border-top-left-radius: "12px";
+  border-top-right-radius: "12px";
+}
+
+.button_collapsable:hover{
+  background-color: "grey";
+}
