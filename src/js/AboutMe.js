@@ -41,7 +41,7 @@ export function AboutMe(){
         </center>
 
         &emsp; &nbsp;&nbsp;
-        covering rendering (ray tracing, volume rendering, neural rendering), appearance modeling (materials, BRDF), modeling and geometry representations (hair), etc. The tasks taken include synthesis, reconstruction, classification, etc. In the past few years, I have developed or maintained several renderers in multiple languages (C++, Python, GLSL). I also present multiple knowledge sharing sessions about my research topics both internally during internship and in university. <br/> 
+        covering rendering (ray tracing, volume rendering, neural rendering), appearance modeling (materials, BRDF), geometry modeling and representations (hair), etc. The tasks taken include synthesis, reconstruction, classification, etc. In the past few years, I have developed or maintained several renderers in multiple languages (C++, Python, GLSL). I also present multiple knowledge sharing sessions about my research topics both internally during internship and in university. <br/> 
         <center>
         {/* 1568 1340 = 1.17 */}
         <img height="200vw" src="/asset/photo/Logo/Relationship_CV.png" alt="CV" />
