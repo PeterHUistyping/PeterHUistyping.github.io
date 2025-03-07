@@ -77,14 +77,6 @@ export function AboutMe(){
             
         <Interest_extra /> <br/>
         
-        <div class ="announcement">
-            👈 Please click the left Sidebar for relevant sections. <br/>
-        <HashLink to="/">🏠 Home</HashLink> <br/>
-        <HashLink to="/research"><i>Research💭</i></HashLink> <br/>
-        <HashLink to="/award"><i>Awards🥇</i></HashLink> <br/>
-        <HashLink to="/project"><i>Projects🧑‍💻</i></HashLink><br/>
-        {/* <HashLink to="/experience"><i>Experience</i></HashLink><br/> */}
-        </div>
          </center>
     </div>
 
@@ -92,3 +84,23 @@ export function AboutMe(){
     </motion.div>)
 }
 
+
+export function NavigationNotice(){
+    return(
+        <div class ="announcement">
+        | <HashLink   to="/" 
+            className="project-link"
+        >Home🏠</HashLink>   /      <HashLink to="/aboutme"
+            className="project-link"
+        >Bio.👨‍💻</HashLink> /  <HashLink    to="/research"
+            className="project-link"
+        >Research💭</HashLink> \       <HashLink  to="/award"
+            className="project-link"
+        >Awards🥇</HashLink> \ <HashLink to="/project"
+            className="project-link"
+        >Projects🧑‍💻</HashLink> | <br/>
+        👈 Alternatively, please click the left sidebar for relevant sections. <br/>
+        {/* <HashLink to="/experience"><i>Experience</i></HashLink><br/> */}
+        </div>
+    )
+}

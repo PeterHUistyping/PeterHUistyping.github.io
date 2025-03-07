@@ -75,7 +75,10 @@ export function Blog_Sorting(){
         <Table resource={resource}/>
         <center>
         <p><strong>More to Discover</strong></p> 
-        Useful  <a href="/#/ref">Resource and Reference📚</a> | <HashLink to="/PhotoDisplay">Photographs Of Moments</HashLink>
+        Useful  <a className="project-link"
+        href="/#/ref">Resource and Reference📚</a> | <HashLink 
+        className="project-link"
+        to="/PhotoDisplay">Photographs Of Moments</HashLink>
         </center>
       
         {/* <img  width= "100%"  src="/asset/photo/bg/Magic2.jpg" alt="Magic"/> <br/> */}
@@ -105,7 +108,8 @@ function TableContent(props) {
         <tr className="hover">
           <td className="sequence">{id}</td>
           <td>
-            <a href={`/#/${resource.Blog}`}>
+            <a className="project-link"
+            href={`/#/${resource.Blog}`}>
               <center>{resource.Title}</center>
             </a>
           </td>

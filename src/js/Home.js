@@ -11,7 +11,7 @@ import {Publication} from "./Research"
 import React, { useEffect, useState } from "react";
 import {Slideshow} from "./helper/slideShow"
 import {Education, Skill, Interest_extra} from "./EduSkill"
-
+import {NavigationNotice} from "./AboutMe"
 
 function About_me(){
   return (
@@ -30,19 +30,19 @@ function About_me(){
 }
 
            
-function Sidebar_Notice(){
-  // archive funcs
-    return(
-  <div class ="announcement">
-    <h1>
-      <HashLink to="/research">Research💭</HashLink><br/>
-      <HashLink to="/award">Awards🥇</HashLink><br/>
-      <HashLink to="/project">Projects🧑‍💻</HashLink><br/>
-    </h1>
-      {/* <HashLink to="/experience"><i>Experience</i></HashLink><br/> */}
-  </div>
-    )
-}
+// function Sidebar_Notice(){
+//   // archive funcs
+//     return(
+//   <div class ="announcement">
+//     <h1>
+//       <HashLink to="/research">Research💭</HashLink><br/>
+//       <HashLink to="/award">Awards🥇</HashLink><br/>
+//       <HashLink to="/project">Projects🧑‍💻</HashLink><br/>
+//     </h1>
+//       {/* <HashLink to="/experience"><i>Experience</i></HashLink><br/> */}
+//   </div>
+//     )
+// }
 
 
 function Detail(){
@@ -80,11 +80,11 @@ function Detail(){
           <h1 style={{"font-family":"BrushScriptMT-embed"}}>List of Publications</h1>
           <Publication />
         </center>
+        <br/>
+        <NavigationNotice />
         {/* <Interest_extra /> <br/> */}
         {/* <embed src="asset/doc/CV_PeterHU.pdf"  width="800px" height="600px" /> */}
       </center>
-      <br/> 
-      <br/> 
       </>
       )
   }
@@ -111,7 +111,7 @@ function ColBio(){
         <br/>
         {/* <font size="+1"> */}
         <b>
-        <HashLink to="/aboutme">Biography》</HashLink> <br/> 
+        <HashLink to="/aboutme" className="project-link">Biography》</HashLink> <br/> 
         </b>
         {/* </font> */}
     </>
@@ -136,7 +136,11 @@ function ColResearch(){
       </HashLink> 
       {/* <font size="+1"> */}
       <b>
-      <HashLink to="/research">Research》</HashLink>|<HashLink to="/experience">Experience》</HashLink> <br/>
+      <HashLink to="/research"
+        className="project-link"
+      >Research》</HashLink>|<HashLink to="/experience"
+        className="project-link"
+      >Experience》</HashLink> <br/>
       </b>
       {/* </font> */}
     </>
@@ -162,7 +166,11 @@ function ColProject(){
       </HashLink>
       {/* <font size="+1"> */}
       <b>
-      <HashLink to="/award">Awards》</HashLink>|<HashLink to="/project">Projects》</HashLink> <br/>
+      <HashLink to="/award"
+        className="project-link"
+      >Awards》</HashLink>|<HashLink to="/project"
+        className="project-link"
+      >Projects》</HashLink> <br/>
       </b>
       {/* </font> */}
     </>
