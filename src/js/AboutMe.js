@@ -39,9 +39,11 @@ export function AboutMe(){
         <center>
             <font color="green">Visual Computing (Graphics, Vision, Image Processing)</font> + <font color="#3824BD">AI/ML</font>
         </center>
-
+        <div style={{width: "90%", margin: "auto"}}>
         &emsp; &nbsp;&nbsp;
-        covering rendering (ray tracing, volume rendering, neural rendering), appearance modeling (materials, BRDF), geometry modeling and representations (hair), etc. The tasks taken include synthesis, reconstruction, classification, etc. In the past few years, I have developed or maintained several renderers in multiple languages (C++, Python, GLSL). I also present multiple knowledge sharing sessions about my research topics both internally during internship and in university. <br/> 
+        covering rendering (ray tracing, volume rendering, neural rendering), appearance modeling (materials, BRDF), geometry modeling and representations (hair), etc. The tasks taken include synthesis, reconstruction, classification, etc. In the past few years, I have developed or maintained several renderers in multiple languages (C++, Python, GLSL). I also present multiple knowledge sharing sessions about my research topics both internally during internship and in university. 
+        </div>
+        <br/> 
         <center>
         {/* 1568 1340 = 1.17 */}
         <img height="200vw" src="/asset/photo/Logo/Relationship_CV.png" alt="CV" />
@@ -50,17 +52,17 @@ export function AboutMe(){
         <center>
             <font color='#8D6F64'>System</font>-related (Scheduling, CPU, Security)
         </center>
-
+        
+        <div style={{width: "90%", margin: "auto"}}>
         &emsp; &nbsp;&nbsp;
         ranging from high-level architecture design to low-level algorithm implementation. 
-        Theoretical expertise (literature, brainstorm), coupled with practical skills (the key developer for the simulation framework), comprise my areas of research proficiency. <br/>
-
-
-        &emsp; &nbsp;&nbsp;
+        Theoretical expertise (literature, brainstorm), coupled with practical skills (the key developer for the simulation framework), comprise my areas of research proficiency. 
+        </div>
+        <br/>
+        {/* &emsp; &nbsp;&nbsp; */}
         <b>Enjoy most of the elegant or crazy ideas raised in Mathematic, Technology and Science</b>. It includes courses, as well as <HashLink to="/project">projects</HashLink>, from Cambridge, MIT/CMU OpenCourseWare.   <br/>
 
-
-        &emsp; &nbsp;&nbsp;
+        {/* &emsp; &nbsp;&nbsp; */}
         <b>Past <HashLink to="/blog6">group competition</HashLink> experience in compression</b> implemented in C and C++, where new ideas on LZSS and complete pipeline come up from our team. It achieves a lossless compression with overall better compression rate and processing speed compared with google Draco for the given 3D graphics data input. <br/>
 
 

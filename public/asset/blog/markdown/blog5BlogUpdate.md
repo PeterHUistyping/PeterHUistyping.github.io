@@ -79,7 +79,7 @@ Reuse: the same part in the HTML / using JavaScript to encapsulate the header an
 **More update coming soon...**
 
 Mar 2025
-Merge the navigation bars of Main website and Blog system into a single function, for better maintainability.
+Merge the navigation bars of Main website and Blog system into a single function, for better maintainability. [Blog3.0-v2](asset/photo/Assignment/5/blog3.0-v2.png "Blog3.0 v2")
 
 Feb 2025
 Fix the main Blog page's table sorting feature via React~
