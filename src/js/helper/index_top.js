@@ -81,8 +81,14 @@ function Index_top(props){
                     {/* <HashLink to="/#contact">📬Contact▾</HashLink> */}
                     <NavLink id="top_contact" exact activeClassName='is-active' to="/contact">📬Contact▾</NavLink>
                 <ul>
-                    <li><a href="./asset/doc/CV_PeterHU.pdf"><img width= "20vw" src="/asset/photo/Logo/cv-blue.png" alt="cv" title="CV"/></a></li>
-                    <li><a href="https://github.com/PeterHUistyping"> <img width= "22vw" src="/asset/photo/Logo/github.svg" alt="github" title="Github"/></a></li>
+                    <li><a href="./asset/doc/CV_PeterHU.pdf"><img width= "20vw" 
+                    onMouseEnter={(e) => (e.target.style.transform = "scale(1.2)")}
+                    onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+                    src="/asset/photo/Logo/cv-blue.png" alt="cv" title="CV"/></a></li>
+                    <li><a href="https://github.com/PeterHUistyping"> <img width= "22vw" 
+                    onMouseEnter={(e) => (e.target.style.transform = "scale(1.2)")}
+                    onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+                    src="/asset/photo/Logo/github.svg" alt="github" title="Github"/></a></li>
                     {/* <li><a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "22vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a></li> */}
                 </ul>
                 </li>
@@ -102,7 +108,10 @@ function Index_top(props){
                 </li>      */}
 
                 <li>
-                    <NavLink id="top_photography" exact activeClassName='is-active' to="/PhotoDisplay">📷</NavLink>  
+                    <NavLink id="top_photography" exact activeClassName='is-active'
+                    onMouseEnter={(e) => (e.target.style.transform = "scale(1.2)")}
+                    onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+                    to="/PhotoDisplay">📷</NavLink>  
                 </li>
 
                 <li>    
@@ -177,7 +186,8 @@ function DisableAfterClick() {
     }
   };
   return (
-        <button  className={`button ${btnState ? "button_musicon" : "button_musicoff"}`} ref={btnRef} onClick={onBtnClick}>🎶</button>      
+        <button  className={`button ${btnState ? "button_musicon" : "button_musicoff"}`}
+        ref={btnRef} onClick={onBtnClick}>🎶</button>      
   );
 
 };

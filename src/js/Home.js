@@ -104,7 +104,10 @@ function ColBio(){
   return (
     <>
         <HashLink id="teaser_link"  to="/aboutme">
-          <img height="100vh" src="/asset/photo/Logo/Relationship_CV.png" alt="Bio." title="Bio." />
+          <img height="100vh" 
+          onMouseEnter={(e) => (e.target.style.transform = "scale(1.2)")}
+          onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+          src="/asset/photo/Logo/Relationship_CV.png" alt="Bio." title="Bio." />
         </HashLink> 
         <br/>
         {/* <font size="+1"> */}
@@ -226,6 +229,7 @@ function Profile1(){
   )
 }
 
+
 function Profile2(){
   return(
       <td width="280" text-align="center">
@@ -235,41 +239,65 @@ function Profile2(){
 
   <div style={{border: "1px dashed  #987cb988", padding: "4px", borderRadius: "15px"}}>
 
-  <a href="https://github.com/PeterHUistyping"> <img width= "18vw" src="/asset/photo/Logo/github.svg" alt="github" title="GitHub"/></a>
+  <a href="https://github.com/PeterHUistyping"> <img width= "18vw" 
+  onMouseEnter={(e) => (e.target.style.transform = "scale(1.5)")}
+  onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+  src="/asset/photo/Logo/github.svg" alt="github" title="GitHub"/></a>
   
   &thinsp;
   {/* &thinsp; |  &thinsp; */}
 
-  {/* <a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "16vw" src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a> | */}
+  {/* <a href="https://www.linkedin.com/in/peterhu2022/"> <img width= "16vw" 
+  onMouseEnter={(e) => (e.target.style.transform = "scale(1.5)")}
+  onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+  src="/asset/photo/Logo/linkedin.svg" alt="linkedin"/></a> | */}
 
-  <a href="https://orcid.org/0009-0004-4687-6945"><img width= "18vw" src="/asset/photo/Logo/ORCiD.png" alt="ORCiD" title="ORCiD"/></a>
+  <a href="https://orcid.org/0009-0004-4687-6945"><img width= "18vw" 
+  onMouseEnter={(e) => (e.target.style.transform = "scale(1.5)")}
+  onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+  src="/asset/photo/Logo/ORCiD.png" alt="ORCiD" title="ORCiD"/></a>
   
   &thinsp; 
   {/* &thinsp; |  &thinsp; */}
 
 
-  <a href="https://scholar.google.com/citations?user=M3jgt3QAAAAJ"><img width= "18vw" src="/asset/photo/Logo/goggle_scholar.png" alt="google_scholar" title="Google Scholar"/></a>
+  <a href="https://scholar.google.com/citations?user=M3jgt3QAAAAJ"><img width= "18vw" 
+  onMouseEnter={(e) => (e.target.style.transform = "scale(1.5)")}
+  onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+  src="/asset/photo/Logo/goggle_scholar.png" alt="google_scholar" title="Google Scholar"/></a>
   
   &thinsp; 
   {/* &thinsp; |  &thinsp; */}
 
-  <a href="https://dblp.org/pid/270/0713-6"><img width= "18vw" src="/asset/photo/Logo/dblp.webp" alt="dblp" title="DBLP"/></a>
+  <a href="https://dblp.org/pid/270/0713-6"><img width= "18vw" 
+  onMouseEnter={(e) => (e.target.style.transform = "scale(1.5)")}
+  onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+  src="/asset/photo/Logo/dblp.webp" alt="dblp" title="DBLP"/></a>
   
   &thinsp; 
   {/* &thinsp; |  &thinsp; */}
   
-  <a href="https://www.kaggle.com/peterhu2022"><img width= "18vw" src="/asset/photo/Logo/kaggle.svg" alt="kaggle" title="Kaggle"/></a>
+  <a href="https://www.kaggle.com/peterhu2022"><img width= "18vw" 
+  onMouseEnter={(e) => (e.target.style.transform = "scale(1.5)")}
+  onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+  src="/asset/photo/Logo/kaggle.svg" alt="kaggle" title="Kaggle"/></a>
 
   <br/>
 
-  <a href="./asset/doc/CV_PeterHU.pdf"><img width= "20vw" src="/asset/photo/Logo/cv-blue.png" alt="cv" title="CV"/></a>
+  <a href="./asset/doc/CV_PeterHU.pdf"><img width= "20vw" 
+  onMouseEnter={(e) => (e.target.style.transform = "scale(1.5)")}
+  onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+  src="/asset/photo/Logo/cv-blue.png" alt="cv" title="CV"/></a>
 
   &emsp;
   {/* &thinsp; |  &thinsp; */}
 
   {/* <strong>Contact Details</strong><br/> */}
   <a href="mailto:zh369@cam.ac.uk" title="Email">
-      <img width= "20vw" src="/asset/photo/Logo/e-mail.png" alt="email" title="Email"/>
+      <img width= "20vw" 
+      onMouseEnter={(e) => (e.target.style.transform = "scale(1.5)")}
+      onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+      src="/asset/photo/Logo/e-mail.png" alt="email" title="Email"/>
   </a>
   
   {/* zh369@cam.ac.uk  */}

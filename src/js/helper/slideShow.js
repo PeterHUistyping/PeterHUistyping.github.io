@@ -23,7 +23,10 @@ export function Slideshow(props) {
 
   return (
     <div>
-      <img src={images[currentIndex]} alt={`Image ${currentIndex}`} height="100vh" title={type}></img>
+      <img src={images[currentIndex]} alt={`Image ${currentIndex}`} height="100vh"
+      onMouseEnter={(e) => (e.target.style.transform = "scale(1.2)")}
+      onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+      title={type}></img>
     </div>
   );
 }
