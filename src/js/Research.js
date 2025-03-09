@@ -62,7 +62,8 @@ export function Research(){
         <button  
         style={{backgroundColor: show ? "#f1f8e9": "white",
             border: "1px solid #4CAF50",
-            width: "100%",
+            width: "80%",
+            marginLeft: "10%",
             borderTopLeftRadius: "12px",
             borderTopRightRadius: "12px",
         }} onClick={handleOnClick}
@@ -77,7 +78,7 @@ export function Research(){
         </button>
 
         {show && 
-        <div style={{width: "90%", margin: "auto"}}>
+        <div style={{width: "74%", margin: "auto"}}>
         Coauthored with my supervisors <a href="https://chenliang-zhou.github.io/">Chenliang Zhou</a> and Dr <a href="https://asztr.github.io/">Alejandro Sztrajman</a>, we together propose different aspects to the novel architecture, where I draw the network architecture via LaTeX <a href="https://github.com/pgf-tikz/pgf">TikZ</a>. Our methods support the unconditional, statistically constrained and multi-modal generation of materials. With my experiments on PCA, VAE taking in either original or neural materials, we found out that hyperdiffusion has superiority in generating materials with high fidelity and diversity. <br/>
         Team up with Dr <a href="https://asztr.github.io/">Alejandro Sztrajman</a>, we further explore and finalize the statistical constraints for each type of material, e.g. plastic, fabric, metallic, mirror-like, etc, based on observation and experiments. It serves as a classical, as well as ML-free way to classify the material. <br/>
         In particular, there is a lack of effective BRDF-space metrics in generation tasks, where we fill the gap through my experiments, targeting the diversity and fidelity with various underlying distance functions tried. Through literature review, I raise the idea of adapting point cloud based metrics to the field of materials. With further discussions with <a href="https://chenliang-zhou.github.io/">Chenliang Zhou</a>, we finalize on which pairwise distance measurements to use. To further illustrate its effectiveness, I utilize the confusion matrix to demonstrate the evaluation process. With help of my plotted graph, it's clear that our methods are able to identify the relationship between reference and synthetic material sets. <br/>
