@@ -11,7 +11,7 @@
         "Des2": "Unity video based AR app",
         "Time":"2025.1.20-2025.3.20",
         "Github":"https://github.com/PeterHUistyping/AR-block-tower/",
-        "PDF": "/",
+        "PDF": "./asset/doc/XR-technical_report.pdf",
         "Blog":"blog11",
         "More":"https://github.com/PeterHUistyping/AR-block-tower/releases/"
     },
