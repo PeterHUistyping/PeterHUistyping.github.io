@@ -89,7 +89,8 @@ function Intro_Des(props){
 function Italic_Intro(props){
     if(props.Italic)
         return(
-            <div><i>{props.Italic}</i><br/></div>
+            // style={{ color: "gray" }}
+            <i>{props.Italic}</i>
         )
 }
 
@@ -120,17 +121,17 @@ function HightlightAuthor(props){
     if(props.trimmedPart.includes("Zheyuan Hu")){
         return (
             <>
-                <b>Zheyuan Hu</b>
+                <b>Zheyuan Hu</b> 
             </>
-    );
+        );
     }
     else{
         var authorUrl = AUTHOR_URLS[0][props.trimmedPart] || "";
         return(
             <>
                  <a href={authorUrl} target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
-                  {props.part}
-                </a>
+                  {props.trimmedPart}
+                </a> 
             </>
         )
     }
@@ -139,7 +140,6 @@ function HightlightAuthor(props){
 
 function HightlightAuthorsURL(props){
     // create a mapping between author name and link
-  
     if(props.author.includes("Zheyuan Hu")){
         // const parts = props.author.split("Zheyuan Hu");
         const parts = props.author.split(",");
@@ -147,11 +147,14 @@ function HightlightAuthorsURL(props){
       <>
         {parts.map((part, index) => {
             var trimmedPart = part.trim();
+            var is_equal_contribution = trimmedPart.includes("†") ? "†" : "";
+            // "AB †" -> "AB"
+            var trimmedPart2 = trimmedPart.replace(" †", "");
             return (
           <>
-            <HightlightAuthor part={part} trimmedPart={trimmedPart}/>
+            <HightlightAuthor trimmedPart={trimmedPart2}/>{is_equal_contribution}
             {index < parts.length - 1 && ", "}
-          </>
+          </> 
         )
         })}
       </>
@@ -178,8 +181,10 @@ function Intro(props){
             Des2={props.Des2}
             Des3={props.Des3}
             Des4={props.Des4}/>
-            <Italic_Intro Italic={props.Italic}/>
-            {props.Time}<br/>
+
+            <div style={{ color: "#787878" }}>
+            {props.Time}   { props.Italic && <> ¦ <Italic_Intro Italic={props.Italic}/></> }
+            </div>
 
             {props.Project && <> |  <a href={props.Project} class="project-link">project</a> </> }
             {props.Arxiv && <> | <a href={props.Arxiv} class="project-link">arXiv</a>  </>}
@@ -236,13 +241,15 @@ function PicIntro_table(proxy){
 
 function Tbody(props){
     if (props.display_type === 'research') return (
-        <PicIntro_table id={props.id} resource={props.resource}/>
+        <tbody>
+            <PicIntro_table id={props.id} resource={props.resource}/>
+        </tbody>
     )
     else
     return(
-    <tbody>
-        <PicIntro_table id={props.id} resource={props.resource}/> 
-    </tbody>
+        <tbody>
+            <PicIntro_table id={props.id} resource={props.resource}/> 
+        </tbody>
     )
 }
 

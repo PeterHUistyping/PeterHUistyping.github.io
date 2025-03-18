@@ -1,17 +1,28 @@
 [   
     {
-    "pic1_src":"./asset/photo/pub/1/teaser.png",
-    "pic1_alt":"teaser",
-    "Title":"NeuMaDiff: Neural Material Synthesis via Hyperdiffusion",
-    "Category": "",
-    "author": "Chenliang Zhou, Zheyuan Hu, Alejandro Sztrajman, Yancheng Cai, Yaru Liu, Cengiz Öztireli",
-    "line":0,
-    "Italic":"Computer Graphics (real-world materials), Vision (generation via PCA, VAE, diffusion)",
-    "Time":"2024.11",
-    "Project":"https://github.com/peterhuistyping.github.io/NeuMaDiff/",
-    "Arxiv":"https://arxiv.org/abs/2411.12015",
-    "PDF":"https://arxiv.org/pdf/2411.12015",
-    "Github":"https://github.com/PeterHUistyping/NeuMaDiff",
-    "Dataset":"https://huggingface.co/datasets/Peter2023HuggingFace/NeuMERL"
+        "pic1_src":"./asset/photo/pub/1/teaser.png",
+        "pic1_alt":"teaser",
+        "Title":"NeuMaDiff: Neural Material Synthesis via Hyperdiffusion",
+        "Category": "",
+        "author": "Chenliang Zhou, Zheyuan Hu, Alejandro Sztrajman, Yancheng Cai, Yaru Liu, Cengiz Öztireli",
+        "line":0,
+        "Italic":"Computer Graphics (real-world materials), Vision (generation via PCA, VAE, diffusion).",
+        "Time":"2024 - 2025",
+        "Project":"https://github.com/peterhuistyping.github.io/NeuMaDiff/",
+        "Arxiv":"https://arxiv.org/abs/2411.12015",
+        "PDF":"https://arxiv.org/pdf/2411.12015",
+        "Github":"https://github.com/PeterHUistyping/NeuMaDiff",
+        "Dataset":"https://huggingface.co/datasets/Peter2023HuggingFace/NeuMERL"
+    },
+    {
+        "pic1_src":"./asset/photo/pub/2/teaser.png",
+        "pic1_alt":"teaser",
+        "Title":"CHOrD: Generation of Collision-Free, House-Scale, and Organized Digital Twins for 3D Indoor Scenes with Controllable Floor Plans and Optimal Layouts",
+        "Category": "",
+        "Italic": "Indoor Scene Synthesis, Generative Models, Digital Twin Generation.",
+        "author": "Chong Su †, Yingbin Fu †, Zheyuan Hu, Jing Yang, Param Hanji, Shaojun Wang, Xuan Zhao, Cengiz Öztireli, Fangcheng Zhong",
+        "Time":"2025.2",
+        "Arxiv":"https://arxiv.org/abs/2503.11958"
     }
+
 ]

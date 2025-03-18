@@ -75,14 +75,14 @@ function Detail(){
                   <ColProject />
             </div>
         </div>
+      </center>
         <center>
           <h1 style={{"font-family":"BrushScriptMT-embed"}}>List of Publications</h1>
-          <Publication />
+        <Publication />
         </center>
         <br/>
         {/* <Interest_extra /> <br/> */}
         {/* <embed src="asset/doc/CV_PeterHU.pdf"  width="800px" height="600px" /> */}
-      </center>
       </>
       )
   }
@@ -122,6 +122,8 @@ function ColResearch(){
     const images = [
       "asset/photo/pub/1/teaser.png",
       "asset/photo/pub/1/diagram.png",
+      "asset/photo/pub/2/teaser.png",
+      "asset/photo/pub/2/diagram.png",
       'asset/photo/experience/RT/depthMap.png',
       'asset/photo/experience/RT/posMap.png',
       'asset/photo/experience/RT/normalMap.png',
@@ -221,9 +223,10 @@ export function Profile(){
 
 function Profile1(){
   return(
+      // portrait
       <td width="280" rowspan="1" height="200">
           <div> 
-                  <a href="https://peterhuistyping.github.io/"><img class="img_profile" src="./asset/photo/Peter_Hu.jpg" alt="Profile Photo"/></a>
+                  <a href="https://peterhuistyping.github.io/"><img class="img_profile" src="./asset/photo/Peter_Hu.jpg" alt="Profile Photo" title="Portrait (Oil Painting Style)"/></a>
           </div>
       </td>
   )

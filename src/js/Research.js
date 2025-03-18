@@ -13,7 +13,8 @@ import { HashLink } from 'react-router-hash-link';
 export function Publication(){
     return (
         <>
-        <Pub_table />
+            <Pub_table />
+            <small>† indicates equal contribution.</small> <br/>
         </>
     )
 
