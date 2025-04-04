@@ -1,4 +1,18 @@
-[ {
+[ 
+{  
+    "Title":"Cambridge Summer Internship and Research Award.",
+    "pic1_src":"asset/photo/Logo/magd.jpg",
+    "pic1_alt":"Magdalene College Research Award",
+    "Category":"Research",
+    "line":1,
+    "Des1": "Supporting my research at Cambridge Open Reality and Visual AI (CORE) Lab.",
+    "Italic":"Issued by Magdalene College, University of Cambridge.",
+    "Time":"2025.03",
+    "PDF":"./asset/doc/HuResearch20250327.pdf",
+    "More":"https://www.magd.cam.ac.uk/undergraduate/finance/other-financial-support"
+},    
+
+{
     "pic1_src":"./asset/photo/Assignment/6/cf.png",
     "pic1_alt":"Comparing different Levels",
     "pic2_src":"./asset/photo/Assignment/6/1.JPG",

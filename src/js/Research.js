@@ -47,11 +47,14 @@ export function Research(){
         <i>May, 2024 - Present</i> | <a href="https://www.cam.ac.uk/"><img width="27" height="24" src="./asset/photo/Logo/Cam.png" alt="Cambridge" /></a> <a href="https://core-lab.io/">Cambridge Open Reality and Visual AI (CORE) Lab</a> (<a href="https://www.cl.cam.ac.uk/~aco41/">Prof Cengiz Öztireli</a>), <a href="https://www.cst.cam.ac.uk/">Dept. of Computer Science and Technology</a>  <br/>
         <br/>
         <div style={{width: "90%", margin: "auto"}}>
-        I am privileged to undertake some interesting academic research explorations @<a href="https://core-lab.io/">Core Lab</a> at the intersection of Computer Graphics, Computer Vision and Machine Learning. During this period, I explore the neural representations of materials, physical accuracy, generative models with evaluation, real-world material synthesis, and many other. <br/>
-                
+        I am privileged to undertake some interesting academic research explorations @<a href="https://core-lab.io/">Core Lab</a> at the intersection of Computer Graphics, Computer Vision and Machine Learning. During this period, I explore the neural representations of materials, physical accuracy, generative models with evaluation, real-world material synthesis, and many other. 
+        <br/>     
         My undergraduate research is supervised by <a href="https://chenliang-zhou.github.io/">Chenliang Zhou</a> on generative machine learning and Dr <a href="https://asztr.github.io/">Alejandro Sztrajman</a> on real-world materials and <a href="https://en.wikipedia.org/wiki/Bidirectional_reflectance_distribution_function">Bidirectional Reflectance Distribution Function (BRDF)</a>; mentored by
         Dr <a href="https://www.cl.cam.ac.uk/~fz261/">Fangcheng Zhou</a> on Graphics (geometry representations and rendering), indoor layout synthesis.
-        </div>  
+        <br/>
+        I am honored to be the recipient of <a href="asset/doc/HuResearch20250327.pdf">2025 Cambridge Summer Internship and Research Award</a>.
+        <br/>
+        </div>        
         <br/> <br/>
         
         <br/> 
