@@ -75,11 +75,12 @@ export function Research(){
     
     <Sidebar_Project />
      
-    <h2 id="research"><b>RESEARCH EXPERIENCE</b></h2>
+    <h2 id="research"><b>RESEARCH</b></h2>
+    {/* EXPERIENCE */}
     <div class="content">
         <>
         {/* Honors_and_awards */}
-        <h2 id="academicResearch"><b>Academic Research</b></h2> 
+        <h2 id="academicResearch"><b>Academia research</b></h2> 
         {/* University of Cambridge */}
         <i>May, 2024 - Present</i> | <a href="https://www.cam.ac.uk/"><img width="27" height="24" src="./asset/photo/Logo/Cam.png" alt="Cambridge" /></a> <a href="https://core-lab.io/">Cambridge Open Reality and Visual AI (CORE) Lab</a> (<a href="https://www.cl.cam.ac.uk/~aco41/">Prof Cengiz Öztireli</a>), <a href="https://www.cst.cam.ac.uk/">Dept. of Computer Science and Technology</a>  <br/>
         <br/>
@@ -108,7 +109,7 @@ export function Research(){
         <TalkRayTracing showall={true}/>
         <br/> <br/> 
 
-        <h2 id="industryResearch"><b>Industry Research</b></h2>
+        <h2 id="industryResearch"><b>Industry research</b></h2>
         </>
     </div>
     <ExperienceContents showall={false}/>

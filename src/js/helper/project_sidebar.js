@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 import React from "react";
 import { useState, useEffect} from "react";
-
+import { useLocation} from 'react-router-dom';
 
 function SidebarProject(){
     // check if the current page is project
@@ -60,15 +60,61 @@ export default function Sidebar_Project(){
     return () => window.removeEventListener("resize", handleResize);
     }, []);
 
+    // Previous and next buttons
+    const location = useLocation();
+  
+    // // Define the routes in the order they should be navigated
+    const routes = ["/", "/aboutme", "/research",  "/project", "/award", "/experience"];
+    
+    // // Function to get the next route based on the current location
+    const getNextRoute = (currentPath) => {
+      const currentIndex = routes.indexOf(currentPath);
+      if (currentIndex === -1) {
+        return "/"; // Return "/" if not in the array
+      }
+      // If we're at the last route, go back to the first route
+      return routes[(currentIndex + 1) % routes.length];
+    };
+
+    const getPrevRoute = (currentPath) => {
+        const currentIndex = routes.indexOf(currentPath);
+        if (currentIndex === -1) {
+            return "/"; // Return "/" if not in the array
+        }
+        // If we're at the first route, go to the last route
+        return routes[(currentIndex - 1 + routes.length) % routes.length];
+    }
+    // // Get the route based on the current path
+    const prevRoute = getPrevRoute(location.pathname);
+    const nextRoute = getNextRoute(location.pathname);
+
+    const [buttonText, setButtonText] = useState(show ? '☰sitemap' : <span style={{ fontSize: '10px' }}>▸map</span>);
     return (
     <div id="nav" class="sidebar_main">
         {/* Navigation  */}
+        {show && 
+        <nav>
+            <span style={{ flex: 1, textAlign: "left" }}>
+                <NavLink to={prevRoute}>◁Prev</NavLink>
+            </span>
+            <span style={{ flex: 1, textAlign: "right" }}>
+                <NavLink to={nextRoute}>➤Next</NavLink>
+            </span>
+        </nav> 
+        }
+        {!show && 
+        <nav>
+            <NavLink to={prevRoute}>◁</NavLink>
+            <NavLink to={nextRoute}>➤</NavLink>
+        </nav> 
+        }
         <button className={`button ${show ? "button_sitemapon" : "button_sitemapoff"}`}  
         onClick={() => {setShow(! show)}}
-        onMouseOver={(e) => e.currentTarget.style.border = "3px solid #A9A9A9"}
-        onMouseOut={(e) => e.currentTarget.style.border = ""}
+        onMouseOver={(e) => {e.currentTarget.style.border = "3px solid #A9A9A9"; setButtonText(show ? '☰CLOSE': '▸EXPAND');}}
+        onMouseOut={(e) => {e.currentTarget.style.border = ""; setButtonText(show ? '☰sitemap' : <span style={{ fontSize: '10px' }}>▸map</span>);}}
         >
-            {show ? '☰sitemap' : <span style={{ fontSize: '10px' }}>▸map</span>}
+            {buttonText}
+            {/* {show ? '☰sitemap' : <span style={{ fontSize: '10px' }}>▸map</span>} */}
         </button>
         
         {/* &nbsp; ☰<i>Sitemap</i>☰  */}
@@ -80,10 +126,10 @@ export default function Sidebar_Project(){
             <NavLink id="sidebar_bio" exact activeClassName='is-active' to="/aboutme">▸Bio.</NavLink> 
             <NavLink id="sidebar_pub" exact activeClassName='is-active' to="/research">▸Research</NavLink>
                 <SidebarResearch/>  
-            <NavLink id="sidebar_award" exact activeClassName='is-active' to="/award">▸Awards</NavLink>  
             <NavLink id="sidebar_project" exact activeClassName='is-active'  to="/project">▸Projects</NavLink> 
-            <SidebarProject/>
-            {/* <small><NavLink id="sidebar_exp" exact activeClassName='is-active' to="/experience">▸EXPERIENCE</NavLink></small>  */}
+                <SidebarProject/>
+            <NavLink id="sidebar_award" exact activeClassName='is-active' to="/award">▸Awards</NavLink>  
+            <small><NavLink id="sidebar_exp" exact activeClassName='is-active' to="/experience">▸Experience</NavLink></small> 
         </nav> 
         }
     </div>     
