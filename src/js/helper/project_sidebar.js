@@ -43,6 +43,7 @@ function SidebarResearch(){
 
 export default function Sidebar_Project(){
     const [show, setShow] = useState(true);
+    const [buttonText, setButtonText] = useState('☰sitemap');
 
     // Set initial state based on window width
     useEffect(() => {
@@ -50,8 +51,10 @@ export default function Sidebar_Project(){
       const w = window.innerWidth;
       if (w < 800) {
         setShow(false); // Collapse sidebar on smaller screens
+        setButtonText(<span style={{ fontSize: '10px' }}>▸map</span>); // Set button text for collapsed state
       } else {
         setShow(true); // Expand sidebar on larger screens
+        setButtonText('☰sitemap'); // Set button text for collapsed state
       }
     };
     // Call handleResize to set initial state
@@ -88,7 +91,6 @@ export default function Sidebar_Project(){
     const prevRoute = getPrevRoute(location.pathname);
     const nextRoute = getNextRoute(location.pathname);
 
-    const [buttonText, setButtonText] = useState(show ? '☰sitemap' : <span style={{ fontSize: '10px' }}>▸map</span>);
     return (
     <div id="nav" class="sidebar_main">
         {/* Navigation  */}
