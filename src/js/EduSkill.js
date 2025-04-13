@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { HashLink } from 'react-router-hash-link';
+import {ShowDetailButton} from './helper/uiBasicElements';
 
 export function Skill(){
   return (
@@ -12,12 +13,6 @@ export function Skill(){
 
 
 export function Education(){
-  const [show , setShow] = useState(false);
-
-  const handleOnClick = () => {
-        setShow(! show);
-  }
- 
   return(
     <>
     <center>
@@ -54,17 +49,18 @@ export function Education(){
     {/* <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i> */}
     {/* &emsp;&emsp; */}
     
-    <button onClick={() => {setShow(! show)}}>Show Details</button>
-    {
-        show &&
-        <>
-        <br/>
-        <img width="671" height="386 " src="./asset/photo/Profile/Cam.png" alt="Cam" />
-        <br/>
-        <img width="671" height="318 " src="./asset/photo/Profile/XMU.png" alt="XMU" />
-        <br/>
-        </>
-    }
+    <ShowDetailButton 
+      title=" "
+      mainText=
+      {
+          <>
+          <img width="671" height="386 " src="./asset/photo/Profile/Cam.png" alt="Cam" />
+          <br/>
+          <img width="671" height="318 " src="./asset/photo/Profile/XMU.png" alt="XMU" />
+          <br/>
+          </>
+      }
+    />
     <br/>
     </>
   )

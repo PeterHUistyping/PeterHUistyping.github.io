@@ -7,6 +7,7 @@ import { motion } from 'framer-motion'
 import Sidebar_Project from "./helper/project_sidebar"
 import React, {useState, useEffect } from "react";
 import {ExperienceContents, TalkRayTracing} from "./Experience";
+import { StoryDescriptionButton } from "./helper/uiBasicElements";
 import { HashLink } from 'react-router-hash-link';
 
 
@@ -17,53 +18,6 @@ export function Publication(){
             <small>† indicates equal contribution.</small> <br/>
         </>
     )
-
-}
-
-
-export function ResearchDescriptionButton(props){
-    // usage: <ResearchDescriptionButton 
-    //         title = {<>HI!</>}  mainText = {<>Hi</>} />
-
-    const [show , setShow] = useState(false);
-  
-    const handleOnClick = () => {
-          setShow(! show);
-    }
-
-    return(
-        <>
-        <button  
-        style={{backgroundColor: show ? "#f1f8e9": "white",
-            border: "1px solid #4CAF50",
-            width: "80%",
-            marginLeft: "10%",
-            borderTopLeftRadius: "12px",
-            borderTopRightRadius: "12px",
-            marginTop: "0",     
-            marginBottom: "0", 
-            padding: "5px",   
-        }} onClick={handleOnClick}
-        // on mouse over change border width to 2px
-        onMouseOver={(e) => e.currentTarget.style.border = "2px solid #4CAF50"}
-        onMouseOut={(e) => e.currentTarget.style.border = "1px solid #4CAF50"}
-        >   
-            <div>
-                <p>{props.title} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {show ? <>△</>:<>▼</>}</p>
-            </div>
-        </button>
-
-        {show && 
-        <div style={{width: "74%", margin: "auto"}}>
-        {props.mainText}
-
-        {/* add horizontal dashed green line */}
-        <div style={{borderBottom: "1px dashed #4CAF50", width: "100%", marginTop: "10px"}}></div>
-        </div>}
-
-
-        </>
-    )
 }
 
 
@@ -72,7 +26,7 @@ export function ResearchStory(){
         <>
         <h3 id="researchStory"><b>Journey Behind the Research</b></h3>
 
-        <ResearchDescriptionButton 
+        <StoryDescriptionButton 
             title={<><b>ABOUT my first paper</b> <i>NeuMaDiff: Neural Material Synthesis via Hyperdiffusion.</i></>}
 
             mainText={ <>
@@ -84,11 +38,11 @@ export function ResearchStory(){
         
             Finally, as a proof of concept, I setup some typical scenes using the proposed materials and render them with the physically-based renderer <a href="http://www.mitsuba-renderer.org/">Mitsuba3</a>, which I writeup the BSDF class taking in the required binary format with proper importance sampling strategies (since there's no such public error-free implementation for Python version Mitsuba3).<br/> 
         </>}
-        ></ResearchDescriptionButton>
+        ></StoryDescriptionButton>
         <br/>  
 
-        <ResearchDescriptionButton 
-            title = {<><b>ABOUT my collaborative </b> <i>CHOrD: Generation of Collision-Free, ..., Digital Twins for 3D Indoor Scenes.</i></>}
+        <StoryDescriptionButton 
+            title = {<><b>ABOUT collaborative </b> <i>CHOrD: Generation of Collision-Free, ..., Digital Twins for 3D Indoor Scenes.</i></>}
             mainText = {<>
               Mentored by Dr <a href="https://www.cl.cam.ac.uk/~fz261/">Fangcheng Zhong</a>, we investigated how 2D floor plans generation can be integrated with 3D indoor scene synthesis, for lower collision rate and higher fidelity. 
               In addition, a new real-world indoor scenes dataset will be released.
@@ -101,7 +55,7 @@ export function ResearchStory(){
               <br/>
 
             </>}
-        ></ResearchDescriptionButton>
+        ></StoryDescriptionButton>
         <br/>  
 
 

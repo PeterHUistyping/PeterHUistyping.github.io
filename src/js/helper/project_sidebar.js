@@ -63,7 +63,13 @@ export default function Sidebar_Project(){
     return (
     <div id="nav" class="sidebar_main">
         {/* Navigation  */}
-        <button className={`button ${show ? "button_sitemapon" : "button_sitemapoff"}`}  onClick={() => {setShow(! show)}}>{show ? '☰sitemap' : <span style={{ fontSize: '10px' }}>▸map</span>}</button>
+        <button className={`button ${show ? "button_sitemapon" : "button_sitemapoff"}`}  
+        onClick={() => {setShow(! show)}}
+        onMouseOver={(e) => e.currentTarget.style.border = "3px solid #A9A9A9"}
+        onMouseOut={(e) => e.currentTarget.style.border = ""}
+        >
+            {show ? '☰sitemap' : <span style={{ fontSize: '10px' }}>▸map</span>}
+        </button>
         
         {/* &nbsp; ☰<i>Sitemap</i>☰  */}
         {/* <br></br> */}

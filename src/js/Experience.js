@@ -2,12 +2,13 @@
 
 
 import Sidebar_Project from "./helper/project_sidebar"
-
 import Index_Footer from "./helper/index_footer";
 import Index_Top from "./helper/index_top";
 import { motion } from 'framer-motion'
 import React, { useEffect, useState } from "react";
+import {ShowDetailButton} from './helper/uiBasicElements';
  
+
 export function Experience(){
   useEffect(() => {
     document.title = 'Experience - Peter HU';
@@ -66,13 +67,6 @@ function SchedReview(props){
 }
 
 export function ExperienceContents(props){
-  const [show , setShow] = useState(false);
-  const [show2 , setShow2] = useState(false);
-  const [show3 , setShow3] = useState(false);
-
-  const handleOnClick = () => {
-        setShow(! show);
-  }
   return (
     <div class="content">
         <>   
@@ -105,19 +99,18 @@ export function ExperienceContents(props){
 
       Research Intern (<b>Graphics Algorithms / GPU Architecture</b>)  &nbsp; &nbsp; &nbsp; <i> 2023.5 - 2024.1</i>  
       <br/>
-      <button onClick={() => {setShow(! show)}}>Show Details</button>  | <a href="./asset/doc/StarofCambridge.png">Award</a> for new prediction algorithm proposed with joint efforts. |
-        {/* &nbsp;| &nbsp;  */}
-        <br />    <br />
+      
+      <ShowDetailButton 
+        title={<>| <a href="./asset/doc/StarofCambridge.png">Award</a> for new prediction algorithm proposed with joint efforts. | {/* &nbsp;| &nbsp;  */} </>}
+        mainText=
         {
-            show &&
             <>
-              <br/>
               <img width="722" height="705" src="./asset/photo/Profile/GPU2.png" alt="GPU2" />
               <br/>
               {/* <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i> */}
             </>
         } 
-      
+      />
       <TalkRayTracing showall={props.showall} />
       <br /> 
 
@@ -127,44 +120,40 @@ export function ExperienceContents(props){
 
       Research Intern (<b>CPU Architect</b>)  &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <i>2023.6 - 2023.10</i>
       <br /> 
-
-      <button onClick={ () => {setShow2(! show2)}}>Show Details</button> | <a href="https://peterhuistyping.github.io/CPU_Scheduling_Review/">Literature Review: Scheduling, DVFS, Dynamic Resource Management</a> 
-      &nbsp;|  
-     
-      {
-          show2 &&
+      <ShowDetailButton
+        title={<> | <a href="https://peterhuistyping.github.io/CPU_Scheduling_Review/">Literature Review: Scheduling, DVFS, Dynamic Resource Management</a> &nbsp;|   </>}
+        mainText=     
+        {
           <>
-          <br/>
           <img width="671" height="615 " src="./asset/photo/Profile/CPU.png" alt="CPU" />
           <br/>
           {/* <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i><br /> */}
-
           </>
-      }<br /> 
+        }
+      />
+      <br /> 
       
       <SchedReview showall={props.showall} />
       
 
       {/* &nbsp;| &nbsp; */}
-      {/* <h2><b>WORK EXPERIENCE</b></h2>
-
+      <br/><br/> 
       <b>GPU Software Engineer Intern </b><i> <br />
-        2022.12 - 2023.5 (Part Time) </i>   <br />
-
-        <i>C++, Vulkan, GPU Driver </i> 
-          &nbsp;| &nbsp;
-            <button onClick={() => {setShow3(! show3)}}>Show Details</button>
-        {
-          show3 &&
+        2022.12 - 2023.5 </i>   <br />
+        {/* (Part Time)  */}
+      <ShowDetailButton
+        title={<> &nbsp;| &nbsp; <i>C++, Vulkan, GPU Driver, UE4 (rendering)</i></>}
+        mainText={
           <>
-          <br/>
-          <img width="671" height="276 " src="./asset/photo/Profile/GPU1.png" alt="GPU1" />
-          <br/>
-          <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i><br />
-
-      </>
-    }<br />  
-      */}   
+            <img width="671" height="276 " src="./asset/photo/Profile/GPU1.png" alt="GPU1" />
+            <br/>
+            {/* <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i><br /> */}
+          </>
+        }
+      />
+      
+      <br />
+  
         <i>Please refer to EXPERIENCE section in <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="./asset/photo/Logo/cv-blue.png" alt="cv"/></a>.</i><br />
       
         <br />  <br />  <br />  <br />  
