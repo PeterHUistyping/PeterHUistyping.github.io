@@ -56,7 +56,7 @@ export function StoryDescriptionButton(props){
         onMouseOver={(e) => e.currentTarget.style.border = "2px solid #4CAF50"}
         onMouseOut={(e) => e.currentTarget.style.border = "1px solid #4CAF50"}
         >   
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <div style={{ display: "flex", justifyContent: "space-between"}}>
             <span>{props.title}</span>
             <span style={{ marginLeft: 'auto' }}>
             <div style={{ color: "gray" }}>
@@ -75,6 +75,7 @@ export function StoryDescriptionButton(props){
             borderBottom: "1px dashed #4CAF50",
             borderRadius: "15px",
             padding: "10px",
+            backgroundColor: "#f1f8e944"
             }}>
             {props.mainText}
             {/* add horizontal dashed green line */}

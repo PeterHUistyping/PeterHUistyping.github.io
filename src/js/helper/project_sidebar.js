@@ -42,26 +42,47 @@ function SidebarResearch(){
 
 
 export default function Sidebar_Project(){
-    const [show, setShow] = useState(true);
     const [buttonText, setButtonText] = useState('☰sitemap');
 
+    const [show, setShow] = useState(true);
+ 
+   
+    
     // Set initial state based on window width
     useEffect(() => {
     const handleResize = () => {
-      const w = window.innerWidth;
-      if (w < 800) {
-        setShow(false); // Collapse sidebar on smaller screens
-        setButtonText(<span style={{ fontSize: '10px' }}>▸map</span>); // Set button text for collapsed state
-      } else {
-        setShow(true); // Expand sidebar on larger screens
-        setButtonText('☰sitemap'); // Set button text for collapsed state
-      }
+        const w = window.innerWidth;
+
+        if (w < 800) {
+            setShow(false); // Collapse sidebar on smaller screens
+            setButtonText(<span style={{ fontSize: '10px' }}>▸map</span>); // Set button text for collapsed state
+        } else {
+            setShow(true); // Expand sidebar on larger screens
+            setButtonText('☰sitemap'); // Set button text for collapsed state
+        }
+
+        // persistent state
+        const savedState = localStorage.getItem('showSidebar');
+        // alert(savedState);
+        if (savedState !== null) {
+            const parsedState = JSON.parse(savedState);
+            setShow(parsedState); // Restore the saved state
+            setButtonText(parsedState ? '☰sitemap' : <span style={{ fontSize: '10px' }}>▸map</span>); // Set button text based on saved state
+        }
     };
+
     // Call handleResize to set initial state
     handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
     }, []);
+
+
+    // Sync the state with localStorage whenever it changes
+    useEffect(() => {
+        localStorage.setItem('showSidebar', JSON.stringify(show));
+    }, [show]);
+    // end of persistent state
 
     // Previous and next buttons
     const location = useLocation();
