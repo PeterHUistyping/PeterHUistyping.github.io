@@ -113,10 +113,7 @@ export function ExperienceContents(props){
       />
       <TalkRayTracing showall={props.showall} />
       <br /> 
-
       <br />
-      <br />
-
 
       Research Intern (<b>CPU Architect</b>)  &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <i>2023.6 - 2023.10</i>
       <br /> 
@@ -137,7 +134,7 @@ export function ExperienceContents(props){
       
 
       {/* &nbsp;| &nbsp; */}
-      <br/><br/> 
+      <br/> 
       <b>GPU Software Engineer Intern </b><i> <br />
         2022.12 - 2023.5 </i>   <br />
         {/* (Part Time)  */}
@@ -156,7 +153,7 @@ export function ExperienceContents(props){
   
         <i>Please refer to EXPERIENCE section in <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="./asset/photo/Logo/cv-blue.png" alt="cv"/></a>.</i><br />
       
-        <br />  <br />  <br />  <br />  
+        <br />   
         </>
     </div>
 

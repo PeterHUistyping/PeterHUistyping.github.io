@@ -7,7 +7,6 @@ export default function Index_Footer(){
     return(
     <>
     <NavigationNotice />
-    <br/>
     <hr width="50%" color="#C0C0C0" size="1" />  
     {/* #987cb9 */}
     <table class="table_footer">

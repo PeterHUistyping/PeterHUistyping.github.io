@@ -17,7 +17,6 @@ export function NavigationNotice(){
     return(
         <div style={{width: "80%", margin: "auto", textAlign: "center"}}>
         <div class ="announcement">
-           ᥫ᭡ {emoji_arr[emojiIndex]} ᥫ᭡ <br/>
         | <HashLink   to="/" 
             className="project-link"
         >Home🏠</HashLink>   /      <HashLink to="/aboutme"
@@ -29,7 +28,11 @@ export function NavigationNotice(){
         >Awards🥇</HashLink> \ <HashLink to="/project"
             className="project-link"
         >Projects🧑‍💻</HashLink> | <br/>
-        👈 Alternatively, please click the left sidebar for relevant sections. <br/>
+        {/* font change to gray */}
+        <div style={{ color: 'gray' }}>
+        👈 Alternatively, please navigate via the left sidebar.
+        ᥫ᭡ {emoji_arr[emojiIndex]} ᥫ᭡ 
+        </div>
         {/* <HashLink to="/experience"><i>Experience</i></HashLink><br/> */}
         </div>
         </div>  
