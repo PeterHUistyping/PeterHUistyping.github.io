@@ -22,7 +22,9 @@
         "Italic": "Indoor Scene Synthesis, Generative Models, Digital Twin Generation.",
         "author": "Chong Su †, Yingbin Fu †, Zheyuan Hu, Jing Yang, Param Hanji, Shaojun Wang, Xuan Zhao, Cengiz Öztireli, Fangcheng Zhong",
         "Time":"2025.2",
-        "Arxiv":"https://arxiv.org/abs/2503.11958"
+        "Arxiv":"https://arxiv.org/abs/2503.11958",
+        "PDF":"https://arxiv.org/pdf/2503.11958",
+        "More":"asset/photo/pub/2/InstructScene-CF-GISS.pdf"
     }
 
 ]
