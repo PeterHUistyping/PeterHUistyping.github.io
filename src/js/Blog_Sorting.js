@@ -11,7 +11,7 @@ import Visual_Computing from '../asset/data/Visual_Computing.json';
 import { HashLink } from 'react-router-hash-link';
 import Blog_Footer from "./helper/blog_footer";
 import FooterCommon from "./helper/footerCommon"
-
+import { Processed_blog_link } from "./helper/tableCommon";
 // import Blog_Top from "./helper/blog_top";
 import Index_Top from "./helper/index_top";
 import $ from "jquery";
@@ -102,14 +102,17 @@ export function Blog_Sorting(){
 // TableContent Component for rendering each row
 function TableContent(props) {
     const { resource, id } = props;
-  
+    const processed_link = Processed_blog_link({link:resource.Blog});
     if (resource.Blog) {
       return (
         <tr className="hover">
           <td className="sequence">{id}</td>
           <td>
             <a className="project-link"
-            href={`/#/${resource.Blog}`}>
+            href={processed_link}
+            // target="_blank"
+            // rel="noopener noreferrer"
+            >
               <center>{resource.Title}</center>
             </a>
           </td>

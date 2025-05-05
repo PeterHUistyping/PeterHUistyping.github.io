@@ -95,13 +95,39 @@ function Italic_Intro(props){
 }
 
 
-function Blog_link(props){
-    if(props.link){
-        return (<a href={"/#/"+props.link} class="project-link">📝 blog</a>)
+export function Processed_blog_link(props){
+    /*
+        Check if the link contains "http",
+        if it does, return the link as is,
+        if it doesn't, return the link with "/#/" added in front of it.
+    */
+    if(props.link && !props.link.includes("http")){
+        return "/#/"+props.link
     }
     else{
-        return (<a href={props.link} class="project-link">📝 blog</a>)
+        return props.link
     }
+}   
+
+
+function Blog_link(props){
+    /*
+        Check if the link contains "http",
+        if it does, return the link as is,
+        if it doesn't, return the link with "/#/" added in front of it.
+    */
+    // get string from Processed_blog_link
+    const processed_link = Processed_blog_link({ link: props.link });
+    return (
+        <a href={processed_link} class="project-link">📝 blog</a>
+    )
+    
+    // if(props.link && !props.link.includes("http")){
+    //     return (<a href={"/#/"+props.link} class="project-link">📝 blog</a>)
+    // }
+    // else{
+    //     return (<a href={props.link} class="project-link">📝 blog</a>)
+    // }
 }
 
 

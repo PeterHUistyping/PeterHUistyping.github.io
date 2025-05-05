@@ -1,5 +1,16 @@
 [
     {
+        "Title":"Computer Science Tripos notes @ Cambridge",
+        "Italic": "Three years of selected lectures notes in Part IA, IB, and Part II.",
+        "Time": "2022.10-2025.6",
+        "Github": "https://github.com/PeterHUistyping/Cambridge_CS_Tripos",
+        "More": "https://peterhuistyping.github.io/Cambridge_CS_Tripos/",
+        "Blog": "https://peterhuistyping.github.io/Cambridge_CS_Tripos/",
+        "Category":"Computer Science",
+        "line": 1,
+        "Des1":"Department of Computer Science and Technology https://www.cst.cam.ac.uk/"
+    },
+    {
         "pic1_src":"./asset/photo/Assignment/9/Web.png",
         "pic1_alt":"Web Game",
         "pic2_src":"./asset/photo/Assignment/9/Frozen.png",
