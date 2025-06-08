@@ -97,7 +97,7 @@ export function ExperienceContents(props){
       <i>For details, please click the 'Show Details' button.</i><br />
       <br /> 
 
-      Research Intern (<b>Graphics Algorithms / GPU Architecture</b>)  &nbsp; &nbsp; &nbsp; <i> 2023.5 - 2024.1</i>  
+      Research Engineer Intern (<b>Graphics Algorithms / GPU Architecture</b>)  &nbsp; &nbsp; &nbsp; <i> 2023.5 - 2024.1</i>  
       <br/>
       
       <ShowDetailButton 
@@ -135,8 +135,10 @@ export function ExperienceContents(props){
 
       {/* &nbsp;| &nbsp; */}
       <br/> 
-      <b>GPU Software Engineer Intern </b><i> <br />
-        2022.12 - 2023.5 </i>   <br />
+      Software Engineer Intern (<b>GPU</b>) 
+       &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp;
+      {/* <br /> */}
+      <i> 2022.12 - 2023.5 </i>   <br />
         {/* (Part Time)  */}
       <ShowDetailButton
         title={<> &nbsp;| &nbsp; <i>C++, Vulkan, GPU Driver, UE4 (rendering)</i></>}
