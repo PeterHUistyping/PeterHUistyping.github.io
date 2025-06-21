@@ -19,7 +19,7 @@ function About_me(){
     <large> <large><i>About</i> ME 👇</large></large> <br/>
     </center> */}
     <div style={{"margin-left":"20%", "margin-right":"20%"}}>
-    <i>Hi, thanks for dropping by~</i> I'm (<HashLink to="/aboutme">bio.</HashLink>) an undergraduate at <a href="https://www.cst.cam.ac.uk/">University of Cambridge</a>. My interests lie in the fields of <font color="green">Visual Computing (Graphics, Vision)</font> with <font color="#3824BD">ML</font> / <font color='#8D6F64'>System</font>. Besides, I have been engaged with exciting hackathons, research projects, and internships in the past few years.
+    <i>Hi, thanks for dropping by~</i> I'm (<HashLink to="/aboutme">bio.</HashLink>) an undergraduate at <a href="https://www.cst.cam.ac.uk/">University of Cambridge</a>. My interests lie in the fields of <font color="green">Visual Computing (Graphics, Vision)</font> with <font color="#3824BD">ML</font>. Besides, I have been engaged with exciting hackathons, research projects, and internships (e.g. <font color='#8D6F64'>System</font>) in the past few years.
     </div>
     {/* Various research experience, collaborative compression competition and wide theoretical knowledge.  <br/> */}
       {/* <HashLink to="/aboutme">MORE ...</HashLink>  */}
@@ -76,10 +76,12 @@ function Detail(){
             </div>
         </div>
       </center>
-        <center>
-          <h1 style={{"font-family":"BrushScriptMT-embed"}}>List of Publications</h1>
+      <br/>
+          <h1 style={{
+            "font-family":"BrushScriptMT-embed", 
+            "textAlign": 'center'
+          }}>List of Publications</h1>
         <Publication />
-        </center>
         <br/>
         {/* <Interest_extra /> <br/> */}
         {/* <embed src="asset/doc/CV_PeterHU.pdf"  width="800px" height="600px" /> */}

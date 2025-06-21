@@ -155,7 +155,11 @@ function HightlightAuthor(props){
         var authorUrl = AUTHOR_URLS[0][props.trimmedPart] || "";
         return(
             <>
-                 <a href={authorUrl} target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
+                 <a href={authorUrl} 
+                 target="_blank" rel="noopener noreferrer" 
+                 style={{fontStyle: props.is_supervising ? 'italic' : 'normal',
+                    color: props.is_supervising ? '#1E90FF' : 'normal'
+                    }}>
                   {props.trimmedPart}
                 </a> 
             </>
@@ -175,10 +179,15 @@ function HightlightAuthorsURL(props){
             var trimmedPart = part.trim();
             var is_equal_contribution = trimmedPart.includes("†") ? "†" : "";
             // "AB †" -> "AB"
+            var is_supervising = trimmedPart.includes("*") ? true : false;
             var trimmedPart2 = trimmedPart.replace(" †", "");
+            var trimmedPart2 = trimmedPart2.replace(" *", "");
             return (
           <>
-            <HightlightAuthor trimmedPart={trimmedPart2}/>{is_equal_contribution}
+            <HightlightAuthor 
+                trimmedPart={trimmedPart2}
+                is_supervising={is_supervising}
+            />{is_equal_contribution}
             {index < parts.length - 1 && ", "}
           </> 
         )

@@ -14,8 +14,10 @@ import { HashLink } from 'react-router-hash-link';
 export function Publication(){
     return (
         <>
+            <small style={{ display: 'block', textAlign: 'center'}}>| under the supervision of <i style={{color: "#1E90FF"}}>italic</i> ; <b>†</b> indicates equal contribution |</small> 
+
             <Pub_table />
-            <small>† indicates equal contribution.</small> <br/>
+            <br/>
         </>
     )
 }
@@ -24,7 +26,7 @@ export function Publication(){
 export function ResearchStory(){
     return(
         <>
-        <h3 id="researchStory"><b>Journey Behind the Research</b></h3>
+        <h2 id="researchStory" style={{"font-family":"BrushScriptMT-embed", textAlign: 'center' }}><b>Journey Behind the Research</b></h2>
 
         <StoryDescriptionButton 
             title={<><b>ABOUT my first paper</b> <i>NeuMaDiff: Neural Material Synthesis via Hyperdiffusion.</i></>}
@@ -96,7 +98,7 @@ export function Research(){
         <br/> <br/>
         
         <br/> 
-        <h3 id="pub"><b>List of Publications</b></h3>
+        <h2 style={{"font-family":"BrushScriptMT-embed", textAlign: 'center' }}>List of Publications</h2>
         <Publication/>
 
         <br/>
@@ -105,7 +107,7 @@ export function Research(){
         
         <br/>  
         
-        <h3 id="talk"><b>Talk</b></h3>
+        <h2 id="talk" style={{"font-family":"BrushScriptMT-embed", textAlign: 'center' }}><b>Talk</b></h2>
         <TalkRayTracing showall={true}/>
         <br/> <br/> 
 
