@@ -1,4 +1,12 @@
  /* All rights reserved. 2022-2025 (c) Peter HU */
+a {
+  text-decoration: none; /* no underline by default */
+}
+
+a:hover {
+  text-decoration: underline; /* underline on hover */
+}
+
 .top {
   height: auto;
   width: 100vw;
@@ -230,7 +238,10 @@ h3 {
 .table_project {
   width: 80vw;
   height: 10vh;
+  border-collapse: separate;
+  border-spacing: 0 40px;
 }
+
 
 .table_project_photo {
   width:8vw;
