@@ -26,7 +26,7 @@ export function Education(){
      2022.10 - 2025.06</i><br />
     <a href="https://www.cst.cam.ac.uk/">Computer Science</a> | <a href="https://peterhuistyping.github.io/Cambridge_CS_Tripos/">notes</a><br />
     [Fully-funded] <a href="https://en.wikipedia.org/wiki/Jardine_Scholarship">Jardine</a> <a href="./asset/doc/Jardine_Certificate.jpg">Scholarship</a>. <br />
-    <a href="https://en.xmu.edu.cn/main.htm">
+    <a href="https://en.xmu.edu.cn">
     <img width="24" height="24" src="./asset/photo/Logo/xmu.png" alt="XMU"/>
     </a>
     <b> Universitas Amoiensis </b><i> <br />
