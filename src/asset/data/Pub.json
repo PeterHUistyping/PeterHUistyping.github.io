@@ -1,4 +1,18 @@
 [   
+     {
+        "pic1_src":"./asset/photo/pub/3/teaser.png",
+        "pic1_alt":"teaser",
+        "Title":"FreNBRDF: A Frequency-Rectified Neural Material Representation",
+        "Category": "",
+        "author": "Zheyuan Hu  †, Chenliang Zhou * †, Cengiz Öztireli",
+        "Published":"IEEE International Workshop on Machine Learning for Signal Processing (MLSP), 2025.",
+        "Italic":"Computer Graphics (real-world materials), Frequency Rectification (Spherical Harmonics).",
+        "line":1,
+        "Des1": "Evolved from my individual project in the [Machine Visual Perception](https://www.cl.cam.ac.uk/teaching/2425/MVP/) module.",
+        "Time":"2024 - 2025",
+        "PDF":"https:",
+        "Github":"https://github.com/Chenliang-Zhou/FrePolad"
+    },
     {
         "pic1_src":"./asset/photo/pub/1/teaser.png",
         "pic1_alt":"teaser",

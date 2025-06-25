@@ -1,6 +1,10 @@
 /* All rights reserved. 2022-2025 (c) Peter HU */
 import React from 'react';
 import AUTHOR_URLS from "../../asset/data/AuthorsURL.json";
+import ReactMarkdown from 'react-markdown'
+import remarkMath from 'remark-math'
+import rehypeKatex from 'rehype-katex'
+import remarkGfm from 'remark-gfm'
 
 // large screen
 function Pic_Large(props){
@@ -57,33 +61,55 @@ function Pic(props){
 }
 
 
-function Intro_Des(props){
-    if(props.line==4)
-    return(
-        <div>{props.Des1} <br/>
-        {props.Des2} <br/>
-        {props.Des3} <br/>
-        {props.Des4} <br/></div>
-    )
-    if(props.line==3)
-    return(
-        <div>{props.Des1} <br/>
-        {props.Des2} <br/>
-        {props.Des3} <br/>
+function Intro_Des(props) {
+    const descriptions = [props.Des1, props.Des2, props.Des3, props.Des4].slice(0, props.line);
+    return (
+        <div>
+            {descriptions.map((desc, index) => (
+                <div key={index}>
+                    {/* {desc} */}
+                    <ReactMarkdown 
+                    remarkPlugins={[remarkMath, remarkGfm]} 
+                    rehypePlugins={[rehypeKatex]} 
+                    children={desc}
+                    components={{
+                    img:({node,...props})=><img style={{maxWidth:'80%', maxHeight:'60vh'}}{...props}/>,
+                    p: ({ node, ...props }) => <p style={{ margin: 0 }} {...props} />,
+                    }}
+                    />
+                </div>
+            ))}
         </div>
-    )
-    if(props.line==2)
-    return(
-        <div>{props.Des1} <br/>
-        {props.Des2} <br/>
-        </div>
-    )
-    if(props.line==1)
-    return(
-        <div>{props.Des1} <br/>
-       </div>
-    )
+    );
 }
+
+// function Intro_Des(props){
+//     if(props.line==4)
+//     return(
+//         <div>{props.Des1} <br/>
+//         {props.Des2} <br/>
+//         {props.Des3} <br/>
+//         {props.Des4} <br/></div>
+//     )
+//     if(props.line==3)
+//     return(
+//         <div>{props.Des1} <br/>
+//         {props.Des2} <br/>
+//         {props.Des3} <br/>
+//         </div>
+//     )
+//     if(props.line==2)
+//     return(
+//         <div>{props.Des1} <br/>
+//         {props.Des2} <br/>
+//         </div>
+//     )
+//     if(props.line==1)
+//     return(
+//         <div>{props.Des1} <br/>
+//        </div>
+//     )
+// }
 
 
 function Italic_Intro(props){
@@ -209,17 +235,20 @@ function Intro(props){
     return(
         <td rowspan="2">
             <strong>{props.Title}  <GetCategory Category={props.Category}/><br/></strong>
-            {props.author && <> <HightlightAuthorsURL author={props.author}/>  <br/> </>}  
+            {props.author && <> <HightlightAuthorsURL author={props.author}/>.  <br/> </>}  
+
+            {props.Published && <><b><i>{props.Published}</i></b><br/></>}
+           
+            <div style={{ color: "#787878" }}>
+            {props.Time}   { props.Italic && <> ¦ <Italic_Intro Italic={props.Italic}/></> }
+            </div>
+            
             <Intro_Des 
             line={props.line}
             Des1={props.Des1}
             Des2={props.Des2}
             Des3={props.Des3}
             Des4={props.Des4}/>
-
-            <div style={{ color: "#787878" }}>
-            {props.Time}   { props.Italic && <> ¦ <Italic_Intro Italic={props.Italic}/></> }
-            </div>
 
             {props.Project && <> |  <a href={props.Project} class="project-link">project</a> </> }
             {props.Arxiv && <> | <a href={props.Arxiv} class="project-link">arXiv</a>  </>}
@@ -232,6 +261,7 @@ function Intro(props){
             {/* ending mark if there's at least one attribute. */}
             {(props.Arxiv || props.Github || props.Blog || props.PDF || props.Video || props.More || props.Dataset || props.Project ) && <> | </> }
             <br/>
+          
         </td>
     )
 }
@@ -268,6 +298,7 @@ function PicIntro_table(proxy){
             Arxiv={proxy.resource[proxy.id].Arxiv}
             Dataset={proxy.resource[proxy.id].Dataset}
             Project={proxy.resource[proxy.id].Project}
+            Published={proxy.resource[proxy.id].Published}
             />      
         </tr>
     )
