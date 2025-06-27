@@ -21,21 +21,29 @@ export function Education(){
     <a href="https://www.cam.ac.uk/">
     <img width="27" height="24" src="./asset/photo/Logo/Cam.png" alt="Cambridge" /> 
     </a>
-    <b> University of Cambridge </b> <br />
-     <i> Undergraduate<br />
-     2022.10 - 2025.06</i><br />
-    <a href="https://www.cst.cam.ac.uk/">Computer Science</a> | <a href="https://peterhuistyping.github.io/Cambridge_CS_Tripos/">notes</a><br />
+    <b> University of Cambridge </b>  &nbsp;
+     <i>2025.10 - 2026.06</i><br />
+    {/* <br /> */}
+     MA (Hons) <a href="https://www.cst.cam.ac.uk/">Computer Science.</a><br />
+    [Fully-funded] <a href="https://en.wikipedia.org/wiki/Jardine_Scholarship">Jardine</a> <a href="./asset/doc/Jardine_Certificate.jpg">Scholarship</a>. <br />
+    <a href="https://www.cam.ac.uk/">
+    <img width="27" height="24" src="./asset/photo/Logo/Cam.png" alt="Cambridge" /> 
+    </a>
+    <b> University of Cambridge </b>  &nbsp;
+    {/* <br /> */}
+     <i>2022.10 - 2025.07</i><br />
+      BA (Hons) <a href="https://www.cst.cam.ac.uk/">Computer Science.</a><br />
+     First-Class (72.4) | Dissertation (93.5) | <a href="https://peterhuistyping.github.io/Cambridge_CS_Tripos/">notes</a><br />
     [Fully-funded] <a href="https://en.wikipedia.org/wiki/Jardine_Scholarship">Jardine</a> <a href="./asset/doc/Jardine_Certificate.jpg">Scholarship</a>. <br />
     <a href="https://en.xmu.edu.cn">
     <img width="24" height="24" src="./asset/photo/Logo/xmu.png" alt="XMU"/>
     </a>
-    <b> Universitas Amoiensis </b><i> <br />
+    <b> Universitas Amoiensis </b> &nbsp;
+    {/* <br /> */}
     {/* Xiamen University  */}
-        First year undergraduate<br /> 
-        2021.09 - 2022.06</i> <br />
-        Software Engineering<br />
-        GPA: 3.91 / 4.0 (first term)<br /> 88 / 100 (yearly)<br />
-        Class Rep, ACM Team.<br />
+        <i>2021.09 - 2022.06</i> <br />
+        BE (first year) <a href="https://en.wikipedia.org/wiki/Software_engineering">Software Engineering</a>.<br /> 
+        GPA: 3.91 / 4.0 (first term),  88 / 100 (yearly) |  Class Rep, ACM Team<br />
     <a href="https://en.wikipedia.org/wiki/Shanghai_Nanyang_Model_High_School">
     <img width="28" height="24" src="./asset/photo/Logo/NanyangHigh.png" alt="Nanyang"/>
     </a>
