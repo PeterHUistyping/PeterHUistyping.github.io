@@ -42,6 +42,19 @@ export function ResearchStory(){
         </>}
         ></StoryDescriptionButton>
         <br/>  
+        <StoryDescriptionButton 
+            title = {<><b>ABOUT my paper</b> <i>FreNBRDF: A Frequency-Rectified Neural Material Representation.</i></>}
+            mainText = {<>
+              Supervised by my supervisor <a href="https://chenliang-zhou.github.io/">Chenliang Zhou</a>, I investigate the frequency information of materials, i.e. BRDF, and how to utilize it in the material fitting, reconstruction and editing.  The first task is derived from a <a href="https://doi.org/10.48550/arXiv.1703.06114">set encoder</a> with permutation invariance and flexibility of input size. Then, we measure its capability in material linear interpolation editing. 
+              <br/>
+              
+              We observe that the naive NBRDF autoencoder pipeline described above lacks the frequency information between the two NBRDFs, which might aid NBRDF weight distribution learning. I propose different methods to decompose BRDF three-dimensional inputs into those in unit sphere. Spherical harmonics is leveraged to express per-channel BRDF as a linear combination of orthonormal base functions, which captures the frequency information of BRDF. 
+             
+              <br/>
+              This framework enhances fidelity, adaptability, and efficiency. Extensive experiments demonstrate that FreNBRDF improves the accuracy and robustness of material appearance reconstruction and editing compared to state-of-the-art baselines, enabling more structured and interpretable downstream tasks and applications.
+              </>
+              }
+        ></StoryDescriptionButton>
 
         <StoryDescriptionButton 
             title = {<><b>ABOUT collaborative </b> <i>CHOrD: Generation of Collision-Free, ..., Digital Twins for 3D Indoor Scenes.</i></>}

@@ -19,7 +19,8 @@ function About_me(){
     <large> <large><i>About</i> ME 👇</large></large> <br/>
     </center> */}
     <div style={{"margin-left":"20%", "margin-right":"20%"}}>
-    <i>Hi, thanks for dropping by~</i> I'm (<HashLink to="/aboutme">bio.</HashLink>) an undergraduate at <a href="https://www.cst.cam.ac.uk/">University of Cambridge</a>. My interests lie in the fields of <font color="green">Visual Computing (Graphics, Vision)</font> with <font color="#3824BD">ML</font>. Besides, I have been engaged with exciting hackathons, research projects, and internships (e.g. <font color='#8D6F64'>System</font>) in the past few years.
+    {/* an undergraduate at  */}
+    <i>Hi, thanks for dropping by~</i> I'm (<HashLink to="/aboutme">bio.</HashLink>) currently a graduate student (Master’s) at <a href="https://www.cst.cam.ac.uk/">University of Cambridge</a>, where I also completed my undergraduate studies. My interests lie in the fields of <font color="green">Visual Computing (Graphics, Vision)</font> with <font color="#3824BD">ML</font>. Besides, I have been engaged with exciting hackathons, research projects, and internships (e.g. <font color='#8D6F64'>System</font>) in the past few years.
     </div>
     {/* Various research experience, collaborative compression competition and wide theoretical knowledge.  <br/> */}
       {/* <HashLink to="/aboutme">MORE ...</HashLink>  */}
