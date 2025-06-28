@@ -4,12 +4,14 @@ import ScrollToTop from "../../js/helper/ScrollToTop";
 import Blog_Footer from "../../js/helper/blog_footer";
 // import Blog_Top from "../../js/helper/blog_top";
 import Index_Top from "../../js/helper/index_top";
+// react-markdown is used to render markdown content
 import ReactMarkdown from 'react-markdown'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import { useEffect, useState } from "react";
 import 'katex/dist/katex.min.css'
 import remarkGfm from 'remark-gfm'
+import rehypeRaw from 'rehype-raw'; 
 import PreNextBlog from "../../js/helper/blog_pre_next";
 // import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 
@@ -46,7 +48,7 @@ export function Blog(props){
         {/* <SyntaxHighlighter language="c"  showLineNumbers> */}
                 <ReactMarkdown 
                 remarkPlugins={[remarkMath, remarkGfm]} 
-                rehypePlugins={[rehypeKatex]} 
+                rehypePlugins={[rehypeKatex, rehypeRaw]} 
                 children={content}
                 components={{img:({node,...props})=><img style={{maxWidth:'80%', maxHeight:'60vh'}}{...props}/>}}
                 />

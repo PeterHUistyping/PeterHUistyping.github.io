@@ -1,10 +1,13 @@
 /* All rights reserved. 2022-2025 (c) Peter HU */
 import React from 'react';
 import AUTHOR_URLS from "../../asset/data/AuthorsURL.json";
+// react-markdown is used to render markdown content
 import ReactMarkdown from 'react-markdown'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import remarkGfm from 'remark-gfm'
+import rehypeRaw from 'rehype-raw'; 
+import { StoryDescriptionButton} from "./uiBasicElements";
 
 // large screen
 function Pic_Large(props){
@@ -231,6 +234,20 @@ function HightlightAuthorsURL(props){
 }
 
 
+export function FetchJourneyMainText(props){
+    return  (  
+        <ReactMarkdown 
+            remarkPlugins={[remarkMath, remarkGfm]} 
+            rehypePlugins={[rehypeKatex, rehypeRaw]} 
+            children={props.Journey}
+            components={{
+            img:({node,...props})=><img style={{maxWidth:'80%', maxHeight:'60vh'}}{...props}/>,
+            p: ({ node, ...props }) => <p style={{ margin: 0 }} {...props} />,
+            }}
+        />)
+}
+
+
 function Intro(props){
     return(
         <td rowspan="2">
@@ -260,8 +277,19 @@ function Intro(props){
             {props.More && <> |  <a href={props.More} class="project-link">more</a> </>}
             {/* ending mark if there's at least one attribute. */}
             {(props.Arxiv || props.Github || props.Blog || props.PDF || props.Video || props.More || props.Dataset || props.Project ) && <> | </> }
+            {props.Journey && <StoryDescriptionButton 
+                title={
+                    <>
+                        <b>About {props.JourneyCategory}</b> <i>{props.ShortTitle || props.Title}</i>
+                    </>
+                    }  
+                mainText = {<FetchJourneyMainText Journey={props.Journey} />} 
+                type = "Journey"
+
+
+            />
+            }
             <br/>
-          
         </td>
     )
 }
@@ -299,6 +327,9 @@ function PicIntro_table(proxy){
             Dataset={proxy.resource[proxy.id].Dataset}
             Project={proxy.resource[proxy.id].Project}
             Published={proxy.resource[proxy.id].Published}
+            ShortTitle={proxy.resource[proxy.id].ShortTitle}
+            Journey={proxy.resource[proxy.id].Journey}
+            JourneyCategory={proxy.resource[proxy.id].JourneyCategory}
             />      
         </tr>
     )

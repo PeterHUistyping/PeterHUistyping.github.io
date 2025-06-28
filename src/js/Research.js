@@ -9,6 +9,27 @@ import React, {useState, useEffect } from "react";
 import {ExperienceContents, TalkRayTracing} from "./Experience";
 import { StoryDescriptionButton } from "./helper/uiBasicElements";
 import { HashLink } from 'react-router-hash-link';
+import resource from '../asset/data/Pub.json';
+// react-markdown is used to render markdown content
+import ReactMarkdown from 'react-markdown'
+import remarkMath from 'remark-math'
+import rehypeKatex from 'rehype-katex'
+import remarkGfm from 'remark-gfm'
+import rehypeRaw from 'rehype-raw'; 
+
+
+export function FetchJourneyMainText(props){
+    return  (  
+        <ReactMarkdown 
+            remarkPlugins={[remarkMath, remarkGfm]} 
+            rehypePlugins={[rehypeKatex, rehypeRaw]} 
+            children={props.Journey}
+            components={{
+            img:({node,...props})=><img style={{maxWidth:'80%', maxHeight:'60vh'}}{...props}/>,
+            p: ({ node, ...props }) => <p style={{ margin: 0 }} {...props} />,
+            }}
+        />)
+}
 
 
 export function Publication(){
@@ -28,7 +49,23 @@ export function ResearchStory(){
         <>
         <h2 id="researchStory" style={{"font-family":"BrushScriptMT-embed", textAlign: 'center' }}><b>Journey Behind the Research</b></h2>
 
-        <StoryDescriptionButton 
+         {resource.map((item, index) => (
+            item.Journey && (
+        <div>
+          <StoryDescriptionButton
+            title={
+              <>
+                <b>About {item.JourneyCategory}</b> <i>{item.ShortTitle || item.Title}</i>.
+              </>
+            }
+            mainText={<FetchJourneyMainText Journey={item.Journey} />}
+          />
+            <br />
+        </div>
+        )
+        ))}
+
+        {/* <StoryDescriptionButton 
             title={<><b>ABOUT my first paper</b> <i>NeuMaDiff: Neural Material Synthesis via Hyperdiffusion.</i></>}
 
             mainText={ <>
@@ -66,12 +103,12 @@ export function ResearchStory(){
               I am responsible for reproducing the prior art <a href="https://tangjiapeng.github.io/projects/DiffuScene/">DiffuScene, CVPR24</a> and <a href="https://chenguolin.github.io/projects/InstructScene/"> InstructScene, ICLR24 Spotlight</a>. Meanwhile, I investigated the YOLO-v8 Oriented Bounding Box (OBB) <a href="https://github.com/ultralytics/ultralytics/issues/15805">detection error</a> and proposed alternative methods. 
               <br/>
 
-              The former <a href="https://tangjiapeng.github.io/projects/DiffuScene/">DiffuScene</a> is based on applying diffusion model for parametrized objects (location, size, orientation, class, shape code). For greater instruction control, the latter <a href="https://chenguolin.github.io/projects/InstructScene/"> InstructScene</a> follows a two-stage procedure. A semantic graph, with class label, (additional) pairwise spatial relationship and quantized features, is constructed from the prior semantic input. After that, a separate 3D decoder determines the exact layout (location, size, orientation). For details, please refer to <a href="asset/photo/pub/2/InstructScene-CF-GISS.pdf" alt="InstructScene-CF-GISS">retraining InstructScene on our CF-GISS dataset</a>.
+              The former <a href="https://tangjiapeng.github.io/projects/DiffuScene/">DiffuScene</a> is based on applying diffusion model for parametrized objects (location, size, orientation, class, shape code). For greater instruction control, the latter <a href="https://chenguolin.github.io/projects/InstructScene/"> InstructScene</a> follows a two-stage procedure. A semantic graph, with class label, (additional) pairwise spatial relationship and quantized features, is constructed from the prior semantic input. After that, a separate 3D decoder determines the exact layout (location, size, orientation). For details, please refer to <a href="asset/photo/pub/2/InstructScene_CF_GISS.pdf" alt="InstructScene_CF_GISS">retraining InstructScene on our CF-GISS dataset</a>.
               <br/>
 
             </>}
         ></StoryDescriptionButton>
-        <br/>  
+        <br/>   */}
 
 
         </>
