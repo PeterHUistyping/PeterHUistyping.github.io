@@ -18,6 +18,7 @@ export function AboutMe(){
     useEffect(() => {
         document.title = 'Biography - Peter HU';
         }, []);
+
     return (
     <motion.div> 
     <Index_Top/> 
@@ -33,8 +34,15 @@ export function AboutMe(){
     <div class="aboutMeContainer">
     
         {/* Strong background and interest in <font color="green">Visual Computing (Graphics, Vision)</font> with <font color="#3824BD">ML</font> / <font color='#8D6F64'>System</font>.  <br/> */}
-        
+      
         {/* &emsp; &nbsp;&nbsp; */}
+    {/* <div style={{ display: 'flex', width: '100%'}}> */}
+        {/* <div style={{float: "left", margin: "auto"}}> */}
+        <img style={{float: 'right'}}
+            height="200vw" 
+            onMouseEnter={(e) => (e.target.style.transform = "scale(1.4)")}
+            onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+            src="/asset/photo/Logo/Relationship_CV.png" alt="CV" />
         <b>Engage in long-term collaborative <HashLink to="/research">academic and industry research</HashLink></b>. <br/>
         <center>
             <font color="green">Visual Computing (Graphics, Vision, Image Processing)</font> + <font color="#3824BD">AI/ML</font>
@@ -44,11 +52,7 @@ export function AboutMe(){
         covering rendering (ray tracing, volume rendering, neural rendering), appearance modeling (materials, BRDF), geometry modeling and representations (hair), etc. The tasks taken include synthesis, reconstruction, classification, etc. In the past few years, I have developed or maintained several renderers in multiple languages (C++, Python, GLSL). I also present multiple knowledge sharing sessions about my research topics both internally during internship and in university. 
         </div>
         <br/> 
-        <center>
-        {/* 1568 1340 = 1.17 */}
-        <img height="200vw" src="/asset/photo/Logo/Relationship_CV.png" alt="CV" />
-        </center>
-        
+      
         <center>
             <font color='#8D6F64'>System</font>-related (Scheduling, CPU, Security)
         </center>
@@ -64,11 +68,18 @@ export function AboutMe(){
 
         {/* &emsp; &nbsp;&nbsp; */}
         <b>Past <HashLink to="/blog6">group competition</HashLink> experience in compression</b> implemented in C and C++, where new ideas on LZSS and complete pipeline come up from our team. It achieves a lossless compression with overall better compression rate and processing speed compared with google Draco for the given 3D graphics data input. <br/>
+    {/* </div> */}
 
 
         {/* &emsp; &nbsp;&nbsp; */}
         {/* Exploring areas in Graphics + AI/ML with GPU, CV / System-related topics, etc and open to new opportunities and fields.       <br/> */}
-        
+    {/* <div style={{ flex: 1, float: 'right', }}> */}
+    {/* </div> */}
+
+    {/* </div> */}
+    
+        <br/>
+
         <br/>
 
         <Education />   <br/>
