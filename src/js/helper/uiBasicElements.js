@@ -103,8 +103,9 @@ export function StoryDescriptionButton(props){
     return(
         <>
         <FetchButton title={props.title} show={show} handleOnClick={handleOnClick} type={props.type || "default"} />
-
         {show && 
+        <>
+        <br/>
         <div style={{
             width: props.type === "Journey" ? "96%" : "74%",
             margin: "auto",
@@ -118,7 +119,9 @@ export function StoryDescriptionButton(props){
             {props.mainText}
             {/* add horizontal dashed green line */}
             {/* <div style={{borderBottom: "1px dashed #4CAF50", width: "100%", marginTop: "10px"}}></div> */}
-        </div>}
+        </div>
+        </>
+        }
     </>
     )
 }

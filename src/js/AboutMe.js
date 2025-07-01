@@ -38,16 +38,16 @@ export function AboutMe(){
         {/* &emsp; &nbsp;&nbsp; */}
     {/* <div style={{ display: 'flex', width: '100%'}}> */}
         {/* <div style={{float: "left", margin: "auto"}}> */}
-        <img style={{float: 'right'}}
-            height="200vw" 
-            onMouseEnter={(e) => (e.target.style.transform = "scale(1.4)")}
-            onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
-            src="/asset/photo/Logo/Relationship_CV.png" alt="CV" />
         <b>Engage in long-term collaborative <HashLink to="/research">academic and industry research</HashLink></b>. <br/>
         <center>
             <font color="green">Visual Computing (Graphics, Vision, Image Processing)</font> + <font color="#3824BD">AI/ML</font>
         </center>
         <div style={{width: "90%", margin: "auto"}}>
+        <img style={{float: 'right'}}
+            height="200vw" 
+            onMouseEnter={(e) => (e.target.style.transform = "scale(1.4)")}
+            onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+            src="/asset/photo/Logo/Relationship_CV.png" alt="CV" />
         &emsp; &nbsp;&nbsp;
         covering rendering (ray tracing, volume rendering, neural rendering), appearance modeling (materials, BRDF), geometry modeling and representations (hair), etc. The tasks taken include synthesis, reconstruction, classification, etc. In the past few years, I have developed or maintained several renderers in multiple languages (C++, Python, GLSL). I also present multiple knowledge sharing sessions about my research topics both internally during internship and in university. 
         </div>
