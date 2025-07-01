@@ -54,6 +54,7 @@ function StorySummaryButton(props){
             marginTop: "0",     
             marginBottom: "0", 
             padding: "20px",   
+            boxSizing: "border-box",
         }} onClick={handleOnClick}
         // on mouse over change border width to 2px
         onMouseOver={(e) => e.currentTarget.style.border = "2px solid #4CAF50"}

@@ -277,7 +277,10 @@ function Intro(props){
             {props.More && <> |  <a href={props.More} class="project-link">more</a> </>}
             {/* ending mark if there's at least one attribute. */}
             {(props.Arxiv || props.Github || props.Blog || props.PDF || props.Video || props.More || props.Dataset || props.Project ) && <> | </> }
-            {props.Journey && <StoryDescriptionButton 
+            <br/>
+            {props.Journey && 
+            <div style={{ width: "100%" , marginTop: "2px", marginLeft: "10px"}}>
+            <StoryDescriptionButton 
                 title={
                     <>
                         <b>About {props.JourneyCategory}</b> <i>{props.ShortTitle || props.Title}</i>
@@ -285,10 +288,10 @@ function Intro(props){
                     }  
                 mainText = {<FetchJourneyMainText Journey={props.Journey} />} 
                 type = "Journey"
-
-
             />
+            </div>
             }
+
             <br/>
         </td>
     )
