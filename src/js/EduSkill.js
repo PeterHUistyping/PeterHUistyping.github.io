@@ -49,7 +49,7 @@ export function Education(){
     {/* Xiamen University  */}
         <i>2021.09 - 2022.06</i> <br />
        B.Eng. undergrad in <a href="https://en.wikipedia.org/wiki/Software_engineering">Software Engineering</a> (withdrew after completing first year)<br /> 
-        GPA: 3.91 / 4.0, rank: 1 / 173 (first term) |  88 (yearly) |  Class Rep, ACM Team<br />
+        GPA: 3.91 / 4.0, rank: 1 / 173 (first term) |  88.2 (yearly) |  Class Rep, ACM Team<br />
     <a href="https://en.wikipedia.org/wiki/Shanghai_Nanyang_Model_High_School">
     <img width="28" height="24" src="./asset/photo/Logo/NanyangHigh.png" alt="Nanyang"/>
     </a>
@@ -89,8 +89,9 @@ export function Interest_extra(){
   <br/>
 
   <HashLink to="/PhotoDisplay">Photography</HashLink>, Music, Swimming, Gym,    etc.  <br />  
-  Society: <a href="https://www.ethics-in-mathematics.com/">Ethics in Mathematics</a><br />
-  <i>Economics Related Topics: </i> Macro & Micro, Money Banking<br />
+  Society: <a href="https://www.ethics-in-mathematics.com/">Ethics in Mathematics.</a><br />
+  <i>Economics-related: </i> Macro & Micro, Money Banking.<br />
+  Volunteering (twice @ <a href="https://www.cst.cam.ac.uk/admissions/open-days/undergraduate">Departmental Open Days and Events</a>).<br />
     </>
   )
 }
