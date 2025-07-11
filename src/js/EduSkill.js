@@ -31,13 +31,14 @@ export function Education(){
      <i>2025.10 - 2026.06</i><br />
     {/* <br /> */}
     M.Eng. (Hons) <a href="https://www.cst.cam.ac.uk/">Computer Science</a><br />
+    Selected from top undergrads, on par with the <b>M.Phil</b> in research depth and assessment rigor, stated by <a href="https://www.cst.cam.ac.uk/teaching/masters">the department</a>. <br />
     <JardineScholarship /> <br />
     <a href="https://www.cam.ac.uk/">
     <img width="27" height="24" src="./asset/photo/Logo/Cam.png" alt="Cambridge" /> 
     </a>
     <b> University of Cambridge </b>  &nbsp;
     {/* <br /> */}
-     <i>2022.10 - 2025.07</i><br />
+    <i>2022.10 - 2025.07</i><br />
     B.A. (Hons) <a href="https://www.cst.cam.ac.uk/">Computer Science</a><br />
     First-Class (72.4) | Dissertation (93.5) | <a href="https://peterhuistyping.github.io/Cambridge_CS_Tripos/">notes</a><br />
     <JardineScholarship /> <br />
