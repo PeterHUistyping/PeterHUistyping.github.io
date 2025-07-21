@@ -39,7 +39,7 @@ export function AboutMe(){
     {/* <div style={{ display: 'flex', width: '100%'}}> */}
         {/* <div style={{float: "left", margin: "auto"}}> */}
         <center>
-            <a href="asset/doc/Zheyuan_Peter-Hu_portfolio_slides.pdf">CV</a> | <a href="asset/doc/Zheyuan_Peter-Hu_portfolio_slides.pdf" >Portfolio slides</a> <br/>
+            <a href="asset/doc/CV_PeterHU.pdf">CV</a> | <a href="asset/doc/Zheyuan_Peter-Hu_portfolio_slides.pdf" >Portfolio slides</a> <br/>
         </center>
 
         <b>Engage in long-term collaborative <HashLink to="/research">academic and industry research</HashLink></b>. <br/>
