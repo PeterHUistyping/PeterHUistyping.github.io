@@ -38,6 +38,10 @@ export function AboutMe(){
         {/* &emsp; &nbsp;&nbsp; */}
     {/* <div style={{ display: 'flex', width: '100%'}}> */}
         {/* <div style={{float: "left", margin: "auto"}}> */}
+        <center>
+            <a href="asset/doc/Zheyuan_Peter-Hu_portfolio_slides.pdf">CV</a> | <a href="asset/doc/Zheyuan_Peter-Hu_portfolio_slides.pdf" >Portfolio slides</a> <br/>
+        </center>
+
         <b>Engage in long-term collaborative <HashLink to="/research">academic and industry research</HashLink></b>. <br/>
         <center>
             <font color="green">Visual Computing (Graphics, Vision, Image Processing)</font> + <font color="#3824BD">AI/ML</font>
