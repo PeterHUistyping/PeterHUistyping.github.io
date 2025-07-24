@@ -6,6 +6,38 @@ import Index_Top from "./helper/index_top";
 import { motion } from 'framer-motion'
  
 export default function Loading(){
+    // 定义内联样式对象
+    const containerStyle = {
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      // height: '100vh'
+    };
+
+    const spinnerStyle = {
+      border: '4px solid rgba(0, 0, 0, 0.1)',
+      borderLeftColor: '#000',
+      borderRadius: '50%',
+      width: '36px',
+      height: '36px',
+      animation: 'spin 1s linear infinite',
+      marginBottom: '16px'
+    };
+
+    const style = document.createElement('style');
+    style.textContent = `
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    `;
+    if (!document.querySelector('style[data-loading-spin]')) {
+      style.setAttribute('data-loading-spin', '');
+      document.head.appendChild(style);
+    }
+
     return (
       <motion.div> 
       <Index_Top/> 
@@ -18,8 +50,8 @@ export default function Loading(){
         </div> */}
         {/* <br />  <br />   */}
          
-        <div className="loading-container">
-        <div className="spinner"></div>
+        <div style={containerStyle}>
+          <div style={spinnerStyle} />
           <p>Loading...</p>
           <p>Thank you for your patience!</p>
         </div>
