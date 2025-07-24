@@ -119,7 +119,7 @@ function ColBio(){
             <img height="100vh" 
             onMouseEnter={(e) => (e.target.style.transform = "scale(1.2)")}
             onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
-            src="/asset/photo/Logo/Relationship_CV.png" alt="Bio." title="Bio." />
+            src="/asset/photo/Logo/Relationship_CV.png" alt="Bio." title="Bio." loading="lazy"/>
           </HashLink> 
         </>
         } />
