@@ -295,7 +295,7 @@ function Profile2(){
   <a href="https://scholar.google.com/citations?user=M3jgt3QAAAAJ"><img width= "18vw" 
   onMouseEnter={(e) => (e.target.style.transform = "scale(1.5)")}
   onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
-  src="/asset/photo/Logo/goggle_scholar.png" alt="google_scholar" title="Google Scholar"/></a>
+  src="/asset/photo/Logo/goggle_scholar.svg" alt="google_scholar" title="Google Scholar"/></a>
   
   &thinsp; 
   {/* &thinsp; |  &thinsp; */}
@@ -303,7 +303,7 @@ function Profile2(){
   <a href="https://dblp.org/pid/270/0713-6"><img width= "18vw" 
   onMouseEnter={(e) => (e.target.style.transform = "scale(1.5)")}
   onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
-  src="/asset/photo/Logo/dblp.webp" alt="dblp" title="DBLP"/></a>
+  src="/asset/photo/Logo/dblp.svg" alt="dblp" title="DBLP"/></a>
   
   &thinsp; 
   {/* &thinsp; |  &thinsp; */}
