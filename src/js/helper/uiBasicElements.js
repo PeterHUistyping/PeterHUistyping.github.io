@@ -24,19 +24,59 @@ function DetailButton(props){
 }
 
 
-export function ShowDetailButton(props){
-    // usage: <ShowDetailButton title = {<>HI!</>}  mainText = {<>Hi</>} />
-    const [show, setShow] = React.useState(false);
+function RoundButton(props){
+    const show = props.show || false;
+    const setShow = props.setShow || (() => {});
+    const buttonText = props.buttonText || "Details";
+    // const showExpandStatusText = props.showExpandStatusText || false;
     return(
-    <>
-    <DetailButton show={show} setShow={setShow} /> {props.title} <br/>
-    {/* &nbsp;  */}
-    {
-        show && <> {props.mainText} </>
-    } 
-    </>
-     
+        <button onClick={() => {setShow(! show)}} 
+    
+        style={{
+            backgroundColor: '#4A90E2',
+            color: 'white',
+            padding: '3px 6px',
+            border: '#83789E',
+            borderRadius: '8px',
+            cursor: 'pointer',
+            boxShadow: '0 4px 10px rgba(0,0,0,0.3)',
+            transition: 'background 0.3s'
+        }} 
+        onMouseOver={(e) => e.target.style.backgroundColor = '#6E6182'}
+        onMouseOut={(e) => e.target.style.backgroundColor = '#4A90E2'}
+        >{buttonText}</button>
     )
+}
+
+
+export function ShowDetailButton(props){
+    // usage: <ShowDetailButton rounded = {"False"} title = {<>HI!</>}  mainText = {<>Hi</>} />
+    // usage: <ShowDetailButton rounded = {"True"} title = {<>HI!</>}  buttonText = {<>Hi</>} />
+
+    const [show, setShow] = React.useState(false);
+    const rounded = props.rounded === "True" || false;
+    
+    if (rounded){
+        return(
+        <>
+            <RoundButton show={show} setShow={setShow} buttonText={props.buttonText}/> {props.title} <br/>
+            {/* &nbsp;  */}
+            {
+                show && <> {props.mainText} </>
+            } 
+        </>)
+    }
+    else{
+        return(
+        <>
+            <DetailButton show={show} setShow={setShow} buttonText={props.buttonText} /> {props.title} <br/>
+            {/* &nbsp;  */}
+            {
+                show && <> {props.mainText} </>
+            } 
+        </>)
+    }
+    
 }
 
 

@@ -9,6 +9,7 @@ import Sidebar_Project from "./helper/project_sidebar"
 // import FooterCommon from "./helper/footerCommon"
 import {Publication} from "./Research"
 import React, { useEffect, useState } from "react";
+import { ShowDetailButton } from './helper/uiBasicElements';
 import {Slideshow} from "./helper/slideShow"
 import {Education, Skill, Interest_extra} from "./EduSkill"
 
@@ -106,16 +107,22 @@ function Detail(){
 function ColBio(){
   return (
     <>
-        <HashLink id="teaser_link"  to="/aboutme">
-          <img height="100vh" 
-          onMouseEnter={(e) => (e.target.style.transform = "scale(1.2)")}
-          onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
-          src="/asset/photo/Logo/Relationship_CV.png" alt="Bio." title="Bio." />
-        </HashLink> 
-        <br/>
         {/* <font size="+1"> */}
-        <HashLink to="/aboutme" className="project-link">Biography》</HashLink> <br/> 
+        <HashLink to="/aboutme" className="project-link">Biography》</HashLink> 
         {/* </font> */}
+
+         <ShowDetailButton 
+        rounded = {"True"} 
+        buttonText = {<>🌈</>}  
+        mainText = {<>  
+          <HashLink id="teaser_link"  to="/aboutme">
+            <img height="100vh" 
+            onMouseEnter={(e) => (e.target.style.transform = "scale(1.2)")}
+            onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+            src="/asset/photo/Logo/Relationship_CV.png" alt="Bio." title="Bio." />
+          </HashLink> 
+        </>
+        } />
     </>
   )
 }
@@ -134,16 +141,24 @@ function ColResearch(){
     ];
     return (
     <>
-      <HashLink id="teaser_link"  to="/research">
-          {/* <img height="100vh" src="/asset/photo/pub/1/teaser.png" alt="teaser" /> */}
-          <Slideshow images={images} type="Research"/>
-      </HashLink> 
       {/* <font size="+1"> */}
       <HashLink to="/research"
         className="project-link"
       >Research》</HashLink>|<HashLink to="/experience"
         className="project-link"
-      >Experience》</HashLink> <br/>
+      >Experience》</HashLink> 
+
+      <ShowDetailButton 
+        rounded = {"True"} 
+        buttonText = {<>💭</>}  
+        mainText = {<>  
+          <HashLink id="teaser_link"  to="/research">
+            <Slideshow images={images} type="Research"/>
+          </HashLink> 
+        </>
+      } />
+
+      {/* <img height="100vh" src="/asset/photo/pub/1/teaser.png" alt="teaser" /> */}
       {/* </font> */}
     </>
   )
@@ -162,17 +177,27 @@ function ColProject(){
 
   return (
     <>
-      <HashLink id="project_link"  to="/project">
-          {/* <img height="100vh" src="asset/photo/Assignment/blog3/Self-similar_fractals.png" alt="project_img" /> */}
-          <Slideshow images={images} type="Projects"/>
-      </HashLink>
+      {/*   */}
       {/* <font size="+1"> */}
       <HashLink to="/award"
         className="project-link"
       >Awards》</HashLink>|<HashLink to="/project"
         className="project-link"
-      >Projects》</HashLink> <br/>
+      >Projects》</HashLink>  
       {/* </font> */}
+
+       <ShowDetailButton 
+        rounded = {"True"} 
+        buttonText = {<>💻</>}  
+        mainText = {<>  
+          <HashLink id="project_link"  to="/project">
+            <Slideshow images={images} type="Projects"/>
+          </HashLink>
+        </>
+      } />
+
+      {/* <img height="100vh" src="asset/photo/Assignment/blog3/Self-similar_fractals.png" alt="project_img" /> */}
+
     </>
   )
 }

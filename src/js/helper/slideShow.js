@@ -37,7 +37,7 @@ export function SlideshowLegacy(props) {
   const [index, setIndex] = React.useState(0);
   const timeoutRef = React.useRef(null);
   const images = props.images;
-  const delay = 3000;
+  const delay = 25000;
 
   function resetTimeout() {
     if (timeoutRef.current) {

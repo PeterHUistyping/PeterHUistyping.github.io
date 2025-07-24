@@ -7,17 +7,15 @@ import Index_Top from "./helper/index_top";
 import { motion } from 'framer-motion'
 import Sidebar_Project from "./helper/project_sidebar"
 import HorizontalScroll from "./helper/horizontalScroll";
-// css file
-import "./helper/css/sliding.css";
+import { ShowDetailButton } from './helper/uiBasicElements';
+import "./helper/css/sliding.css";  // css file
 
 
 export function PhotoDisplay(){
     useEffect(() => {
             document.title = 'Photography - Peter HU';
     }, []);
-    // add a toggle button to show the horizontal scroll bar
-    const [show_horizontal_scroll , setShowHorizontalScroll] = useState(false);
-    
+
     return (
     <motion.div> 
     <Index_Top/> 
@@ -27,35 +25,17 @@ export function PhotoDisplay(){
     <br/><br/>
 
     <center>
-    <h2>Moments  |  <button onClick={() => {setShowHorizontalScroll(! show_horizontal_scroll)}} 
-    
-        style={{
-            backgroundColor: '#4A90E2',
-            color: 'white',
-            padding: '3px 6px',
-            border: '#83789E',
-            borderRadius: '8px',
-            cursor: 'pointer',
-            boxShadow: '0 4px 10px rgba(0,0,0,0.3)',
-            transition: 'background 0.3s'
-        }} 
-        onMouseOver={(e) => e.target.style.backgroundColor = '#6E6182'}
-        onMouseOut={(e) => e.target.style.backgroundColor = '#4A90E2'}
-
-    >📷 Gallery View</button> </h2> 
+    <h2>Moments  |  <ShowDetailButton 
+        rounded = {"True"} 
+        buttonText = {<>📷 Gallery View</>}  
+        mainText = {<>  
+            <br/>
+            <HorizontalScroll />
+            </>
+    } /> </h2> 
 
     <i>The best and most beautiful things in the world cannot be seen or even touched.<br/>
          They must be felt with the heart. - Helen Keller</i> <br/><br/>
-
- 
-
-    {
-        show_horizontal_scroll && 
-        <>
-        <br/>
-        <HorizontalScroll />
-        </>
-    }
 
     <br/>
 
