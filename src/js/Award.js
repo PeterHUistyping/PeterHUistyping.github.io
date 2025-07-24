@@ -8,7 +8,7 @@ import { motion } from 'framer-motion'
 import Sidebar_Project from "./helper/project_sidebar"
 import { useEffect } from "react";
 
-export function Award(){
+export default function Award(){
     useEffect(() => {
         document.title = 'Awards - Peter HU';
     }, []);

@@ -22,7 +22,7 @@ export function Past_label(){
    )
 }
 
-export function Project_Others(){
+export default function Project_Others(){
     return (
     <motion.div> 
     <div>

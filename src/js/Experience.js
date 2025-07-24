@@ -9,7 +9,7 @@ import React, { useEffect, useState } from "react";
 import {ShowDetailButton} from './helper/uiBasicElements';
  
 
-export function Experience(){
+export default function Experience(){
   useEffect(() => {
     document.title = 'Experience - Peter HU';
   }, []);

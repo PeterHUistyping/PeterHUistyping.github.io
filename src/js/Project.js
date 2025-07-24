@@ -8,7 +8,7 @@ import Index_Footer from "./helper/index_footer";
 import Index_Top from "./helper/index_top";
 import { motion } from 'framer-motion'
  
-export function Project(){
+export default function Project(){
     useEffect(() => {
             document.title = 'Projects - Peter HU';
     }, []);

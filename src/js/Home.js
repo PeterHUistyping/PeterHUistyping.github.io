@@ -203,7 +203,7 @@ function ColProject(){
 }
 
 
-export function Home() { 
+export default function Home() { 
   useEffect(() => {
     document.title = 'Homepage - Peter HU';
   }, []);

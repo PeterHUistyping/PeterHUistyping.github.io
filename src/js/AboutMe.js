@@ -14,7 +14,7 @@ function popup() {
   }
 
 
-export function AboutMe(){
+export default function AboutMe(){
     useEffect(() => {
         document.title = 'Biography - Peter HU';
         }, []);

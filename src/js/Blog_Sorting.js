@@ -24,7 +24,7 @@ resource=resource.concat(Machine_Learning);
 resource=resource.concat(Visual_Computing); 
 resource=resource.concat(Past); 
 
-export function Blog_Sorting(){
+export default function Blog_Sorting(){
     useEffect(() => {
             document.title = 'Blogs - Peter HU';
     }, []);

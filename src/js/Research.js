@@ -116,7 +116,7 @@ export function ResearchStory(){
 }
 
 
-export function Research(){
+export default function Research(){
     useEffect(() => {
             document.title = 'Research - Peter HU';
     }, []);

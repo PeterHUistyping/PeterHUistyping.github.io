@@ -11,7 +11,7 @@ import { ShowDetailButton } from './helper/uiBasicElements';
 import "./helper/css/sliding.css";  // css file
 
 
-export function PhotoDisplay(){
+export default function PhotoDisplay(){
     useEffect(() => {
             document.title = 'Photography - Peter HU';
     }, []);

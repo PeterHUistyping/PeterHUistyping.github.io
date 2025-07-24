@@ -8,7 +8,7 @@ import { motion } from 'framer-motion'
 import React from "react";
 import {Profile} from "./Home";
  
-export function Contact(){
+export default function Contact(){
      useEffect(() => {
         document.title = 'Contact - Peter HU';
       }, []);

@@ -51,7 +51,7 @@ import PreNextBlog from "../../js/helper/blog_pre_next";
 //   );
 // }
 
-export function Blog4(){
+export default function Blog4(){
     useEffect(() => {
         document.title = 'Blog: DBMS - Peter HU';
     }, []);

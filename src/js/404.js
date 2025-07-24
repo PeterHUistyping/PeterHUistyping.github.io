@@ -7,7 +7,7 @@ import Index_Top from "./helper/index_top";
 import Sidebar_Project from "./helper/project_sidebar"
 
 
-export function NotFound()
+export default function NotFound()
 {
     useEffect(() => {
         document.title = 'Page not found - Peter HU';

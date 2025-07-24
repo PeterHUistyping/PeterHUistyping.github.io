@@ -15,7 +15,7 @@ import rehypeRaw from 'rehype-raw';
 import PreNextBlog from "../../js/helper/blog_pre_next";
 // import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 
-export function Blog(props){
+export default function Blog(props){
     useEffect(() => {
         document.title = 'Blog: ' + props.name + ' - Peter HU';
     }, []);
