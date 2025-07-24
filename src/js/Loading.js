@@ -13,13 +13,17 @@ export default function Loading(){
       <Sidebar_Project />
         {/* center the loading text */}
         <br />  <br />  <br />  <br />  <br />  <br />  <br />  
-        <div style={{ textAlign: "center" }}>
+        {/* <div style={{ textAlign: "center" }}>
           Loading... This may take a few seconds ... <br/>
+        </div> */}
+        {/* <br />  <br />   */}
+         
+        <div className="loading-container">
+        <div className="spinner"></div>
+          <p>Loading...</p>
+          <p>Thank you for your patience!</p>
         </div>
-        <br />  <br />   
-        <div style={{ textAlign: "center" }}>
-          Please wait as the page loads, thank you for your patience!
-        </div>
+
 
         <br />  <br />  <br />  <br />  <br />  <br />  <br />  
         <br />  <br />  <br />  <br />  <br />  <br />  <br />  
