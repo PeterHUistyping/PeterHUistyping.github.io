@@ -58,7 +58,7 @@ export default function Blog_Sorting(){
             <center>
             <p id="welcome" >
                 <strong>
-                <font size="+3" color="white" style={{"font-family":"BrushScriptMT-embed"}}>Welcome to My Blogs📝</font>
+                <font size="+3" color="white" style={{"font-family":"BrushScriptMT-embed"}}>Welcome to My Blogs🌟</font>
                 <font size="+0" color="white"><i>3.0</i></font>
                 </strong>
             </p> 

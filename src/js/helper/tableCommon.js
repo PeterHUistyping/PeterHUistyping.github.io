@@ -148,7 +148,7 @@ function Blog_link(props){
     // get string from Processed_blog_link
     const processed_link = Processed_blog_link({ link: props.link });
     return (
-        <a href={processed_link} class="project-link">📝 blog</a>
+        <a href={processed_link} class="project-link">🌟 blog</a>
     )
     
     // if(props.link && !props.link.includes("http")){

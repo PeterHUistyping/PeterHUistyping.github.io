@@ -9,7 +9,7 @@ export default function Blog_Footer(){
     <div class=" blog">
         <ul>
             <li><a href="/#">🔙 HOME 🏛️</a></li>
-            <li><a href="/#/Blog_Sorting">🔙 Blog 📝</a></li>
+            <li><a href="/#/Blog_Sorting">🔙 Blog 🌟</a></li>
         </ul>
     </div>
     <hr width="50%" color="#C0C0C0" size="1" />  

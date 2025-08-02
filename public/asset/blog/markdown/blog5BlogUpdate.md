@@ -82,7 +82,7 @@ Using React together with React to construct functions, thus shortening the line
 
 [🏛️PERSONAL PAGE](/#)
 
-# [📝 Blogs3.0 PLATFORM Artistic, Better, Convenient](/#/Blog_Sorting)
+# [🌟 Blogs3.0 PLATFORM Artistic, Better, Convenient](/#/Blog_Sorting)
 
 Originally written in Markdown(.md).
 Convert to HTML via React-Markdown or [Showdown](https://showdownjs.com/).
