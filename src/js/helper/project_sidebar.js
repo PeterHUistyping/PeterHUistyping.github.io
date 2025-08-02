@@ -33,8 +33,8 @@ function SidebarResearch(){
     return (
         <>
             <HashLink id="sidebar_academia" to="/research/#academicResearch"><i>&nbsp;&nbsp;&nbsp;academia</i></HashLink> 
-            <HashLink id="sidebar_publication" to="/research/#pub"><i>&nbsp;&nbsp;&nbsp;publication</i></HashLink> 
-            <HashLink id="sidebar_talk" to="/research/#talk"><i>&nbsp;&nbsp;&nbsp;talk</i></HashLink>
+            {/* <HashLink id="sidebar_publication" to="/research/#pub"><i>&nbsp;&nbsp;&nbsp;publication</i></HashLink>  */}
+            {/* <HashLink id="sidebar_talk" to="/research/#talk"><i>&nbsp;&nbsp;&nbsp;talk</i></HashLink> */}
             <HashLink id="sidebar_industry" to="/research/#industryResearch"><i>&nbsp;&nbsp;&nbsp;industry</i></HashLink> 
         </>
     )
@@ -46,8 +46,6 @@ export default function Sidebar_Project(){
 
     const [show, setShow] = useState(true);
  
-   
-    
     // Set initial state based on window width
     useEffect(() => {
     const handleResize = () => {
@@ -88,7 +86,7 @@ export default function Sidebar_Project(){
     const location = useLocation();
   
     // // Define the routes in the order they should be navigated
-    const routes = ["/", "/aboutme", "/research",  "/project", "/award", "/experience"];
+    const routes = ["/", "/aboutme", "/research", "/talk", "/project", "/award", "/experience"];
     
     // // Function to get the next route based on the current location
     const getNextRoute = (currentPath) => {
@@ -149,6 +147,8 @@ export default function Sidebar_Project(){
             <NavLink id="sidebar_bio" exact activeClassName='is-active' to="/aboutme">▸Bio.</NavLink> 
             <NavLink id="sidebar_pub" exact activeClassName='is-active' to="/research">▸Research</NavLink>
                 <SidebarResearch/>  
+            <NavLink id="sidebar_talk" exact activeClassName='is-active' to="/talk">▸Talk</NavLink>
+
             <NavLink id="sidebar_project" exact activeClassName='is-active'  to="/project">▸Projects</NavLink> 
                 <SidebarProject/>
             <NavLink id="sidebar_award" exact activeClassName='is-active' to="/award">▸Awards</NavLink>  

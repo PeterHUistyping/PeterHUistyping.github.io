@@ -19,15 +19,15 @@ export function NavigationNotice(){
         <div class ="announcement">
         | <HashLink   to="/" 
             className="project-link"
-        >Home🏠</HashLink>   /      <HashLink to="/aboutme"
+        >Home🏛️</HashLink>   /      <HashLink to="/aboutme"
             className="project-link"
-        >Bio.👨‍💻</HashLink> /  <HashLink    to="/research"
+        >Bio.👨‍💼</HashLink> /  <HashLink    to="/research"
             className="project-link"
         >Research💭</HashLink> \       <HashLink  to="/award"
             className="project-link"
         >Awards🥇</HashLink> \ <HashLink to="/project"
             className="project-link"
-        >Projects🧑‍💻</HashLink> | <br/>
+        >Projects🧩</HashLink> | <br/>
         {/* font change to gray */}
         <div style={{ color: 'gray' }}>
         👈 Alternatively, please navigate via the left sidebar.

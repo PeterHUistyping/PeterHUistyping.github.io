@@ -7,6 +7,7 @@ import Index_Top from "./helper/index_top";
 import { motion } from 'framer-motion'
 import React, { useEffect, useState } from "react";
 import {ShowDetailButton} from './helper/uiBasicElements';
+import {TalkRayTracing} from "./Talk";
  
 
 export default function Experience(){
@@ -21,35 +22,6 @@ export default function Experience(){
     <ExperienceContents showall={true}/>
     <Index_Footer />
     </motion.div>)
-}
-
-
-export function TalkRayTracing(props){
-  // check if it's in research page
-  if(props.showall == true){
-    return (
-      <>
-      Sharing session of my industry research topic on <i>Ray Tracing (Intersection, Acceleration).</i>  <br />  
-      Presented both internally and at university. &nbsp; | &nbsp;  <a href="./asset/doc/RT_Peter-v6.pdf">Slides</a>   <br /> 
-        <embed src="./asset/doc/RT_Peter-v6.pdf"  width="92%" height="300px"  />
-  
-        <div class="announcement">
-        <b>Talk: </b>
-        Speeding up real-time Ray Tracing @ <a href="https://kudos.chu.cam.ac.uk/talks/about">Churchill College Tech talk</a> | Date:  <i>Nov 1, 2023</i>
-          <br/>
-          <b>Feedback:</b>
-          <i>"You managed to give a very broad overview of a wide range of techniques used to speed up ray tracing."</i>
-          <br />
-          <i>"Very rich and complex concepts that cover graphics pipeline rendering in depth. Discussed design tradeoffs and current directions of research."</i>
-          <br />
-          <i>"Beautiful video to demonstrate why we want ray tracing, useful pictures and diagrams throughout to explain ideas, introduced a lot of steps in the pipeline where I can see some of it being used outside graphics."</i>
-          <br />
-        </div>
-      </>
-    )
-  }
-  else
-    return null;
 }
 
 
@@ -113,6 +85,7 @@ export function ExperienceContents(props){
             </>
         } 
       />
+
       <TalkRayTracing showall={props.showall} />
       <br /> 
       <br />

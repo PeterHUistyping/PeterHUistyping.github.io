@@ -42,6 +42,7 @@ const NotFound = lazy(() => import('./js/404'));
 const Blog4 = lazy(() => import('./asset/blog/blog4')); 
 const Blogref = lazy(() => import('./asset/blog/Ref/blogRef'));  
 const Blog = lazy(() => import('./asset/blog/markdownReader'));  
+const Talk = lazy(() => import('./js/Talk'));  
 
 function App() {
     const location = useLocation();
@@ -58,6 +59,7 @@ function App() {
             <Route path="/project" element={<Project />}/>
             <Route path="/project/others" element={<Project_Others />}/>
             <Route path="/experience" element={<Experience />}/>
+            <Route path="/talk" element={<Talk />}/>
             <Route path="/aboutme" element={<AboutMe />}/>
             <Route path="/contact" element={<Contact />}/>
 

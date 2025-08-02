@@ -24,8 +24,8 @@ function Index_top(props){
                     <HashLink style={{ color: 'black' }} to={main_page_link}><b style={{"font-family":"BrushScriptMT-embed"}}>Peter </b>HU's {main_page_suffix}</HashLink>
                 </li>
                 <li>
-                    <NavLink id="top_home" exact activeClassName='is-active' to="/">🏠HOME▾</NavLink>  
-                    {/* <a href="/#">🏠HOME</a> */}
+                    <NavLink id="top_home" exact activeClassName='is-active' to="/">👋HOME▾</NavLink>  
+                    {/* <a href="/#">👋HOME</a> */}
                     <ul>
                         <li>
                             <NavLink id="top_bio" exact activeClassName='is-active' to="/aboutme">👨‍💼Bio. </NavLink>
@@ -37,20 +37,21 @@ function Index_top(props){
                 <NavLink id="top_res" exact activeClassName='is-active' to="/research">💭Research▾</NavLink> 
                     <ul>
                         <li>
-                            <HashLink id="top_academia" exact activeClassName='is-active' to="/research/#academicResearch">academia </HashLink>
+                            {/* <HashLink id="top_academia" exact activeClassName='is-active' to="/research/#academicResearch">academia </HashLink> */}
+                            <HashLink id="talk" exact activeClassName='is-active' to="/talk">📢Talk</HashLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <HashLink id="top_industry" exact activeClassName='is-active' to="/research/#industryResearch">industry</HashLink>
-                        </li>
+                        </li> */}
                     </ul>
                 </li>
 
                 <li>
-                    <NavLink id="top_project" exact activeClassName='is-active' to="/project">🧑‍💻Projects▾</NavLink>  
+                    <NavLink id="top_project" exact activeClassName='is-active' to="/project">🧩Projects▾</NavLink>  
                     {/* <HashLink to="/project/" >🧑‍💻Project▾</HashLink> */}
                     <ul>
                         <li> 
-                            <NavLink id="top_award" exact activeClassName='is-active' to="/award">Awards</NavLink>  
+                            <NavLink id="top_award" exact activeClassName='is-active' to="/award">🥇Awards</NavLink>  
                             {/* <HashLink to="/award/">Awards</HashLink> */}
                         </li>
                         <li>
@@ -64,7 +65,7 @@ function Index_top(props){
                     </ul> */}
                 </li>
                 <li>
-                    <NavLink id="top_blog" exact activeClassName='is-active' to="/Blog_Sorting">📝Blogs▾</NavLink>  
+                    <NavLink id="top_blog" exact activeClassName='is-active' to="/Blog_Sorting">🌟Blogs▾</NavLink>  
                     {/* <a href="/#/Blog_Sorting/">📝Blogs▾</a> */}
                     <ul>
                         <li> 
@@ -79,7 +80,7 @@ function Index_top(props){
                 </li>
                 <li> 
                     {/* <HashLink to="/#contact">📬Contact▾</HashLink> */}
-                    <NavLink id="top_contact" exact activeClassName='is-active' to="/contact">📬Contact▾</NavLink>
+                    <NavLink id="top_contact" exact activeClassName='is-active' to="/contact">📨Contact▾</NavLink>
                 <ul>
                     <li><a href="./asset/doc/CV_PeterHU.pdf"><img width= "20vw" 
                     onMouseEnter={(e) => (e.target.style.transform = "scale(1.2)")}

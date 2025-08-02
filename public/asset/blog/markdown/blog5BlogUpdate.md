@@ -2,7 +2,7 @@
 
     HTML, CCS, js, React
 
-# [🏠PERSONAL PAGE](/#)
+# [🏛️PERSONAL PAGE](/#)
 
 Powered by Github Page
 CSS ~ Change style directly. Hence, reusing more: Only need to change here once instead of multiple times
@@ -11,9 +11,22 @@ Main idea: Using table to sort things up, achieving better display on mobile dev
 
 **More update coming soon...**
 
+3 Aug 2025
+A new series of emojis for conciseness and compatibility has been introduced.
+
+Talk Sessions are introduced, along with a preview, on the Research page.
+
+![Home_Aug2025](asset/photo/Assignment/5/Home_Aug2025.png "Home Page Aug 25")
+
+Jul 2025
+Collapse the image preview for faster loading and better performance.
+
+[Home_Jul2025](asset/photo/Assignment/5/Home_Jul2025.png "Home Page Jul 25")
+
+
 6 Mar 2025 Tidy the homepage and add the Bio. to the navigation bar.
 
-![Home_Mar2025](asset/photo/Assignment/5/Home_Mar2025.png "Home Page Mar 25")
+[Home_Mar2025](asset/photo/Assignment/5/Home_Mar2025.png "Home Page Mar 25")
 
 
 15 Jan 2025 Update calligraphy font for homepage, dynamic HTML title based on page.
@@ -66,7 +79,7 @@ Using React together with React to construct functions, thus shortening the line
 \--- Personal Page 2022 ---
 [Home 2022](asset/photo/Assignment/5/page.png "Personal Page 2022")
 
-[🏠PERSONAL PAGE](/#)
+[🏛️PERSONAL PAGE](/#)
 
 # [📝 Blogs3.0 PLATFORM Artistic, Better, Convenient](/#/Blog_Sorting)
 

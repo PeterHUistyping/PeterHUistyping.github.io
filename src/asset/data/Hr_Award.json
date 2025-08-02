@@ -56,11 +56,11 @@
     "pic1_alt":"Jardine Scholarship",
     "Category":"Scholarship",
     "line":1,
-    "Des1": "Merit-based, fully-funded Scholarship while pursuing my four-year studies at the University of Cambridge.",
+    "Des1": "[Merit-based, fully-funded Scholarship](https://en.wikipedia.org/wiki/Jardine_Scholarship) while pursuing my four-year studies at the University of Cambridge.",
     "Italic":"Issued by Jardine Foundation in Feb, 2022.",
     "Time":"2022.10-2026.06",
     "PDF":"./asset/doc/Jardine_Certificate.jpg",
-    "More":"https://en.wikipedia.org/wiki/Jardine_Scholarship"
+    "More":"./asset/doc/Shuping-Jardine.pdf"
 },
 {  
     "Title":"Shanghai Adolescents' Science and Technology Innovation Contest Third Place",

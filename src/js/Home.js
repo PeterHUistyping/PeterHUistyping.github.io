@@ -38,7 +38,7 @@ function About_me(){
 //     <h1>
 //       <HashLink to="/research">Research💭</HashLink><br/>
 //       <HashLink to="/award">Awards🥇</HashLink><br/>
-//       <HashLink to="/project">Projects🧑‍💻</HashLink><br/>
+//       <HashLink to="/project">Projects🖥️</HashLink><br/>
 //     </h1>
 //       {/* <HashLink to="/experience"><i>Experience</i></HashLink><br/> */}
 //   </div>
@@ -188,7 +188,7 @@ function ColProject(){
 
        <ShowDetailButton 
         rounded = {"True"} 
-        buttonText = {<>💻</>}  
+        buttonText = {<>🖥️</>}  
         mainText = {<>  
           <HashLink id="project_link"  to="/project">
             <Slideshow images={images} type="Projects"/>

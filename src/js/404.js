@@ -21,7 +21,7 @@ export default function NotFound()
         <br/>
         <br/>
         Sorry the webpage you want to reach has been moved or doesn't exist.
-        {/* <a href="https://peterhuistyping.github.io">🏠HOME</a> */}
+        {/* <a href="https://peterhuistyping.github.io">🏛️HOME</a> */}
         <br/>
         </center>
         <Index_Footer />

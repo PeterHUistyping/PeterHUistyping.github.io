@@ -8,7 +8,7 @@ export default function Blog_Footer(){
     <br/><br/><br/><br/><br/>
     <div class=" blog">
         <ul>
-            <li><a href="/#">🔙 HOME 🏠</a></li>
+            <li><a href="/#">🔙 HOME 🏛️</a></li>
             <li><a href="/#/Blog_Sorting">🔙 Blog 📝</a></li>
         </ul>
     </div>

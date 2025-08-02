@@ -35,7 +35,7 @@
 //               </ul>
 //           </li>
 //           <li>  
-//             <NavLink id="top_project" exact activeClassName='is-active' to="/project">🧑‍💻Projects▾</NavLink>  
+//             <NavLink id="top_project" exact activeClassName='is-active' to="/project">💻Projects▾</NavLink>  
 //             {/* <HashLink to="/project/" >🧑‍💻Project▾</HashLink> */}
 //               <ul>
 //                   <li> 
