@@ -18,15 +18,15 @@ Talk Sessions are introduced, along with a preview, on the Research page.
 
 ![Home_Aug2025](asset/photo/Assignment/5/Home_Aug2025.png "Home Page Aug 25")
 
-Jul 2025
+[Jul 2025](asset/photo/Assignment/5/Home_Jul2025.png "Home Page Jul 25")
 Collapse the image preview for faster loading and better performance.
 
-[Home_Jul2025](asset/photo/Assignment/5/Home_Jul2025.png "Home Page Jul 25")
 
 
-6 Mar 2025 Tidy the homepage and add the Bio. to the navigation bar.
+[6 Mar 2025](asset/photo/Assignment/5/Home_Mar2025.png "Home Page Mar 25")
+Tidy the homepage and add the Bio. to the navigation bar.
 
-[Home_Mar2025](asset/photo/Assignment/5/Home_Mar2025.png "Home Page Mar 25")
+
 
 
 15 Jan 2025 Update calligraphy font for homepage, dynamic HTML title based on page.
@@ -37,30 +37,32 @@ Collapse the image preview for faster loading and better performance.
 Update homepage Contact section with a compact layout. 
 Collapse mobile sidebar by default.
 
-20 Nov 2024
+[20 Nov 2024](asset/photo/Assignment/5/Home_Nov2024.png "Home Page v2 Nov 24")
 Update homepage layout and publication and academic research section.
 Merge Publication and Experience sections into the Research section.
 
-[Home_Nov2024](asset/photo/Assignment/5/Home_Nov2024.png "Home Page v2 Nov 24")
 
-15 Mar 2024
-Update navigation bar active based on position. [Home_Mar2024](asset/photo/Assignment/5/Home_Mar2024.png "Home Page v2 Mar 24")
+
+[15 Mar 2024](asset/photo/Assignment/5/Home_Mar2024.png "Home Page v2 Mar 24")
+Update navigation bar active based on position. 
+
 Update new theme for sitemap (sidebar) and Logos (compatible for dark theme).
 Add a separate Contact Page, highlighting main profile and contact details.
 
-1 Jan 2024
-Continuation of ©.
-[Home_Dec2023](asset/photo/Assignment/5/Home_Dec2023.png "Home Page v2 Dec 23")
 
-12 Nov 2023
+[1 Jan 2024](asset/photo/Assignment/5/Home_Dec2023.png "Home Page v2 Dec 23")
+Continuation of ©.
+
+
+[12 Nov 2023](asset/photo/Assignment/5/Home_Nov2023.png "Home Page v2 Nov 23")
 Add more sub-page for Projects, awards and experience.
 Update home page with left navigation bar and brand-new layout.
 Differentiate mobile and PC view of the Main page by checking screen width in js.
-[Home_Nov2023](asset/photo/Assignment/5/Home_Nov2023.png "Home Page v2 Nov 23")
 
-6 Mar 2023
+
+[6 Mar 2023 Mobile](asset/photo/Assignment/5/Mobile_Home_Apr2023.png "Mobile View of Home Page")
 Adjust to mobile view: CSS add "media only screen and (max-width: 800px)" condition.
-[Mobile_Home_Apr2023](asset/photo/Assignment/5/Mobile_Home_Apr2023.png "Mobile View of Home Page")
+
 
 Code Reconstruction
 -------------------
@@ -76,8 +78,7 @@ Adding a 404 redirect to home page.
 Using React together with React to construct functions, thus shortening the lines of code and maintenance cost.
 [React_js Setup](asset/photo/Assignment/5/React_js.png "React_js")
 
-\--- Personal Page 2022 ---
-[Home 2022](asset/photo/Assignment/5/page.png "Personal Page 2022")
+[2022 Personal Page](asset/photo/Assignment/5/page.png "Personal Page 2022")
 
 [🏛️PERSONAL PAGE](/#)
 
@@ -91,8 +92,8 @@ Reuse: the same part in the HTML / using JavaScript to encapsulate the header an
 
 **More update coming soon...**
 
-Mar 2025
-Merge the navigation bars of Main website and Blog system into a single function, for better maintainability. [Blog3.0-v2](asset/photo/Assignment/5/blog3.0-v2.png "Blog3.0 v2")
+[Mar 2025 Blog3.0-v2](asset/photo/Assignment/5/blog3.0-v2.png "Blog3.0 v2")
+Merge the navigation bars of Main website and Blog system into a single function, for better maintainability. 
 
 Feb 2025
 Fix the main Blog page's table sorting feature via React~
@@ -113,9 +114,9 @@ Change the format of Update Log, using chronological order now.
 Blogs_3.0_ Platform: This patch updates navigation bar in Blogs_3.0_ Platform, adding ⚙️Settings🛠️.
 ⚙️Settings🛠️ supports changing background color, controlling music.
 
-5 Apr 2023
+
+[5 Apr 2023 Blog3.0](asset/photo/Assignment/5/blog3.0.png "Blog3.0")
 Updates blog UI system with better visual effect.
-[Blog3.0](asset/photo/Assignment/5/blog3.0.png "Blog3.0")
 
 7 Apr 2023
 Blogs_3.0_ Platform: This patch updates navigation bar UI design and music button.
@@ -142,7 +143,7 @@ Removing legacy version (2022.9.18 Music for Blog: Using frame and iframe to sup
 
 ## Legacy Display
 
-\--- Blog3.0 Design --- [Mar23.png](asset/photo/Assignment/5/BlogMar23.png "Blog3.0_Mar23")
+\--- Blog3.0 Design --- [png (Mar 23)](asset/photo/Assignment/5/BlogMar23.png "Blog3.0_Mar23")
 
 \--- Blog2.0 Design --- [html](/asset/blog/blog_directory_Storting.html) | [png](asset/photo/Assignment/5/blog2.0.png "Blog2.0")
 
