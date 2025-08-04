@@ -8,8 +8,8 @@ import Index_Top from "../../../js/helper/index_top";
 import Resource  from "./resource";
 import ref from "../../../asset/data/Resource.json"
 import camUn from "../../../asset/data/Resource_CamUn.json"
+import Research from "../../../asset/data/Resource_Research.json";
 import { HashLink } from 'react-router-hash-link';
-import { NavLink } from "react-router-dom"; 
 
 export default function Blogref(){
     useEffect(() => {
@@ -28,7 +28,9 @@ export default function Blogref(){
             </div>
             <div class="content">
 
-            🔭 Collections of projects & reference by domain, some done by me. <br/><br/>
+            🔭 A compilation of projects and references, including some of my own work.
+            {/* Collections of projects & reference by domain, some done by me.  */}
+            <br/><br/>
               
 
             <center>
@@ -51,10 +53,15 @@ export default function Blogref(){
                 and many other projects scattered in repo waited to be explored:)<br/>
 
                 <br></br>   
+                <h2>How to do Research?</h2>
+                <Resource id="research-ref"   resource={Research}/>   
+                <br/>
+                {/* <br/><br/> */}
 
-                <h2> Others</h2>
+                <h2>Computer Science</h2>
                 <Resource id="ref"   resource={ref}/>   
-                <br/><br/><br/>
+                <br/>
+                {/* <br/><br/> */}
                 <h2 id="camUn">Cambridge Undergraduate</h2>
                 <Resource  resource={camUn}/>   
                 <p>Disclaimer: <i>For certain materials, all rights belong to their respective owners. I do NOT own any of these contents.</i></p>      

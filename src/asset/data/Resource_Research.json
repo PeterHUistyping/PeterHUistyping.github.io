@@ -1,0 +1,27 @@
+[
+    { "link":"https://aykuterdem.github.io/resources.html",
+      "description":"Resources for grad students",
+      "author":"Aykut Erdem"
+    },
+    {
+      "link": "https://people.csail.mit.edu/fredo/student.html",
+      "description":"Resources for Students & Scholars",
+      "author":"Frédo Durand"
+    },
+    {
+      "link":"https://www.cs.cmu.edu/~mleone/how-to.html",
+      "description":"Advice on Research and Writing",
+      "author":"Mark Leone"
+    },
+    {
+      "link":"https://www.cl.cam.ac.uk/~jac22/advice.html",
+      "description":"Advice on Research and Writing",
+      "author":"Jon Crowcroft"
+    },
+    {
+      "link":"https://jvgemert.github.io/links.html",
+      "description":"My research guidelines for DL and CV",
+      "author":"Jan van Gemert"
+    }
+  
+]
