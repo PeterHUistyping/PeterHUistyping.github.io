@@ -9,9 +9,20 @@
     "Italic":"Issued by Magdalene College (Cambridge) in March, 2025.",
     "Time":"2025.06-2025.10",
     "PDF":"./asset/doc/HuResearch20250327.pdf",
-    "More":"https://www.magd.cam.ac.uk/undergraduate/finance/other-financial-support"
+    "More":"https://www.magd.cam.ac.uk/study-magdalene/undergraduate-study/fees-funding-and-finance/sources-funding/summer-internship-and-research-bursaries"
 },    
-
+{  
+    "Title":"College Scholarship & Prize for Computer Science",
+    "pic1_src":"asset/photo/Logo/magd.jpg",
+    "pic1_alt":"Magdalene College Research Award",
+    "Category":"the Browning fund",
+    "line":1,
+    "Des1": "in recognition of the excellent performance in the Computer Science Part II.",
+    "Italic":"Issued by the Governing Body of Magdalene College (Cambridge).",
+    "Time":"2025.08",
+    "PDF":"./asset/doc/HuScholarship250805.pdf",
+    "More":"https://www.magd.cam.ac.uk/college-scholarships-and-prizes"
+},  
 {
     "pic1_src":"./asset/photo/Assignment/6/cf.png",
     "pic1_alt":"Comparing different Levels",
