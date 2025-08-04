@@ -15,52 +15,48 @@ function Pic_Large(props){
     return( 
         <td class="table_project_photo" rowspan="2">
             <div>
-                <div>
                 <img class="img_project" src={props.src}  alt={props.alt} loading="lazy"/>
-                </div>
             </div> 
         </td>
     )
     else
     return(
-        <td class="table_without_photo" rowspan="2">
-        <div>
-            <div>
-          
-            </div>
-        </div> 
-    </td>
+        <>  
+            {/* hide this col. */}
+            {/* <td class="table_without_photo">
+            </td> */}
+        </>
     )
 }
 
 function Pic(props){
     var w = window.innerWidth;
-    if(props.src1 && props.src2 && w<800 )
+    if(w<800)
     return( 
         <td class="table_project_photo" rowspan="2">
             <div>
-                <div>
                 <img class="img_project" src={props.src1}  alt={props.alt1} loading="lazy"/>
-                </div>
-                <div>
-                <img class="img_project" src={props.src2}  alt={props.alt2} loading="lazy"/>
-                </div>
-            </div> 
+                {
+                    props.src2 &&
+                    <img class="img_project" src={props.src2}  alt={props.alt2} loading="lazy"/>
+                }
+            </div>
         </td>
     )
-    else if(w>=800 )
+    else if(w>=800)
     return(
         <>
-            <Pic_Large  src={props.src1} alt={props.alt1}/>
-            <Pic_Large  src={props.src2} alt={props.src2}/>
+            {/* number of images == 0 */}
+            {!props.src1 &&<>  <td></td> </>}
+
+            {/* number of images >=1 */}
+            {props.src1 && <>
+                    <Pic_Large src={props.src1} alt={props.alt1} loading="lazy"/>
+                    <Pic_Large src={props.src2} alt={props.alt2} loading="lazy"/>
+                </>
+            }
         </>
     )
-    else
-    return (
-    <>
-        <Pic_Large  src={props.src1} alt={props.alt1}/>
-    </>
-)
 }
 
 
@@ -250,7 +246,8 @@ export function FetchJourneyMainText(props){
 
 function Intro(props){
     return(
-        <td rowspan="2">
+        // span over all columns
+        <td rowspan="2" colspan="3">
             <strong>{props.Title}  <GetCategory Category={props.Category}/><br/></strong>
             {props.author && <> <HightlightAuthorsURL author={props.author}/>.  <br/> </>}  
 
