@@ -1,5 +1,17 @@
 [ 
 {  
+    "Title":"Highest Scoring Undergrad Dissertation (Computer Science Tripos Part II)",
+    "pic1_src":"asset/photo/Logo/Cam.png",
+    "pic1_alt":"Cambridge Logo",
+    "Category":"Scholarship",
+    "line":1,
+    "Des1": "Ranked first out of 133 candidates, following a viva examination with two professors.",
+    "Italic":"Issued by the Computer Laboratory, University of Cambridge.",
+    "Time":"2025.08",
+    "PDF":"./asset/doc/HuUndergradDissertation.pdf",
+    "More":"https://www.cst.cam.ac.uk/teaching/part-ii/projects"
+},    
+{  
     "Title":"Cambridge Summer Internship and Research Award",
     "pic1_src":"asset/photo/Logo/magd.jpg",
     "pic1_alt":"Magdalene College Research Award",
@@ -14,10 +26,10 @@
 {  
     "Title":"College Scholarship & Prize for Computer Science",
     "pic1_src":"asset/photo/Logo/magd.jpg",
-    "pic1_alt":"Magdalene College Research Award",
+    "pic1_alt":"College Scholarship & Prize",
     "Category":"Scholarship",
     "line":1,
-    "Des1": "in recognition of the excellent performance in the Computer Science Part II.",
+    "Des1": "In recognition of the excellent performance in the Computer Science Part II.",
     "Italic":"Issued by the Governing Body of Magdalene College (Cambridge).",
     "Time":"2025.08",
     "PDF":"./asset/doc/HuScholarship250805.pdf",

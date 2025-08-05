@@ -98,7 +98,8 @@ export default function Research(){
         My undergraduate research is supervised by <a href="https://chenliang-zhou.github.io/">Chenliang Zhou</a> on generative machine learning and Dr <a href="https://asztr.github.io/">Alejandro Sztrajman</a> on real-world materials and <a href="https://en.wikipedia.org/wiki/Bidirectional_reflectance_distribution_function">Bidirectional Reflectance Distribution Function (BRDF)</a>; mentored by
         Dr <a href="https://www.cl.cam.ac.uk/~fz261/">Fangcheng Zhong</a> on Graphics (geometry representations and rendering), indoor layout synthesis.
         <br/>
-        I am honored to be the recipient of <a href="asset/doc/HuResearch20250327.pdf">2025 Cambridge Summer Internship and Research Award</a>.
+        I am honored to be the recipient of <a href="#/award">several grants and scholarships</a> from both my college and department.
+        {/* <a href="asset/doc/HuResearch20250327.pdf">2025 Cambridge Summer Internship and Research Award</a>. */}
         <br/>
         </div>        
         
