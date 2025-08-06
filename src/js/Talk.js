@@ -99,7 +99,7 @@ export function TalkList(props){
 
 export default function Talk(){
     useEffect(() => {
-            document.title = 'Talk - Peter HU';
+            document.title = 'Invited Talks - Peter HU';
     }, []);
 
     return (
@@ -107,8 +107,8 @@ export default function Talk(){
     <Index_Top/> 
     
     <Sidebar_Project />
-     
-    <h2 id="research"><b>TALK</b></h2>
+
+    <h2 id="research"><b>INVITED TALKS</b></h2>
     <div class="content">
         <TalkList showall={true} showslides={true} />
     </div>

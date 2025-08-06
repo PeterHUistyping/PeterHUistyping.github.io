@@ -38,7 +38,7 @@ function Index_top(props){
                     <ul>
                         <li>
                             {/* <HashLink id="top_academia" exact activeClassName='is-active' to="/research/#academicResearch">academia </HashLink> */}
-                            <HashLink id="talk" exact activeClassName='is-active' to="/talk">📢Talk</HashLink>
+                            <HashLink id="talk" exact activeClassName='is-active' to="/talk">📢Talks</HashLink>
                         </li>
                         {/* <li>
                             <HashLink id="top_industry" exact activeClassName='is-active' to="/research/#industryResearch">industry</HashLink>

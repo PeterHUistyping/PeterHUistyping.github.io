@@ -147,7 +147,7 @@ export default function Sidebar_Project(){
             <NavLink id="sidebar_bio" exact activeClassName='is-active' to="/aboutme">▸Bio.</NavLink> 
             <NavLink id="sidebar_pub" exact activeClassName='is-active' to="/research">▸Research</NavLink>
                 <SidebarResearch/>  
-            <NavLink id="sidebar_talk" exact activeClassName='is-active' to="/talk">▸Talk</NavLink>
+            <NavLink id="sidebar_talk" exact activeClassName='is-active' to="/talk">▸Talks</NavLink>
 
             <NavLink id="sidebar_project" exact activeClassName='is-active'  to="/project">▸Projects</NavLink> 
                 <SidebarProject/>
