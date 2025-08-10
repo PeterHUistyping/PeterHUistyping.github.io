@@ -50,7 +50,7 @@ export function Education(){
     {/* Xiamen University  */}
         <i>2021.09 - 2022.06</i> <br />
        B.Eng. undergrad in <a href="https://en.wikipedia.org/wiki/Software_engineering">Software Engineering</a> (withdrew after completing first year)<br /> 
-        GPA: 3.91 / 4.0, rank: 1 / 173 (first term) |  88.2 (yearly) |  Class Rep, ACM Team<br />
+      GPA: 3.91 / 4.0, rank: 1 / 173 (first term) |  88.2 (yearly) | <a href="asset/doc/XMU_Transcript.pdf">Transcript</a>  | Class Rep, ACM Team<br />
     <a href="https://en.wikipedia.org/wiki/Shanghai_Nanyang_Model_High_School">
     <img width="28" height="24" src="./asset/photo/Logo/NanyangHigh.png" alt="Nanyang"/>
     </a>
