@@ -313,6 +313,13 @@ function Profile2(){
   onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
   src="/asset/photo/Logo/kaggle.svg" alt="kaggle" title="Kaggle"/></a>
 
+  &thinsp; 
+
+  <a href="https://www.youtube.com/@PeterHUistyping"><img width= "15vw" 
+  onMouseEnter={(e) => (e.target.style.transform = "scale(1.5)")}
+  onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+  src="/asset/photo/Logo/youtube.png" alt="youtube" title="YouTube"/></a>
+
   <br/>
 
   <a href="./asset/doc/CV_PeterHU.pdf"><img width= "20vw" 
