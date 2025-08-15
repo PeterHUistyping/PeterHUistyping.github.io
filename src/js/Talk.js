@@ -18,6 +18,7 @@ export function TalkSlides(props) {
 
 export function JardineScholarshipTalk(props){
   // check if it's in research page
+    const slides_link = "./asset/doc/Shuping-Jardine.pdf";
     return (
       <>
         <div class="announcement">
@@ -26,10 +27,10 @@ export function JardineScholarshipTalk(props){
             <br/>
             ✨ Sharing session of my journey as a Jardine Scholar at the University of Cambridge. <br /> 
             ✨ The talk focuses on how to choose departments, college, how to make the most of the experience, and the impact of the scholarship on my life. <br />
-            ✨ Shared at the Shuping Foundation for prospective applicants. &nbsp; | &nbsp;  <a href="./asset/doc/Shuping-Jardine.pdf">Slides</a>   <br /> 
-               <TalkSlides showslides={props.showslides} src="./asset/doc/Shuping-Jardine.pdf"/>
-
-            <b>Feedback:</b>
+            ✨ Shared at the Shuping Foundation for prospective applicants. &nbsp; | &nbsp;  <a href={slides_link}>Slides</a>   <br /> 
+               <TalkSlides showslides={props.showslides} src={slides_link}/>
+            <br />
+            <b>Feedback:</b> &nbsp;
             <i>"Well prepared slides with interesting reflections and insights for perspective applicants!"</i>
             <br />
             </div>
@@ -41,6 +42,7 @@ export function JardineScholarshipTalk(props){
 export function TalkRayTracing(props){
   // check if it's in research page
     if (props.showall === true) {
+    const slides_link = "./asset/doc/RT_Peter-v6.pdf";
     return (
       <>
       <div class="announcement">
@@ -48,15 +50,43 @@ export function TalkRayTracing(props){
         Speeding up real-time Ray Tracing @ <a href="https://kudos.chu.cam.ac.uk/talks/about">Churchill College Tech talk</a> | Date:  <i>Nov 1, 2023</i>
           <br/>
           ✨ Sharing session of my industry research topic on <i>Ray Tracing (Intersection, Acceleration).</i>  <br />  
-          ✨ Presented both R&D group internally and at university. &nbsp; | &nbsp;  <a href="./asset/doc/RT_Peter-v6.pdf">Slides</a>   <br /> 
-            <TalkSlides showslides={props.showslides} src="./asset/doc/RT_Peter-v6.pdf"/>
+          ✨ Presented both at the R&D group internally and in the university. &nbsp; | &nbsp;  <a href={slides_link}>Slides</a>   <br /> 
+            <TalkSlides showslides={props.showslides} src={slides_link}/>
           <br/>
-          <b>Feedback:</b>
+          <b>Feedback:</b> &nbsp;
           <i>"You managed to give a very broad overview of a wide range of techniques used to speed up ray tracing."</i>
           <br />
           <i>"Very rich and complex concepts that cover graphics pipeline rendering in depth. Discussed design tradeoffs and current directions of research."</i>
           <br />
           <i>"Beautiful video to demonstrate why we want ray tracing, useful pictures and diagrams throughout to explain ideas, introduced a lot of steps in the pipeline where I can see some of it being used outside graphics."</i>
+          <br />
+        </div>
+      </>
+    )
+    } 
+}
+
+
+export function Compression22(props){
+  // check if it's in research page
+    const slides_link = "./asset/doc/Crazy_Thursday.pdf";
+    if (props.showall === true) {
+    return (
+      <>
+      <div class="announcement">
+        <b>Talk: </b>
+        3D graphics asset compression @ <a href="https://www.youtube.com/watch?v=kYutw-pczmg">national Tech Arena '22, UK</a> | Date:  <i>Nov 25, 2022</i>
+          <br/>
+          ✨ Sharing session of my implementation and exploration on <i>3D obj. compression</i>, with novel 6-level algorithmic improvements. 
+          <br />  
+          ✨ Low-level C with bitwise operators & hash tables, optimization via branch prediction and concurrency.
+          <br />  
+          ✨ Team work on preprocessing, serialization and huffman coding.
+           &nbsp; | &nbsp;  <a href={slides_link}>Slides</a>   <br /> 
+            <TalkSlides showslides={props.showslides} src={slides_link}/>
+          <br/>
+          <b>Feedback:</b> &nbsp; 
+          <b>Gold medal</b> among all UK undergraduates and postgraduates contestants, <i>after rating by the leading industry experts panel.</i>
           <br />
         </div>
       </>
@@ -77,6 +107,19 @@ export function TalkList(props){
        }
        
         <TalkRayTracing showall={props.showall} showslides={props.showslides} />
+
+        <br/>
+
+
+        {
+            props.showall === true &&
+            
+            <div style={{textAlign: "center"}}>
+                <b>3D graphics asset compression</b>: 6-level LZSS algorithm.
+            </div>
+       }
+       
+        <Compression22 showall={props.showall} showslides={props.showslides} />
 
         <br/>
 
