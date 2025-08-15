@@ -264,14 +264,14 @@ function Intro(props){
             Des3={props.Des3}
             Des4={props.Des4}/>
 
-            {props.Project && <> |  <a href={props.Project} class="project-link">project</a> </> }
-            {props.Arxiv && <> | <a href={props.Arxiv} class="project-link">arXiv</a>  </>}
-            {props.PDF && <> |  <a href={props.PDF} class="project-link">pdf</a> </> }
-            {props.Github && <> | <a href={props.Github} class="project-link"><img width= "13vw" src="/asset/photo/Logo/github.svg" alt="github"/> code</a> </>}
+            {props.Project && <> |  <a href={props.Project} class="project-link">🌐 project</a> </> }
+            {props.Arxiv && <> | <a href={props.Arxiv} class="project-link">📎 arXiv</a>  </>}
+            {props.PDF && <> |  <a href={props.PDF} class="project-link">📃 pdf</a> </> }
+            {props.Github && <> | <a href={props.Github} class="project-link"><img width= "14vw" src="/asset/photo/Logo/github.svg" alt="github"/> code</a> </>}
             {props.Blog && <> | <Blog_link link={props.Blog}/></> } 
-            {props.Dataset && <> | <a href={props.Dataset} class="project-link">dataset</a>  </>}
-            {props.Video && <> | <a href={props.Video} class="project-link">video</a>  </> } 
-            {props.More && <> |  <a href={props.More} class="project-link">more</a> </>}
+            {props.Dataset && <> | <a href={props.Dataset} class="project-link"><img width= "14vw" src="/asset/photo/Logo/dataset_blue.png" alt="dataset"/> dataset</a>  </>}
+            {props.Video && <> | <a href={props.Video} class="project-link"><img width= "14vw" src="/asset/photo/Logo/video_icon.png" alt="video"/> video</a>  </> } 
+            {props.More && <> |  <a href={props.More} class="project-link">🎁 more</a> </>}
             {/* ending mark if there's at least one attribute. */}
             {(props.Arxiv || props.Github || props.Blog || props.PDF || props.Video || props.More || props.Dataset || props.Project ) && <> | </> }
             <br/>
