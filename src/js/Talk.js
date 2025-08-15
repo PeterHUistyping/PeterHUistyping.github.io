@@ -47,7 +47,7 @@ export function TalkRayTracing(props){
       <>
       <div class="announcement">
         <b>Talk: </b>
-        Speeding up real-time Ray Tracing @ <a href="https://kudos.chu.cam.ac.uk/talks/about">Churchill College Tech talk</a> | Date:  <i>Nov 1, 2023</i>
+        Speeding up real-time Ray Tracing @ <a href="https://kudos.chu.cam.ac.uk/talks/about">Churchill College Tech talk '23</a> | Date:  <i>Nov 1, 2023</i>
           <br/>
           ✨ Sharing session of my industry research topic on <i>Ray Tracing (Intersection, Acceleration).</i>  <br />  
           ✨ Presented both at the R&D group internally and in the university. &nbsp; | &nbsp;  <a href={slides_link}>Slides</a>   <br /> 
