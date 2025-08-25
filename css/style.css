@@ -239,7 +239,7 @@ h3 {
   width: 80vw;
   height: 10vh;
   border-collapse: separate;
-  border-spacing: 0 40px;
+  border-spacing: 0 20px;
 }
 
 /* debugging */
@@ -558,4 +558,15 @@ a.project-link:active {
 
 .button_collapsable:hover{
   background-color: "grey";
+}
+
+
+/* animation for text switching */
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
 }
