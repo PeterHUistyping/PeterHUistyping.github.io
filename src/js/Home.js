@@ -144,11 +144,13 @@ function Detail(){
       </center>
       <br/>
 
-        <h1 style={{
+        <h2 style={{
             "font-family":"BrushScriptMT-embed", 
             "textAlign": 'center'
-          }}>List of Publications</h1>
-        <Publication />
+          }}>Recent Publications 
+        <HashLink to="/research" className="project-link">》View More</HashLink>
+          </h2>
+        <Publication displayNum={2}/>        
         <br/>
         {/* <Interest_extra /> <br/> */}
         {/* <embed src="asset/doc/CV_PeterHU.pdf"  width="800px" height="600px" /> */}

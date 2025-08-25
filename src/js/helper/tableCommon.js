@@ -353,7 +353,10 @@ function Tbody(props){
 
 export default function All_table(props){
     //const keys = [...Array(resource.length).keys()];
-    const keys = [...Array(props.resource.length).keys()];
+    var keys = [...Array(props.resource.length).keys()];
+    var display_num = props.displayNum || keys.length; 
+    keys = keys.slice(0, display_num);
+    
     return(
     <table class="table_project">
         {keys.map((item)=>(

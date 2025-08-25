@@ -33,12 +33,12 @@ export function FetchJourneyMainText(props){
 }
 
 
-export function Publication(){
+export function Publication(props){
     return (
         <>
             <small style={{ display: 'block', textAlign: 'center'}}>| under the supervision of <i style={{color: "#1E90FF"}}>italic</i> ; <b>†</b> indicates equal contribution |</small> 
 
-            <Pub_table />
+            <Pub_table displayNum={props.displayNum}/>
         </>
     )
 }
@@ -87,7 +87,7 @@ export default function Research(){
         This section is divided into academic and industry research, including list of publications, talks, and other research-related activities.
         {/* Honors_and_awards */}
         <div style={{textAlign: "center"}}>
-            <h2 id="academicResearch"><b>Academia research</b></h2> 
+            <h2 id="academicResearch"><b>Academia</b></h2> 
         </div>
         {/* University of Cambridge */}
         <i>May, 2024 - Present</i> | <a href="https://www.cam.ac.uk/"><img width="27" height="24" src="./asset/photo/Logo/Cam.png" alt="Cambridge" /></a> <a href="https://core-lab.io/">Cambridge Open Reality and Visual AI (CORE) Lab</a> (<a href="https://www.cl.cam.ac.uk/~aco41/">Prof Cengiz Öztireli</a>), <a href="https://www.cst.cam.ac.uk/">Dept. of Computer Science and Technology</a>  <br/>
@@ -95,10 +95,10 @@ export default function Research(){
         <div style={{width: "90%", margin: "auto"}}>
         I am privileged to undertake some interesting academic research explorations @<a href="https://core-lab.io/">Core Lab</a> at the intersection of Computer Graphics, Computer Vision and Machine Learning. During this period, I explore the neural representations of materials, physical accuracy, generative models with evaluation, real-world material synthesis, and many other. 
         <br/>     
-        My undergraduate research is supervised by <a href="https://chenliang-zhou.github.io/">Chenliang Zhou</a> on generative machine learning and Dr <a href="https://asztr.github.io/">Alejandro Sztrajman</a> on real-world materials and <a href="https://en.wikipedia.org/wiki/Bidirectional_reflectance_distribution_function">Bidirectional Reflectance Distribution Function (BRDF)</a>; mentored by
-        Dr <a href="https://www.cl.cam.ac.uk/~fz261/">Fangcheng Zhong</a> on Graphics (geometry representations and rendering), indoor layout synthesis.
+        Supported by <a href="#/award">several grants and scholarships</a> from both my college and department, my undergraduate research is supervised by <a href="https://chenliang-zhou.github.io/">Chenliang Zhou</a> on generative machine learning and Dr <a href="https://asztr.github.io/">Alejandro Sztrajman</a> on real-world captured <a href="https://en.wikipedia.org/wiki/Bidirectional_reflectance_distribution_function">BRDF (Bidirectional Reflectance Distribution Function)</a>. Besides, I am mentored by
+        Dr <a href="https://www.cl.cam.ac.uk/~fz261/">Fangcheng Zhong</a> on Graphics (geometry representations and rendering), indoor layout synthesis, neural PDE solver.
         <br/>
-        I am honored to be the recipient of <a href="#/award">several grants and scholarships</a> from both my college and department.
+        {/* I am honored to be the recipient of <a href="#/award">several grants and scholarships</a> from both my college and department. */}
         {/* <a href="asset/doc/HuResearch20250327.pdf">2025 Cambridge Summer Internship and Research Award</a>. */}
         <br/>
         </div>        
@@ -112,13 +112,15 @@ export default function Research(){
         
         <br/>
         
-        <h2 id="talk" style={{"font-family":"BrushScriptMT-embed", textAlign: 'center' }}><b>Talk</b> | <a href="/#/talk">See MORE</a></h2>
+        <h2 id="talk" style={{"font-family":"BrushScriptMT-embed", textAlign: 'center' }}><b>Talk</b> 
+        <HashLink to="/talk" className="project-link">》View More</HashLink></h2>
 
         <TalkList showall={true} showslides={false} />
 
         <br/> 
         <div style={{textAlign: "center"}}>
-            <h2 id="industryResearch"><b>Industry research</b> |  <a href="/#/experience">See MORE</a> </h2>
+            <h2 id="industryResearch"><b>Industry</b>
+            <HashLink to="/experience" className="project-link">》View More</HashLink></h2>
         </div>
 
         </>

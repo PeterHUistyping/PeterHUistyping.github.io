@@ -67,10 +67,7 @@ export function ExperienceContents(props){
       <br />  
       Aside from that, I also join the CPU team on heterogeneous scheduling, DVFS and dynamic resource management, supervised by PhD graduate in Electrical Engineering and other engineers. I initialize the codebase for the scheduler simulator in Python, from which the team develop the prototype for the next-gen scheduling policies based on the literature review I collected. In general, the difficulty lies in the multi-objective optimization and tradeoff between performance, power consumption, thermal conditions, priorities, fairness and other factors.
       <br />  <br />
-
-      <i>For details, please click the 'Show Details' button.</i><br />
-      <br /> 
-
+ 
       Research Engineer Intern (<b>Graphics Algorithms / GPU Architecture</b>)  &nbsp; &nbsp; &nbsp; <i> 2023.5 - 2024.1</i>  
       <br/>
       
@@ -127,10 +124,10 @@ export function ExperienceContents(props){
       />
       
       <br />
-  
-        <i>Please refer to EXPERIENCE section in <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="./asset/photo/Logo/cv-blue.png" alt="cv"/></a>.</i><br />
+      <i>Click the ‘Show Details’ button for more information.</i> <br/>
+       For more about my work experience, please refer to EXPERIENCE section in <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="./asset/photo/Logo/cv-blue.png" alt="cv"/></a>.<br />
       
-        <br />   
+      <br />   
         </>
     </div>
 
