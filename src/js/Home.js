@@ -13,7 +13,66 @@ import { ShowDetailButton } from './helper/uiBasicElements';
 import {Slideshow} from "./helper/slideShow"
 import {Education, Skill, Interest_extra} from "./EduSkill"
 
+
+function Welcome(){
+  const phrases = [
+    "(｡◕‿‿◕｡) Hi, thanks for dropping by~",
+    "(*^.^*) Welcome to my corner of the web!",
+    "(*^▽^*) Hey there, glad you stopped by.",
+    "(o^.^o) Come on in and stay a while.",
+    "(*>.<*) The virtual door is always open."
+  ];
+  
+  // Use state to keep track of the current phrase index.
+  const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
+  const [isFading, setIsFading] = useState(false);
+
+  useEffect(() => {
+    // Set up an interval to switch phrases
+    const interval = setInterval(() => {
+      // Step 1: Start the fade-out animation by setting isFading to true.
+      setIsFading(true);
+
+      // Step 2: After the fade-out transition completes (e.g., 500ms),
+      // update the phrase and start the fade-in animation.
+      setTimeout(() => {
+        setCurrentPhraseIndex((prevIndex) => (prevIndex + 1) % phrases.length);
+        setIsFading(false); // This triggers the fade-in animation
+      }, 500); // This duration should match your CSS transition time
+
+    }, 8000); // This is the total time for one phrase to be visible (e.g., 3 seconds)
+
+    // Cleanup function to clear the interval
+    return () => clearInterval(interval);
+
+  }, [phrases.length]);
+
+  return(
+    <div style={{
+      display: "inline-block",
+      textAlign: "center",
+      fontFamily: "'Trebuchet MS', Verdana, sans-serif",
+      // "Georgia, Times, 'Times New Roman', serif",
+      // Segoe UI, Roboto, Helvetica, Arial, sans-serif
+      color: "gray",
+      padding: "5px",
+      backgroundColor: "#987cb911", 
+      // 987cb988, f5fbf5
+      borderRadius: "20px",
+      boxShadow: "0 4px 8px rgba(0,0,0,0.1)"
+      }}>
+      {/* <i>Hi, thanks for dropping by~ */}
+      <div className={isFading ? 'fade-out' : 'fade-in'}> 
+          {phrases[currentPhraseIndex]} 
+      </div> 
+    </div>
+  )
+}
+
+
 function About_me(){
+  // Define the array of phrases you want to cycle through.
+
   return (
     <>
     {/* <center>
@@ -21,7 +80,11 @@ function About_me(){
     </center> */}
     <div style={{"margin-left":"20%", "margin-right":"20%"}}>
     {/* an undergraduate at  */}
-    <i>Hi, thanks for dropping by~</i> I'm (<HashLink to="/aboutme">bio.</HashLink>) currently a graduate student (Master’s) at <a href="https://www.cst.cam.ac.uk/">University of Cambridge</a>, where I also completed my undergraduate studies. My interests lie in the fields of <font color="green">Visual Computing (Graphics, Vision)</font> with <font color="#3824BD">ML</font>. Besides, I have been engaged with exciting hackathons, research projects, and internships (e.g. <font color='#8D6F64'>System</font>) in the past few years.
+  
+    He is (<HashLink to="/aboutme">bio.</HashLink>) currently a graduate student (Master’s) at <a href="https://www.cst.cam.ac.uk/">University of Cambridge</a>, where he also completed his undergraduate studies. His interests focus on <font color="green">Visual Computing (Graphics, Vision)</font> with <font color="#3824BD">ML</font>. Besides, he has been engaged with exciting hackathons, research projects, and internships (e.g. <font color='#8D6F64'>System</font>) in the past few years.
+
+    <br/> 
+  
     </div>
     {/* Various research experience, collaborative compression competition and wide theoretical knowledge.  <br/> */}
       {/* <HashLink to="/aboutme">MORE ...</HashLink>  */}
@@ -75,11 +138,13 @@ function Detail(){
             </div>
             <div class="half-panel">
                   <ColProject />
-            </div>
-        </div>
+            </div> <br/>
+            <Welcome />
+        </div> 
       </center>
       <br/>
-          <h1 style={{
+
+        <h1 style={{
             "font-family":"BrushScriptMT-embed", 
             "textAlign": 'center'
           }}>List of Publications</h1>
