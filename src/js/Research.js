@@ -104,8 +104,8 @@ export default function Research(){
         </div>        
         
         <br/> 
-        <h2 style={{"font-family":"BrushScriptMT-embed", textAlign: 'center' }}>List of Publications</h2>
-        
+        <h2 id="publications" style={{"font-family":"BrushScriptMT-embed", textAlign: 'center' }}>List of Publications</h2>
+
         <Publication/>
 
         <ResearchStory />

@@ -148,7 +148,7 @@ function Detail(){
             "font-family":"BrushScriptMT-embed", 
             "textAlign": 'center'
           }}>Recent Publications 
-        <HashLink to="/research" className="project-link">》View More</HashLink>
+        <HashLink to="/research#publications" className="project-link">》View More</HashLink>
           </h2>
         <Publication displayNum={2}/>        
         <br/>
