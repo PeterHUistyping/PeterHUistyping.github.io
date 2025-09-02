@@ -81,7 +81,7 @@ function About_me(){
     <div style={{"margin-left":"20%", "margin-right":"20%"}}>
     {/* an undergraduate at  */}
   
-    He is (<HashLink to="/aboutme">bio.</HashLink>) currently a graduate student (Master’s) at <a href="https://www.cst.cam.ac.uk/">University of Cambridge</a>, where he also completed his undergraduate studies. His interests focus on <font color="green">Visual Computing (Graphics, Vision)</font> with <font color="#3824BD">ML</font>. Besides, he has been engaged with exciting hackathons, research projects, and internships (e.g. <font color='#8D6F64'>System</font>) in the past few years.
+    <b><i>Peter</i></b> is (<HashLink to="/aboutme">bio.</HashLink>) currently a graduate student (Master’s) at <a href="https://www.cst.cam.ac.uk/">University of Cambridge</a>, where he also completed his undergraduate studies. His interests focus on <font color="green">Visual Computing (Graphics, Vision)</font> with <font color="#3824BD">ML</font>. Besides, he has been engaged with exciting hackathons, research projects, and internships (e.g. <font color='#8D6F64'>System</font>) in the past few years.
 
     <br/> 
   

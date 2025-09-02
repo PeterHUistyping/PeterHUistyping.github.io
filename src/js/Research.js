@@ -69,6 +69,22 @@ export function ResearchStory(){
     )
 }
 
+function Review(){
+    return(
+        <div>
+            <h2 id="review" style={{"font-family":"BrushScriptMT-embed", textAlign: 'center' }}><b>Reviewing Experience</b></h2>
+            With thanks to the nomination and invitation, I have served as the <br/>
+            <div style={{width: "75%", margin: "10px auto", textAlign: "left"}}>
+
+                <i>Peer Reviewer in the <a href="https://unireps.org/2025/">UniReps Workshop</a>, 39th Conference on Neural Information Processing Systems (NeurIPS'25). </i>
+                
+            </div>
+
+        </div>
+
+    )
+
+}
 
 export default function Research(){
     useEffect(() => {
@@ -109,7 +125,7 @@ export default function Research(){
         <Publication/>
 
         <ResearchStory />
-        
+
         <br/>
         
         <h2 id="talk" style={{"font-family":"BrushScriptMT-embed", textAlign: 'center' }}><b>Talk</b> 
@@ -118,6 +134,11 @@ export default function Research(){
         <TalkList showall={true} showslides={false} />
 
         <br/> 
+
+        <Review />
+
+        <br/> 
+
         <div style={{textAlign: "center"}}>
             <h2 id="industryResearch"><b>Industry</b>
             <HashLink to="/experience" className="project-link">》View More</HashLink></h2>
