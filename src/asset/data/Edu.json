@@ -1,0 +1,22 @@
+[
+    {
+        "JourneyCategory": "<a href=\"https://www.cam.ac.uk/\"><img width=\"27\" height=\"24\" src=\"./asset/photo/Logo/Cam.png\" alt=\"Cambridge\" /></a> University of Cambridge |",
+        "Title": "Oct 2025 - Jun 2026. <br />M.Eng. (Hons) <a href=\"https://www.cst.cam.ac.uk/\">Computer Science</a>",  
+        "Journey": "Selected from top undergrads, on par with the <b>M.Phil</b> in research depth and assessment rigor, stated by <a href=\"https://www.cst.cam.ac.uk/teaching/masters\">the department</a>. <br />    [Merit-based, fully-funded] <a href=\"https://en.wikipedia.org/wiki/Jardine_Scholarship\">Jardine Scholarship</a> | <a href=\"./asset/doc/Jardine_Certificate.jpg\">certificate</a>. <br /> <br />**Modules**: Graphics and Image Processing, Network architectures,  Machine Learning and the Physical World, Advanced Topics in Computer Architecture, Mobile Health, etc."
+    },
+    {
+        "JourneyCategory": "<a href=\"https://www.cam.ac.uk/\"><img width=\"27\" height=\"24\" src=\"./asset/photo/Logo/Cam.png\" alt=\"Cambridge\" /></a> University of Cambridge: <a href=\"./asset/photo/Profile/Cam.png\">more</a> |",
+        "Title": "Oct 2022 - Jul 2025. <br />  B.A. (Hons) <a href=\"https://www.cst.cam.ac.uk/\">Computer Science</a>",  
+        "Journey": "First-Class (72.4) | Dissertation (93.5) | <a href=\"https://peterhuistyping.github.io/Cambridge_CS_Tripos/\">notes</a>.<br /> [Merit-based, fully-funded] <a href=\"https://en.wikipedia.org/wiki/Jardine_Scholarship\">Jardine Scholarship</a> | <a href=\"./asset/doc/Jardine_Certificate.jpg\">certificate</a>. <br /> <br />**Third Year**: Architecture, XR, Principles of Communication, Bioinformatics, Quantum Computing, Information Theory, Optimising Compiler, etc.<br />**Second Year**: Concurrent and Distributed System, Computer Architecture, Data Science, Computer Theory, C and C++. <br />**First Year**: Functional Programming (OCaml), Object-oriented Programming (Java), Scientific Computing (Python), Machine Learning, SQL/Document/Graph Database, Discrete Math, NST Math, Digital Electronics and Computer Graphics, Algorithm and Data Structure.<br />**Operating System**: Process Scheduling, Memory(Page table, VM), I/O, File, Linux Interaction Design, Software Engineering, Security. <br /> **Activities and societies**: Ethics in Mathematics.  <br /> <br />**Skills**: Python (Programming Language) · Object-Oriented Programming (OOP) · Team Spirit"
+    },
+    {
+        "JourneyCategory": "<a href=\"https://en.xmu.edu.cn\"><img width=\"24\" height=\"24\" src=\"./asset/photo/Logo/xmu.png\" alt=\"XMU\"/></a>  Universitas Amoiensis : <a href=\"./asset/photo/Profile/XMU.png\">more</a>  |  ",
+        "Title": "Sep 2021 - Jun 2022 (withdrew). <br />B.Eng. undergrad in <a href=\"https://en.wikipedia.org/wiki/Software_engineering\">Software Engineering</a>",  
+        "Journey": "GPA: 3.91 / 4.0, rank: 1 / 173 (first term) |  88.2 (yearly) | <a href=\"asset/doc/XMU_Transcript.pdf\">Transcript</a>  | Class Rep, ACM Team  | [withdrew after completing first year]. <br /> <br /> **First Year**: Calculus and Linear Algebra, Programming in C and C++, Object-oriented Programming, Algorithms and Oral English. <br /> During weekend, I also attended the Finance Double Degree courses at Wang Yanan Institute for Studies in Economics (WISE), XMU."
+    },
+    {
+        "JourneyCategory": " <a href=\"https://en.wikipedia.org/wiki/Shanghai_Nanyang_Model_High_School\"><img width=\"28\" height=\"24\" src=\"./asset/photo/Logo/NanyangHigh.png\" alt=\"Nanyang\"/></a>  Nanyang Model High School |  ",
+        "Title": "Sep 2018 - Jun 2021. ",  
+        "Journey": "Physics Rep, research project leader, awarded <a href=\"https://en.wikipedia.org/wiki/Shuping_Scholarship\">ShuPing Scholarship</a> twice."
+    }
+]
