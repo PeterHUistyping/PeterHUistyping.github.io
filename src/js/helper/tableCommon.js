@@ -7,7 +7,7 @@ import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from 'rehype-raw'; 
-import { StoryDescriptionButton} from "./uiBasicElements";
+import { StoryDescriptionButton, FetchJourneyMainText} from "./uiBasicElements";
 
 // large screen
 function Pic_Large(props){
@@ -227,20 +227,6 @@ function HightlightAuthorsURL(props){
             </>
         )
     }
-}
-
-
-export function FetchJourneyMainText(props){
-    return  (  
-        <ReactMarkdown 
-            remarkPlugins={[remarkMath, remarkGfm]} 
-            rehypePlugins={[rehypeKatex, rehypeRaw]} 
-            children={props.Journey}
-            components={{
-            img:({node,...props})=><img style={{maxWidth:'80%', maxHeight:'60vh'}}{...props}/>,
-            p: ({ node, ...props }) => <p style={{ margin: 0 }} {...props} />,
-            }}
-        />)
 }
 
 

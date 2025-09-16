@@ -1,4 +1,9 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown'
+import remarkMath from 'remark-math'
+import rehypeKatex from 'rehype-katex'
+import remarkGfm from 'remark-gfm'
+import rehypeRaw from 'rehype-raw'; 
 
 
 function DetailButton(props){
@@ -164,5 +169,63 @@ export function StoryDescriptionButton(props){
         </>
         }
     </>
+    )
+}
+
+
+export function FetchJourneyMainText(props){
+    return  (  
+        <ReactMarkdown 
+            remarkPlugins={[remarkMath, remarkGfm]} 
+            rehypePlugins={[rehypeKatex, rehypeRaw]} 
+            children={props.Journey}
+            components={{
+            img:({node,...props})=><img style={{maxWidth:'80%', maxHeight:'60vh'}}{...props}/>,
+            p: ({ node, ...props }) => <p style={{ margin: 0 }} {...props} />,
+            }}
+        />)
+}
+
+
+export function DisplayHTMLContent(props){
+    return  (  
+        <>
+        <span dangerouslySetInnerHTML={{ __html: props.htmlContent }}></span>
+        </>
+    )
+}
+
+
+export function LargeExpandablePanel(props){
+    /*
+        Usage:
+        
+        const resource_json = [{
+        "JourneyCategory": "Test Category",
+        "Title": "Test Title", "ShortTitle": "Test Short Title",
+        "Journey": "Hi! ...",
+        }]
+
+        <LargeExpandablePanel resource={resource_json} />
+    */
+    return(
+        <>
+         {props.resource.map((item, index) => (
+            item.Journey && (
+        <div>
+          <StoryDescriptionButton
+            title={
+              <>
+                <b><DisplayHTMLContent htmlContent={item.JourneyCategory} />
+                </b> <i>{item.ShortTitle  && <DisplayHTMLContent htmlContent={item.ShortTitle} />}{ !item.ShortTitle && <DisplayHTMLContent htmlContent={item.Title} />}</i>.
+              </>
+            }
+            mainText={<FetchJourneyMainText Journey={item.Journey} />}
+          />
+            <br />
+        </div>
+        )
+        ))}
+        </>
     )
 }

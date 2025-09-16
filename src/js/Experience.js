@@ -8,7 +8,9 @@ import { motion } from 'framer-motion'
 import React, { useEffect, useState } from "react";
 import {ShowDetailButton} from './helper/uiBasicElements';
 import {TalkRayTracing} from "./Talk";
- 
+import { LargeExpandablePanel } from "./helper/uiBasicElements";
+import industry_json from "../asset/data/Industry.json"
+import experience_json from "../asset/data/Experience.json"
 
 export default function Experience(){
   useEffect(() => {
@@ -38,19 +40,23 @@ function SchedReview(props){
       return null;
 }
 
+
 export function ExperienceContents(props){
   return (
     <div class="content">
         <>   
-      <i>May, 2023 - Jan, 2024</i> |  <a href="https://www.cambridgesciencepark.co.uk/">Industry Research center, Cambridge Science Park</a>, UK.<br /> 
+      <LargeExpandablePanel resource={experience_json} />
+
+      
+      {/* <i>Dec 2022 - Jan 2024</i> |  <a href="https://www.cambridgesciencepark.co.uk/">Industry Research center, Cambridge Science Park</a>, UK.<br />  */}
       
       {/* <img width="34" height="20" src="./asset/photo/Logo/Hisilicon.png" alt="Hisilicon"/>  <a href="https://www.hisilicon.com/en/products/Kirin">HiSilicon Kirin Chipsets Dept.</a>, <img width="20" height="20" src="./asset/photo/Logo/Huawei.png" alt="Huawei"/>   <a href="https://www.cambridgesciencepark.co.uk/company-directory/hauwei-uk-rd-centre/">Huawei Research center, Cambridge Science Park</a>, UK.<br /> */}
-      <br/>
 
-      We explore various architectural and algorithmic innovations towards the next-generation mobile or cloud based processors (CPU, GPU, NPU). During these period of time, I am also exposed to other research summits or events hosted, including talks and connections with other academic professors and industry experts. The topics discussed range from the above to more, such as simulation, LLM, compiler and federated learning, which I enjoy the most.
+      {/* We explore various architectural and algorithmic innovations towards the next-generation mobile or cloud based processors (CPU, GPU, NPU). During these period of time, I am also exposed to other research summits or events hosted, including talks and connections with other academic professors and industry experts. The topics discussed range from the above to more, such as simulation, LLM, compiler and federated learning, which I enjoy the most. */}
       
-      <br/>  <br />
-      In particular, I focus on Ray Tracing acceleration via classical graphics and machine learning techniques, under supervision of senior engineers and Mathematics graduates. During which, I maintain and develop a open-source research <a href="https://github.com/knightcrawler25/GLSL-PathTracer">GLSL path renderer</a> in C and GLSL. With the renderer setup, I redesign the underlying BVH algorithms, keeping balance between preprocessing time and real-time intersection complexity. One of our proposed methods are deployed in the product and thus received research-center-wise award.  Besides, we also explore various possibilities of combining AI / machine learning with graphics task, including Ambient Occlusion or Global illumination, which I help integrate the renderer and Pytorch training pipeline, as part of the research explorations.
+      {/* <br/>  <br /> */}
+
+      {/* In particular, I focus on Ray Tracing acceleration via classical graphics and machine learning techniques, under supervision of senior engineers and Mathematics graduates. During which, I maintain and develop a open-source research <a href="https://github.com/knightcrawler25/GLSL-PathTracer">GLSL path renderer</a> in C and GLSL. With the renderer setup, I redesign the underlying BVH algorithms, keeping balance between preprocessing time and real-time intersection complexity. One of our proposed methods are deployed in the product and thus received research-center-wise award.  Besides, we also explore various possibilities of combining AI / machine learning with graphics task, including Ambient Occlusion or Global illumination, which I help integrate the renderer and Pytorch training pipeline, as part of the research explorations. */}
       <br />
       <br />
       <center>
@@ -64,68 +70,70 @@ export function ExperienceContents(props){
       <a href="https://www.intel.com/content/www/us/en/developer/topic-technology/graphics-research/samples.html">Sponza scene</a> from adapted <a href="https://github.com/knightcrawler25/GLSL-PathTracer">GLSL path renderer</a>, forming <a href="https://en.wikipedia.org/wiki/Deferred_shading">GBuffer</a> for further explorations. 
       </center>
 
-      <br />  
-      Aside from that, I also join the CPU team on heterogeneous scheduling, DVFS and dynamic resource management, supervised by PhD graduate in Electrical Engineering and other engineers. I initialize the codebase for the scheduler simulator in Python, from which the team develop the prototype for the next-gen scheduling policies based on the literature review I collected. In general, the difficulty lies in the multi-objective optimization and tradeoff between performance, power consumption, thermal conditions, priorities, fairness and other factors.
+      {/* <br />   */}
+      {/* Aside from that, I also join the CPU team on heterogeneous scheduling, DVFS and dynamic resource management, supervised by PhD graduate in Electrical Engineering and other engineers. I initialize the codebase for the scheduler simulator in Python, from which the team develop the prototype for the next-gen scheduling policies based on the literature review I collected. In general, the difficulty lies in the multi-objective optimization and tradeoff between performance, power consumption, thermal conditions, priorities, fairness and other factors. */}
       <br />  <br />
- 
-      Research Engineer Intern (<b>Graphics Algorithms / GPU Architecture</b>)  &nbsp; &nbsp; &nbsp; <i> 2023.5 - 2024.1</i>  
-      <br/>
+
+      <LargeExpandablePanel resource={industry_json} />
+
+      {/* Research Engineer Intern (<b>Graphics Algorithms / GPU Architecture</b>)  &nbsp; &nbsp; &nbsp; <i> 2023.5 - 2024.1</i>  
+      <br/> */}
       
-      <ShowDetailButton 
-        title={<>| <a href="./asset/doc/StarofCambridge.png">Award</a> for new prediction algorithm proposed with joint efforts. | {/* &nbsp;| &nbsp;  */} </>}
+      {/* <ShowDetailButton 
+        title={<>| <a href="./asset/doc/StarofCambridge.png">Award</a> for new prediction algorithm proposed with joint efforts. |   </>}
         mainText=
         {
             <>
               <img width="722" height="705" src="./asset/photo/Profile/GPU2.png" alt="GPU2" />
               <br/>
-              {/* <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i> */}
+             
             </>
         } 
-      />
+      /> */}
+      
+      {/* <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i> */}
+       
 
       <TalkRayTracing showall={props.showall} />
       <br /> 
       <br />
 
-      Research Intern (<b>CPU Architect</b>)  &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <i>2023.6 - 2023.10</i>
-      <br /> 
-      <ShowDetailButton
+      {/* Research Intern (<b>CPU Architect</b>)  &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <i>2023.6 - 2023.10</i>
+      <br />  */}
+      {/* <ShowDetailButton
         title={<> | <a href="https://peterhuistyping.github.io/CPU_Scheduling_Review/">Literature Review: Scheduling, DVFS, Dynamic Resource Management</a> &nbsp;|   </>}
         mainText=     
         {
           <>
           <img width="671" height="615 " src="./asset/photo/Profile/CPU.png" alt="CPU" />
           <br/>
-          {/* <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i><br /> */}
           </>
         }
       />
-      <br /> 
+      <br />  */}
       
       <SchedReview showall={props.showall} />
       
 
-      {/* &nbsp;| &nbsp; */}
+      {/* &nbsp;| &nbsp;
       <br/> 
       Software Engineer Intern (<b>GPU</b>) 
        &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp;
-      {/* <br /> */}
       <i> 2022.12 - 2023.5 </i>   <br />
-        {/* (Part Time)  */}
       <ShowDetailButton
         title={<> &nbsp;| &nbsp; <i>C++, Vulkan, GPU Driver, UE4 (rendering)</i></>}
         mainText={
           <>
             <img width="671" height="276 " src="./asset/photo/Profile/GPU1.png" alt="GPU1" />
             <br/>
-            {/* <i>See more on <a href="https://www.linkedin.com/in/peterhu2022/"> LinkedIn</a></i><br /> */}
           </>
         }
-      />
+      /> */}
       
       <br />
-      <i>Click the ‘Show Details’ button for more information.</i> <br/>
-       For more about my work experience, please refer to EXPERIENCE section in <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="./asset/photo/Logo/cv-blue.png" alt="cv"/></a>.<br />
+      {/* <i>Click the ‘Show Details’ button for more information.</i> <br/> */}
+      
+      For more about my work experience, please refer to EXPERIENCE section in <a href="./asset/doc/CV_PeterHU.pdf"><img width= "18vw" src="./asset/photo/Logo/cv-blue.png" alt="cv"/></a>.<br />
       
       <br />   
         </>
