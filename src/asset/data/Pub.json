@@ -26,7 +26,7 @@
         "pic1_alt":"teaser",
         "Title":"NeuMaDiff: Neural Material Synthesis via Hyperdiffusion",
         "Category": "",
-        "Published": "NeurIPS'25 UniReps (International Workshop on Unifying Representations in Neural Models).",
+        "Published": "",
         "author": "Chenliang Zhou *, Zheyuan Hu, Alejandro Sztrajman *, Yancheng Cai, Yaru Liu, Cengiz Öztireli",
         "line":1,
         "Des1": "Adapted from my undergrad [dissertation project](https://www.cst.cam.ac.uk/teaching/part-ii/projects) (93.5, rank 1/133).",

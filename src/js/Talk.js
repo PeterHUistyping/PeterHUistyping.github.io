@@ -16,6 +16,31 @@ export function TalkSlides(props) {
 }
 
 
+export function TalkSocialDatacenter(props){
+  // check if it's in research page
+    if (props.showall === true) {
+    const slides_link = "./asset/doc/Social_Datacenter.pdf";
+    return (
+      <>
+      <div class="announcement">
+        <b>Talk: </b>
+        Inside the Social Network’s Datacenter Network @ <a href="https://www.cl.cam.ac.uk/teaching/2526/R02/">Network architecture</a> | Date:  <i>23 Oct, 2025</i>
+          <br/>
+          ✨ Sharing session of my review of the Facebook datacenter network architecture.   
+           <br />  
+          ✨ Covering the network topology, cluster types, experiments results and implication. | <a href={slides_link}>Slides</a>   <br /> 
+            <TalkSlides showslides={props.showslides} src={slides_link}/>
+          <br/>
+          <b>Feedback:</b> &nbsp;
+          <i>"Very nice - setting a high standard!!  - I would make presentation notes and on each slide (especially anything with a graph) figure out what is the one "take home message" from that graph - so introducing a result, and why it matters, briefly saying what are axes on graph, what is plotted and what about any curve is the major factor"</i> -- Prof Jon Crowcroft.
+          <br />
+        </div>
+      </>
+    )
+    } 
+}
+
+
 export function JardineScholarshipTalk(props){
   // check if it's in research page
     const slides_link = "./asset/doc/Shuping-Jardine.pdf";
@@ -94,49 +119,42 @@ export function Compression22(props){
     } 
 }
 
+export function TalkHighlight(props){
+
+    return (
+        <>
+          {
+            props.showall === true &&
+            
+            <div style={{textAlign: "center"}}>
+               <b>{props.mainTitle}</b>: {props.newline === true && <br/>} {props.subTitle}
+            </div>
+          }
+        </>
+    )
+}
 
 export function TalkList(props){
     return (
-        <>
-       {
-            props.showall === true &&
-            
-            <div style={{textAlign: "center"}}>
-                <b>Real-time Ray Tracing</b>: Past, present and future. 
-            </div>
-       }
-       
-        <TalkRayTracing showall={props.showall} showslides={props.showslides} />
+      <>
+      <TalkHighlight showall={props.showall} showslides={props.showslides} mainTitle="Real-time Ray Tracing" subTitle="Past, present and future."/>
+      <TalkRayTracing showall={props.showall} showslides={props.showslides} />
+      <br/>
 
-        <br/>
+      <TalkHighlight showall={props.showall} showslides={props.showslides} mainTitle="3D graphics asset compression" subTitle="6-level LZSS algorithm."/>
+      <Compression22 showall={props.showall} showslides={props.showslides} />
+      <br/>
 
-
-        {
-            props.showall === true &&
-            
-            <div style={{textAlign: "center"}}>
-                <b>3D graphics asset compression</b>: 6-level LZSS algorithm.
-            </div>
-       }
-       
-        <Compression22 showall={props.showall} showslides={props.showslides} />
-
-        <br/>
-
-        {
-            props.showall === true &&
-
-            <div style={{textAlign: "center"}}>
-                From <b>Jardine Scholar</b> to Journey-Maker: <br></br>Reflections of a Transformative Opportunity.
-                {/*  Lessons, and the Ripple Effects  */}
-            </div>
-        }
-
-        <></>
-        <JardineScholarshipTalk showall={props.showall} showslides={props.showslides} />
-
-        <br/>
-        </>
+      <TalkHighlight showall={props.showall} showslides={props.showslides} mainTitle="Network architecture for social network" subTitle="A review for Facebook datacenter network."/>
+      <TalkSocialDatacenter showall={props.showall} showslides={props.showslides} />
+      <br/>
+ 
+ 
+      <TalkHighlight showall={props.showall} showslides={props.showslides} mainTitle="From Jardine Scholar to Journey-Maker" subTitle="Reflections of a Transformative Opportunity." newline={true} />
+      { /*  Lessons, and the Ripple Effects  */}
+      <JardineScholarshipTalk showall={props.showall} showslides={props.showslides}/>
+      <br/>
+      </>
     )
 }
 
