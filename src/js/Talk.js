@@ -24,7 +24,7 @@ export function TalkSocialDatacenter(props){
       <>
       <div class="announcement">
         <b>Talk: </b>
-        Inside the Social Network’s Datacenter Network @ <a href="https://www.cl.cam.ac.uk/teaching/2526/R02/">Network architecture</a> | Date:  <i>23 Oct, 2025</i>
+        Inside the Social Network’s Datacenter Network @ <a href="https://www.cl.cam.ac.uk/teaching/2526/R02/">Network Architecture Seminar</a> | Date:  <i>23 Oct, 2025</i>
           <br/>
           ✨ Sharing session of my review of the Facebook datacenter network architecture.   
            <br />  
