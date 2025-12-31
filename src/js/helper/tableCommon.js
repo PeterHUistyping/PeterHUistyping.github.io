@@ -1,4 +1,4 @@
-/* All rights reserved. 2022-2025 (c) Peter HU */
+/* All rights reserved. 2022-2026 (c) Peter HU */
 import React from 'react';
 import AUTHOR_URLS from "../../asset/data/AuthorsURL.json";
 // react-markdown is used to render markdown content

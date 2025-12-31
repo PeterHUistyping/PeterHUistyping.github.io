@@ -2,7 +2,7 @@
 Welcome to My Personal Home Page: https://peterhuistyping.github.io/ \
 With Blogs, Projects, Files,etc updated from time to time.
 
-<!-- All rights reserved. 2022-2025 (c) Peter HU  -->
+<!-- All rights reserved. 2022-2026 (c) Peter HU  -->
 
 ## React Setup
 ```

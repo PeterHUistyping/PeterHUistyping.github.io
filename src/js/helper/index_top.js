@@ -1,4 +1,4 @@
-/* All rights reserved. 2022-2025 (c) Peter HU */
+/* All rights reserved. 2022-2026 (c) Peter HU */
 import { useState, useRef } from "react";
 import { NavLink } from "react-router-dom"; 
 import { HashLink } from 'react-router-hash-link';
