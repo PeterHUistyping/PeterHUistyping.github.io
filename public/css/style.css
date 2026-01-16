@@ -260,6 +260,12 @@ h3 {
   margin-left: 1vw;
   margin-right: 0.5vw;
   border: 2px solid rgb(255, 255, 255);
+  
+  /* This forces the image to scale correctly inside the dimensions */
+  object-fit: contain; 
+  
+  /* This ensures the "padding" is balanced on all sides */
+  object-position: center;
 }
 
 .table_footer {
