@@ -125,7 +125,7 @@ export default function PreNextBlog(props){
         <>
         <br/>
 
-        /* check if currentBlogIndex is 5 */
+        {/* check if currentBlogIndex is 5 */}
         {currentBlogIndex === 5 &&
             <center>
             <h4>SnapNest  | {( <ShowDetailButton 
