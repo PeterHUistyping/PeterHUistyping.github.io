@@ -8,7 +8,6 @@ import { motion } from 'framer-motion'
 import Sidebar_Project from "./helper/project_sidebar"
 import HorizontalScroll from "./helper/horizontalScroll";
 import { ShowDetailButton } from './helper/uiBasicElements';
-import "./helper/css/sliding.css";  // css file
 
 
 export default function PhotoDisplay(){

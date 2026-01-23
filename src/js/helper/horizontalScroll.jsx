@@ -1,8 +1,8 @@
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
+import "./css/sliding.css";  // css file
 
-// import "./output.css";
-
+  
 // using tailwind css 
 const HorizontalScroll = ({ cards }) => {
 
