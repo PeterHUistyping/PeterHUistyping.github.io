@@ -16,6 +16,57 @@ export default function PhotoDisplay(){
             document.title = 'Photography - Peter HU';
     }, []);
 
+
+    const cards = [
+    {
+        img: "/asset/photo/Display/2024/241224-1.png",
+        title: "24 Dec",
+        id: 1,
+    },
+    {
+        img: "/asset/photo/Display/2024/241224-2.png",
+        title: "24 Dec",
+        id: 2,
+    },
+    {
+        img: "/asset/photo/Display/2024/241224-3.png",
+        title: "24 Dec",
+        id: 3,
+    },
+    {
+        img: "/asset/photo/Display/2023/231106.png",
+        title: "Nov during Supo",
+        id: 4,
+    },
+    {
+        img: "/asset/photo/Display/2023/230925.png",
+        title: "Sep New Dorm",
+        id: 5,
+    },
+    {
+        img: "/asset/photo/Display/2023/230709.png",
+        title: "July",
+        id: 6,
+    },
+    {
+        img: "/asset/photo/Display/2023/230702.png",
+        title: "July",
+        id: 7,
+    },
+    {
+        img: "/asset/photo/Display/2023/230700.png",
+        title: "July",
+        id: 8,
+    },
+    {
+        img: "/asset/photo/Display/2023/230619.png",
+        title: "June",
+        id: 9,
+    }
+    ];
+
+
+
     return (
     <motion.div> 
     <Index_Top/> 
@@ -30,7 +81,7 @@ export default function PhotoDisplay(){
         buttonText = {<>📷 Gallery View</>}  
         mainText = {<>  
             <br/>
-            <HorizontalScroll />
+            <HorizontalScroll cards={cards} />
             </>
     } /> </h2> 
 
