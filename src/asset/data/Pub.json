@@ -56,7 +56,22 @@
         "JourneyCategory": "Collaborative",
         "ShortTitle": "CHOrD: Generation of Collision-Free, ..., Digital Twins for 3D Indoor Scenes.",
         "Journey":"Mentored by Dr <a href=\"https://www.cl.cam.ac.uk/~fz261/\">Fangcheng Zhong</a>, we investigated how 2D floor plans generation can be integrated with 3D indoor scene synthesis, for lower collision rate and higher fidelity.  In addition, a new real-world indoor scenes dataset will be released. <br /><br /> I am responsible for improving the main architecture, speeding up the inference pipeline (via DPMSolverSDE), and reproducing the prior art <a href=\"https://tangjiapeng.github.io/projects/DiffuScene/\">DiffuScene, CVPR24</a> and <a href=\"https://chenguolin.github.io/projects/InstructScene/\"> InstructScene, ICLR24 Spotlight</a>. Meanwhile, I investigated the YOLO-v8 Oriented Bounding Box (OBB) <a href=\"https://github.com/ultralytics/ultralytics/issues/15805\">detection error</a> and proposed alternative methods, e.g. Rotated Bounding Box (RBB).<br /><br /> The former <a href=\"https://tangjiapeng.github.io/projects/DiffuScene/\">DiffuScene</a> is based on applying diffusion model for parametrized objects (location, size, orientation, class, shape code). For greater instruction control, the latter <a href=\"https://chenguolin.github.io/projects/InstructScene/\"> InstructScene</a> follows a two-stage procedure. A semantic graph, with class label, (additional) pairwise spatial relationship and quantized features, is constructed from the prior semantic input. After that, a separate 3D decoder determines the exact layout (location, size, orientation). For details, please refer to <a href=\"asset/photo/pub/2/InstructScene_CF_GISS.pdf\" alt=\"InstructScene_CF_GISS\">retraining InstructScene on our CF-GISS dataset</a>."
-
+    },{
+        "pic1_src":"./asset/photo/pub/4/RR_sched_6_cores.png",
+        "pic1_alt":"teaser",
+        "Title":"Machine Learning for Energy-Performance-aware Scheduling",
+        "Category": "",
+        "Italic": "Architecture, Heterogeneous multi-core, Energy, Gaussian Processes, Bayesian Optimization, Sensitivity Analysis.",
+        "author": "Zheyuan Hu †, Yifei Shi †",
+        "Time":"2025.10-2026.2",
+        "Arxiv":"https://arxiv.org/abs/2601.23134",
+        "PDF":"https://arxiv.org/pdf/2601.23134",
+        "Github":"https://github.com/PeterHUistyping/ml-cpu-sched",
+        "Project": "https://peterhuistyping.github.io/ml-cpu-sched/",
+        "Video": "https://youtu.be/RB8iVZT5qso",
+        "Bilibili": "https://www.bilibili.com/video/BV1RSFNzWE3S/",
+        "JourneyCategory": "Collaborative",
+        "Journey":"In the post-Dennard era, optimizing embedded systems requires navigating complex trade-offs between energy efficiency and latency. Traditional heuristic tuning is often inefficient in such high-dimensional, non-smooth landscapes. In this work, we propose a Bayesian Optimization framework using Gaussian Processes to automate the search for optimal scheduling configurations on heterogeneous multi-core architectures. We explicitly address the multi-objective nature of the problem by approximating the Pareto Frontier between energy and time. Furthermore, by incorporating Sensitivity Analysis (fANOVA) and comparing different covariance kernels (e.g., Matérn vs. RBF), we provide physical interpretability to the black-box model, revealing the dominant hardware parameters driving system performance. "
     }
 
 ]
