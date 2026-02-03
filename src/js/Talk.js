@@ -16,6 +16,31 @@ export function TalkSlides(props) {
 }
 
 
+export function TalkIntelCore(props){
+  // check if it's in research page
+    if (props.showall === true) {
+    const slides_link = "./asset/doc/Intel-Skylake.pdf";
+    return (
+      <>
+      <div class="announcement">
+        <b>Talk: </b>
+        Inside the 6th Gen Intel® Skylake Core @ <a href="https://www.cl.cam.ac.uk/teaching/2526/R265/">Advanced Topic in Computer Architecture Seminar</a> | Date:  <i>3 Feb, 2025</i>
+          <br/>
+          ✨ Sharing session of my review of the 1st to latest Intel® microarchitecture design, particularly the Skylake core.
+           <br />  
+          ✨ Covering the power management, superscalar microarchitecture, memory, security, graphics. | <a href={slides_link}>Slides</a>   <br /> 
+            <TalkSlides showslides={props.showslides} src={slides_link}/>
+          <br/>
+          {/* <b>Feedback:</b> &nbsp; */}
+          {/* <i></i> --. */}
+          <br />
+        </div>
+      </>
+    )
+    } 
+}
+
+
 export function TalkSocialDatacenter(props){
   // check if it's in research page
     if (props.showall === true) {
@@ -143,6 +168,10 @@ export function TalkList(props){
 
       <TalkHighlight showall={props.showall} showslides={props.showslides} mainTitle="3D graphics asset compression" subTitle="6-level LZSS algorithm."/>
       <Compression22 showall={props.showall} showslides={props.showslides} />
+      <br/>
+
+      <TalkHighlight showall={props.showall} showslides={props.showslides} mainTitle="Inside the 6th Gen Intel® Skylake Core" subTitle="Past, Present, and Future of a new microarchitecture."/>
+      <TalkIntelCore showall={props.showall} showslides={props.showslides} />
       <br/>
 
       <TalkHighlight showall={props.showall} showslides={props.showslides} mainTitle="Network architecture for social network" subTitle="A review for Facebook datacenter network."/>
