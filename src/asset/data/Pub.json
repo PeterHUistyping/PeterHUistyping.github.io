@@ -74,6 +74,22 @@
         "More": "asset/photo/pub/4/ml-cpu-sched-video_slides.pdf",
         "JourneyCategory": "Collaborative",
         "Journey":"In the post-Dennard era, optimizing embedded systems requires navigating complex trade-offs between energy efficiency and latency. Traditional heuristic tuning is often inefficient in such high-dimensional, non-smooth landscapes. In this work, we propose a Bayesian Optimization framework using Gaussian Processes to automate the search for optimal scheduling configurations on heterogeneous multi-core architectures. We explicitly address the multi-objective nature of the problem by approximating the Pareto Frontier between energy and time. Furthermore, by incorporating Sensitivity Analysis (fANOVA) and comparing different covariance kernels (e.g., Matérn vs. RBF), we provide physical interpretability to the black-box model, revealing the dominant hardware parameters driving system performance. "
+    },{
+        "pic1_src":"./asset/photo/pub/5/teaser.png",
+        "pic1_alt":"teaser",
+        "Title":"Implicit Neural Representation of Textures",
+        "Category": "",
+        "Italic": "Computer Graphics (Textures, Real-time Rendering), Implicit Neural Representation (INR).",
+        "author": "Albert Kwok †, Zheyuan Hu †, Dounia Hammou",
+        "Time":"2025.10-2026.1",
+        "Arxiv":"https://arxiv.org/abs/2602.02354",
+        "PDF":"https://arxiv.org/pdf/2602.02354",
+        "Github":"https://github.com/PeterHUistyping/INR-Tex",
+        "Project": "https://peterhuistyping.github.io/INR-Tex/",
+        "Dataset": "https://huggingface.co/datasets/Peter2023HuggingFace/INR-Tex/",
+        "More": "https://huggingface.co/Peter2023HuggingFace/INR-Tex-model/",
+        "JourneyCategory": "Collaborative",
+        "Journey":"Implicit neural representation (INR) has proven to be accurate and efficient in various domains. In this work, we explore how different neural networks can be designed as a new texture INR, which operates in a continuous manner rather than a discrete one over the input UV coordinate space. Through thorough experiments, we demonstrate that these INRs perform well in terms of image quality, with considerable memory usage and rendering inference time. We analyze the balance between these objectives. In addition, we investigate various related applications in real-time rendering and down-stream tasks, e.g. mipmap fitting and INR-space generation."
     }
 
 ]
