@@ -35,7 +35,7 @@ function Review(){
                 <i>Peer Reviewer in the <a href="https://unireps.org/2025/">UniReps Workshop</a>, 39th Conference on Neural Information Processing Systems (NeurIPS'25), <br/>
                 {/* Workshop on Unifying Representations in Neural Systems */}
                 <span style={{paddingLeft: "8.5em"}}>
-                    <a href="https://sites.google.com/view/iclr-2026-workshop-cao/">CAO Workshop</a>, 40th International Conference on Learning Representations (ICLR' 26). <br/>
+                    <a href="https://sites.google.com/view/iclr-2026-workshop-cao/">CAO Workshop</a> & <a href="https://sites.google.com/impatech.edu.br/ai-pde">AI-PDE Workshop</a>, 40th International Conference on Learning Representations (ICLR' 26). <br/>
                     {/* Catch, Adapt, and Operate: Monitoring ML Models Under Drift */}
                 </span>
                 

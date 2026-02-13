@@ -31,8 +31,8 @@ export function TalkIntelCore(props){
           ✨ Covering the power management, superscalar microarchitecture, memory, security, graphics. | <a href={slides_link}>Slides</a>   <br /> 
             <TalkSlides showslides={props.showslides} src={slides_link}/>
           <br/>
-          {/* <b>Feedback:</b> &nbsp; */}
-          {/* <i></i> --. */}
+          <b>Feedback:</b> &nbsp;
+          <i> "Delivery was fine, perhaps a little fast at times. The technical content was good and did a good job of covering all the major points in the paper. Some time was also spent looking ahead as advances that came after Skylake. Some interesting notes about security features. The candidate was also able to answer questions well. Overall, a good presentation."</i> -- <a href="https://www.cl.cam.ac.uk/~rdm34/">Prof. Robert Mullins</a>.
           <br />
         </div>
       </>
