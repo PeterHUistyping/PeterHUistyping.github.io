@@ -30,15 +30,17 @@ function Review(){
         <div>
             <h2 id="review" style={{"font-family":"BrushScriptMT-embed", textAlign: 'center' }}><b>Reviewing Experience</b></h2>
             With thanks to the nomination and invitation, I have served as the <br/>
-            <div style={{width: "75%", margin: "10px auto", textAlign: "left"}}>
-
-                <i>Peer Reviewer in the <a href="https://unireps.org/2025/">UniReps Workshop</a>, 39th Conference on Neural Information Processing Systems (NeurIPS'25), <br/>
-                {/* Workshop on Unifying Representations in Neural Systems */}
-                <span style={{paddingLeft: "8.5em"}}>
+            <div style={{width: "95%", margin: "10px auto", textAlign: "left"}}>
+            <i>Peer Reviewer in the following venues, <br/>
+                <div style={{width: "75%", margin: "10px auto", textAlign: "left"}}>
+                    {/* <span style={{paddingLeft: "8.5em"}}> */}
                     <a href="https://sites.google.com/view/iclr-2026-workshop-cao/">CAO Workshop</a> & <a href="https://sites.google.com/impatech.edu.br/ai-pde">AI-PDE Workshop</a>, 40th International Conference on Learning Representations (ICLR' 26). <br/>
                     {/* Catch, Adapt, and Operate: Monitoring ML Models Under Drift */}
-                </span>
-                
+                    {/* </span> */}
+                    <a href="https://unireps.org/2025/">UniReps Workshop</a>, 39th Conference on Neural Information Processing Systems (NeurIPS'25). <br/>
+                    {/* Workshop on Unifying Representations in Neural Systems */}
+                   
+                </div>
                 </i>
             </div>
 
@@ -102,16 +104,13 @@ export default function Research(){
         {/* <h2 id="researchStory" style={{"font-family":"BrushScriptMT-embed", textAlign: 'center' }}><b>Journey Behind the Research</b></h2> */}
         {/* <LargeExpandablePanel resource={research_json} />  */}
 
+        <br/> 
+        <Review />
         <br/>
-        
         <h2 id="talk" style={{"font-family":"BrushScriptMT-embed", textAlign: 'center' }}><b>Talk</b> 
         <HashLink to="/talk" className="project-link">》View More</HashLink></h2>
 
         <TalkList showall={true} showslides={false} />
-
-        <br/> 
-
-        <Review />
 
         <br/> 
 
