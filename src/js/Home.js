@@ -150,7 +150,7 @@ function Detail(){
           }}>Recent Publications 
         <HashLink to="/research#publications" className="project-link">》View More</HashLink>
           </h2>
-        <Publication displayNum={2}/>        
+        <Publication displayNum={3}/>        
         <br/>
         {/* <Interest_extra /> <br/> */}
         {/* <embed src="asset/doc/CV_PeterHU.pdf"  width="800px" height="600px" /> */}
