@@ -41,6 +41,31 @@ export function TalkIntelCore(props){
 }
 
 
+export function TalkAgenticAISys(props){
+  // check if it's in research page
+    if (props.showall === true) {
+    const slides_link = "./asset/doc/agentic-hetero-sys.pdf";
+    return (
+      <>
+      <div class="announcement">
+        <b>Talk: </b>
+        Efficient & Scalable Agentic AI with Heterogeneous Systems @ <a href="https://www.cl.cam.ac.uk/teaching/2526/R265/">Advanced Topic in Computer Architecture Seminar</a> | Date:  <i>17 Mar, 2025</i>
+          <br/>
+          ✨ Sharing session of my review of this evolving research topic on ML system design.
+           <br />  
+          ✨ Covering the LLM inference, prefill & decode, KV Cache, MLIR, scheduling, compilers, ML Systems, Convex Optimization, GPU. | <a href={slides_link}>Slides</a>   <br /> 
+            <TalkSlides showslides={props.showslides} src={slides_link}/>
+          <br/>
+          {/* <b>Feedback:</b> &nbsp;
+          <i> "TODO"</i> -- <a href="https://www.cl.cam.ac.uk/~rdm34/">Prof. Robert Mullins</a>.
+          <br /> */}
+        </div>
+      </>
+    )
+    } 
+}
+
+
 export function TalkSocialDatacenter(props){
   // check if it's in research page
     if (props.showall === true) {
@@ -172,6 +197,10 @@ export function TalkList(props){
 
       <TalkHighlight showall={props.showall} showslides={props.showslides} mainTitle="Inside the 6th Gen Intel® Skylake Core" subTitle="Past, Present, and Future of a new microarchitecture."/>
       <TalkIntelCore showall={props.showall} showslides={props.showslides} />
+      <br/>
+
+      <TalkHighlight showall={props.showall} showslides={props.showslides} mainTitle="Efficient & Scalable Agentic AI" subTitle="with Heterogeneous Systems."/>
+      <TalkAgenticAISys showall={props.showall} showslides={props.showslides} />
       <br/>
 
       <TalkHighlight showall={props.showall} showslides={props.showslides} mainTitle="Network architecture for social network" subTitle="A review for Facebook datacenter network."/>
