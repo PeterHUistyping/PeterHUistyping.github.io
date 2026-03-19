@@ -33,7 +33,7 @@ export default function AboutMe(){
     </center>
     <div class="aboutMeContainer">
     
-        {/* Strong background and interest in <font color="green">Visual Computing (Graphics, Vision)</font> with <font color="#3824BD">ML</font> / <font color='#8D6F64'>System</font>.  <br/> */}
+        {/* Strong background and interest in <font color="green">Visual Computing (Graphics, Vision, Physics)</font> with <font color="#3824BD">ML</font> / <font color='#8D6F64'>System</font>.  <br/> */}
       
         {/* &emsp; &nbsp;&nbsp; */}
     {/* <div style={{ display: 'flex', width: '100%'}}> */}
@@ -44,7 +44,7 @@ export default function AboutMe(){
 
         <b>Engage in long-term collaborative <HashLink to="/research">academic and industry research</HashLink></b>. <br/>
         <center>
-            <font color="green">Visual Computing (Graphics, Vision, Image Processing)</font> + <font color="#3824BD">AI/ML</font>
+            <font color="green">Visual Computing (Graphics, Vision, Physics, Image Processing)</font> + <font color="#3824BD">AI/ML</font>
         </center>
         <div style={{width: "90%", margin: "auto"}}>
         <img style={{float: 'right'}}
@@ -58,7 +58,7 @@ export default function AboutMe(){
         <br/> 
       
         <center>
-            <font color='#8D6F64'>System</font>-related (Scheduling, CPU, Security)
+            <font color='#8D6F64'>System</font>-related (Scheduling, Processor, Security)
         </center>
         
         <div style={{width: "90%", margin: "auto"}}>

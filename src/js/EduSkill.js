@@ -105,7 +105,7 @@ export function Interest_extra(){
   <HashLink to="/PhotoDisplay">Photography</HashLink>, Music, Swimming, Gym,    etc.  <br />  
   Society: <a href="https://www.ethics-in-mathematics.com/">Ethics in Mathematics.</a><br />
   <i>Economics-related: </i> Macro & Micro, Money Banking.<br />
-  Volunteering (twice @ <a href="https://www.cst.cam.ac.uk/admissions/open-days/undergraduate">Departmental Open Days and Events</a>).<br />
-    </>
+  Volunteering @  <a href="https://www.festival.cam.ac.uk/">Cambridge Festival</a> (2026), <a href="https://www.cst.cam.ac.uk/admissions/open-days/undergraduate">Departmental Open Days and Events</a> (2023, 2025).<br />
+  </>
   )
 }
