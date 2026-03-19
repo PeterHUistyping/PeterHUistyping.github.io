@@ -237,8 +237,9 @@ function Intro(props){
             <strong>{props.Title}  <GetCategory Category={props.Category}/><br/></strong>
             {props.author && <> <HightlightAuthorsURL author={props.author}/>.  <br/> </>}  
 
+
             {props.Published && <><b><i>{props.Published}</i></b><br/></>}
-           
+
             <div style={{ color: "#787878" }}>
             {props.Time}   { props.Italic && <> ¦ <Italic_Intro Italic={props.Italic}/></> }
             </div>
@@ -251,6 +252,7 @@ function Intro(props){
             Des4={props.Des4}/>
 
             {props.Project && <> |  <a href={props.Project} class="project-link">🌐 project</a> </> }
+            {props.Publisher && <> |  <a href={props.Publisher} target="_blank" rel="noopener noreferrer" class="project-link">📚 publisher</a> </> }
             {props.Arxiv && <> | <a href={props.Arxiv} class="project-link">📎 arXiv</a>  </>}
             {props.PDF && <> |  <a href={props.PDF} class="project-link">📃 pdf</a> </> }
             {props.Github && <> | <a href={props.Github} class="project-link"><img width= "14vw" src="/asset/photo/Logo/github.svg" alt="github"/> code</a> </>}
@@ -313,6 +315,7 @@ function PicIntro_table(proxy){
             Dataset={proxy.resource[proxy.id].Dataset}
             Project={proxy.resource[proxy.id].Project}
             Published={proxy.resource[proxy.id].Published}
+            Publisher={proxy.resource[proxy.id].Publisher}
             ShortTitle={proxy.resource[proxy.id].ShortTitle}
             Journey={proxy.resource[proxy.id].Journey}
             JourneyCategory={proxy.resource[proxy.id].JourneyCategory}
