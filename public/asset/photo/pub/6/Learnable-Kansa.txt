@@ -1,0 +1,11 @@
+@inproceedings{LearningGuidedKansa2026,
+  title={Learning-guided Kansa collocation for forward and inverse {PDE}s beyond linearity},
+  author={Zheyuan Hu and Weitao Chen and Cengiz Öztireli and Chenliang Zhou and Fangcheng Zhong},
+  booktitle={AI{\&}PDE: ICLR 2026 Workshop on AI and Partial Differential Equations},
+  year={2026},
+  url={https://openreview.net/forum?id=ZbTGbUzejl},
+  eprint={2602.07970},
+  archivePrefix={arXiv},
+  primaryClass={cs.CE},
+  note={Poster presentation}
+}

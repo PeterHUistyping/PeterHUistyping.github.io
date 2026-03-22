@@ -229,3 +229,25 @@ export function LargeExpandablePanel(props){
         </>
     )
 }
+
+
+export function FilePreviewWindow(props){
+    /*
+        Input: props.filePath, with format e.g. .bib, .txt
+        
+        Requirements: show a preview of the file content in a panel/modal, with a download button to download the file. The preview should be scrollable if the content is too long. The preview should also have a close button to close the panel/modal.
+
+        Usage: <FilePreviewWindow filePath={"asset/photo/pub/5/INR-Tex.bib"} label={"BibTex"} />
+    */
+    const filePath = props.filePath;
+    const label = props.label || "File";
+
+    return (
+        <>
+            <a  href={filePath} download={filePath.replace(/\.txt$/, ".bib")}>📥 Download {label}</a>
+            &nbsp;&nbsp; or &nbsp;&nbsp;
+            <a href={filePath} target="_blank" rel="noopener noreferrer">🔗 Open {label}</a>.
+        </>
+
+        );
+}

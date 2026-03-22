@@ -1,0 +1,26 @@
+@article{
+  M3ashy2026, 
+  title={M3ashy: Multi-Modal Material Synthesis via Hyperdiffusion}, 
+  volume={40}, 
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/38363}, 
+  DOI={10.1609/aaai.v40i16.38363}, 
+  number={16}, 
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+  author={Zhou, Chenliang and Hu, Zheyuan and Sztrajman, Alejandro and Cai, Yancheng and Liu, Yaru and Oztireli, Cengiz}, 
+  year={2026}, 
+  month={Mar.}, 
+  pages={13575-13583} 
+}
+
+
+@TechReport{UCAM-CL-TR-1005,
+  author =	 {Hu, Zheyuan},
+  title = 	 {{Neural representation of Bidirectional Reflectance
+         	   Distribution Function}},
+  year = 	 2026,
+  month = 	 mar,
+  url = 	 {https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-1005.pdf},
+  institution =  {University of Cambridge, Computer Laboratory},
+  doi = 	 {10.48456/tr-1005},
+  number = 	 {UCAM-CL-TR-1005}
+}

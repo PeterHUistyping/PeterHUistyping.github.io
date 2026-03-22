@@ -1,0 +1,9 @@
+@misc{FreNBRDF2025,
+    title={FreNBRDF: A Frequency-Rectified Neural Material Representation}, 
+    author={Chenliang Zhou and Zheyuan Hu and Cengiz Oztireli},
+    year={2025},
+    eprint={2507.00476},
+    archivePrefix={arXiv},
+    primaryClass={cs.GR},
+    url={https://arxiv.org/abs/2507.00476}, 
+}

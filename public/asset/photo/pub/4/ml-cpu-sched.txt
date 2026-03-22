@@ -1,0 +1,9 @@
+@misc{HuShi2026mlcpusched,
+    title={Machine Learning for Energy-Performance-aware Scheduling}, 
+    author={Zheyuan Hu and Yifei Shi},
+    year={2026},
+    eprint={2601.23134},
+    archivePrefix={arXiv},
+    primaryClass={cs.AR},
+    url={https://arxiv.org/abs/2601.23134}, 
+}

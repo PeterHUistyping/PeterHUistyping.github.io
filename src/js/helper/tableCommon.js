@@ -7,7 +7,7 @@ import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from 'rehype-raw'; 
-import { StoryDescriptionButton, FetchJourneyMainText} from "./uiBasicElements";
+import { StoryDescriptionButton, FetchJourneyMainText, FilePreviewWindow} from "./uiBasicElements";
 
 // large screen
 function Pic_Large(props){
@@ -260,9 +260,16 @@ function Intro(props){
             {props.Dataset && <> | <a href={props.Dataset} class="project-link"><img width= "14vw" src="/asset/photo/Logo/dataset_blue.png" alt="dataset"/> dataset</a>  </>}
             {props.Video && <> | <a href={props.Video} class="project-link"><img width= "14vw" src="/asset/photo/Logo/video_icon.png" alt="video"/> video</a>  </> } 
             {props.More && <> |  <a href={props.More} class="project-link">🎁 more</a> </>}
+            {/* {props.BibTex && <> | <a href={props.BibTex} class="project-link" target="_blank"  rel="noopener noreferrer">📑 BibTex</a> </>} */}
+
             {/* ending mark if there's at least one attribute. */}
             {(props.Arxiv || props.Github || props.Blog || props.PDF || props.Video || props.More || props.Dataset || props.Project ) && <> | </> }
             <br/>
+            
+            {props.BibTex && <>Cite this work: &nbsp;&nbsp; 
+                <FilePreviewWindow filePath={props.BibTex} label={"BibTex"} /><br/></>
+            }
+           
             {props.Journey && 
             <div style={{ width: "100%" , marginTop: "2px", marginLeft: "10px"}}>
             <StoryDescriptionButton 
@@ -316,6 +323,7 @@ function PicIntro_table(proxy){
             Project={proxy.resource[proxy.id].Project}
             Published={proxy.resource[proxy.id].Published}
             Publisher={proxy.resource[proxy.id].Publisher}
+            BibTex={proxy.resource[proxy.id].BibTex}
             ShortTitle={proxy.resource[proxy.id].ShortTitle}
             Journey={proxy.resource[proxy.id].Journey}
             JourneyCategory={proxy.resource[proxy.id].JourneyCategory}

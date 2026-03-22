@@ -1,0 +1,9 @@
+@misc {KH2026INR-Tex,
+    title={Implicit neural representation of textures}, 
+    author={Albert Kwok and Zheyuan Hu and Dounia Hammou},
+    year={2026},
+    eprint={2602.02354},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    url={https://arxiv.org/abs/2602.02354}, 
+}
