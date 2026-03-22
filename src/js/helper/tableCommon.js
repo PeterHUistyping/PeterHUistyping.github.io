@@ -1,12 +1,12 @@
 /* All rights reserved. 2022-2026 (c) Peter HU */
-import React from 'react';
+// import React from 'react';
 import AUTHOR_URLS from "../../asset/data/AuthorsURL.json";
 // react-markdown is used to render markdown content
 import ReactMarkdown from 'react-markdown'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import remarkGfm from 'remark-gfm'
-import rehypeRaw from 'rehype-raw'; 
+// import rehypeRaw from 'rehype-raw'; 
 import { StoryDescriptionButton, FetchJourneyMainText, FilePreviewWindow} from "./uiBasicElements";
 
 // large screen

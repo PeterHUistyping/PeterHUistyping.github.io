@@ -9,12 +9,12 @@ import Computer_System from '../asset/data/Computer_System.json';
 import Machine_Learning from '../asset/data/Machine_Learning.json';
 import Visual_Computing from '../asset/data/Visual_Computing.json';
 import { HashLink } from 'react-router-hash-link';
-import Blog_Footer from "./helper/blog_footer";
+// import Blog_Footer from "./helper/blog_footer";
 import FooterCommon from "./helper/footerCommon"
 import { Processed_blog_link } from "./helper/tableCommon";
 // import Blog_Top from "./helper/blog_top";
 import Index_Top from "./helper/index_top";
-import $ from "jquery";
+// import $ from "jquery";
 import ScrollToTop from "./helper/ScrollToTop";
 import { motion } from 'framer-motion';
 import {ChangeBodyColor} from "./helper/index_top";

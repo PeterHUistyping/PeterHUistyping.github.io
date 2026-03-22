@@ -1,6 +1,6 @@
 /* All rights reserved. 2022-2026 (c) Peter HU */
 
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 // import { HashLink } from 'react-router-hash-link';
 import Index_Footer from "./helper/index_footer";
 import Index_Top from "./helper/index_top";

@@ -1,11 +1,11 @@
 /* All rights reserved. 2022-2026 (c) Peter HU */
 
+// import React from "react";
 import { useEffect } from "react";
 import Sidebar_Project from "./helper/project_sidebar"
 import Index_Footer from "./helper/index_footer";
 import Index_Top from "./helper/index_top";
 import { motion } from 'framer-motion'
-import React from "react";
 import {Profile} from "./Home";
  
 export default function Contact(){

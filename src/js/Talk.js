@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Index_Footer from "./helper/index_footer";
 import Index_Top from "./helper/index_top";

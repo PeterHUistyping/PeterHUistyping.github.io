@@ -5,8 +5,8 @@ import Sidebar_Project from "./helper/project_sidebar"
 import Index_Footer from "./helper/index_footer";
 import Index_Top from "./helper/index_top";
 import { motion } from 'framer-motion'
-import React, { useEffect, useState } from "react";
-import {ShowDetailButton} from './helper/uiBasicElements';
+import { useEffect } from "react";
+// import {ShowDetailButton} from './helper/uiBasicElements';
 import {TalkRayTracing} from "./Talk";
 import { LargeExpandablePanel } from "./helper/uiBasicElements";
 import industry_json from "../asset/data/Industry.json"

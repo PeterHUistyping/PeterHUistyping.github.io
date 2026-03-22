@@ -8,10 +8,10 @@ import { HashLink } from 'react-router-hash-link';
 import Sidebar_Project from "./helper/project_sidebar"
 // import FooterCommon from "./helper/footerCommon"
 import {Publication} from "./Research"
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { ShowDetailButton } from './helper/uiBasicElements';
 import {Slideshow} from "./helper/slideShow"
-import {Education, Skill, Interest_extra} from "./EduSkill"
+// import {Education, Skill, Interest_extra} from "./EduSkill"
 
 
 function Welcome(){
