@@ -252,7 +252,7 @@ function Intro(props){
             Des4={props.Des4}/>
 
             {props.Project && <> |  <a href={props.Project} class="project-link">🌐 project</a> </> }
-            {props.Publisher && <> |  <a href={props.Publisher} target="_blank" rel="noopener noreferrer" class="project-link">📚 Pub.</a> </> }
+            {props.Publisher && <> |  <a href={props.Publisher} class="project-link">📚 Pub.</a> </> }
             {props.Arxiv && <> | <a href={props.Arxiv} class="project-link">📎 arXiv</a>  </>}
             {props.PDF && <> |  <a href={props.PDF} class="project-link">📃 pdf</a> </> }
             {props.Github && <> | <a href={props.Github} class="project-link"><img width= "14vw" src="/asset/photo/Logo/github.svg" alt="github"/> code</a> </>}
