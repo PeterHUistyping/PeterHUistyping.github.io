@@ -1,0 +1,9 @@
+@misc{CHOrD2025,
+    title={CHOrD: Generation of Collision-Free, House-Scale, and Organized Digital Twins for 3D Indoor Scenes with Controllable Floor Plans and Optimal Layouts}, 
+    author={Chong Su and Yingbin Fu and Zheyuan Hu and Jing Yang and Param Hanji and Shaojun Wang and Xuan Zhao and Cengiz Öztireli and Fangcheng Zhong},
+    year={2025},
+    eprint={2503.11958},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    url={https://arxiv.org/abs/2503.11958}, 
+}
