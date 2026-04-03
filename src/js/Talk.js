@@ -56,9 +56,9 @@ export function TalkAgenticAISys(props){
           ✨ Covering the LLM inference, prefill & decode, KV Cache, MLIR, scheduling, compilers, ML Systems, Convex Optimization, GPU. | <a href={slides_link}>Slides</a>   <br /> 
             <TalkSlides showslides={props.showslides} src={slides_link}/>
           <br/>
-          {/* <b>Feedback:</b> &nbsp;
-          <i> "TODO"</i> -- <a href="https://www.cl.cam.ac.uk/~rdm34/">Prof. Robert Mullins</a>.
-          <br /> */}
+          <b>Feedback:</b> &nbsp;
+          <i> "A good presentation, lively and engaging. Good background / scene setting. A reasonable critique of the work and discussion of future work."</i> -- <a href="https://www.cl.cam.ac.uk/~rdm34/">Prof. Robert Mullins</a>.
+          <br />
         </div>
       </>
     )
