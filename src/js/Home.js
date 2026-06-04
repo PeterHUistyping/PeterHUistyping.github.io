@@ -398,14 +398,14 @@ function Profile2(){
   {/* &thinsp; |  &thinsp; */}
 
   {/* <strong>Contact Details</strong><br/> */}
-  <a href="mailto:zh369@cam.ac.uk" title="Email">
+  <a href="mailto:zh369@cantab.ac.uk" title="Email">
       <img width= "20vw" 
       onMouseEnter={(e) => (e.target.style.transform = "scale(1.5)")}
       onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
       src="/asset/photo/Logo/e-mail.png" alt="email" title="Email"/>
   </a>
   
-  {/* zh369@cam.ac.uk  */}
+  {/* zh369@cantab.ac.uk  */}
   {/* <img width= "12vw" src="/asset/photo/Logo/phone.png" alt="phone"/> 
   <a href="tel:4407990719841">Tel.</a> */}
   {/* (+44) 07990 719841 */}
