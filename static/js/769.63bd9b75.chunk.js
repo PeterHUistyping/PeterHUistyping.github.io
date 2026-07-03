@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_app=self.webpackChunkreact_app||[]).push([[769],{7769:(e,t,r)=>{r.r(t),r.d(t,{default:()=>o});var s=r(2791),n=r(8641),a=r(9240),c=r(4136),u=r(184);function o(){return(0,s.useEffect)((()=>{document.title="Page not found - Peter HU"}),[]),(0,u.jsxs)(u.Fragment,{children:[(0,u.jsx)(a.Z,{}),(0,u.jsx)(c.Z,{}),(0,u.jsxs)("center",{children:[(0,u.jsx)("br",{}),(0,u.jsx)("br",{}),"Sorry the webpage you want to reach has been moved or doesn't exist.",(0,u.jsx)("br",{})]}),(0,u.jsx)(n.Z,{})]})}}}]);
+//# sourceMappingURL=769.63bd9b75.chunk.js.map
