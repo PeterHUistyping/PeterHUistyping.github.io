@@ -24,6 +24,16 @@ export function Publication(props){
     )
 }
 
+function ReviewEntry(props){
+    return(
+        <>   
+            {props.description}
+            <br/>
+            <span style={{paddingLeft: "8.5em"}}> @ {props.venue}. </span>
+            <br/>
+        </>
+    )
+}
 
 function Review(){
     return(
@@ -33,14 +43,28 @@ function Review(){
             <div style={{width: "95%", margin: "10px auto", textAlign: "left"}}>
             <i>Peer Reviewer in the following venues, <br/>
                 <div style={{width: "75%", margin: "10px auto", textAlign: "left"}}>
-                     <a href="https://www.worldmodels-physicalai.com/">World Models in Physical AI Workshop</a>, 40th Conference on Neural Information Processing Systems (NeurIPS'26). <br/>
-                    {/* <span style={{paddingLeft: "8.5em"}}> */}
-                    <a href="https://sites.google.com/view/iclr-2026-workshop-cao/">CAO Workshop</a> & <a href="https://sites.google.com/impatech.edu.br/ai-pde">AI-PDE Workshop</a>, 14th International Conference on Learning Representations (ICLR' 26). <br/>
-                    {/* Catch, Adapt, and Operate: Monitoring ML Models Under Drift */}
-                    {/* </span> */}
-                    <a href="https://unireps.org/2025/">UniReps Workshop</a>, 39th Conference on Neural Information Processing Systems (NeurIPS'25). <br/>
-                    {/* Workshop on Unifying Representations in Neural Systems */}
-                   
+                    <ReviewEntry description={<>
+                        <a href="https://www.worldmodels-physicalai.com/">World Models in Physical AI Workshop</a> 
+                        <> & </> 
+                        <a href="https://artifactsasdata.org/">Network Artifacts as a New Data Modality Workshop</a>
+                        </>} venue={<>
+                            40th Conference on Neural Information Processing Systems (NeurIPS'26)
+                        </>}/>
+                            <br/>
+                    <ReviewEntry description={<>
+                        <a href="https://sites.google.com/view/iclr-2026-workshop-cao/">Catch, Adapt, and Operate: Monitoring ML Models Under Drift (CAO) Workshop</a> 
+                        <> & </> 
+                        <a href="https://sites.google.com/impatech.edu.br/ai-pde">AI and Partial Differential Equations (AI-PDE) Workshop</a>
+                        </>} venue={<>
+                            14th International Conference on Learning Representations (ICLR' 26)
+                        </>}/>
+                            <br/>
+                    <ReviewEntry description={<>
+                        <a href="https://unireps.org/2025/">Workshop on Unifying Representations in Neural Systems (UniReps)</a>
+                        </>} venue={<>
+                            39th Conference on Neural Information Processing Systems (NeurIPS'25)
+                        </>}/>
+                            <br/>
                 </div>
                 </i>
             </div>
