@@ -9,3 +9,15 @@
   primaryClass={cs.CE},
   note={Poster presentation}
 }
+
+@TechReport{UCAM-CL-TR-1012,
+  author =	 {Hu, Zheyuan},
+  title = 	 {{Neural solver for Partial Differential Equations in
+         	   scientific simulation}},
+  year = 	 2026,
+  month = 	 nov,
+  url = 	 {https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-1012.pdf},
+  institution =  {University of Cambridge, Computer Laboratory},
+  doi = 	 {10.48456/tr-1012},
+  number = 	 {UCAM-CL-TR-1012}
+}
