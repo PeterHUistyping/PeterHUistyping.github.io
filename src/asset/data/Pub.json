@@ -45,7 +45,7 @@
         "Bilibili": "https://www.bilibili.com/video/BV1qmkrBSE5h",
         "More": "asset/photo/pub/1/M3ashy-video_slides.pdf",
         "BibTex": "asset/photo/pub/1/M3ashy-techreport.txt",
-        "JourneyCategory": "My first paper",
+        "JourneyCategory": "Undergraduate dissertation",
         "Journey": "This report is composed of two main parts, i.e. material compression (implicit neural representation) and its downstream tasks (generation and sparse-sample reconstruction). I have shown neural BRDF's effectiveness, efficiency and utility of research outcomes through various experiments and comparisons with baselines. <br /><br />The dissertation is self-contained, with underlying first-principle technical background, detailed design and implementation of the proposed methods, and comprehensive evaluation. For more details about generation, please refer to the [M^3ashy](https://doi.org/10.1609/aaai.v40i16.38363) paper. <br /><br />We anticipate further follow-up studies in this field that address existing research gaps, particularly in the qualitative evaluation of generative materials and multi-modal generation. Best wishes, and I hope you enjoy it as much as I did."
     },
     {
@@ -66,6 +66,28 @@
         "BibTex": "asset/photo/pub/6/Learnable-Kansa.txt",
         "JourneyCategory": "Collaborative",
         "Journey":"Partial Differential Equations are precise in modelling the physical, biological and graphical phenomena. However, the numerical methods suffer from the curse of dimensionality, high computation costs and domain-specific discretization. We aim to explore pros and cons of different PDE solvers, and apply them to specific scientific simulation problems, including forwarding solution, inverse problems and equations discovery. In particular, we extend the recent CNF (NeurIPS 2023) framework solver to multi-dependent-variable and non-linear settings, together with down-stream applications. The outcomes include implementation of selected methods, self-tuning techniques, evaluation on benchmark problems and a comprehensive survey of neural PDE solvers and scientific simulation applications."
+    },
+    {
+        "pic1_src":"./asset/photo/pub/6/dependency_analysis.png",
+        "pic1_alt":"teaser",
+        "Title":"Neural solver for Partial Differential Equations in scientific simulation",
+        "Category": "",
+        "Published": "University of Cambridge, Computer Laboratory, Technical Report. ISSN: 1476-2986.",
+        "Publisher": "https://doi.org/10.48456/tr-1012",
+        "author": "Zheyuan Hu.",
+        "line":2,
+        "Des1": "Master dissertation, including further investigation for neural solvers and stability analysis.",
+        "Des2": "Supervised by Dr [Chenliang Zhou](https://chenliang-zhou.github.io/) and discussions with Dr [Fangcheng Zhong](https://fangcheng-zhong.github.io/).",
+        "Italic":"Scientific Computing, Numerical Analysis, PDEs, Differentiable Physics Simulation, Neural Solvers, Stability.",
+        "Time":"2025 - 2026",
+        "Arxiv":"https://arxiv.org/abs/2602.07970",
+        "PDF":"https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-1012.pdf",
+        "Video": "https://youtu.be/RVUvPQpQ3gA",
+        "Bilibili": "https://www.bilibili.com/video/BV17Vpb6iEhz/",
+        "More": "https://openreview.net/forum?id=ZbTGbUzejl",
+        "BibTex": "asset/photo/pub/6/Learnable-Kansa.txt",
+        "JourneyCategory": "Master dissertation",
+        "Journey": "This report investigates the neural solvers for Partial Differential Equations (PDEs) in scientific simulation. It includes a comprehensive survey of existing methods, implementation of selected solvers, and stability analysis. The report also explores the application of neural solvers to forward and inverse PDE problems, highlighting their advantages and limitations compared to traditional numerical methods. The findings contribute to the understanding of how machine learning techniques can enhance the efficiency and accuracy of PDE solutions in various scientific domains."
     },
     {
         "pic1_src":"./asset/photo/pub/3/teaser.png",
